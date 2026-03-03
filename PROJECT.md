@@ -113,11 +113,12 @@ NOTE: this requires restructuring data splits by distribution type, not just by 
 | 1    | Synthetic data generation + feature extraction (v2)         | DONE        |
 | 1b   | Pilot timing — verify algorithm landscape + VBS-SBS gap     | DONE        |
 | 2    | Timing pipeline — 720 samples × 4→3 algorithms, record times | DONE        |
-| 3    | XGBoost regressor — train, evaluate, feature importance, v1 vs v2 ablation | NOT STARTED |
+| 3    | XGBoost models — v1 regressor, v2 classifier, v3 log+pairwise | DONE (3 versions) |
+| 3+   | Real-world validation — v1–v4 (309 arrays, 7 domains) + bigtest (77 arrays) | DONE |
 | 4    | Baselines — random, always-best-single, decision tree, MLP  | NOT STARTED |
 | 5    | LinUCB contextual bandit — online loop, regret curve on Test B | NOT STARTED |
 | 6    | Comparison: XGBoost vs Bandit vs baselines                   | NOT STARTED |
-| 7    | Real-world validation (F1 telemetry or other dataset)        | NOT STARTED |
+| 7    | Extended real-world validation — scale to 1000+ real arrays  | PARTIALLY DONE |
 | 8    | Package as Python library (import adaptive_sort; sort(arr))  | NOT STARTED |
 
 ## Thesis Contributions (5 defensible points)
