@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-03-05T03:41:26.003356",
+  "description": "Leave-One-Domain-Out: train on 4 domains, test on held-out domain",
+  "domains": [
+    "Crypto",
+    "Earthquake",
+    "F1",
+    "Stock",
+    "Weather"
+  ],
+  "holdout_results": {
+    "Crypto": {
+      "fold": "Crypto",
+      "train_size": 309711,
+      "test_size": 100000,
+      "accuracy": 0.8745,
+      "balanced_accuracy": 0.6114,
+      "per_class_recall": {
+        "introsort": 0.1651,
+        "heapsort": 0.7467,
+        "timsort": 0.9223
+      },
+      "regret": {
+        "vbs_total_s": 1.2818,
+        "sbs_total_s": 1.6273,
+        "sbs_algo": "timsort",
+        "model_total_s": 1.3159,
+        "gap_pct": 26.96,
+        "gap_closed_pct": 90.12,
+        "model_regret_pct": 2.66,
+        "per_instance_regret_mean_us": 0.34,
+        "perfect_pick_pct": 87.87
+      },
+      "train_time_s": 7.4
+    },
+    "Earthquake": {
+      "fold": "Earthquake",
+      "train_size": 288633,
+      "test_size": 100003,
+      "accuracy": 0.8209,
+      "balanced_accuracy": 0.6228,
+      "per_class_recall": {
+        "introsort": 0.1454,
+        "heapsort": 0.8488,
+        "timsort": 0.874
+      },
+      "regret": {
+        "vbs_total_s": 1.7372,
+        "sbs_total_s": 2.1999,
+        "sbs_algo": "heapsort",
+        "model_total_s": 1.7601,
+        "gap_pct": 26.64,
+        "gap_closed_pct": 95.03,
+        "model_regret_pct": 1.32,
+        "per_instance_regret_mean_us": 0.23,
+        "perfect_pick_pct": 82.8
+      },
+      "train_time_s": 7.2
+    },
+    "F1": {
+      "fold": "F1",
+      "train_size": 108038,
+      "test_size": 885042,
+      "accuracy": 0.8884,
+      "balanced_accuracy": 0.485,
+      "per_class_recall": {
+        "introsort": 0.2615,
+        "heapsort": 0.2052,
+        "timsort": 0.9884
+      },
+      "regret": {
+        "vbs_total_s": 10.5718,
+        "sbs_total_s": 12.7715,
+        "sbs_algo": "heapsort",
+        "model_total_s": 11.1107,
+        "gap_pct": 20.81,
+        "gap_closed_pct": 75.5,
+        "model_regret_pct": 5.1,
+        "per_instance_regret_mean_us": 0.61,
+        "perfect_pick_pct": 89.82
+      },
+      "train_time_s": 10.9
+    },
+    "Stock": {
+      "fold": "Stock",
+      "train_size": 304965,
+      "test_size": 100000,
+      "accuracy": 0.8799,
+      "balanced_accuracy": 0.6372,
+      "per_class_recall": {
+        "introsort": 0.0976,
+        "heapsort": 0.8953,
+        "timsort": 0.9188
+      },
+      "regret": {
+        "vbs_total_s": 2.3182,
+        "sbs_total_s": 2.941,
+        "sbs_algo": "timsort",
+        "model_total_s": 2.3761,
+        "gap_pct": 26.87,
+        "gap_closed_pct": 90.69,
+        "model_regret_pct": 2.5,
+        "per_instance_regret_mean_us": 0.58,
+        "perfect_pick_pct": 88.29
+      },
+      "train_time_s": 8.3
+    },
+    "Weather": {
+      "fold": "Weather",
+      "train_size": 331260,
+      "test_size": 3220,
+      "accuracy": 0.6056,
+      "balanced_accuracy": 0.6202,
+      "per_class_recall": {
+        "introsort": 0.6774,
+        "heapsort": 0.4016,
+        "timsort": 0.7815
+      },
+      "regret": {
+        "vbs_total_s": 1.2865,
+        "sbs_total_s": 1.4525,
+        "sbs_algo": "heapsort",
+        "model_total_s": 1.3035,
+        "gap_pct": 12.9,
+        "gap_closed_pct": 89.74,
+        "model_regret_pct": 1.32,
+        "per_instance_regret_mean_us": 5.29,
+        "perfect_pick_pct": 61.02
+      },
+      "train_time_s": 8.5
+    }
+  },
+  "existing_model_per_domain": {
+    "Crypto": {
+      "accuracy": 0.8862,
+      "balanced_accuracy": 0.6647,
+      "regret": {
+        "vbs_total_s": 1.2818,
+        "sbs_total_s": 1.6273,
+        "sbs_algo": "timsort",
+        "model_total_s": 1.3139,
+        "gap_pct": 26.96,
+        "gap_closed_pct": 90.71,
+        "model_regret_pct": 2.51,
+        "per_instance_regret_mean_us": 0.32,
+        "perfect_pick_pct": 89.02
+      }
+    },
+    "Earthquake": {
+      "accuracy": 0.866,
+      "balanced_accuracy": 0.6884,
+      "regret": {
+        "vbs_total_s": 1.7372,
+        "sbs_total_s": 2.1999,
+        "sbs_algo": "heapsort",
+        "model_total_s": 1.757,
+        "gap_pct": 26.64,
+        "gap_closed_pct": 95.72,
+        "model_regret_pct": 1.14,
+        "per_instance_regret_mean_us": 0.2,
+        "perfect_pick_pct": 87.33
+      }
+    },
+    "F1": {
+      "accuracy": 0.8942,
+      "balanced_accuracy": 0.6782,
+      "regret": {
+        "vbs_total_s": 10.5718,
+        "sbs_total_s": 12.7715,
+        "sbs_algo": "heapsort",
+        "model_total_s": 10.7369,
+        "gap_pct": 20.81,
+        "gap_closed_pct": 92.49,
+        "model_regret_pct": 1.56,
+        "per_instance_regret_mean_us": 0.19,
+        "perfect_pick_pct": 90.03
+      }
+    },
+    "Stock": {
+      "accuracy": 0.8957,
+      "balanced_accuracy": 0.7286,
+      "regret": {
+        "vbs_total_s": 2.3182,
+        "sbs_total_s": 2.941,
+        "sbs_algo": "timsort",
+        "model_total_s": 2.3635,
+        "gap_pct": 26.87,
+        "gap_closed_pct": 92.73,
+        "model_regret_pct": 1.95,
+        "per_instance_regret_mean_us": 0.45,
+        "perfect_pick_pct": 89.84
+      }
+    },
+    "Weather": {
+      "accuracy": 0.6547,
+      "balanced_accuracy": 0.6893,
+      "regret": {
+        "vbs_total_s": 1.2865,
+        "sbs_total_s": 1.4525,
+        "sbs_algo": "heapsort",
+        "model_total_s": 1.3033,
+        "gap_pct": 12.9,
+        "gap_closed_pct": 89.87,
+        "model_regret_pct": 1.31,
+        "per_instance_regret_mean_us": 5.22,
+        "perfect_pick_pct": 65.65
+      }
+    }
+  },
+  "weighted_avg": {
+    "accuracy": 0.8801,
+    "balanced_accuracy": 0.5204,
+    "gap_closed_pct": 79.69,
+    "perfect_pick_pct": 88.86
+  }
+}

@@ -112,14 +112,16 @@ NOTE: this requires restructuring data splits by distribution type, not just by 
 |------|-------------------------------------------------------------|-------------|
 | 1    | Synthetic data generation + feature extraction (v2)         | DONE        |
 | 1b   | Pilot timing — verify algorithm landscape + VBS-SBS gap     | DONE        |
-| 2    | Timing pipeline — 720 samples × 4→3 algorithms, record times | DONE        |
-| 3    | XGBoost models — v1 regressor, v2 classifier, v3 log+pairwise | DONE (3 versions) |
+| 2-old| Timing pipeline — 720 synthetic samples × 3 algorithms      | DONE (superseded) |
+| 3-old| XGBoost models — v1 regressor, v2 classifier, v3 log+pairwise | DONE (superseded) |
 | 3+   | Real-world validation — v1–v4 (309 arrays, 7 domains) + bigtest (77 arrays) | DONE |
-| 4    | Baselines — random, always-best-single, decision tree, MLP  | NOT STARTED |
-| 5    | LinUCB contextual bandit — online loop, regret curve on Test B | NOT STARTED |
+| **1-new** | **Real-world data collection — 1.18M arrays, 5 domains**   | **DONE** |
+| **2-new** | **Training dataset — features + timing for all 1.18M arrays** | **DONE** |
+| **3-new** | **XGBoost v5 — balanced classifier on real-world data**     | **DONE** |
+| **4**     | **VBS/SBS regret analysis — model value quantified**        | **DONE** |
+| 5    | LinUCB contextual bandit — online loop, regret curve         | NOT STARTED |
 | 6    | Comparison: XGBoost vs Bandit vs baselines                   | NOT STARTED |
-| 7    | Extended real-world validation — scale to 1000+ real arrays  | PARTIALLY DONE |
-| 8    | Package as Python library (import adaptive_sort; sort(arr))  | NOT STARTED |
+| 7    | Package as Python library (import adaptive_sort; sort(arr))  | NOT STARTED |
 
 ## Thesis Contributions (5 defensible points)
 
@@ -172,49 +174,54 @@ NOTE: this requires restructuring data splits by distribution type, not just by 
 
 ```
 scripts/
-  generate_synthetic_dataset.py   — Step 1: data generation (DONE)
+  generate_synthetic_dataset.py   — Step 1: synthetic data generation (DONE)
   extract_features.py             — Step 1: feature extraction (DONE)
+  feature_extraction.py           — 16 features, single source of truth
   assess_dataset_quality.py       — Step 1: quality validation (DONE)
   pilot_timing.py                 — Step 1b: pilot timing v1 (DONE)
   pilot_timing_v2.py              — Step 1b: pilot timing v2 (DONE)
   vbs_sbs_gap.py                  — Step 1b: VBS vs SBS gap analysis (DONE)
-  benchmark_algorithms.py         — Step 2: full timing pipeline (DONE)
-  test_real_data.py               — v1: F1 fastest-lap test (35 arrays)
-  test_real_data_v2.py            — v2: F1 full-race test (108 arrays)
-  test_real_data_v3.py            — v3: Financial + seismic test (149 arrays)
-  test_real_data_v4.py            — v4: Cross-domain combined benchmark (1,039 arrays)
+  benchmark_algorithms.py         — Step 2-old: synthetic timing pipeline (DONE)
+  fetch_f1_10k.py                 — Real-world: F1 telemetry fetcher (487K arrays)
+  fetch_stock.py                  — Real-world: stock market fetcher (100K arrays)
+  fetch_weather.py                — Real-world: weather data fetcher (3.2K arrays)
+  fetch_crypto.py                 — Real-world: crypto market fetcher (100K arrays)
+  fetch_earthquake.py             — Real-world: earthquake data fetcher (100K arrays)
+  transform_f1_sample.py          — Structural transforms for F1 data
+  build_training_dataset.py       — Step 2-new: features + timing for 1.18M arrays
+  train_xgboost_v5.py             — Step 3-new: balanced classifier
+  regret_analysis.py              — Step 4: VBS/SBS/model regret analysis
+  _dataset_audit.py               — Dataset diversity & bias audit
+  _verify_migration.py            — Post-migration integrity check
 
 data/
-  synthetic/raw/                  — .npy arrays (Step 1, small scale)
-  synthetic/splits/               — train/val/test sample_id CSVs (Step 1)
-  features/                       — parquet feature files v2 (Step 1)
-  benchmark/                      — Step 2 output (THE canonical dataset)
-    all_samples.parquet           — 720 rows × (16 features + 4 timings + metadata)
-    train.parquet                 — 216 samples (uniform + normal, 60%)
-    val.parquet                   — 72 samples (uniform + normal, 20%)
-    test_A.parquet                — 72 samples (uniform + normal, 20%)
-    test_B.parquet                — 360 samples (lognormal + exponential, bandit eval)
-    benchmark_config.json         — full pipeline config
-  real_world/                     — v1 F1 results
-  real_world_v2/                  — v2 F1 results
-  real_world_v3/                  — v3 finance+seismic results
-  real_world_v4/                  — v4 combined cross-domain results
-    real_world_v4_combined.parquet — 1,039 rows (ALL data unified)
-    real_world_v4_new_data.parquet — 62 new arrays (weather, NASA, earthquake ext, large-scale)
+  training_dataset.csv            — 1,188,265 rows × 22 columns (THE training data)
+  real_world_10k/                 — SYMLINK → /Volumes/k/thesis_data/real_world_10k
+    index.csv                     — 1,188,265 row index
+    raw/                          — 1,188,265 CSV array files (~12 GB)
+  synthetic/                      — Original 720 synthetic arrays (superseded)
+  benchmark/                      — Original synthetic timing results (superseded)
+
+models/
+  xgboost_v5/
+    xgb_v5.json                   — Current best model (trained on real-world data)
+  xgboost_classifier_v2/          — v2 classifier (trained on synthetic, superseded)
+  xgboost_v3_logpairwise/         — v3 log+pairwise (trained on synthetic, superseded)
+  xgboost_v1/                     — v1 regressors (trained on synthetic, superseded)
+
+results/
+  xgboost_v5/
+    evaluation_results.json       — v5 training metrics
+    regret_analysis.json          — VBS/SBS/model regret (Step 4)
+    predictions_test.csv          — Test split predictions
+  xgboost_classifier_v2/          — v2 results (superseded)
+  xgboost_v3_logpairwise/         — v3 results (superseded)
+  xgboost_v1/                     — v1 results (superseded)
 
 docs/
   feature-definitions.md          — Complete 16-feature reference
   feature-validation-report.md    — 214/214 feature tests passed
   feature-extraction-defense.md   — Feature extraction integrity audit
-  real-world-f1-report.md         — v1 report
-  real-world-f1-report-v2.md      — v2 report
-  real-world-v3-report.md         — v3 report
-  real-world-v4-report.md         — v4 cross-domain combined report
-  vbs-sbs-gap-analysis.md         — VBS-SBS gap explanation + cross-domain strategy
-
-artifacts/
-  feature_config.json             — feature extraction config
-  dataset_quality_report.json     — data quality checks
 ```
 
 ## Step 2 Results (Benchmark)
@@ -281,3 +288,193 @@ Runtime: 312s (5.2 min)
 - All sort implementations must be C-level (numpy ops, no Python loops)
 - No pretending simple things are novel — position contributions honestly
 - Pilot before full pipeline — verify assumptions on small sample first
+
+---
+
+## Real-World Data Collection (Step 1-new) — DONE
+
+### Why
+v1–v3 models trained on only 720 synthetic arrays achieved ~60% on real data.
+The synthetic distributions (uniform, normal, lognormal, exponential) don't capture real-world structure.
+Decision: collect massive real-world data from diverse domains.
+
+### Data Sources (5 domains)
+
+| Domain      | Source                     | Raw Arrays | With Transforms | Method                                |
+|-------------|----------------------------|------------|-----------------|---------------------------------------|
+| F1          | OpenF1 API (telemetry)     | 487,073    | 885,042         | 2018–2024, all sessions/drivers/laps, 40 channels |
+| Stock       | yfinance (market data)     | 20,000     | 100,000         | 209 tickers, 13 periods, 10 derived columns |
+| Weather     | Open-Meteo API             | 644        | 3,220           | 7 cities, 10 variables, multiple years |
+| Crypto      | yfinance (crypto data)     | 20,000     | 100,000         | 139 tickers, 13 periods, sub-array windowing |
+| Earthquake  | USGS API (seismic data)    | 20,001     | 100,003         | 30 time windows, 12 regions, event chunking |
+| **TOTAL**   |                            | **547,718**| **1,188,265**   |                                       |
+
+### Structural Transforms (anti-bias)
+Applied to sampled subsets to ensure all 3 algorithms have winning regions:
+- **RAW**: original real-world data (timsort territory — partially sorted)
+- **REV**: reversed array (timsort still wins — recognizes descending runs)
+- **SHUF**: random shuffle (introsort territory — no exploitable structure)
+- **QBIN50**: quantize to 50 bins (heapsort territory — massive duplicates)
+- **PSORT10**: sort then perturb 10% (timsort sweet spot — nearly sorted)
+
+### Storage
+- Location: `/Volumes/k/thesis_data/real_world_10k/` (external USB drive, 119 GB)
+- Symlink: `data/real_world_10k → /Volumes/k/thesis_data/real_world_10k`
+- Total size: ~12 GB
+- Format: individual CSV files (one float per line), tracked by `index.csv`
+
+### Array Size Distribution
+- Median: 419 elements, Mean: 1,735, Std: 5,542
+- 66% are 100–500 elements (dominated by F1 telemetry)
+- 14% are 1K–5K, 4.7% are 10K–50K, 0.1% are 50K+
+
+### Scripts
+- `scripts/fetch_f1_10k.py` — F1 telemetry fetcher
+- `scripts/fetch_stock.py` — Stock market fetcher (209 tickers)
+- `scripts/fetch_weather.py` — Weather data fetcher (7 cities)
+- `scripts/fetch_crypto.py` — Cryptocurrency fetcher (139 tickers)
+- `scripts/fetch_earthquake.py` — Earthquake data fetcher (30 windows × 12 regions)
+- `scripts/transform_f1_sample.py` — F1 transform generator (resumable, crash-safe)
+
+---
+
+## Training Dataset Build (Step 2-new) — DONE
+
+### Process
+For each of 1,188,265 arrays:
+1. Load array from CSV on external drive (via symlink)
+2. Extract 16 structural features using `feature_extraction.py`
+3. Time 3 sorting algorithms (best-of-5 for n≤10K, best-of-3 for n>10K)
+4. Record winner as label
+
+### Output
+- File: `data/training_dataset.csv`
+- Rows: 1,188,265
+- Columns: `file`, `domain`, `n_elements`, 16 features, `time_introsort`, `time_heapsort`, `time_timsort`, `best_algorithm`
+- Runtime: 65 minutes (303 arrays/sec), 0 errors
+
+### Algorithm Winner Distribution
+| Algorithm  | Count     | Win Rate |
+|-----------|-----------|----------|
+| timsort    | 1,010,413 | 85.0%    |
+| heapsort   | 125,218   | 10.5%    |
+| introsort  | 52,634    | 4.4%     |
+
+Note: timsort dominance is expected — median array is 419 elements, mostly partially sorted real-world data. Timsort's adaptive merge sort excels here. Algorithm differences are meaningful only on larger arrays.
+
+### Script
+- `scripts/build_training_dataset.py` — resumable, flushes every 5K rows
+
+---
+
+## XGBoost v5 — Balanced Classifier (Step 3-new) — DONE
+
+### Balance Strategy (3-pronged)
+1. **Undersample majority**: cap each class at 3× minority count
+   - timsort: 1.01M → 90K, heapsort: 76K (kept), introsort: 30K (kept)
+   - Training set: ~196K rows (vs 1.18M raw)
+2. **Sample weights**: inverse-frequency weighting during training
+3. **Label filtering**: keep rows where margin ≥5% OR size ≥2K elements
+   - Removes noisy "coin flip" labels from tiny arrays
+
+### Model Configuration
+```
+XGBoost 3.2.0 (multi:softprob, hist tree method)
+n_estimators=500, max_depth=7, lr=0.05
+subsample=0.8, colsample_bytree=0.8
+min_child_weight=5, reg_alpha=0.1, reg_lambda=1.0
+```
+
+### Results
+
+| Split               | Accuracy | Balanced Acc | Introsort Recall | Heapsort Recall | Timsort Recall |
+|---------------------|----------|-------------|-----------------|----------------|---------------|
+| Train (137K)        | 82.8%    | 80.1%       | 73.2%           | 71.4%          | 95.8%         |
+| Validation (29K)    | 76.3%    | 70.3%       | 52.0%           | 63.8%          | 95.0%         |
+| Test (29K)          | 76.1%    | 70.1%       | 52.1%           | 63.8%          | 94.5%         |
+| Full dataset (1.18M)| 89.1%    | 68.9%       | 39.6%           | 73.5%          | 93.6%         |
+
+### Top Features (by importance)
+1. `length_norm` (0.262) — array size is the strongest signal
+2. `top5_freq_ratio` (0.184) — duplicate concentration
+3. `longest_run_ratio` (0.080) — sorted run structure
+4. `duplicate_ratio` (0.080) — uniqueness
+5. `entropy_ratio` (0.075) — randomness
+
+### Artifacts
+- Model: `models/xgboost_v5/xgb_v5.json`
+- Results: `results/xgboost_v5/evaluation_results.json`
+- Script: `scripts/train_xgboost_v5.py`
+
+---
+
+## VBS/SBS Regret Analysis (Step 4) — DONE
+
+The definitive evaluation: how much time does the model actually save?
+
+### Definitions
+- **VBS (Virtual Best Solver)**: always picks the true fastest algorithm per instance — theoretical ceiling
+- **SBS (Single Best Solver)**: always picks one fixed algorithm (the one with lowest total time across all instances) — naive baseline
+- **Model**: XGBoost v5 predictions
+
+### headline Results
+
+| Metric                    | Value   | Meaning                                        |
+|---------------------------|---------|------------------------------------------------|
+| VBS-SBS Gap               | 19.14%  | 19% room for improvement → thesis is justified |
+| Model regret vs VBS       | 1.62%   | Only 1.6% slower than perfect oracle           |
+| Model lift vs SBS         | 17.83%  | 17.8% faster than always-heapsort              |
+| **Gap closed by model**   | **93.1%** | **Model captures 93% of theoretical optimum** |
+| Perfect picks (regret=0)  | 89.6%   | Model picks the true best 89.6% of the time    |
+
+### Algorithm Total Times (1.18M arrays)
+| Algorithm  | Total Time | Notes                        |
+|-----------|-----------|------------------------------|
+| VBS        | 17.195s   | Ceiling (perfect oracle)     |
+| **Model**  | **17.475s** | **XGBoost v5**             |
+| heapsort   | 21.267s   | SBS (best single algorithm)  |
+| introsort  | 21.459s   |                              |
+| timsort    | 24.624s   |                              |
+
+Key insight: **SBS = heapsort, not timsort.** Although timsort wins 85% of individual arrays,
+heapsort has the lowest *total* time because its worst cases are less severe. But timsort's
+catastrophic worst case on random data inflates its total.
+
+### Regret by Array Size
+
+| Size Bucket | N Arrays   | VBS-SBS Gap | Model Lift vs SBS |
+|-------------|-----------|-------------|-------------------|
+| <500        | 787,054   | 33.2%       | 32.8%             |
+| 500–2K      | 221,458   | 34.4%       | 34.0%             |
+| 2K–10K      | 122,347   | 26.2%       | 24.2%             |
+| 10K–50K     | 56,366    | 9.7%        | 8.2%              |
+| 50K+        | 1,040     | 10.7%       | 9.7%              |
+
+The model captures most of the gap across ALL size ranges.
+
+### Per-Instance Regret Distribution
+- Mean: 0.23 μs, Median: 0.0 μs
+- P95: 0.25 μs, P99: 6.12 μs
+- Max: 659.25 μs
+- **89.6% of instances have zero regret**
+
+### Model Pick Distribution
+| Algorithm  | Times Picked | Share  |
+|-----------|-------------|--------|
+| timsort    | 960,606     | 80.8%  |
+| heapsort   | 171,209     | 14.4%  |
+| introsort  | 56,450      | 4.8%   |
+
+### Artifacts
+- Results: `results/xgboost_v5/regret_analysis.json`
+- Script: `scripts/regret_analysis.py`
+
+---
+
+## Remaining Steps
+
+| Step | What                                                        | Status      |
+|------|-------------------------------------------------------------|-------------|
+| 5    | LinUCB contextual bandit — online adaptation                | NOT STARTED |
+| 6    | Comparison: XGBoost vs Bandit vs baselines                  | NOT STARTED |
+| 7    | Package as deployable Python library                        | NOT STARTED |

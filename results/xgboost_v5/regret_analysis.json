@@ -1,0 +1,29 @@
+{
+  "total_instances": 1188265,
+  "vbs_total_s": 17.195364,
+  "sbs_total_s": 21.266664,
+  "sbs_algorithm": "heapsort",
+  "model_total_s": 17.47452,
+  "vbs_sbs_gap_pct": 19.144,
+  "model_regret_vs_vbs_pct": 1.6234,
+  "model_lift_vs_sbs_pct": 17.8314,
+  "gap_closed_pct": 93.14,
+  "per_instance_regret_us": {
+    "mean": 0.23,
+    "median": 0.0,
+    "p95": 0.25,
+    "p99": 6.12,
+    "max": 659.25,
+    "zero_pct": 89.64
+  },
+  "algorithm_totals_s": {
+    "introsort": 21.458965,
+    "heapsort": 21.266664,
+    "timsort": 24.623603
+  },
+  "model_picks": {
+    "introsort": 56450,
+    "heapsort": 171209,
+    "timsort": 960606
+  }
+}
