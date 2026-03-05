@@ -1,0 +1,401 @@
+{
+  "timestamp": "2026-03-06T01:18:36.039701",
+  "version": "v6",
+  "dataset": {
+    "source": "diverse_training_data.csv",
+    "total_rows": 37976,
+    "unique_sources": 10792,
+    "domains": [
+      "Ecology",
+      "Finance",
+      "Geospatial",
+      "Housing",
+      "Medical",
+      "Network",
+      "OpenML",
+      "SyntheticReal",
+      "Text"
+    ],
+    "train_rows": 20633,
+    "val_rows": 5554,
+    "test_rows": 11789,
+    "train_sources": 5967,
+    "test_sources": 3238,
+    "source_leakage": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    }
+  },
+  "xgb_params": {
+    "n_estimators": 800,
+    "max_depth": 6,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 10,
+    "reg_alpha": 0.5,
+    "reg_lambda": 2.0,
+    "gamma": 0.1,
+    "random_state": 42,
+    "n_jobs": -1,
+    "tree_method": "hist",
+    "objective": "multi:softprob",
+    "num_class": 3,
+    "eval_metric": "mlogloss",
+    "early_stopping_rounds": 50
+  },
+  "best_iteration": 595,
+  "features": [
+    "length_norm",
+    "adj_sorted_ratio",
+    "duplicate_ratio",
+    "dispersion_ratio",
+    "runs_ratio",
+    "inversion_ratio",
+    "entropy_ratio",
+    "skewness_t",
+    "kurtosis_excess_t",
+    "longest_run_ratio",
+    "iqr_norm",
+    "mad_norm",
+    "top1_freq_ratio",
+    "top5_freq_ratio",
+    "outlier_ratio",
+    "mean_abs_diff_norm"
+  ],
+  "algorithms": [
+    "introsort",
+    "heapsort",
+    "timsort"
+  ],
+  "results": {
+    "train": {
+      "accuracy": 0.8377,
+      "balanced_accuracy": 0.8233,
+      "confusion_matrix": [
+        [
+          2866,
+          739,
+          195
+        ],
+        [
+          1776,
+          6309,
+          425
+        ],
+        [
+          52,
+          162,
+          8109
+        ]
+      ],
+      "confusion_labels": [
+        "introsort",
+        "heapsort",
+        "timsort"
+      ],
+      "classification_report": {
+        "introsort": {
+          "precision": 0.6105666808691947,
+          "recall": 0.7542105263157894,
+          "f1-score": 0.6748292912644219,
+          "support": 3800.0
+        },
+        "heapsort": {
+          "precision": 0.8750346740638003,
+          "recall": 0.7413631022326674,
+          "f1-score": 0.8026717557251909,
+          "support": 8510.0
+        },
+        "timsort": {
+          "precision": 0.9289723908809715,
+          "recall": 0.9742881172654091,
+          "f1-score": 0.9510907811400422,
+          "support": 8323.0
+        },
+        "accuracy": 0.8376872001163185,
+        "macro avg": {
+          "precision": 0.8048579152713221,
+          "recall": 0.823287248604622,
+          "f1-score": 0.8095306093765516,
+          "support": 20633.0
+        },
+        "weighted avg": {
+          "precision": 0.8480848966649642,
+          "recall": 0.8376872001163185,
+          "f1-score": 0.8389965840864028,
+          "support": 20633.0
+        }
+      },
+      "n_samples": 20633,
+      "regret": {
+        "sbs_algorithm": "heapsort",
+        "total_oracle_s": 2.5856,
+        "total_pred_s": 2.6015,
+        "total_sbs_s": 2.6532,
+        "gap_closed_pct": 76.48,
+        "mean_regret_ms": 0.000771,
+        "max_regret_ms": 0.826917,
+        "pct_zero_regret": 84.29,
+        "n_arrays": 20633
+      }
+    },
+    "val": {
+      "accuracy": 0.7175,
+      "balanced_accuracy": 0.6646,
+      "confusion_matrix": [
+        [
+          431,
+          498,
+          76
+        ],
+        [
+          748,
+          1401,
+          141
+        ],
+        [
+          31,
+          75,
+          2153
+        ]
+      ],
+      "confusion_labels": [
+        "introsort",
+        "heapsort",
+        "timsort"
+      ],
+      "classification_report": {
+        "introsort": {
+          "precision": 0.35619834710743803,
+          "recall": 0.42885572139303485,
+          "f1-score": 0.3891647855530474,
+          "support": 1005.0
+        },
+        "heapsort": {
+          "precision": 0.709726443768997,
+          "recall": 0.6117903930131005,
+          "f1-score": 0.6571294559099438,
+          "support": 2290.0
+        },
+        "timsort": {
+          "precision": 0.9084388185654009,
+          "recall": 0.9530765825586542,
+          "f1-score": 0.9302225102613956,
+          "support": 2259.0
+        },
+        "accuracy": 0.7175009002520706,
+        "macro avg": {
+          "precision": 0.6581212031472786,
+          "recall": 0.6645742323215965,
+          "f1-score": 0.6588389172414623,
+          "support": 5554.0
+        },
+        "weighted avg": {
+          "precision": 0.7265783554579076,
+          "recall": 0.7175009002520706,
+          "f1-score": 0.7197172693905431,
+          "support": 5554.0
+        }
+      },
+      "n_samples": 5554,
+      "regret": {
+        "sbs_algorithm": "heapsort",
+        "total_oracle_s": 0.6601,
+        "total_pred_s": 0.6712,
+        "total_sbs_s": 0.6819,
+        "gap_closed_pct": 48.87,
+        "mean_regret_ms": 0.002013,
+        "max_regret_ms": 4.211707,
+        "pct_zero_regret": 72.4,
+        "n_arrays": 5554
+      }
+    },
+    "test": {
+      "accuracy": 0.7116,
+      "balanced_accuracy": 0.6643,
+      "confusion_matrix": [
+        [
+          940,
+          1009,
+          161
+        ],
+        [
+          1705,
+          2913,
+          329
+        ],
+        [
+          65,
+          131,
+          4536
+        ]
+      ],
+      "confusion_labels": [
+        "introsort",
+        "heapsort",
+        "timsort"
+      ],
+      "classification_report": {
+        "introsort": {
+          "precision": 0.34686346863468637,
+          "recall": 0.44549763033175355,
+          "f1-score": 0.3900414937759336,
+          "support": 2110.0
+        },
+        "heapsort": {
+          "precision": 0.7187268689859363,
+          "recall": 0.5888417222559127,
+          "f1-score": 0.6473333333333333,
+          "support": 4947.0
+        },
+        "timsort": {
+          "precision": 0.9025069637883009,
+          "recall": 0.9585798816568047,
+          "f1-score": 0.9296987087517934,
+          "support": 4732.0
+        },
+        "accuracy": 0.7115955551785563,
+        "macro avg": {
+          "precision": 0.6560324338029745,
+          "recall": 0.6643064114148237,
+          "f1-score": 0.6556911786203534,
+          "support": 11789.0
+        },
+        "weighted avg": {
+          "precision": 0.7259383062464037,
+          "recall": 0.7115955551785563,
+          "f1-score": 0.714622091923039,
+          "support": 11789.0
+        }
+      },
+      "n_samples": 11789,
+      "regret": {
+        "sbs_algorithm": "heapsort",
+        "total_oracle_s": 1.4804,
+        "total_pred_s": 1.5034,
+        "total_sbs_s": 1.5227,
+        "gap_closed_pct": 45.6,
+        "mean_regret_ms": 0.001953,
+        "max_regret_ms": 2.784875,
+        "pct_zero_regret": 72.0,
+        "n_arrays": 11789
+      }
+    },
+    "per_domain_test": {
+      "Ecology": {
+        "n": 289,
+        "accuracy": 0.7059,
+        "balanced_accuracy": 0.6733
+      },
+      "Finance": {
+        "n": 902,
+        "accuracy": 0.8104,
+        "balanced_accuracy": 0.6019
+      },
+      "Geospatial": {
+        "n": 37,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      "Housing": {
+        "n": 1,
+        "accuracy": 0.0,
+        "balanced_accuracy": 0.0
+      },
+      "Medical": {
+        "n": 14,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      "Network": {
+        "n": 138,
+        "accuracy": 0.6449,
+        "balanced_accuracy": 0.5422
+      },
+      "OpenML": {
+        "n": 9773,
+        "accuracy": 0.686,
+        "balanced_accuracy": 0.664
+      },
+      "SyntheticReal": {
+        "n": 34,
+        "accuracy": 0.6765,
+        "balanced_accuracy": 0.5833
+      },
+      "Text": {
+        "n": 601,
+        "accuracy": 0.9767,
+        "balanced_accuracy": 0.6496
+      }
+    }
+  },
+  "overfit_gap_pp": 12.61,
+  "feature_importance": [
+    {
+      "feature": "length_norm",
+      "importance": 0.351642
+    },
+    {
+      "feature": "top5_freq_ratio",
+      "importance": 0.123541
+    },
+    {
+      "feature": "longest_run_ratio",
+      "importance": 0.103619
+    },
+    {
+      "feature": "duplicate_ratio",
+      "importance": 0.086061
+    },
+    {
+      "feature": "runs_ratio",
+      "importance": 0.046303
+    },
+    {
+      "feature": "top1_freq_ratio",
+      "importance": 0.043145
+    },
+    {
+      "feature": "mean_abs_diff_norm",
+      "importance": 0.031342
+    },
+    {
+      "feature": "adj_sorted_ratio",
+      "importance": 0.030007
+    },
+    {
+      "feature": "inversion_ratio",
+      "importance": 0.026412
+    },
+    {
+      "feature": "dispersion_ratio",
+      "importance": 0.02524
+    },
+    {
+      "feature": "kurtosis_excess_t",
+      "importance": 0.024158
+    },
+    {
+      "feature": "iqr_norm",
+      "importance": 0.023091
+    },
+    {
+      "feature": "entropy_ratio",
+      "importance": 0.022502
+    },
+    {
+      "feature": "mad_norm",
+      "importance": 0.022405
+    },
+    {
+      "feature": "skewness_t",
+      "importance": 0.020625
+    },
+    {
+      "feature": "outlier_ratio",
+      "importance": 0.019907
+    }
+  ]
+}
