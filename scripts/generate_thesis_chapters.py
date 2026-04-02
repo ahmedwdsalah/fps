@@ -260,39 +260,24 @@ def write_chapter_1(doc):
     add_section_heading(doc, "1.2", "Problem Statement")
 
     add_body_text(doc,
-        "Most data processing systems today just pick one sorting algorithm and use it for everything. "
-        "That is the default behaviour in virtually every language runtime and database engine out there. "
-        "And it works — in the sense that things get sorted. But it is not optimal. When the input has "
-        "strong structural properties, like near-sortedness or heavy duplicate concentration, a specialised "
-        "algorithm can blow past the default by a wide margin. The gap between the Virtual Best Solver "
-        "(VBS) — an oracle that magically picks the fastest sort per array — and the Single Best Solver "
-        "(SBS) — the best fixed choice — tells you exactly how much performance you are throwing away."
+        "The problem of algorithm selection is fundamentally about mismatch: when a computational task can be solved by multiple algorithms "
+        "with vastly different performance profiles across varying input domains, a single default choice leaves performance on the table. Rather "
+        "than accept that fixed default—adequate on average but suboptimal nearly everywhere—a selector could predict which algorithm to run for "
+        "each specific input, trading a small overhead for larger gains. Yet this trade-off only works if three brutal constraints are satisfied "
+        "simultaneously, and these constraints are in genuine tension with one another. The first is computational efficiency: the cost of computing "
+        "features and making predictions must be lower than the speedup achieved; there is no room for offline retraining or expensive feature extraction—"
+        "the selector must be lightweight and work at deployment time. The second is generalisation without retraining: production systems encounter data "
+        "distributions that drift away from training data; you have no way to know what patterns will arrive, yet the selector must adapt or at least not "
+        "collapse catastrophically. The third is latency—predictions must be instantaneous. In practice, these three constraints pull against each other: "
+        "more sophisticated models have higher computational cost, they tend to overfit to specific domains, and they have longer inference times. The problem, "
+        "then, is not just to predict which algorithm is fastest, but to do so while respecting all three constraints."
     )
 
     add_body_text(doc,
-        "The tricky part is doing this selection quickly enough for it to actually pay off. Feature "
-        "extraction and prediction need to cost less than the time you save — otherwise, what is the "
-        "point? That constraint is strict: every feature has to be computable in O(n) time, ideally "
-        "in a single sweep over the array. On top of that, the model needs to generalise to data domains "
-        "it has never trained on, because in the real world, nobody can predict what data shows up at "
-        "deployment time."
-    )
-
-    add_body_text(doc,
-        "Then there is the evaluation problem — and honestly, this one does not get nearly enough "
-        "attention in the literature. Algorithm selection models are dangerously easy to over-evaluate. "
-        "If arrays from the same data source sneak into both train and test sets, the model just memorises "
-        "source-level quirks rather than learning genuinely useful structural features. The accuracy "
-        "numbers look great on paper, but they are a mirage. This thesis confronts that head-on by using "
-        "GroupShuffleSplit keyed on source identifiers, so that training, validation, and test data are "
-        "completely separated at the source level. No leakage, no flattering illusions."
-    )
-
-    add_body_text(doc,
-        "In more precise terms, the problem is this. You have an input array x with n elements, a "
-        "feature extraction function f: R^n -> R^16 that crunches a structural summary in O(n) time, "
-        "and a portfolio A = {introsort, heapsort, timsort} of three sorting algorithms. The objective "
-        "is to learn a selector s: R^16 -> A that minimises expected regret:"
+        "Formally, the selection problem can be stated as follows. Given a set of inputs X and a portfolio of algorithms A = {a_1, a_2, ..., a_k}, define "
+        "T_a(x) as the execution time of algorithm a on input x. The oracle selector a*(x) = argmin_a T_a(x) always picks the fastest algorithm; but "
+        "computing the oracle requires observing all execution times, which defeats the purpose. A practical selector s(f(x)) instead computes features f(x) "
+        "from the input and uses those to predict which algorithm to run. The objective is to learn s such that the expected regret is minimised:"
     )
 
     add_equation(doc,
@@ -301,9 +286,17 @@ def write_chapter_1(doc):
     )
 
     add_body_text(doc,
-        "Here T_a(x) denotes how long algorithm a takes on input x, and a*(x) = argmin_a T_a(x) is "
-        "the oracle — the algorithm you would have picked if you had a crystal ball. The expectation "
-        "averages over whatever distribution of arrays the system encounters during deployment."
+        "where the expectation is taken over the deployment distribution of inputs. The regret quantifies how much worse the selector's choice is compared to "
+        "the oracle on average. For selection to deliver value, the full end-to-end cost—feature computation plus execution of the selected algorithm—must be "
+        "lower than simply running a fixed default algorithm every time. Accuracy alone is meaningless if the overhead eats the savings."
+    )
+
+    add_body_text(doc,
+        "A final but critical point concerns evaluation. Algorithm selection research suffers from a widespread and often unintentional bias: when training and "
+        "test data come from the same source or benchmark, models learn source-specific quirks—preprocessing artefacts, data collection idiosyncrasies, systematic "
+        "biases—rather than genuinely transferable structural patterns. Reported accuracy looks impressive, but generalisation to new sources collapses. To avoid "
+        "this trap requires strict source-level separation at the train-test boundary, ensuring that any measured accuracy reflects genuine out-of-distribution "
+        "performance, not memorisation of source-level noise."
     )
 
     # 1.3 Motivation
