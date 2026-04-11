@@ -5,7 +5,6 @@
 /artifacts/
 *.weights.h5
 *.csv
-*.png
 
 # Python cache/env
 /tf-venv/

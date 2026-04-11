@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-04-11T11:46:11.741971",
+  "version": "v2",
+  "improvements": [
+    "Enhanced x-axis labels for all figures",
+    "Better font sizes and spacing",
+    "Academic naming (v6 = Non-Overlapping Sources)",
+    "Formal language (model, framework, selector)",
+    "Improved readability throughout"
+  ],
+  "output_dir": "/Users/ahmed/Desktop/thesis/My-Master-thesis/results/thesis_figures_v2",
+  "figures": [
+    "01_model_history.png",
+    "02_v5_accuracy_metrics.png",
+    "03_v5_per_algorithm_recall.png",
+    "04_feature_importance.png",
+    "05_regret_analysis.png",
+    "06_vbs_sbs_model_comparison.png",
+    "07_domain_holdout.png",
+    "08_confusion_matrix.png",
+    "09_predictions_distribution.png",
+    "10_v5_vs_v6_comparison.png",
+    "11_balanced_accuracy.png"
+  ],
+  "total_figures": 11
+}
