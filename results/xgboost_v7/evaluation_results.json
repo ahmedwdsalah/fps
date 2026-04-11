@@ -1,0 +1,193 @@
+{
+  "timestamp": "2026-04-11T16:22:07.249856",
+  "version": "v7_regret_aware",
+  "xgb_params": {
+    "n_estimators": 1500,
+    "max_depth": 5,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 5,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "n_jobs": -1,
+    "tree_method": "hist",
+    "objective": "multi:softprob",
+    "num_class": 3,
+    "eval_metric": "mlogloss",
+    "early_stopping_rounds": 30
+  },
+  "best_iteration": 1496,
+  "best_val_loss": 0.5397520866744483,
+  "features": [
+    "length_norm",
+    "adj_sorted_ratio",
+    "duplicate_ratio",
+    "dispersion_ratio",
+    "runs_ratio",
+    "inversion_ratio",
+    "entropy_ratio",
+    "skewness_t",
+    "kurtosis_excess_t",
+    "longest_run_ratio",
+    "iqr_norm",
+    "mad_norm",
+    "top1_freq_ratio",
+    "top5_freq_ratio",
+    "outlier_ratio",
+    "mean_abs_diff_norm"
+  ],
+  "algorithms": [
+    "introsort",
+    "heapsort",
+    "timsort"
+  ],
+  "dataset": {
+    "total_raw": 1188265,
+    "after_undersample": 335754,
+    "train": 235027,
+    "val": 50363,
+    "test": 50364
+  },
+  "cost_matrix": [
+    [
+      0.0,
+      -1.2017344434870176,
+      36.00926139071394
+    ],
+    [
+      -1.660184655987657,
+      0.0,
+      49.72345261494982
+    ],
+    [
+      3.946901626780046,
+      3.8195882489736843,
+      0.0
+    ]
+  ],
+  "eval_results": {
+    "standard_argmax": {
+      "accuracy": 0.7293701850528155,
+      "balanced_accuracy": 0.6624516126786107,
+      "vbs_total_s": 1.733387333806336,
+      "sbs_total_s": 1.8414573793413143,
+      "sbs_algorithm": "heapsort",
+      "model_total_s": 1.7570956072883792,
+      "gap_closed_pct": 78.06212316772869,
+      "perfect_picks_pct": 64.61162735287111,
+      "mean_regret_us": 0.47073849340884905,
+      "median_regret_us": 0.0,
+      "p95_regret_us": 1.8749851733446121,
+      "p99_regret_us": 8.057755767372418,
+      "max_regret_us": 407.70904161040005
+    },
+    "regret_aware": {
+      "accuracy": 0.5984631879914224,
+      "balanced_accuracy": 0.5226320829772032,
+      "vbs_total_s": 1.733387333806336,
+      "sbs_total_s": 1.8414573793413143,
+      "sbs_algorithm": "heapsort",
+      "model_total_s": 1.7700983586252688,
+      "gap_closed_pct": 66.03034204602932,
+      "perfect_picks_pct": 58.293622428718926,
+      "mean_regret_us": 0.7289140024408897,
+      "median_regret_us": 0.0,
+      "p95_regret_us": 3.0000228435000054,
+      "p99_regret_us": 12.166386004515388,
+      "max_regret_us": 347.4579425527995
+    },
+    "confidence_threshold": {
+      "accuracy": 0.586808037487094,
+      "balanced_accuracy": 0.5235464492045705,
+      "vbs_total_s": 1.733387333806336,
+      "sbs_total_s": 1.8414573793413143,
+      "sbs_algorithm": "heapsort",
+      "model_total_s": 1.7697398100860444,
+      "gap_closed_pct": 66.36211625547786,
+      "perfect_picks_pct": 59.55642919545707,
+      "mean_regret_us": 0.7217948590205024,
+      "median_regret_us": 0.0,
+      "p95_regret_us": 2.958986442536115,
+      "p99_regret_us": 12.291966122612008,
+      "max_regret_us": 347.4579425527995
+    },
+    "train_regret_aware": {
+      "accuracy": 0.5615865411208074,
+      "gap_closed_pct": 69.06025540056496,
+      "mean_regret_us": 0.6362991837278392
+    },
+    "val_regret_aware": {
+      "accuracy": 0.6004407997934992,
+      "gap_closed_pct": 67.32847274704406,
+      "mean_regret_us": 0.7248004784367427
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "entropy_ratio",
+      "importance": 0.21734844148159027
+    },
+    {
+      "feature": "length_norm",
+      "importance": 0.15896262228488922
+    },
+    {
+      "feature": "duplicate_ratio",
+      "importance": 0.14440150558948517
+    },
+    {
+      "feature": "longest_run_ratio",
+      "importance": 0.09370452165603638
+    },
+    {
+      "feature": "top5_freq_ratio",
+      "importance": 0.08714026212692261
+    },
+    {
+      "feature": "inversion_ratio",
+      "importance": 0.052041396498680115
+    },
+    {
+      "feature": "runs_ratio",
+      "importance": 0.04712319001555443
+    },
+    {
+      "feature": "adj_sorted_ratio",
+      "importance": 0.04286523163318634
+    },
+    {
+      "feature": "mean_abs_diff_norm",
+      "importance": 0.034817490726709366
+    },
+    {
+      "feature": "top1_freq_ratio",
+      "importance": 0.03449320048093796
+    },
+    {
+      "feature": "mad_norm",
+      "importance": 0.017243364825844765
+    },
+    {
+      "feature": "dispersion_ratio",
+      "importance": 0.016676435247063637
+    },
+    {
+      "feature": "iqr_norm",
+      "importance": 0.014476382173597813
+    },
+    {
+      "feature": "skewness_t",
+      "importance": 0.012981357052922249
+    },
+    {
+      "feature": "outlier_ratio",
+      "importance": 0.012953519821166992
+    },
+    {
+      "feature": "kurtosis_excess_t",
+      "importance": 0.012771141715347767
+    }
+  ]
+}
