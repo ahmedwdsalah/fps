@@ -1,7 +1,7 @@
 # Thesis Progress — Full Documentation
 
 **Project:** Adaptive Sorting Algorithm Selection Using Offline + Online Machine Learning  
-**Last Updated:** 2026-03-03  
+**Last Updated:** 2026-04-12  
 **Author:** Ahmed  
 
 ---
@@ -33,11 +33,15 @@ This thesis implements a **two-tier adaptive sorting algorithm selector**:
 | 1 | Synthetic data generation + feature extraction (v2 features) | ✅ DONE |
 | 1b | Pilot timing + VBS-SBS gap analysis | ✅ DONE |
 | 2 | Full benchmark pipeline (720 samples × 3 algorithms) | ✅ DONE |
-| 3 | XGBoost models (3 versions: regression, classifier, log+pairwise) | ✅ DONE |
+| 3 | XGBoost models (v1–v3: regression, classifier, log+pairwise) | ✅ DONE |
 | 3+ | Real-world validation (v1–v4, 309 real-world arrays) | ✅ DONE |
 | 3+ | Big data test (77 F1 telemetry .npy arrays) | ✅ DONE |
+| 3++ | XGBoost v5: production model (1.18M arrays, 93% gap closed) | ✅ DONE |
+| 3++ | XGBoost v6: honest source-aware checkpoint (71.2% test) | ✅ DONE |
+| 3++ | XGBoost v7: regret-aware experiment (REJECTED) | ✅ DONE |
+| 3++ | XGBoost v8: binary cascade experiment (REJECTED — key finding) | ✅ DONE |
 | 4 | Baselines (random, always-SBS, decision tree, MLP) | ❌ NOT STARTED |
-| 5 | LinUCB contextual bandit (MAIN CONTRIBUTION) | ❌ NOT STARTED |
+| 5 | LinUCB contextual bandit (MAIN CONTRIBUTION) | 🔄 Script written, not validated |
 | 6 | Comparison: XGBoost vs bandit vs baselines | ❌ NOT STARTED |
 | 7 | Extended real-world validation (scale to 1000+ arrays) | 🔄 PARTIALLY DONE |
 | 8 | Package as Python library | ❌ NOT STARTED |
@@ -286,6 +290,58 @@ Within a single homogeneous domain, one algorithm tends to dominate, making the 
 
 Training on 216 synthetic arrays and testing on real data is a validity concern. The 309 real-world arrays already have features + timings. Future work: retrain on real data or a mix.
 
+**UPDATE (2026-04-12):** This was fixed — v5 retrains on 1.18M real-world arrays. See section 4b below.
+
+### Lesson 6: Regret-Aware Training Is Unnecessary (v7)
+
+Weighting samples by their misclassification cost sounds theoretically appealing. But v7 showed it hurts: regret weights suppress boundary cases (introsort↔heapsort, low regret) where the model needs training signal most. v5's inverse-frequency weights already minimize regret implicitly because the expensive errors (timsort → wrong algorithm, costing 36-50 μs) are already rare at 94.5% recall. See `docs/xgboost-v7-regret-aware-report.md`.
+
+### Lesson 7: Introsort ≈ Heapsort Under Structural Features (v8)
+
+The most important structural finding: v8's binary cascade proved that introsort and heapsort are **feature-indistinguishable** with the 16 O(n) features (Stage 2 AUC = 0.603, barely above coin flip). This means:
+- The problem is effectively **binary** (timsort vs not-timsort) under structural features
+- v5's remaining 7% gap (93% → 100%) requires hardware-level information (cache, branch prediction)
+- No model architecture changes can fix this — it's a feature-space limitation
+- See `docs/xgboost-v8-binary-cascade-report.md`
+
+---
+
+## 4b. XGBoost v5–v8: Real-World Production & Ablation Studies
+
+### v5: Production Model (Current Best)
+
+Retrained on **1,188,265** real-world arrays from 5 domains.
+
+**Balance strategy:** noise filter (margin ≥ 5% OR size ≥ 2K) → undersample (3× minority cap) → inverse-frequency weights.
+
+| Metric | Value |
+|--------|-------|
+| Test accuracy | 76.1% |
+| Gap closed (full 1.18M) | **93.14%** |
+| Perfect picks | **89.64%** |
+| Mean regret | 0.23 μs |
+| P99 regret | 6.12 μs |
+
+Per-class recall: introsort 52.1%, heapsort 63.8%, timsort **94.5%**.
+
+**Why 76% accuracy = 93% gap closed:** Introsort↔heapsort confusion costs ~1.5 μs per error. Timsort misclassification costs 36-50 μs but happens rarely. The model nails the expensive decision.
+
+### v6: Honest Source-Aware Checkpoint
+
+GroupShuffleSplit by source_id → test accuracy 71.2%, gap closed 45.6%. Stricter generalization estimate.
+
+### v7: Regret-Aware Training (REJECTED)
+
+max_depth=5, 1500 estimators, regret-proportional weights. All metrics worse. Regret weights suppress boundary training signal; shallow depth underfits. See Lesson 6 above.
+
+### v8: Binary Cascade (REJECTED — Key Finding)
+
+Stage 1 (timsort vs rest): AUC=0.982. Stage 2 (introsort vs heapsort): AUC=0.603. Cascade gap closed ≈ v5. See Lesson 7 above.
+
+### Verdict: v5 Is Near-Ceiling
+
+Both v7 and v8 confirm no further gains possible with current features + algorithms. v5 remains frozen production model.
+
 ---
 
 ## 5. Real-World Data Inventory
@@ -508,6 +564,9 @@ sorted_arr = sort(my_array)  # automatically selects best algorithm
 | `models/xgboost_v1/metadata.json` | v1 | Training metadata |
 | `models/xgboost_classifier_v2/xgb_classifier_v2.json` | v2 | Classifier |
 | `models/xgboost_v3_logpairwise/xgb_classifier_v3_logpairwise.json` | v3 | Classifier (leaky) |
+| `models/xgboost_v5/xgb_v5.json` | v5 | **Production classifier** |
+| `models/xgboost_v8/stage1_timsort_vs_rest.json` | v8 | Binary Stage 1 |
+| `models/xgboost_v8/stage2_introsort_vs_heapsort.json` | v8 | Binary Stage 2 |
 
 ### Results
 | Path | Content |
@@ -515,6 +574,11 @@ sorted_arr = sort(my_array)  # automatically selects best algorithm
 | `results/xgboost_v1/evaluation_results.json` | v1 full evaluation (597 lines) |
 | `results/xgboost_classifier_v2/evaluation_results.json` | v2 full evaluation (398 lines) |
 | `results/xgboost_v3_logpairwise/evaluation_results.json` | v3 full evaluation (428 lines) |
+| `results/xgboost_v5/evaluation_results.json` | v5 production evaluation |
+| `results/xgboost_v5/regret_analysis.json` | v5 VBS/SBS/model regret (1.18M rows) |
+| `results/xgboost_v7/evaluation_results.json` | v7 regret-aware (rejected) |
+| `results/xgboost_v8/evaluation_results.json` | v8 binary cascade (rejected) |
+| `results/xgboost_v8/figures/*.png` | v8 9 analysis figures |
 | `results/*/predictions_*.csv` | Per-sample predictions per split |
 | `data/real_world_bigtest/results_xgboost_v3.csv` | Bigtest 77-array results |
 
@@ -544,3 +608,6 @@ sorted_arr = sort(my_array)  # automatically selects best algorithm
 | `docs/real-world-v4-report-original.md` | v4 original (over-optimistic) |
 | `docs/vbs-sbs-gap-analysis.md` | VBS-SBS gap explanation |
 | `docs/xgboost-v1-report.md` | v1 root cause analysis |
+| `docs/checkpoint-xgboost-v5-baseline.md` | v5 checkpoint (updated with v7/v8) |
+| `docs/xgboost-v7-regret-aware-report.md` | v7 negative result write-up |
+| `docs/xgboost-v8-binary-cascade-report.md` | v8 cascade + key finding write-up |

@@ -262,15 +262,46 @@ The pipeline is **100% portable**:
 
 ---
 
+## Post-v5 Experiments (April 2026)
+
+Two experimental architectures were tested to see if v5 could be improved. **Both confirmed v5 is near-ceiling.**
+
+### v7: Regret-Aware Training (REJECTED)
+
+**Script:** `scripts/train_xgboost_v7_regret_aware.py` | **Report:** `docs/xgboost-v7-regret-aware-report.md`
+
+Hypothesis: weight training samples by regret cost (expensive mistakes matter more).
+- max_depth reduced to 5, 1500 estimators, regret-proportional sample weights
+- **Result:** Gap closed dropped from 93.1% → ~78%. Regressed on every metric.
+- **Root cause:** Regret weights downweight introsort↔heapsort boundary cases (low regret), which are the majority of training signal. max_depth=5 also caused underfitting.
+- **Lesson:** v5's accuracy-based training already implicitly minimizes regret because the expensive errors (timsort misclassification) are already rare.
+
+### v8: Binary Cascade (REJECTED — but produced key finding)
+
+**Script:** `scripts/train_xgboost_v8_binary_cascade.py` | **Report:** `docs/xgboost-v8-binary-cascade-report.md`
+
+Hypothesis: decompose the 3-class problem into two binary decisions.
+- Stage 1 (timsort vs rest): AUC = **0.982** — near-perfect
+- Stage 2 (introsort vs heapsort): AUC = **0.603** — near-random
+- End-to-end gap closed: **78.3%** (≈ v5 on same test split)
+
+**Key finding:** Introsort and heapsort are **feature-indistinguishable** with the 16 O(n) features. Stage 2 feature importance is flat (no signal concentrates), confirming this is a fundamental limitation of the feature space, not a model issue.
+
+**Corollary:** The sorting algorithm selection problem under structural features is effectively a **binary timsort-detection problem**. The remaining ~7% gap (93.1% → 100%) requires information beyond O(n) features (cache behavior, branch prediction, etc.).
+
+### Verdict
+
+v5 remains the production model. Both experiments are documented as ablation studies for the thesis.
+
+---
+
 ## What's Next
 
-| Step | What | Why |
-|------|------|-----|
-| **Improve accuracy** | Feature engineering, hyperparameter tuning, more data | Push test accuracy above 76% |
-| **More tests** | Cross-machine testing, adversarial arrays, size-stratified evaluation | Strengthen confidence in the model |
-| **Step 5: LinUCB bandit** | Online contextual bandit that adapts from XGBoost's knowledge | Main thesis contribution — adapt to new machines/distributions |
-| **Step 6: Comparison** | XGBoost vs bandit vs baselines | Full evaluation table for thesis |
-| **Step 7: Package** | `import adaptive_sort; sort(arr)` | Usable Python library |
+| Step | What | Status |
+|------|------|--------|
+| **Step 5: LinUCB bandit** | Online contextual bandit — adapts from v5's knowledge using real timing feedback | Script written (`scripts/train_linucb.py`), not yet validated |
+| **Step 6: Comparison** | XGBoost vs bandit vs baselines | NOT STARTED |
+| **Step 7: Package** | `import adaptive_sort; sort(arr)` | NOT STARTED |
 
 ---
 
