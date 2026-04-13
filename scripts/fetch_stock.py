@@ -68,8 +68,8 @@ import yfinance as yf
 
 # ── Paths (SHARED with F1 data) ──────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-OUTPUT_DIR   = PROJECT_ROOT / "data" / "real_world_10k" / "raw"
-INDEX_CSV    = PROJECT_ROOT / "data" / "real_world_10k" / "index.csv"
+OUTPUT_DIR   = Path("/Users/ahmed/Desktop/thesis_data/balanced_data/raw")
+INDEX_CSV    = Path("/Users/ahmed/Desktop/thesis_data/balanced_data/index.csv")
 
 # ── Config ────────────────────────────────────────────────────────────────
 MIN_ARRAY_LEN = 50

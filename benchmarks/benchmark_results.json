@@ -1,0 +1,51 @@
+{
+  "Random": {
+    "accuracy": 33.6,
+    "balanced_accuracy": 33.8,
+    "gap_closed": -486.1,
+    "mean_regret_us": 13.33,
+    "perfect_picks": 33.7
+  },
+  "Always Heapsort (SBS)": {
+    "accuracy": 15.2,
+    "balanced_accuracy": 33.3,
+    "gap_closed": -14.1,
+    "mean_regret_us": 2.59,
+    "perfect_picks": 15.2
+  },
+  "Decision Tree": {
+    "accuracy": 80.4,
+    "balanced_accuracy": 64.0,
+    "gap_closed": 73.9,
+    "mean_regret_us": 0.59,
+    "perfect_picks": 80.7
+  },
+  "Random Forest": {
+    "accuracy": 80.9,
+    "balanced_accuracy": 63.8,
+    "gap_closed": 75.4,
+    "mean_regret_us": 0.56,
+    "perfect_picks": 81.2
+  },
+  "KNN (k=15)": {
+    "accuracy": 76.8,
+    "balanced_accuracy": 63.0,
+    "gap_closed": 50.8,
+    "mean_regret_us": 1.12,
+    "perfect_picks": 77.1
+  },
+  "MLP": {
+    "accuracy": 80.3,
+    "balanced_accuracy": 63.3,
+    "gap_closed": 74.9,
+    "mean_regret_us": 0.57,
+    "perfect_picks": 80.6
+  },
+  "XGBoost v5": {
+    "accuracy": 81.0,
+    "balanced_accuracy": 77.4,
+    "gap_closed": 76.0,
+    "mean_regret_us": 0.55,
+    "perfect_picks": 81.1
+  }
+}
