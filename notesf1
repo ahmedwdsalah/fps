@@ -1,0 +1,16 @@
+- optuna optimizatoins
+- numric feature of the data
+- cross validation of the data
+- next step: 
+
+spilt f1 data
+balance the data to be equal in array counts
+60% 20% 20%
+each function will apply one
+early stoping maybe?
+record the convergance point
+tune hyperparameter
+apply random forest, mlp, decision tree and see performnce
+optimize hyperparameters with optuna
+save the versions
+ 
