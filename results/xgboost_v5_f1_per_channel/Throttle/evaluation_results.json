@@ -1,0 +1,330 @@
+{
+  "channel": "Throttle",
+  "status": "trained",
+  "classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "quick_sort",
+    "shell_sort"
+  ],
+  "rows_total": 91,
+  "rows_train": 63,
+  "rows_val": 14,
+  "rows_test": 14,
+  "metrics": {
+    "train": {
+      "accuracy": 0.8888888888888888,
+      "balanced_accuracy": 0.9019047619047619,
+      "confusion_matrix": [
+        [
+          11,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          13,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          15
+        ]
+      ],
+      "classification_report": {
+        "heap_sort": {
+          "precision": 0.8461538461538461,
+          "recall": 0.7857142857142857,
+          "f1-score": 0.8148148148148148,
+          "support": 14.0
+        },
+        "introsort": {
+          "precision": 0.8666666666666667,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.8666666666666667,
+          "support": 15.0
+        },
+        "merge_sort": {
+          "precision": 0.9230769230769231,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.8888888888888888,
+          "support": 14.0
+        },
+        "quick_sort": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 5.0
+        },
+        "shell_sort": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 15.0
+        },
+        "accuracy": 0.8888888888888888,
+        "macro avg": {
+          "precision": 0.8813461538461539,
+          "recall": 0.9019047619047619,
+          "f1-score": 0.8894406429890301,
+          "support": 63.0
+        },
+        "weighted avg": {
+          "precision": 0.8888634513634514,
+          "recall": 0.8888888888888888,
+          "f1-score": 0.8875148480883247,
+          "support": 63.0
+        }
+      },
+      "n_rows": 63
+    },
+    "val": {
+      "accuracy": 0.35714285714285715,
+      "balanced_accuracy": 0.45,
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "classification_report": {
+        "heap_sort": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 3.0
+        },
+        "introsort": {
+          "precision": 0.2,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.25,
+          "support": 3.0
+        },
+        "merge_sort": {
+          "precision": 0.3333333333333333,
+          "recall": 0.25,
+          "f1-score": 0.2857142857142857,
+          "support": 4.0
+        },
+        "quick_sort": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 1.0
+        },
+        "shell_sort": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 3.0
+        },
+        "accuracy": 0.35714285714285715,
+        "macro avg": {
+          "precision": 0.4066666666666666,
+          "recall": 0.45,
+          "f1-score": 0.4004761904761905,
+          "support": 14.0
+        },
+        "weighted avg": {
+          "precision": 0.3880952380952381,
+          "recall": 0.35714285714285715,
+          "f1-score": 0.3542517006802721,
+          "support": 14.0
+        }
+      },
+      "n_rows": 14
+    },
+    "test": {
+      "accuracy": 0.42857142857142855,
+      "balanced_accuracy": 0.5,
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          1
+        ]
+      ],
+      "classification_report": {
+        "heap_sort": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "introsort": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "merge_sort": {
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "quick_sort": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 1.0
+        },
+        "shell_sort": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 3.0
+        },
+        "accuracy": 0.42857142857142855,
+        "macro avg": {
+          "precision": 0.48,
+          "recall": 0.5,
+          "f1-score": 0.4466666666666666,
+          "support": 14.0
+        },
+        "weighted avg": {
+          "precision": 0.5142857142857143,
+          "recall": 0.42857142857142855,
+          "f1-score": 0.4309523809523809,
+          "support": 14.0
+        }
+      },
+      "n_rows": 14
+    }
+  },
+  "feature_columns": [
+    "n_elements",
+    "length_norm",
+    "adj_sorted_ratio",
+    "duplicate_ratio",
+    "dispersion_ratio",
+    "runs_ratio",
+    "inversion_ratio",
+    "entropy_ratio",
+    "skewness_t",
+    "kurtosis_excess_t",
+    "longest_run_ratio",
+    "iqr_norm",
+    "mad_norm",
+    "top1_freq_ratio",
+    "top5_freq_ratio",
+    "outlier_ratio",
+    "mean_abs_diff_norm"
+  ],
+  "xgb_params": {
+    "n_estimators": 500,
+    "max_depth": 7,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 5,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "n_jobs": -1,
+    "tree_method": "hist",
+    "objective": "multi:softprob",
+    "eval_metric": "mlogloss",
+    "num_class": 5
+  },
+  "channel_balance_max_ratio": 3.0,
+  "dropped_rare_classes": [],
+  "class_counts_before_drop": {
+    "shell_sort": 42382,
+    "merge_sort": 4327,
+    "heap_sort": 974,
+    "introsort": 857,
+    "quick_sort": 7
+  },
+  "class_counts_after_drop": {
+    "introsort": 21,
+    "merge_sort": 21,
+    "shell_sort": 21,
+    "heap_sort": 21,
+    "quick_sort": 7
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/xgboost_v5_f1_per_channel/Throttle/xgb_model.json"
+}

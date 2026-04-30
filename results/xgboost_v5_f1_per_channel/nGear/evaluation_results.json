@@ -1,0 +1,276 @@
+{
+  "channel": "nGear",
+  "status": "trained",
+  "classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "shell_sort"
+  ],
+  "rows_total": 1100,
+  "rows_train": 770,
+  "rows_val": 165,
+  "rows_test": 165,
+  "metrics": {
+    "train": {
+      "accuracy": 0.9948051948051948,
+      "balanced_accuracy": 0.9956709956709957,
+      "confusion_matrix": [
+        [
+          231,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          77,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          228,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          230
+        ]
+      ],
+      "classification_report": {
+        "heap_sort": {
+          "precision": 0.9829787234042553,
+          "recall": 1.0,
+          "f1-score": 0.9914163090128756,
+          "support": 231.0
+        },
+        "introsort": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 77.0
+        },
+        "merge_sort": {
+          "precision": 1.0,
+          "recall": 0.987012987012987,
+          "f1-score": 0.9934640522875817,
+          "support": 231.0
+        },
+        "shell_sort": {
+          "precision": 1.0,
+          "recall": 0.9956709956709957,
+          "f1-score": 0.9978308026030369,
+          "support": 231.0
+        },
+        "accuracy": 0.9948051948051948,
+        "macro avg": {
+          "precision": 0.9957446808510638,
+          "recall": 0.9956709956709957,
+          "f1-score": 0.9956777909758736,
+          "support": 770.0
+        },
+        "weighted avg": {
+          "precision": 0.9948936170212767,
+          "recall": 0.9948051948051948,
+          "f1-score": 0.9948133491710482,
+          "support": 770.0
+        }
+      },
+      "n_rows": 770
+    },
+    "val": {
+      "accuracy": 0.5515151515151515,
+      "balanced_accuracy": 0.49044417767106846,
+      "confusion_matrix": [
+        [
+          39,
+          1,
+          5,
+          4
+        ],
+        [
+          0,
+          3,
+          7,
+          7
+        ],
+        [
+          2,
+          1,
+          23,
+          23
+        ],
+        [
+          2,
+          4,
+          18,
+          26
+        ]
+      ],
+      "classification_report": {
+        "heap_sort": {
+          "precision": 0.9069767441860465,
+          "recall": 0.7959183673469388,
+          "f1-score": 0.8478260869565217,
+          "support": 49.0
+        },
+        "introsort": {
+          "precision": 0.3333333333333333,
+          "recall": 0.17647058823529413,
+          "f1-score": 0.23076923076923078,
+          "support": 17.0
+        },
+        "merge_sort": {
+          "precision": 0.4339622641509434,
+          "recall": 0.46938775510204084,
+          "f1-score": 0.45098039215686275,
+          "support": 49.0
+        },
+        "shell_sort": {
+          "precision": 0.43333333333333335,
+          "recall": 0.52,
+          "f1-score": 0.4727272727272727,
+          "support": 50.0
+        },
+        "accuracy": 0.5515151515151515,
+        "macro avg": {
+          "precision": 0.5269014187509142,
+          "recall": 0.49044417767106846,
+          "f1-score": 0.500575745652472,
+          "support": 165.0
+        },
+        "weighted avg": {
+          "precision": 0.5638748166172475,
+          "recall": 0.5515151515151515,
+          "f1-score": 0.5527330790060387,
+          "support": 165.0
+        }
+      },
+      "n_rows": 165
+    },
+    "test": {
+      "accuracy": 0.4727272727272727,
+      "balanced_accuracy": 0.3919387755102041,
+      "confusion_matrix": [
+        [
+          40,
+          2,
+          6,
+          2
+        ],
+        [
+          0,
+          0,
+          9,
+          7
+        ],
+        [
+          1,
+          3,
+          19,
+          27
+        ],
+        [
+          5,
+          5,
+          20,
+          19
+        ]
+      ],
+      "classification_report": {
+        "heap_sort": {
+          "precision": 0.8695652173913043,
+          "recall": 0.8,
+          "f1-score": 0.8333333333333334,
+          "support": 50.0
+        },
+        "introsort": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 16.0
+        },
+        "merge_sort": {
+          "precision": 0.35185185185185186,
+          "recall": 0.38,
+          "f1-score": 0.36538461538461536,
+          "support": 50.0
+        },
+        "shell_sort": {
+          "precision": 0.34545454545454546,
+          "recall": 0.3877551020408163,
+          "f1-score": 0.36538461538461536,
+          "support": 49.0
+        },
+        "accuracy": 0.4727272727272727,
+        "macro avg": {
+          "precision": 0.39171790367442544,
+          "recall": 0.3919387755102041,
+          "f1-score": 0.391025641025641,
+          "support": 165.0
+        },
+        "weighted avg": {
+          "precision": 0.472715916299579,
+          "recall": 0.4727272727272727,
+          "f1-score": 0.47175602175602177,
+          "support": 165.0
+        }
+      },
+      "n_rows": 165
+    }
+  },
+  "feature_columns": [
+    "n_elements",
+    "length_norm",
+    "adj_sorted_ratio",
+    "duplicate_ratio",
+    "dispersion_ratio",
+    "runs_ratio",
+    "inversion_ratio",
+    "entropy_ratio",
+    "skewness_t",
+    "kurtosis_excess_t",
+    "longest_run_ratio",
+    "iqr_norm",
+    "mad_norm",
+    "top1_freq_ratio",
+    "top5_freq_ratio",
+    "outlier_ratio",
+    "mean_abs_diff_norm"
+  ],
+  "xgb_params": {
+    "n_estimators": 500,
+    "max_depth": 7,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 5,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "n_jobs": -1,
+    "tree_method": "hist",
+    "objective": "multi:softprob",
+    "eval_metric": "mlogloss",
+    "num_class": 4
+  },
+  "channel_balance_max_ratio": 3.0,
+  "dropped_rare_classes": [],
+  "class_counts_before_drop": {
+    "shell_sort": 43140,
+    "merge_sort": 3647,
+    "heap_sort": 1650,
+    "introsort": 110
+  },
+  "class_counts_after_drop": {
+    "heap_sort": 330,
+    "merge_sort": 330,
+    "shell_sort": 330,
+    "introsort": 110
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/xgboost_v5_f1_per_channel/nGear/xgb_model.json"
+}
