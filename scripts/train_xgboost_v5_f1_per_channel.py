@@ -28,14 +28,18 @@ from sklearn.preprocessing import LabelEncoder
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT = SCRIPT_DIR.parent
 
-DATA_CSV = Path("/Volumes/k/thesis_data/f1_only_1m_packed/training_dataset_algos_v2.csv")
+DATA_CSV = Path(
+    "/Volumes/k/thesis_data/f1_only_1m_packed/training_dataset_algos_v2_hard_m0p05_balanced.csv"
+)
 INDEX_CSV = Path("/Volumes/k/thesis_data/f1_only_1m_packed/index.csv")
 MODEL_ROOT = ROOT / "models" / "xgboost_v5_f1_per_channel"
 RESULTS_ROOT = ROOT / "results" / "xgboost_v5_f1_per_channel"
+PREPARED_ROOT = RESULTS_ROOT / "prepared_datasets"
 
 SEED = 42
 MAX_RATIO_PER_CHANNEL = 3.0
 MIN_CLASS_COUNT_FOR_SPLIT = 3
+MIN_WINNER_MARGIN = 0.0
 
 XGB_PARAMS = dict(
     n_estimators=500,
@@ -119,13 +123,20 @@ def train_one_channel(
     feature_cols: list[str],
     label_col: str,
 ) -> dict:
+    rows_raw = int(len(ch_df))
+    if "winner_margin_v2" in ch_df.columns:
+        ch_df = ch_df[ch_df["winner_margin_v2"] >= MIN_WINNER_MARGIN].copy()
+    rows_after_margin = int(len(ch_df))
+
     original_counts = ch_df[label_col].value_counts()
     keep_classes = original_counts[original_counts >= MIN_CLASS_COUNT_FOR_SPLIT].index.tolist()
     dropped_classes = sorted(set(original_counts.index.tolist()) - set(keep_classes))
     if keep_classes:
         ch_df = ch_df[ch_df[label_col].isin(keep_classes)].copy()
+    rows_after_drop = int(len(ch_df))
 
     ch_df = balanced_undersample(ch_df, label_col=label_col, max_ratio=MAX_RATIO_PER_CHANNEL)
+    rows_after_balance = int(len(ch_df))
     classes = sorted(ch_df[label_col].dropna().unique().tolist())
     if len(classes) < 2:
         return {
@@ -136,6 +147,10 @@ def train_one_channel(
                 f"found {classes}, dropped={dropped_classes}"
             ),
             "rows": int(len(ch_df)),
+            "rows_raw": rows_raw,
+            "rows_after_margin": rows_after_margin,
+            "rows_after_drop": rows_after_drop,
+            "rows_after_balance": rows_after_balance,
             "class_counts_before_drop": {k: int(v) for k, v in original_counts.to_dict().items()},
         }
 
@@ -150,6 +165,10 @@ def train_one_channel(
                 f"(min class count={min_count})"
             ),
             "rows": int(len(ch_df)),
+            "rows_raw": rows_raw,
+            "rows_after_margin": rows_after_margin,
+            "rows_after_drop": rows_after_drop,
+            "rows_after_balance": rows_after_balance,
             "class_counts": {k: int(v) for k, v in class_counts.to_dict().items()},
         }
 
@@ -198,17 +217,24 @@ def train_one_channel(
 
     ch_model_dir = MODEL_ROOT / ch
     ch_results_dir = RESULTS_ROOT / ch
+    ch_prepared_dir = PREPARED_ROOT / ch
     ch_model_dir.mkdir(parents=True, exist_ok=True)
     ch_results_dir.mkdir(parents=True, exist_ok=True)
+    ch_prepared_dir.mkdir(parents=True, exist_ok=True)
 
     model_path = ch_model_dir / "xgb_model.json"
     model.get_booster().save_model(str(model_path))
+    ch_df.to_csv(ch_prepared_dir / "training_input_balanced.csv", index=False)
 
     results = {
         "channel": ch,
         "status": "trained",
         "classes": classes,
         "rows_total": int(len(ch_df)),
+        "rows_raw": rows_raw,
+        "rows_after_margin": rows_after_margin,
+        "rows_after_drop": rows_after_drop,
+        "rows_after_balance": rows_after_balance,
         "rows_train": int(len(train_df)),
         "rows_val": int(len(val_df)),
         "rows_test": int(len(test_df)),
@@ -220,6 +246,7 @@ def train_one_channel(
         "feature_columns": feature_cols,
         "xgb_params": params,
         "channel_balance_max_ratio": MAX_RATIO_PER_CHANNEL,
+        "min_winner_margin": MIN_WINNER_MARGIN,
         "dropped_rare_classes": dropped_classes,
         "class_counts_before_drop": {k: int(v) for k, v in original_counts.to_dict().items()},
         "class_counts_after_drop": {
@@ -250,6 +277,7 @@ def main() -> None:
 
     MODEL_ROOT.mkdir(parents=True, exist_ok=True)
     RESULTS_ROOT.mkdir(parents=True, exist_ok=True)
+    PREPARED_ROOT.mkdir(parents=True, exist_ok=True)
 
     start = time.time()
     df = pd.read_csv(DATA_CSV)
@@ -283,6 +311,9 @@ def main() -> None:
         "input_csv": str(DATA_CSV),
         "label_col": label_col,
         "feature_columns": feature_cols,
+        "min_winner_margin": MIN_WINNER_MARGIN,
+        "min_class_count_for_split": MIN_CLASS_COUNT_FOR_SPLIT,
+        "max_ratio_per_channel": MAX_RATIO_PER_CHANNEL,
         "channels": {},
     }
 
@@ -307,6 +338,21 @@ def main() -> None:
             )
         else:
             print(f"  skipped: {result['reason']}")
+
+    print("\nSUMMARY TABLE")
+    print("channel     status    rows_raw rows_margin rows_bal  test_acc test_bal_acc")
+    for ch in channels:
+        r = summary["channels"][ch]
+        status = r.get("status", "na")
+        rr = r.get("rows_raw", r.get("rows", 0))
+        rm = r.get("rows_after_margin", 0)
+        rb = r.get("rows_after_balance", 0)
+        if status == "trained":
+            ta = r["metrics"]["test"]["accuracy"]
+            tb = r["metrics"]["test"]["balanced_accuracy"]
+            print(f"{ch:10s} {status:8s} {rr:8d} {rm:11d} {rb:8d} {ta:8.3f} {tb:12.3f}")
+        else:
+            print(f"{ch:10s} {status:8s} {rr:8d} {rm:11d} {rb:8d} {'-':>8s} {'-':>12s}")
 
     summary["elapsed_sec"] = round(time.time() - start, 2)
     (RESULTS_ROOT / "summary.json").write_text(json.dumps(summary, indent=2))

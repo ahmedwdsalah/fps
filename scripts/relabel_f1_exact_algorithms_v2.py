@@ -44,6 +44,8 @@ INPUT_CSV = Path("/Volumes/k/thesis_data/f1_only_1m_packed/training_dataset.csv"
 RAW_DIR = Path("/Volumes/k/thesis_data/f1_only_1m_packed/raw")
 OUTPUT_CSV = Path("/Volumes/k/thesis_data/f1_only_1m_packed/training_dataset_algos_v2.csv")
 PACKED_H5 = Path("/Volumes/k/thesis_data/f1_only_1m_packed/raw_arrays.h5")
+KEEP_INTERMEDIATE_OUTPUTS = False
+FAST_BALANCED_ONLY = True
 
 DEFAULT_ALGORITHMS = [
     "insertion_sort",
@@ -548,6 +550,76 @@ def export_competitive_sets(
     for algo, cnt in bvc.items():
         pct = 100.0 * cnt / len(balanced_df)
         print(f"    {algo:20s} {cnt:>8,}  ({pct:>5.1f}%)  [{format_bar(pct)}]")
+    if not KEEP_INTERMEDIATE_OUTPUTS:
+        try:
+            if output_csv.exists():
+                output_csv.unlink()
+            if hard_path.exists():
+                hard_path.unlink()
+            print("\n  Cleanup: removed intermediate files, kept balanced output only.")
+        except Exception as e:
+            print(f"\n  Cleanup warning: could not remove some intermediate files: {e}")
+    return balanced_path
+
+
+def export_balanced_from_hard_df(
+    hard_df: pd.DataFrame,
+    output_csv: Path,
+    algorithms: list[str],
+    max_margin: float,
+    balance_seed: int,
+) -> Path | None:
+    hard_path = output_csv.with_name(
+        f"{output_csv.stem}_hard_m{str(max_margin).replace('.', 'p')}{output_csv.suffix}"
+    )
+    print(f"\n  Hard-case export (winner_margin_v2 <= {max_margin:.3f}):")
+    print(f"    Rows:   {len(hard_df):,}")
+    print(f"    Path:   {hard_path}")
+    if len(hard_df) > 0:
+        vc = hard_df["best_algorithm_v2"].value_counts()
+        for algo, cnt in vc.items():
+            pct = 100.0 * cnt / len(hard_df)
+            print(f"    {algo:20s} {cnt:>8,}  ({pct:>5.1f}%)  [{format_bar(pct)}]")
+
+    if hard_df.empty:
+        print("  Balanced hard-case export skipped (no hard-case rows).")
+        return None
+
+    vc = hard_df["best_algorithm_v2"].value_counts()
+    present = set(vc.index.tolist())
+    expected = set(algorithms)
+    missing = expected - present
+    if missing:
+        print("  Balanced hard-case export skipped (missing winner classes).")
+        print(f"    Present winners: {sorted(present)}")
+        print(f"    Missing winners: {sorted(missing)}")
+        return None
+
+    min_count = int(vc.min())
+    parts = []
+    for cls in vc.index:
+        parts.append(
+            hard_df[hard_df["best_algorithm_v2"] == cls].sample(
+                n=min_count, random_state=balance_seed
+            )
+        )
+    balanced_df = (
+        pd.concat(parts, ignore_index=True)
+        .sample(frac=1.0, random_state=balance_seed)
+        .reset_index(drop=True)
+    )
+    balanced_path = output_csv.with_name(
+        f"{output_csv.stem}_hard_m{str(max_margin).replace('.', 'p')}_balanced{output_csv.suffix}"
+    )
+    balanced_df.to_csv(balanced_path, index=False)
+    print("\n  Balanced hard-case export:")
+    print(f"    Rows:   {len(balanced_df):,}")
+    print(f"    Path:   {balanced_path}")
+    bvc = balanced_df["best_algorithm_v2"].value_counts()
+    for algo, cnt in bvc.items():
+        pct = 100.0 * cnt / len(balanced_df)
+        print(f"    {algo:20s} {cnt:>8,}  ({pct:>5.1f}%)  [{format_bar(pct)}]")
+    print("\n  Cleanup: fast mode wrote balanced output only.")
     return balanced_path
 
 
@@ -706,12 +778,19 @@ def relabel(
     ]
     output_columns = base_columns + [c for c in extra_columns if c not in base_columns]
 
+    balanced_only_mode = (
+        FAST_BALANCED_ONLY
+        and (not KEEP_INTERMEDIATE_OUTPUTS)
+        and write_balanced
+        and (max_margin is not None)
+    )
+
     done = set()
     if overwrite_output and output_csv.exists():
         output_csv.unlink()
         print("  Overwrite enabled: existing output removed.")
 
-    if output_csv.exists() and output_csv.stat().st_size > 0:
+    if (not balanced_only_mode) and output_csv.exists() and output_csv.stat().st_size > 0:
         existing_cols = pd.read_csv(output_csv, nrows=1).columns.tolist()
         missing = [c for c in output_columns if c not in existing_cols]
         if missing:
@@ -726,7 +805,7 @@ def relabel(
     todo = df[~df["file"].astype(str).isin(done)]
     print(f"  To process now: {len(todo):,}")
 
-    if not output_csv.exists() or output_csv.stat().st_size == 0:
+    if (not balanced_only_mode) and (not output_csv.exists() or output_csv.stat().st_size == 0):
         pd.DataFrame(columns=output_columns).to_csv(output_csv, index=False)
 
     processed = 0
@@ -734,6 +813,7 @@ def relabel(
     t_start = time.time()
     winner_counter: Counter = Counter()
     buffer: list[dict] = []
+    hard_rows: list[dict] = []
 
     jobs = (
         (
@@ -761,11 +841,15 @@ def relabel(
             if failed_file is not None or out_row is None:
                 errors += 1
             else:
-                buffer.append(out_row)
+                if balanced_only_mode:
+                    if out_row["winner_margin_v2"] <= float(max_margin):
+                        hard_rows.append(out_row)
+                else:
+                    buffer.append(out_row)
                 processed += 1
                 winner_counter[out_row["best_algorithm_v2"]] += 1
 
-            if len(buffer) >= flush_every:
+            if (not balanced_only_mode) and len(buffer) >= flush_every:
                 pd.DataFrame(buffer, columns=output_columns).to_csv(
                     output_csv, mode="a", header=False, index=False
                 )
@@ -781,17 +865,21 @@ def relabel(
                     f"ok={processed} errors={errors} ETA={eta/60:>6.1f} min"
                 )
 
-    if buffer:
+    if (not balanced_only_mode) and buffer:
         pd.DataFrame(buffer, columns=output_columns).to_csv(
             output_csv, mode="a", header=False, index=False
         )
 
-    out = pd.read_csv(output_csv)
-    if "best_algorithm_v2" in out.columns:
-        vc = out["best_algorithm_v2"].value_counts()
-        final_counter = Counter(vc.to_dict())
-    else:
+    if balanced_only_mode:
+        out = pd.DataFrame(hard_rows)
         final_counter = Counter()
+    else:
+        out = pd.read_csv(output_csv)
+        if "best_algorithm_v2" in out.columns:
+            vc = out["best_algorithm_v2"].value_counts()
+            final_counter = Counter(vc.to_dict())
+        else:
+            final_counter = Counter()
 
     elapsed = time.time() - t_start
     print("\n" + "=" * 70)
@@ -802,15 +890,24 @@ def relabel(
     print(f"  Elapsed:            {elapsed:.1f}s ({elapsed/60:.1f} min)")
     print(f"  Output rows total:  {len(out):,}")
 
-    print_distribution(final_counter, len(out), algorithms)
-    balanced_path = export_competitive_sets(
-        out_df=out,
-        output_csv=output_csv,
-        algorithms=algorithms,
-        max_margin=max_margin,
-        write_balanced=write_balanced,
-        balance_seed=balance_seed,
-    )
+    if not balanced_only_mode:
+        print_distribution(final_counter, len(out), algorithms)
+        balanced_path = export_competitive_sets(
+            out_df=out,
+            output_csv=output_csv,
+            algorithms=algorithms,
+            max_margin=max_margin,
+            write_balanced=write_balanced,
+            balance_seed=balance_seed,
+        )
+    else:
+        balanced_path = export_balanced_from_hard_df(
+            hard_df=out,
+            output_csv=output_csv,
+            algorithms=algorithms,
+            max_margin=float(max_margin),
+            balance_seed=balance_seed,
+        )
     if require_balanced and balanced_path is None:
         raise RuntimeError(
             "Balanced dataset was not produced. "
@@ -849,9 +946,9 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     p.add_argument("--parallel-threshold", type=int, default=8192)
-    p.add_argument("--workers", type=int, default=max(1, (os.cpu_count() or 4) - 2))
+    p.add_argument("--workers", type=int, default=max(1, (os.cpu_count() or 4)))
     p.add_argument("--flush-every", type=int, default=500)
-    p.add_argument("--chunksize", type=int, default=64)
+    p.add_argument("--chunksize", type=int, default=128)
     p.add_argument(
         "--overwrite-output",
         action="store_true",
