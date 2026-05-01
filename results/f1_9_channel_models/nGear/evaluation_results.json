@@ -1,0 +1,91 @@
+{
+  "channel": "nGear",
+  "rows": 533,
+  "classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "shell_sort"
+  ],
+  "class_counts_before_drop": {
+    "merge_sort": 259,
+    "heap_sort": 186,
+    "shell_sort": 81,
+    "introsort": 7,
+    "quick_sort": 1
+  },
+  "dropped_rare_classes": [
+    "quick_sort"
+  ],
+  "metrics": {
+    "test_accuracy": 0.6625,
+    "test_balanced_accuracy": 0.4333791208791209,
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        5,
+        3
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        6,
+        0,
+        30,
+        3
+      ],
+      [
+        2,
+        0,
+        7,
+        3
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.7142857142857143,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.7142857142857143,
+        "support": 28.0
+      },
+      "introsort": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "merge_sort": {
+        "precision": 0.6976744186046512,
+        "recall": 0.7692307692307693,
+        "f1-score": 0.7317073170731707,
+        "support": 39.0
+      },
+      "shell_sort": {
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1-score": 0.2857142857142857,
+        "support": 12.0
+      },
+      "accuracy": 0.6625,
+      "macro avg": {
+        "precision": 0.4363233665559247,
+        "recall": 0.4333791208791209,
+        "f1-score": 0.4329268292682926,
+        "support": 80.0
+      },
+      "weighted avg": {
+        "precision": 0.6401162790697674,
+        "recall": 0.6625,
+        "f1-score": 0.6495644599303135,
+        "support": 80.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/nGear/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/nGear/classes.json"
+}

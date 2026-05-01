@@ -1,0 +1,107 @@
+{
+  "channel": "X",
+  "rows": 1295,
+  "classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "quick_sort",
+    "shell_sort"
+  ],
+  "class_counts_before_drop": {
+    "quick_sort": 558,
+    "merge_sort": 323,
+    "shell_sort": 204,
+    "heap_sort": 135,
+    "introsort": 75
+  },
+  "dropped_rare_classes": [],
+  "metrics": {
+    "test_accuracy": 0.5641025641025641,
+    "test_balanced_accuracy": 0.48905958864484206,
+    "confusion_matrix": [
+      [
+        17,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        4,
+        3,
+        17,
+        23,
+        2
+      ],
+      [
+        0,
+        1,
+        17,
+        62,
+        4
+      ],
+      [
+        3,
+        2,
+        4,
+        9,
+        13
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.7083333333333334,
+        "recall": 0.85,
+        "f1-score": 0.7727272727272727,
+        "support": 20.0
+      },
+      "introsort": {
+        "precision": 0.14285714285714285,
+        "recall": 0.09090909090909091,
+        "f1-score": 0.1111111111111111,
+        "support": 11.0
+      },
+      "merge_sort": {
+        "precision": 0.4146341463414634,
+        "recall": 0.3469387755102041,
+        "f1-score": 0.37777777777777777,
+        "support": 49.0
+      },
+      "quick_sort": {
+        "precision": 0.6262626262626263,
+        "recall": 0.7380952380952381,
+        "f1-score": 0.6775956284153005,
+        "support": 84.0
+      },
+      "shell_sort": {
+        "precision": 0.5416666666666666,
+        "recall": 0.41935483870967744,
+        "f1-score": 0.4727272727272727,
+        "support": 31.0
+      },
+      "accuracy": 0.5641025641025641,
+      "macro avg": {
+        "precision": 0.4867507830922465,
+        "recall": 0.48905958864484206,
+        "f1-score": 0.482387812551747,
+        "support": 195.0
+      },
+      "weighted avg": {
+        "precision": 0.5407840804182268,
+        "recall": 0.5641025641025641,
+        "f1-score": 0.5474895232272282,
+        "support": 195.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/X/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/X/classes.json"
+}

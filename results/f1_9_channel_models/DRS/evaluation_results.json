@@ -1,0 +1,74 @@
+{
+  "channel": "DRS",
+  "rows": 1803,
+  "classes": [
+    "heap_sort",
+    "merge_sort",
+    "shell_sort"
+  ],
+  "class_counts_before_drop": {
+    "heap_sort": 1499,
+    "shell_sort": 266,
+    "merge_sort": 38,
+    "introsort": 1
+  },
+  "dropped_rare_classes": [
+    "introsort"
+  ],
+  "metrics": {
+    "test_accuracy": 0.7896678966789668,
+    "test_balanced_accuracy": 0.5485185185185185,
+    "confusion_matrix": [
+      [
+        194,
+        3,
+        28
+      ],
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        22,
+        0,
+        18
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.8858447488584474,
+        "recall": 0.8622222222222222,
+        "f1-score": 0.8738738738738738,
+        "support": 225.0
+      },
+      "merge_sort": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.36363636363636365,
+        "support": 6.0
+      },
+      "shell_sort": {
+        "precision": 0.3829787234042553,
+        "recall": 0.45,
+        "f1-score": 0.41379310344827586,
+        "support": 40.0
+      },
+      "accuracy": 0.7896678966789668,
+      "macro avg": {
+        "precision": 0.5562744907542343,
+        "recall": 0.5485185185185185,
+        "f1-score": 0.5504344469861712,
+        "support": 271.0
+      },
+      "weighted avg": {
+        "precision": 0.8008642709569037,
+        "recall": 0.7896678966789668,
+        "f1-score": 0.7946685016286748,
+        "support": 271.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/DRS/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/DRS/classes.json"
+}

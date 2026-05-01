@@ -1,0 +1,107 @@
+{
+  "channel": "Throttle",
+  "rows": 745,
+  "classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "quick_sort",
+    "shell_sort"
+  ],
+  "class_counts_before_drop": {
+    "merge_sort": 456,
+    "heap_sort": 138,
+    "shell_sort": 105,
+    "introsort": 35,
+    "quick_sort": 11
+  },
+  "dropped_rare_classes": [],
+  "metrics": {
+    "test_accuracy": 0.5803571428571429,
+    "test_balanced_accuracy": 0.4918374741200828,
+    "confusion_matrix": [
+      [
+        9,
+        1,
+        10,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        1
+      ],
+      [
+        10,
+        0,
+        53,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        5,
+        0,
+        10,
+        0,
+        1
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.375,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.4,
+        "support": 21.0
+      },
+      "introsort": {
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1-score": 0.2857142857142857,
+        "support": 5.0
+      },
+      "merge_sort": {
+        "precision": 0.6973684210526315,
+        "recall": 0.7681159420289855,
+        "f1-score": 0.7310344827586207,
+        "support": 69.0
+      },
+      "quick_sort": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "shell_sort": {
+        "precision": 0.1111111111111111,
+        "recall": 0.0625,
+        "f1-score": 0.08,
+        "support": 16.0
+      },
+      "accuracy": 0.5803571428571429,
+      "macro avg": {
+        "precision": 0.5366959064327486,
+        "recall": 0.4918374741200828,
+        "f1-score": 0.4993497536945813,
+        "support": 112.0
+      },
+      "weighted avg": {
+        "precision": 0.5470642752715121,
+        "recall": 0.5803571428571429,
+        "f1-score": 0.5584817030260381,
+        "support": 112.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Throttle/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Throttle/classes.json"
+}

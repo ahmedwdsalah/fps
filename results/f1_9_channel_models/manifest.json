@@ -1,0 +1,234 @@
+{
+  "timestamp": "2026-04-30T23:25:10.536911",
+  "dataset": "/Volumes/k/thesis_data/f1_only_1m_packed/training_dataset_algos_v2_hard_m0p05_balanced.csv",
+  "index": "/Volumes/k/thesis_data/f1_only_1m_packed/index.csv",
+  "feature_columns": [
+    "n_elements",
+    "length_norm",
+    "adj_sorted_ratio",
+    "duplicate_ratio",
+    "dispersion_ratio",
+    "runs_ratio",
+    "inversion_ratio",
+    "entropy_ratio",
+    "skewness_t",
+    "kurtosis_excess_t",
+    "longest_run_ratio",
+    "iqr_norm",
+    "mad_norm",
+    "top1_freq_ratio",
+    "top5_freq_ratio",
+    "outlier_ratio",
+    "mean_abs_diff_norm"
+  ],
+  "channels": {
+    "DRS": {
+      "status": "trained",
+      "rows": 1803,
+      "classes": [
+        "heap_sort",
+        "merge_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "heap_sort": 1499,
+        "shell_sort": 266,
+        "merge_sort": 38,
+        "introsort": 1
+      },
+      "dropped_rare_classes": [
+        "introsort"
+      ],
+      "test_accuracy": 0.7896678966789668,
+      "test_balanced_accuracy": 0.5485185185185185,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/DRS/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/DRS/classes.json"
+    },
+    "Distance": {
+      "status": "trained",
+      "rows": 2014,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "introsort": 1344,
+        "shell_sort": 400,
+        "quick_sort": 116,
+        "heap_sort": 90,
+        "merge_sort": 64
+      },
+      "dropped_rare_classes": [],
+      "test_accuracy": 0.6006600660066007,
+      "test_balanced_accuracy": 0.3986201477290586,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Distance/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Distance/classes.json"
+    },
+    "RPM": {
+      "status": "trained",
+      "rows": 1951,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "quick_sort": 849,
+        "shell_sort": 391,
+        "introsort": 326,
+        "merge_sort": 233,
+        "heap_sort": 152
+      },
+      "dropped_rare_classes": [],
+      "test_accuracy": 0.46757679180887374,
+      "test_balanced_accuracy": 0.4123055181592877,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/RPM/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/RPM/classes.json"
+    },
+    "Speed": {
+      "status": "trained",
+      "rows": 2607,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "shell_sort": 907,
+        "introsort": 691,
+        "merge_sort": 454,
+        "quick_sort": 382,
+        "heap_sort": 173
+      },
+      "dropped_rare_classes": [],
+      "test_accuracy": 0.4107142857142857,
+      "test_balanced_accuracy": 0.4368466219378998,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Speed/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Speed/classes.json"
+    },
+    "Throttle": {
+      "status": "trained",
+      "rows": 745,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "merge_sort": 456,
+        "heap_sort": 138,
+        "shell_sort": 105,
+        "introsort": 35,
+        "quick_sort": 11
+      },
+      "dropped_rare_classes": [],
+      "test_accuracy": 0.5803571428571429,
+      "test_balanced_accuracy": 0.4918374741200828,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Throttle/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Throttle/classes.json"
+    },
+    "X": {
+      "status": "trained",
+      "rows": 1295,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "quick_sort": 558,
+        "merge_sort": 323,
+        "shell_sort": 204,
+        "heap_sort": 135,
+        "introsort": 75
+      },
+      "dropped_rare_classes": [],
+      "test_accuracy": 0.5641025641025641,
+      "test_balanced_accuracy": 0.48905958864484206,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/X/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/X/classes.json"
+    },
+    "Y": {
+      "status": "trained",
+      "rows": 1256,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "quick_sort": 512,
+        "merge_sort": 417,
+        "shell_sort": 140,
+        "heap_sort": 105,
+        "introsort": 82
+      },
+      "dropped_rare_classes": [],
+      "test_accuracy": 0.5238095238095238,
+      "test_balanced_accuracy": 0.45153318903318906,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Y/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Y/classes.json"
+    },
+    "Z": {
+      "status": "trained",
+      "rows": 1009,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "merge_sort": 399,
+        "quick_sort": 214,
+        "heap_sort": 165,
+        "shell_sort": 149,
+        "introsort": 82
+      },
+      "dropped_rare_classes": [],
+      "test_accuracy": 0.5460526315789473,
+      "test_balanced_accuracy": 0.4801739130434782,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Z/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/Z/classes.json"
+    },
+    "nGear": {
+      "status": "trained",
+      "rows": 533,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "merge_sort": 259,
+        "heap_sort": 186,
+        "shell_sort": 81,
+        "introsort": 7,
+        "quick_sort": 1
+      },
+      "dropped_rare_classes": [
+        "quick_sort"
+      ],
+      "test_accuracy": 0.6625,
+      "test_balanced_accuracy": 0.4333791208791209,
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/nGear/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models/nGear/classes.json"
+    }
+  },
+  "elapsed_sec": 29.26
+}
