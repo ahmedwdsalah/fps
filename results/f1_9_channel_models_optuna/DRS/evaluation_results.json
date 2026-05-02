@@ -1,0 +1,80 @@
+{
+  "channel": "DRS",
+  "rows": 1803,
+  "classes": [
+    "heap_sort",
+    "merge_sort",
+    "shell_sort"
+  ],
+  "dropped_rare_classes": [
+    "introsort"
+  ],
+  "best_trial_value_balanced_accuracy": 0.7877777777777778,
+  "best_params": {
+    "n_estimators": 1197,
+    "max_depth": 10,
+    "learning_rate": 0.003670919394070302,
+    "subsample": 0.5132167344504133,
+    "colsample_bytree": 0.777751009017812,
+    "min_child_weight": 8.090202494656623,
+    "reg_alpha": 5.830012810506086e-06,
+    "reg_lambda": 0.00017751672073517406,
+    "gamma": 0.022891327927378153
+  },
+  "test_metrics": {
+    "accuracy": 0.7638376383763837,
+    "balanced_accuracy": 0.5724074074074074,
+    "confusion_matrix": [
+      [
+        182,
+        8,
+        35
+      ],
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        14,
+        3,
+        23
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.914572864321608,
+        "recall": 0.8088888888888889,
+        "f1-score": 0.8584905660377359,
+        "support": 225.0
+      },
+      "merge_sort": {
+        "precision": 0.15384615384615385,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.21052631578947367,
+        "support": 6.0
+      },
+      "shell_sort": {
+        "precision": 0.3898305084745763,
+        "recall": 0.575,
+        "f1-score": 0.46464646464646464,
+        "support": 40.0
+      },
+      "accuracy": 0.7638376383763837,
+      "macro avg": {
+        "precision": 0.4860831755474461,
+        "recall": 0.5724074074074074,
+        "f1-score": 0.5112211154912246,
+        "support": 271.0
+      },
+      "weighted avg": {
+        "precision": 0.8202774602746191,
+        "recall": 0.7638376383763837,
+        "f1-score": 0.7860125233914612,
+        "support": 271.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/DRS/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/DRS/classes.json"
+}

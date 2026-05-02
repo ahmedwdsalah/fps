@@ -1,0 +1,259 @@
+{
+  "timestamp": "2026-05-01T19:38:14.331914",
+  "dataset": "/Volumes/k/thesis_data/f1_only_1m_packed/training_dataset_algos_v2_hard_m0p05_balanced.csv",
+  "feature_columns": [
+    "n_elements",
+    "length_norm",
+    "adj_sorted_ratio",
+    "duplicate_ratio",
+    "dispersion_ratio",
+    "runs_ratio",
+    "inversion_ratio",
+    "entropy_ratio",
+    "skewness_t",
+    "kurtosis_excess_t",
+    "longest_run_ratio",
+    "iqr_norm",
+    "mad_norm",
+    "top1_freq_ratio",
+    "top5_freq_ratio",
+    "outlier_ratio",
+    "mean_abs_diff_norm"
+  ],
+  "trials_per_channel": 20,
+  "channels": {
+    "DRS": {
+      "status": "trained",
+      "rows": 1803,
+      "classes": [
+        "heap_sort",
+        "merge_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.7877777777777778,
+      "test_accuracy": 0.7638376383763837,
+      "test_balanced_accuracy": 0.5724074074074074,
+      "best_params": {
+        "n_estimators": 1197,
+        "max_depth": 10,
+        "learning_rate": 0.003670919394070302,
+        "subsample": 0.5132167344504133,
+        "colsample_bytree": 0.777751009017812,
+        "min_child_weight": 8.090202494656623,
+        "reg_alpha": 5.830012810506086e-06,
+        "reg_lambda": 0.00017751672073517406,
+        "gamma": 0.022891327927378153
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/DRS/xgb_model.json"
+    },
+    "Distance": {
+      "status": "trained",
+      "rows": 2014,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.5435930289861566,
+      "test_accuracy": 0.5412541254125413,
+      "test_balanced_accuracy": 0.49321860757504316,
+      "best_params": {
+        "n_estimators": 204,
+        "max_depth": 7,
+        "learning_rate": 0.002546077533783422,
+        "subsample": 0.9956385980717997,
+        "colsample_bytree": 0.7024427479450996,
+        "min_child_weight": 17.751922160792656,
+        "reg_alpha": 0.00030468089368308873,
+        "reg_lambda": 0.00012104443336685521,
+        "gamma": 0.0006736015465026493
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/Distance/xgb_model.json"
+    },
+    "RPM": {
+      "status": "trained",
+      "rows": 1951,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.43216313930860756,
+      "test_accuracy": 0.4402730375426621,
+      "test_balanced_accuracy": 0.42858407849646607,
+      "best_params": {
+        "n_estimators": 1176,
+        "max_depth": 10,
+        "learning_rate": 0.004010100964533183,
+        "subsample": 0.8718546676909814,
+        "colsample_bytree": 0.7092216202555366,
+        "min_child_weight": 13.373330689803684,
+        "reg_alpha": 0.0010695159048720348,
+        "reg_lambda": 0.0004673336053316024,
+        "gamma": 0.012294037579428029
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/RPM/xgb_model.json"
+    },
+    "Speed": {
+      "status": "trained",
+      "rows": 2607,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.5267603397634357,
+      "test_accuracy": 0.4260204081632653,
+      "test_balanced_accuracy": 0.5062802309252613,
+      "best_params": {
+        "n_estimators": 413,
+        "max_depth": 4,
+        "learning_rate": 0.00838333490668469,
+        "subsample": 0.8573402338658627,
+        "colsample_bytree": 0.8227884534127844,
+        "min_child_weight": 16.22711082489798,
+        "reg_alpha": 3.199160813819233e-06,
+        "reg_lambda": 1.5369884689936084e-05,
+        "gamma": 0.027073182002409765
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/Speed/xgb_model.json"
+    },
+    "Throttle": {
+      "status": "trained",
+      "rows": 745,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.5696078431372549,
+      "test_accuracy": 0.4375,
+      "test_balanced_accuracy": 0.47128881987577637,
+      "best_params": {
+        "n_estimators": 1057,
+        "max_depth": 7,
+        "learning_rate": 0.006538580524894327,
+        "subsample": 0.6822506005722531,
+        "colsample_bytree": 0.7542782371321683,
+        "min_child_weight": 19.026638339347684,
+        "reg_alpha": 0.06948208507878295,
+        "reg_lambda": 0.0009940216907086314,
+        "gamma": 1.6044497943185954e-08
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/Throttle/xgb_model.json"
+    },
+    "X": {
+      "status": "trained",
+      "rows": 1295,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.531590909090909,
+      "test_accuracy": 0.5333333333333333,
+      "test_balanced_accuracy": 0.5391557444092007,
+      "best_params": {
+        "n_estimators": 383,
+        "max_depth": 8,
+        "learning_rate": 0.002727656824541751,
+        "subsample": 0.9996812193207756,
+        "colsample_bytree": 0.8543847897225473,
+        "min_child_weight": 12.764189670677757,
+        "reg_alpha": 0.3973444217024348,
+        "reg_lambda": 0.04149162285301985,
+        "gamma": 0.006339619132612613
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/X/xgb_model.json"
+    },
+    "Y": {
+      "status": "trained",
+      "rows": 1256,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.5036692339918145,
+      "test_accuracy": 0.5132275132275133,
+      "test_balanced_accuracy": 0.5296176046176047,
+      "best_params": {
+        "n_estimators": 863,
+        "max_depth": 6,
+        "learning_rate": 0.015728674194978587,
+        "subsample": 0.7733551396716398,
+        "colsample_bytree": 0.5924272277627636,
+        "min_child_weight": 19.422107927526614,
+        "reg_alpha": 0.0946663015372686,
+        "reg_lambda": 2.8542399074977594,
+        "gamma": 1.1309571585271492
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/Y/xgb_model.json"
+    },
+    "Z": {
+      "status": "trained",
+      "rows": 1009,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.5255215617715618,
+      "test_accuracy": 0.506578947368421,
+      "test_balanced_accuracy": 0.5023152173913044,
+      "best_params": {
+        "n_estimators": 870,
+        "max_depth": 5,
+        "learning_rate": 0.009783250064890553,
+        "subsample": 0.7012294398062426,
+        "colsample_bytree": 0.711225215672316,
+        "min_child_weight": 12.652822898411685,
+        "reg_alpha": 0.00443382389454351,
+        "reg_lambda": 0.03166021514536094,
+        "gamma": 0.00831930083119804
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/Z/xgb_model.json"
+    },
+    "nGear": {
+      "status": "trained",
+      "rows": 533,
+      "classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "shell_sort"
+      ],
+      "best_trial_balanced_accuracy": 0.6934523809523809,
+      "test_accuracy": 0.6625,
+      "test_balanced_accuracy": 0.44345238095238093,
+      "best_params": {
+        "n_estimators": 714,
+        "max_depth": 8,
+        "learning_rate": 0.0012790390175145834,
+        "subsample": 0.8037724259507192,
+        "colsample_bytree": 0.5852620618436457,
+        "min_child_weight": 2.235980266720311,
+        "reg_alpha": 3.4671276804481113,
+        "reg_lambda": 4.905556676028766,
+        "gamma": 0.1886149587855396
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/nGear/xgb_model.json"
+    }
+  },
+  "elapsed_sec": 643.49,
+  "study_db": "/Users/ahmed/Desktop/thesis/My-Master-thesis/results/f1_9_channel_models_optuna/optuna_studies.db"
+}

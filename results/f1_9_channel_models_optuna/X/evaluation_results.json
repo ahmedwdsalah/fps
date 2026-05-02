@@ -1,0 +1,112 @@
+{
+  "channel": "X",
+  "rows": 1295,
+  "classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "quick_sort",
+    "shell_sort"
+  ],
+  "dropped_rare_classes": [],
+  "best_trial_value_balanced_accuracy": 0.531590909090909,
+  "best_params": {
+    "n_estimators": 383,
+    "max_depth": 8,
+    "learning_rate": 0.002727656824541751,
+    "subsample": 0.9996812193207756,
+    "colsample_bytree": 0.8543847897225473,
+    "min_child_weight": 12.764189670677757,
+    "reg_alpha": 0.3973444217024348,
+    "reg_lambda": 0.04149162285301985,
+    "gamma": 0.006339619132612613
+  },
+  "test_metrics": {
+    "accuracy": 0.5333333333333333,
+    "balanced_accuracy": 0.5391557444092007,
+    "confusion_matrix": [
+      [
+        18,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        5,
+        2,
+        3,
+        1
+      ],
+      [
+        5,
+        5,
+        18,
+        17,
+        4
+      ],
+      [
+        0,
+        7,
+        20,
+        52,
+        5
+      ],
+      [
+        3,
+        6,
+        5,
+        6,
+        11
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.6923076923076923,
+        "recall": 0.9,
+        "f1-score": 0.782608695652174,
+        "support": 20.0
+      },
+      "introsort": {
+        "precision": 0.21739130434782608,
+        "recall": 0.45454545454545453,
+        "f1-score": 0.29411764705882354,
+        "support": 11.0
+      },
+      "merge_sort": {
+        "precision": 0.391304347826087,
+        "recall": 0.3673469387755102,
+        "f1-score": 0.37894736842105264,
+        "support": 49.0
+      },
+      "quick_sort": {
+        "precision": 0.6582278481012658,
+        "recall": 0.6190476190476191,
+        "f1-score": 0.6380368098159509,
+        "support": 84.0
+      },
+      "shell_sort": {
+        "precision": 0.5238095238095238,
+        "recall": 0.3548387096774194,
+        "f1-score": 0.4230769230769231,
+        "support": 31.0
+      },
+      "accuracy": 0.5333333333333333,
+      "macro avg": {
+        "precision": 0.496608143278479,
+        "recall": 0.5391557444092007,
+        "f1-score": 0.5033574888049848,
+        "support": 195.0
+      },
+      "weighted avg": {
+        "precision": 0.5484133626464603,
+        "recall": 0.5333333333333333,
+        "f1-score": 0.534186490888444,
+        "support": 195.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/X/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/X/classes.json"
+}

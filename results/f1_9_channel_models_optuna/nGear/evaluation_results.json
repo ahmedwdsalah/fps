@@ -1,0 +1,96 @@
+{
+  "channel": "nGear",
+  "rows": 533,
+  "classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "shell_sort"
+  ],
+  "dropped_rare_classes": [
+    "quick_sort"
+  ],
+  "best_trial_value_balanced_accuracy": 0.6934523809523809,
+  "best_params": {
+    "n_estimators": 714,
+    "max_depth": 8,
+    "learning_rate": 0.0012790390175145834,
+    "subsample": 0.8037724259507192,
+    "colsample_bytree": 0.5852620618436457,
+    "min_child_weight": 2.235980266720311,
+    "reg_alpha": 3.4671276804481113,
+    "reg_lambda": 4.905556676028766,
+    "gamma": 0.1886149587855396
+  },
+  "test_metrics": {
+    "accuracy": 0.6625,
+    "balanced_accuracy": 0.44345238095238093,
+    "confusion_matrix": [
+      [
+        24,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        5,
+        3,
+        26,
+        5
+      ],
+      [
+        2,
+        0,
+        7,
+        3
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.7741935483870968,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8135593220338984,
+        "support": 28.0
+      },
+      "introsort": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "merge_sort": {
+        "precision": 0.7222222222222222,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6933333333333334,
+        "support": 39.0
+      },
+      "shell_sort": {
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1-score": 0.2857142857142857,
+        "support": 12.0
+      },
+      "accuracy": 0.6625,
+      "macro avg": {
+        "precision": 0.457437275985663,
+        "recall": 0.44345238095238093,
+        "f1-score": 0.4481517352703793,
+        "support": 80.0
+      },
+      "weighted avg": {
+        "precision": 0.6730510752688172,
+        "recall": 0.6625,
+        "f1-score": 0.6656029055690074,
+        "support": 80.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/nGear/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_optuna/nGear/classes.json"
+}
