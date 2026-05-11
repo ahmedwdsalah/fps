@@ -4,7 +4,14 @@ pandas>=2.1
 pyarrow>=15.0
 
 # Model training + analysis
+xgboost>=3.2
 tensorflow>=2.16
 tqdm>=4.66
 matplotlib>=3.8
 seaborn>=0.13
+
+# Browser model export + validation
+onnx>=1.21
+onnxruntime>=1.26
+onnxmltools>=1.16
+skl2onnx>=1.20
