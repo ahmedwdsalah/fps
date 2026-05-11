@@ -1,0 +1,189 @@
+{
+  "timestamp": "2026-05-11T10:56:32.683969",
+  "dataset": "/Users/ahmed/Desktop/thesis/My-Master-thesis/data/training_dataset.csv",
+  "rows_after_v5_filter_and_balance": 70994,
+  "split_sizes": {
+    "train": 49695,
+    "val": 10649,
+    "test": 10650
+  },
+  "best_trial_balanced_accuracy": 0.6807997990159388,
+  "best_params": {
+    "n_estimators": 1436,
+    "max_depth": 4,
+    "learning_rate": 0.009225226855061674,
+    "subsample": 0.7214413145758649,
+    "colsample_bytree": 0.8134189427211966,
+    "min_child_weight": 12.915863976163992,
+    "reg_alpha": 8.330237791991938e-05,
+    "reg_lambda": 2.394153504988462,
+    "gamma": 1.9367307213822293e-07
+  },
+  "results": {
+    "train": {
+      "accuracy": 0.7558909347016802,
+      "balanced_accuracy": 0.7240212301723336,
+      "confusion_matrix": [
+        [
+          4348,
+          2436,
+          315
+        ],
+        [
+          7516,
+          13195,
+          587
+        ],
+        [
+          671,
+          606,
+          20021
+        ]
+      ],
+      "classification_report": {
+        "introsort": {
+          "precision": 0.3468687674511368,
+          "recall": 0.6124806310747992,
+          "f1-score": 0.44290516451054296,
+          "support": 7099.0
+        },
+        "heapsort": {
+          "precision": 0.8126501200960768,
+          "recall": 0.6195417410085454,
+          "f1-score": 0.7030771280138537,
+          "support": 21298.0
+        },
+        "timsort": {
+          "precision": 0.9568895473880419,
+          "recall": 0.9400413184336558,
+          "f1-score": 0.9483906113071694,
+          "support": 21298.0
+        },
+        "accuracy": 0.7558909347016802,
+        "macro avg": {
+          "precision": 0.7054694783117519,
+          "recall": 0.7240212301723336,
+          "f1-score": 0.6981243012771886,
+          "support": 49695.0
+        },
+        "weighted avg": {
+          "precision": 0.8079299168570757,
+          "recall": 0.7558909347016802,
+          "f1-score": 0.7710462556579032,
+          "support": 49695.0
+        }
+      }
+    },
+    "val": {
+      "accuracy": 0.7293642595548878,
+      "balanced_accuracy": 0.6807997990159388,
+      "confusion_matrix": [
+        [
+          777,
+          665,
+          79
+        ],
+        [
+          1751,
+          2673,
+          140
+        ],
+        [
+          138,
+          109,
+          4317
+        ]
+      ],
+      "classification_report": {
+        "introsort": {
+          "precision": 0.2914478619654914,
+          "recall": 0.5108481262327417,
+          "f1-score": 0.3711487938858371,
+          "support": 1521.0
+        },
+        "heapsort": {
+          "precision": 0.7754569190600522,
+          "recall": 0.5856704645048203,
+          "f1-score": 0.6673324179253527,
+          "support": 4564.0
+        },
+        "timsort": {
+          "precision": 0.9517195767195767,
+          "recall": 0.9458808063102542,
+          "f1-score": 0.9487912087912088,
+          "support": 4564.0
+        },
+        "accuracy": 0.7293642595548878,
+        "macro avg": {
+          "precision": 0.6728747859150402,
+          "recall": 0.6807997990159388,
+          "f1-score": 0.6624241402007995,
+          "support": 10649.0
+        },
+        "weighted avg": {
+          "precision": 0.7818692576568447,
+          "recall": 0.7293642595548878,
+          "f1-score": 0.745657390161963,
+          "support": 10649.0
+        }
+      }
+    },
+    "test": {
+      "accuracy": 0.7261971830985916,
+      "balanced_accuracy": 0.6816351702923296,
+      "confusion_matrix": [
+        [
+          800,
+          658,
+          64
+        ],
+        [
+          1736,
+          2680,
+          148
+        ],
+        [
+          159,
+          151,
+          4254
+        ]
+      ],
+      "classification_report": {
+        "introsort": {
+          "precision": 0.29684601113172543,
+          "recall": 0.5256241787122208,
+          "f1-score": 0.37941664690538296,
+          "support": 1522.0
+        },
+        "heapsort": {
+          "precision": 0.7681284035540269,
+          "recall": 0.5872042068361086,
+          "f1-score": 0.6655904631814231,
+          "support": 4564.0
+        },
+        "timsort": {
+          "precision": 0.9525302283922974,
+          "recall": 0.932077125328659,
+          "f1-score": 0.9421926910299003,
+          "support": 4564.0
+        },
+        "accuracy": 0.7261971830985916,
+        "macro avg": {
+          "precision": 0.6725015476926832,
+          "recall": 0.6816351702923296,
+          "f1-score": 0.6623999337055688,
+          "support": 10650.0
+        },
+        "weighted avg": {
+          "precision": 0.7798014671498132,
+          "recall": 0.7261971830985916,
+          "f1-score": 0.7432295260479318,
+          "support": 10650.0
+        }
+      }
+    }
+  },
+  "study_db": "/Users/ahmed/Desktop/thesis/My-Master-thesis/results/xgboost_v5_optuna/optuna_study.db",
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/xgboost_v5_optuna/xgb_v5_optuna.json",
+  "elapsed_sec": 323.0
+}
