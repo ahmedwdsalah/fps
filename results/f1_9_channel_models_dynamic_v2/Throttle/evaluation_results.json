@@ -1,0 +1,92 @@
+{
+  "channel": "Throttle",
+  "rows_raw": 745,
+  "rows_used": 734,
+  "kept_classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "shell_sort"
+  ],
+  "dropped_classes": [
+    "quick_sort"
+  ],
+  "class_counts_before_drop": {
+    "merge_sort": 456,
+    "heap_sort": 138,
+    "shell_sort": 105,
+    "introsort": 35,
+    "quick_sort": 11
+  },
+  "metrics": {
+    "test_accuracy": 0.5945945945945946,
+    "test_balanced_accuracy": 0.3720432194616977,
+    "confusion_matrix": [
+      [
+        9,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        1,
+        3,
+        1
+      ],
+      [
+        6,
+        1,
+        55,
+        7
+      ],
+      [
+        5,
+        1,
+        9,
+        1
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.45,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.43902439024390244,
+        "support": 21.0
+      },
+      "introsort": {
+        "precision": 0.3333333333333333,
+        "recall": 0.2,
+        "f1-score": 0.25,
+        "support": 5.0
+      },
+      "merge_sort": {
+        "precision": 0.6962025316455697,
+        "recall": 0.7971014492753623,
+        "f1-score": 0.7432432432432432,
+        "support": 69.0
+      },
+      "shell_sort": {
+        "precision": 0.1111111111111111,
+        "recall": 0.0625,
+        "f1-score": 0.08,
+        "support": 16.0
+      },
+      "accuracy": 0.5945945945945946,
+      "macro avg": {
+        "precision": 0.39766174402250354,
+        "recall": 0.3720432194616977,
+        "f1-score": 0.3780669083717864,
+        "support": 111.0
+      },
+      "weighted avg": {
+        "precision": 0.5489407128647635,
+        "recall": 0.5945945945945946,
+        "f1-score": 0.5678675313414931,
+        "support": 111.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2/Throttle/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2/Throttle/classes.json"
+}

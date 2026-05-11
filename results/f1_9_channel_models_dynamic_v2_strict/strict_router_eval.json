@@ -1,0 +1,276 @@
+{
+  "timestamp": "2026-05-11T01:54:49.852610",
+  "dataset": "/Volumes/k/thesis_data/f1_only_1m_packed/training_dataset_algos_v2_channel_balanced_pilot_100k_actual5.csv",
+  "index": "/Volumes/k/thesis_data/f1_only_1m_packed/index.csv",
+  "seed": 42,
+  "min_class_count": 20,
+  "split": {
+    "test_size": 0.3,
+    "val_frac_of_train": 0.2,
+    "n_total": 783,
+    "n_train": 548,
+    "n_test": 235
+  },
+  "global_sbs_class": "merge_sort",
+  "fallback_counts": {},
+  "channel_manifest": {
+    "DRS": {
+      "status": "trained",
+      "rows_train_raw": 63,
+      "rows_train_used": 63,
+      "kept_classes": [
+        "heap_sort",
+        "shell_sort"
+      ],
+      "dropped_classes": [],
+      "class_counts_before_drop": {
+        "shell_sort": 33,
+        "heap_sort": 30
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/DRS/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/DRS/classes.json"
+    },
+    "Distance": {
+      "status": "trained",
+      "rows_train_raw": 51,
+      "rows_train_used": 51,
+      "kept_classes": [
+        "introsort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "dropped_classes": [
+        "introsort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "introsort": 18,
+        "shell_sort": 18,
+        "quick_sort": 15
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/Distance/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/Distance/classes.json"
+    },
+    "RPM": {
+      "status": "trained",
+      "rows_train_raw": 100,
+      "rows_train_used": 82,
+      "kept_classes": [
+        "heap_sort",
+        "introsort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "dropped_classes": [
+        "merge_sort"
+      ],
+      "class_counts_before_drop": {
+        "shell_sort": 21,
+        "introsort": 21,
+        "heap_sort": 20,
+        "quick_sort": 20,
+        "merge_sort": 18
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/RPM/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/RPM/classes.json"
+    },
+    "Speed": {
+      "status": "trained",
+      "rows_train_raw": 73,
+      "rows_train_used": 73,
+      "kept_classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "dropped_classes": [
+        "heap_sort",
+        "introsort",
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "merge_sort": 17,
+        "quick_sort": 16,
+        "heap_sort": 15,
+        "introsort": 13,
+        "shell_sort": 12
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/Speed/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/Speed/classes.json"
+    },
+    "X": {
+      "status": "trained",
+      "rows_train_raw": 82,
+      "rows_train_used": 82,
+      "kept_classes": [
+        "merge_sort",
+        "quick_sort",
+        "shell_sort"
+      ],
+      "dropped_classes": [],
+      "class_counts_before_drop": {
+        "shell_sort": 30,
+        "quick_sort": 27,
+        "merge_sort": 25
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/X/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/X/classes.json"
+    },
+    "Y": {
+      "status": "trained",
+      "rows_train_raw": 90,
+      "rows_train_used": 90,
+      "kept_classes": [
+        "merge_sort",
+        "quick_sort"
+      ],
+      "dropped_classes": [],
+      "class_counts_before_drop": {
+        "quick_sort": 47,
+        "merge_sort": 43
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/Y/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/Y/classes.json"
+    },
+    "Z": {
+      "status": "trained",
+      "rows_train_raw": 48,
+      "rows_train_used": 48,
+      "kept_classes": [
+        "heap_sort",
+        "merge_sort",
+        "shell_sort"
+      ],
+      "dropped_classes": [
+        "heap_sort",
+        "merge_sort",
+        "shell_sort"
+      ],
+      "class_counts_before_drop": {
+        "merge_sort": 18,
+        "shell_sort": 15,
+        "heap_sort": 15
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/Z/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/Z/classes.json"
+    },
+    "nGear": {
+      "status": "trained",
+      "rows_train_raw": 41,
+      "rows_train_used": 41,
+      "kept_classes": [
+        "heap_sort",
+        "merge_sort"
+      ],
+      "dropped_classes": [],
+      "class_counts_before_drop": {
+        "heap_sort": 21,
+        "merge_sort": 20
+      },
+      "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/nGear/xgb_model.json",
+      "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2_strict/nGear/classes.json"
+    }
+  },
+  "metrics": {
+    "routed": {
+      "accuracy": 0.48936170212765956,
+      "balanced_accuracy": 0.49421649828254566,
+      "confusion_matrix": [
+        [
+          27,
+          1,
+          7,
+          0,
+          8
+        ],
+        [
+          1,
+          11,
+          3,
+          3,
+          5
+        ],
+        [
+          7,
+          2,
+          28,
+          10,
+          13
+        ],
+        [
+          0,
+          6,
+          9,
+          23,
+          15
+        ],
+        [
+          6,
+          10,
+          10,
+          4,
+          26
+        ]
+      ],
+      "classification_report": {
+        "heap_sort": {
+          "precision": 0.6585365853658537,
+          "recall": 0.627906976744186,
+          "f1-score": 0.6428571428571429,
+          "support": 43.0
+        },
+        "introsort": {
+          "precision": 0.36666666666666664,
+          "recall": 0.4782608695652174,
+          "f1-score": 0.41509433962264153,
+          "support": 23.0
+        },
+        "merge_sort": {
+          "precision": 0.49122807017543857,
+          "recall": 0.4666666666666667,
+          "f1-score": 0.47863247863247865,
+          "support": 60.0
+        },
+        "quick_sort": {
+          "precision": 0.575,
+          "recall": 0.4339622641509434,
+          "f1-score": 0.4946236559139785,
+          "support": 53.0
+        },
+        "shell_sort": {
+          "precision": 0.3880597014925373,
+          "recall": 0.4642857142857143,
+          "f1-score": 0.42276422764227645,
+          "support": 56.0
+        },
+        "accuracy": 0.48936170212765956,
+        "macro avg": {
+          "precision": 0.4958982047400992,
+          "recall": 0.49421649828254566,
+          "f1-score": 0.49079436893370365,
+          "support": 235.0
+        },
+        "weighted avg": {
+          "precision": 0.5039592936092487,
+          "recall": 0.48936170212765956,
+          "f1-score": 0.49275670716397857,
+          "support": 235.0
+        }
+      }
+    },
+    "channel_sbs": {
+      "accuracy": 0.28936170212765955,
+      "balanced_accuracy": 0.29013909064398413
+    },
+    "global_sbs": {
+      "accuracy": 0.2553191489361702,
+      "balanced_accuracy": 0.2
+    }
+  },
+  "elapsed_sec": 5.51
+}

@@ -1,0 +1,108 @@
+{
+  "channel": "Y",
+  "rows_raw": 1256,
+  "rows_used": 1256,
+  "kept_classes": [
+    "heap_sort",
+    "introsort",
+    "merge_sort",
+    "quick_sort",
+    "shell_sort"
+  ],
+  "dropped_classes": [],
+  "class_counts_before_drop": {
+    "quick_sort": 512,
+    "merge_sort": 417,
+    "shell_sort": 140,
+    "heap_sort": 105,
+    "introsort": 82
+  },
+  "metrics": {
+    "test_accuracy": 0.5238095238095238,
+    "test_balanced_accuracy": 0.45153318903318906,
+    "confusion_matrix": [
+      [
+        13,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        9,
+        0,
+        1
+      ],
+      [
+        4,
+        4,
+        29,
+        20,
+        6
+      ],
+      [
+        0,
+        2,
+        17,
+        52,
+        6
+      ],
+      [
+        4,
+        1,
+        8,
+        5,
+        3
+      ]
+    ],
+    "classification_report": {
+      "heap_sort": {
+        "precision": 0.6190476190476191,
+        "recall": 0.8125,
+        "f1-score": 0.7027027027027027,
+        "support": 16.0
+      },
+      "introsort": {
+        "precision": 0.2222222222222222,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.19047619047619047,
+        "support": 12.0
+      },
+      "merge_sort": {
+        "precision": 0.4603174603174603,
+        "recall": 0.4603174603174603,
+        "f1-score": 0.4603174603174603,
+        "support": 63.0
+      },
+      "quick_sort": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6753246753246753,
+        "f1-score": 0.6709677419354839,
+        "support": 77.0
+      },
+      "shell_sort": {
+        "precision": 0.16666666666666666,
+        "recall": 0.14285714285714285,
+        "f1-score": 0.15384615384615385,
+        "support": 21.0
+      },
+      "accuracy": 0.5238095238095238,
+      "macro avg": {
+        "precision": 0.42698412698412697,
+        "recall": 0.45153318903318906,
+        "f1-score": 0.43566204985559825,
+        "support": 189.0
+      },
+      "weighted avg": {
+        "precision": 0.5100781053162006,
+        "recall": 0.5238095238095238,
+        "f1-score": 0.5154721845966086,
+        "support": 189.0
+      }
+    }
+  },
+  "model_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2/Y/xgb_model.json",
+  "classes_path": "/Users/ahmed/Desktop/thesis/My-Master-thesis/models/f1_9_channel_models_dynamic_v2/Y/classes.json"
+}

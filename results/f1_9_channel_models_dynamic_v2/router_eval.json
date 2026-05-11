@@ -1,0 +1,33 @@
+{
+  "dataset": "/Volumes/k/thesis_data/f1_only_1m_packed/training_dataset_algos_v2_hard_m0p05_balanced.csv",
+  "index": "/Volumes/k/thesis_data/f1_only_1m_packed/index.csv",
+  "n_train": 9250,
+  "n_test": 3965,
+  "models_loaded": [
+    "DRS",
+    "Distance",
+    "RPM",
+    "Speed",
+    "Throttle",
+    "X",
+    "Y",
+    "Z",
+    "nGear"
+  ],
+  "global_sbs_class": "heap_sort",
+  "fallback_counts": {},
+  "metrics": {
+    "routed": {
+      "accuracy": 0.8602774274905423,
+      "balanced_accuracy": 0.8602774274905421
+    },
+    "channel_sbs": {
+      "accuracy": 0.5074401008827238,
+      "balanced_accuracy": 0.5074401008827238
+    },
+    "global_sbs": {
+      "accuracy": 0.2,
+      "balanced_accuracy": 0.2
+    }
+  }
+}
