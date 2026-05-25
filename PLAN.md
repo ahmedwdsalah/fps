@@ -436,6 +436,45 @@ Ahmed's paragraphs most frequently open with these words (descending frequency):
 - **Commas**: Primary clause separator. Ahmed uses Oxford commas in series.
 - **Hyphens**: Only for compound modifiers ("real-world", "source-level", "run-adaptive", "time-stamped") and compound nouns ("trade-off", "best-in-class"). Never as sentence-level punctuation.
 
+### 8.15 Additional Patterns Extracted from Version-6 Chapter 3
+
+> These patterns were identified by analysing the final, Ahmed-edited version-6 of Chapter 3, which represents his most refined writing. They supplement the original patterns from Chapters 1 and 2.
+
+**Paragraph length shift.** Version-6 Chapter 3 paragraphs are longer than Chapters 1-2. Mean is 70.6 words (vs 39 in Chapters 1-2), median is 71. Ahmed's methodology paragraphs pack more technical content per paragraph. The safe band for Chapter 3+ is **50-120 words**, with occasional shorter transitional paragraphs (under 30 words) after figures or tables.
+
+**Sentence density.** Most paragraphs contain 3-5 sentences. The opening paragraph of each section tends to be the longest (100-140 words, 5+ sentences), establishing context before the subsections provide detail.
+
+**"The" dominance.** 8 of 32 body paragraphs (25%) start with "The". This is Ahmed's default paragraph opener for Chapter 3. Pattern: "The [noun phrase] [verb] [technical detail]." Examples from version-6:
+- "The runtime system processes each array in three stages..."
+- "The portfolio comprises three comparison-based algorithms..."
+- "The training corpus contains 1,188,265 numeric arrays..."
+- "The production classifier is the final iteration of..."
+- "The raw label distribution is severely skewed..."
+
+**Semicolons are common in methodology (not rare).** Contrary to the Chapters 1-2 analysis (4%), version-6 Chapter 3 uses semicolons in 28% of paragraphs (9/32). They serve two purposes:
+1. Joining closely related technical clauses: "the selector is most beneficial for medium-to-large arrays; on very short arrays the selection overhead can exceed any achievable runtime saving."
+2. Separating items in inline enumerations: "RAW preserves the original ordering; REV fully reverses the array; SHUF applies a uniform random permutation; QBIN50 quantises..."
+
+**Colons introduce technical specifications.** 31% of paragraphs use colons, always preceded by a complete clause. Pattern: "[Context clause]: [technical detail or enumeration]." Example: "The raw label distribution is severely skewed: timsort wins on 85.0% of arrays, heapsort on 10.5% and introsort on 4.4%."
+
+**"because" as causal connector.** Ahmed frequently uses "because" mid-sentence to provide immediate justification rather than splitting into two sentences. Example: "Standard classification metrics are insufficient for algorithm selection because they treat all misclassifications equally."
+
+**Paragraph ending patterns.** Body paragraphs end with one of three patterns:
+1. Forward reference: "...as summarised in Table 3.1." / "Figure 3.2 summarises the data pipeline."
+2. Consequence or implication: "The architecture is therefore deployed with a length threshold below which a default algorithm is used directly."
+3. Thesis connection: "...so no single member of the portfolio dominates across realistic workloads and a feature-driven selector is potentially useful."
+
+**Mixed voice in version-6.** Ahmed uses more passive constructions in Chapter 3 than in earlier chapters (25% of paragraphs). Passive is acceptable when the subject is a technical process: "Sixteen features are computed and organised into five groups." Active remains preferred when the subject is clear: "The system extracts sixteen features."
+
+**Figure/table integration (version-6 refined pattern).** Ahmed now uses a tighter integration than in Chapters 1-2:
+- Pre-reference: "...illustrated in Figure 3.1." or "...as summarised in Table 3.1."
+- The figure/table appears immediately after.
+- Post-interpretation starts with a specific finding, not a meta-statement: "The length normalisation feature contributes 26.2% of total gain..." (not "Figure 3.3 shows that...").
+
+**Section opening pattern.** Sections open with a context-setting sentence that names the topic and connects it to the broader system, not a meta-statement. Correct: "Feature engineering transforms the raw array into a fixed-length vector that captures the structural properties relevant to sorting performance." Wrong: "This section describes the feature engineering process."
+
+**Inline enumeration with "First... Second... Third..."** Used within a single paragraph for constraints or mechanisms. Each item is a clause, not a full sentence. Pattern preserved from Chapters 1-2 but used more densely in Chapter 3.
+
 ---
 
 ## 9. Resolved Questions
@@ -479,7 +518,7 @@ Ahmed's paragraphs most frequently open with these words (descending frequency):
 | `results/f1_9_channel_models_optuna/manifest.json` | Per-channel metrics, classes, best params |
 | `results/f1_9_channel_models_dynamic_v2/manifest.json` | Dynamic v2 metrics |
 | `results/f1_9_channel_models_dynamic_v2/router_eval.json` | Router accuracy: 86.0% |
-| `results/f1_9_channel_models_dynamic_v2_strict/strict_router_eval.json` | Strict router: 55.4% |
+| `results/f1_9_channel_models_dynamic_v2_strict/strict_router_eval.json` | Strict router: 48.9% |
 | `docs/per_channel_training_notes.md` | Training notes, class counts, data sources |
 | `webshap/examples/demo/` | Svelte + WebSHAP interactive demo |
 | `webshap/examples/demo/public/models/sorting/*.onnx` | 9 ONNX channel models + v5_global.onnx |

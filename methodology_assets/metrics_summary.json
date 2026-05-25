@@ -229,5 +229,147 @@
       "global_sbs_balanced_accuracy": 0.2000
     },
     "note": "Strict split uses much smaller dataset (783 vs 13215). Non-strict used overlapping train/test which inflated accuracy. True performance is between strict and non-strict."
+  },
+
+  "M11_v1_evaluation": {
+    "source": "results/xgboost_v1/evaluation_results.json",
+    "approach": "Multi-output regression",
+    "test_label": "test_A",
+    "test_size": 72,
+    "test_accuracy": 0.4444,
+    "gap_recovery_pct": 76.97,
+    "mean_regret": 0.00021,
+    "sbs_algorithm": "heapsort",
+    "confusion_matrix": [[8,13,4],[7,13,9],[1,6,11]],
+    "confusion_labels": ["introsort","heapsort","timsort"],
+    "regression_r2": {
+      "introsort": 0.903,
+      "heapsort": 0.911,
+      "timsort": 0.958
+    },
+    "feature_importance_top5": [
+      {"feature": "length_norm", "importance": 0.2236},
+      {"feature": "mean_abs_diff_norm", "importance": 0.1830},
+      {"feature": "top1_freq_ratio", "importance": 0.1784},
+      {"feature": "top5_freq_ratio", "importance": 0.1254},
+      {"feature": "duplicate_ratio", "importance": 0.0976}
+    ]
+  },
+
+  "M12_v6_evaluation": {
+    "source": "results/xgboost_v6/evaluation_results.json",
+    "approach": "Source-aware GroupShuffleSplit",
+    "dataset": "diverse_training_data.csv (37,976 rows, 10,792 unique sources)",
+    "domains": ["Ecology","Finance","Geospatial","Housing","Medical","Network","OpenML","SyntheticReal","Text"],
+    "source_leakage": {"train_val": 0, "train_test": 0, "val_test": 0},
+    "split": {"train": 20633, "val": 5554, "test": 11789},
+    "xgb_params": {
+      "n_estimators": 800,
+      "max_depth": 6,
+      "learning_rate": 0.03,
+      "min_child_weight": 10,
+      "reg_alpha": 0.5,
+      "reg_lambda": 2.0,
+      "gamma": 0.1,
+      "early_stopping_rounds": 50,
+      "best_iteration": 595
+    },
+    "test_metrics": {
+      "accuracy": 0.7116,
+      "balanced_accuracy": 0.6643,
+      "per_class": {
+        "introsort": {"precision": 0.3469, "recall": 0.4455, "f1": 0.3900, "support": 2110},
+        "heapsort": {"precision": 0.7187, "recall": 0.5888, "f1": 0.6473, "support": 4947},
+        "timsort": {"precision": 0.9025, "recall": 0.9586, "f1": 0.9297, "support": 4732}
+      },
+      "confusion_matrix": [[940,1009,161],[1705,2913,329],[65,131,4536]],
+      "confusion_labels": ["introsort","heapsort","timsort"]
+    },
+    "test_regret": {
+      "gap_closed_pct": 45.6,
+      "mean_regret_ms": 0.001953,
+      "max_regret_ms": 2.784875,
+      "pct_zero_regret": 72.0
+    }
+  },
+
+  "M13_v7_evaluation": {
+    "source": "results/xgboost_v7/evaluation_results.json",
+    "approach": "Regret-weighted training",
+    "dataset_size": {"total_raw": 1188265, "after_undersample": 335754, "train": 235027, "val": 50363, "test": 50364},
+    "xgb_params": {
+      "n_estimators": 1500,
+      "max_depth": 5,
+      "learning_rate": 0.05,
+      "early_stopping_rounds": 30,
+      "best_iteration": 1496
+    },
+    "standard_argmax": {
+      "accuracy": 0.7294,
+      "balanced_accuracy": 0.6625,
+      "gap_closed_pct": 78.06,
+      "perfect_picks_pct": 64.61,
+      "mean_regret_us": 0.4707,
+      "p95_regret_us": 1.875,
+      "p99_regret_us": 8.058,
+      "max_regret_us": 407.709
+    },
+    "regret_aware": {
+      "accuracy": 0.5985,
+      "balanced_accuracy": 0.5226,
+      "gap_closed_pct": 66.03,
+      "perfect_picks_pct": 58.29,
+      "mean_regret_us": 0.7289
+    },
+    "note": "Regret-aware mode hurt both accuracy and gap closed. Standard argmax retained."
+  },
+
+  "M14_v8_evaluation": {
+    "source": "results/xgboost_v8/evaluation_results.json",
+    "approach": "Binary cascade: timsort-vs-rest then introsort-vs-heapsort",
+    "dataset_size": {"total_raw": 1188265, "after_undersample": 335754, "train": 235027, "val": 50363, "test": 50364, "stage2_train": 124496},
+    "stage1_auc": 0.9818,
+    "stage2_auc": 0.6034,
+    "stage1_params": {"n_estimators": 1000, "max_depth": 7, "best_iteration": 651, "objective": "binary:logistic"},
+    "stage2_params": {"n_estimators": 500, "max_depth": 6, "best_iteration": 156, "objective": "binary:logistic"},
+    "v8_cascade": {
+      "accuracy": 0.7264,
+      "gap_closed_pct": 78.31,
+      "perfect_picks_pct": 65.10,
+      "mean_regret_us": 0.4653,
+      "p95_regret_us": 1.833,
+      "p99_regret_us": 7.958,
+      "max_regret_us": 407.709
+    },
+    "v8_heap_default": {
+      "accuracy": 0.58,
+      "gap_closed_pct": 83.06,
+      "perfect_picks_pct": 80.74,
+      "mean_regret_us": 0.3636
+    },
+    "stage2_feature_importance_top3": [
+      {"feature": "length_norm", "importance": 0.1599},
+      {"feature": "duplicate_ratio", "importance": 0.1085},
+      {"feature": "top5_freq_ratio", "importance": 0.0779}
+    ],
+    "note": "Stage 2 AUC=0.603 confirms introsort and heapsort are feature-indistinguishable. Problem is effectively binary (timsort detection)."
+  },
+
+  "M15_optuna_best_params": {
+    "source": "results/f1_9_channel_models_optuna/manifest.json",
+    "trials_per_channel": 20,
+    "elapsed_sec": 643.49,
+    "feature_count": 17,
+    "channels_summary": {
+      "DRS": {"rows": 1803, "n_classes": 3, "best_bal_acc": 0.7878, "best_max_depth": 10, "best_n_estimators": 1197},
+      "Distance": {"rows": 2014, "n_classes": 5, "best_bal_acc": 0.5436, "best_max_depth": 7, "best_n_estimators": 204},
+      "RPM": {"rows": 1951, "n_classes": 5, "best_bal_acc": 0.4322, "best_max_depth": 10, "best_n_estimators": 1176},
+      "Speed": {"rows": 2607, "n_classes": 5, "best_bal_acc": 0.5268, "best_max_depth": 4, "best_n_estimators": 413},
+      "Throttle": {"rows": 745, "n_classes": 5, "best_bal_acc": 0.5696, "best_max_depth": 7, "best_n_estimators": 1057},
+      "X": {"rows": 1295, "n_classes": 5, "best_bal_acc": 0.5316, "best_max_depth": 8, "best_n_estimators": 383},
+      "Y": {"rows": 1256, "n_classes": 5, "best_bal_acc": 0.5037, "best_max_depth": 6, "best_n_estimators": 863},
+      "Z": {"rows": 1009, "n_classes": 5, "best_bal_acc": 0.5255, "best_max_depth": 5, "best_n_estimators": 870},
+      "nGear": {"rows": 533, "n_classes": 4, "best_bal_acc": 0.6935, "best_max_depth": 8, "best_n_estimators": 714}
+    }
   }
 }
