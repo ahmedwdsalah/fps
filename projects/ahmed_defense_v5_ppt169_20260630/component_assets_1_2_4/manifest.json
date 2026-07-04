@@ -1,0 +1,9046 @@
+{
+  "source": "/Users/ahmed/Desktop/thesis/My-Master-thesis/projects/ahmed_defense_v5_ppt169_20260630/exports/ahmed_defense_1.2.4.pptx",
+  "slide_size_emu": [
+    12192000,
+    6858000
+  ],
+  "render_size_px": [
+    1600,
+    900
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "subtitles": [],
+      "component_count": 3,
+      "components": [
+        {
+          "slide": 1,
+          "asset": "components/s01_03_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            10515600,
+            114300,
+            590550,
+            590550
+          ],
+          "pixel_bbox": [
+            1370,
+            5,
+            1467,
+            102
+          ],
+          "size_px": [
+            97,
+            97
+          ]
+        },
+        {
+          "slide": 1,
+          "asset": "components/s01_04_group_container.png",
+          "kind": "group_container",
+          "label": "",
+          "emu_bbox": [
+            1066799,
+            1658112,
+            10058400,
+            1554194
+          ],
+          "pixel_bbox": [
+            267,
+            266,
+            1469,
+            418
+          ],
+          "size_px": [
+            1202,
+            152
+          ]
+        },
+        {
+          "slide": 1,
+          "asset": "components/s01_05_group_container.png",
+          "kind": "group_container",
+          "label": "",
+          "emu_bbox": [
+            3234551,
+            3728513,
+            5486733,
+            1496377
+          ],
+          "pixel_bbox": [
+            414,
+            494,
+            1154,
+            679
+          ],
+          "size_px": [
+            740,
+            185
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "title": "Presentation Outline",
+      "subtitles": [],
+      "component_count": 12,
+      "components": [
+        {
+          "slide": 2,
+          "asset": "components/s02_07_text_block.png",
+          "kind": "text_block",
+          "label": "01",
+          "emu_bbox": [
+            1123950,
+            1733550,
+            552450,
+            285750
+          ],
+          "pixel_bbox": [
+            137,
+            217,
+            230,
+            275
+          ],
+          "size_px": [
+            93,
+            58
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_08_text_block.png",
+          "kind": "text_block",
+          "label": "Problem, Motivation, and Prior Work",
+          "emu_bbox": [
+            1809750,
+            1695450,
+            4191000,
+            400050
+          ],
+          "pixel_bbox": [
+            279,
+            270,
+            785,
+            285
+          ],
+          "size_px": [
+            506,
+            15
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_10_text_block.png",
+          "kind": "text_block",
+          "label": "02",
+          "emu_bbox": [
+            1123950,
+            2857500,
+            552450,
+            285750
+          ],
+          "pixel_bbox": [
+            137,
+            365,
+            230,
+            422
+          ],
+          "size_px": [
+            93,
+            57
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_11_text_block.png",
+          "kind": "text_block",
+          "label": "Data Collection, Labels, and Features",
+          "emu_bbox": [
+            1809750,
+            2819400,
+            4191000,
+            400050
+          ],
+          "pixel_bbox": [
+            227,
+            360,
+            797,
+            432
+          ],
+          "size_px": [
+            570,
+            72
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_13_text_block.png",
+          "kind": "text_block",
+          "label": "03",
+          "emu_bbox": [
+            1123950,
+            3981450,
+            552450,
+            285750
+          ],
+          "pixel_bbox": [
+            137,
+            512,
+            230,
+            570
+          ],
+          "size_px": [
+            93,
+            58
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_14_text_block.png",
+          "kind": "text_block",
+          "label": "Algorithm Selection Task and v5 Selector",
+          "emu_bbox": [
+            1809750,
+            3943350,
+            4191000,
+            400050
+          ],
+          "pixel_bbox": [
+            275,
+            516,
+            797,
+            544
+          ],
+          "size_px": [
+            522,
+            28
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_16_text_block.png",
+          "kind": "text_block",
+          "label": "04",
+          "emu_bbox": [
+            6496050,
+            1733550,
+            552450,
+            285750
+          ],
+          "pixel_bbox": [
+            842,
+            217,
+            935,
+            275
+          ],
+          "size_px": [
+            93,
+            58
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_17_text_block.png",
+          "kind": "text_block",
+          "label": "Evaluation: SBS, VBS, Regret",
+          "emu_bbox": [
+            7181850,
+            1695450,
+            4191000,
+            400050
+          ],
+          "pixel_bbox": [
+            948,
+            256,
+            1469,
+            285
+          ],
+          "size_px": [
+            521,
+            29
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_19_text_block.png",
+          "kind": "text_block",
+          "label": "05",
+          "emu_bbox": [
+            6496050,
+            2857500,
+            552450,
+            285750
+          ],
+          "pixel_bbox": [
+            842,
+            365,
+            935,
+            422
+          ],
+          "size_px": [
+            93,
+            57
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_20_text_block.png",
+          "kind": "text_block",
+          "label": "Rigor, Generalisation, and Scope",
+          "emu_bbox": [
+            7181850,
+            2819400,
+            4191000,
+            400050
+          ],
+          "pixel_bbox": [
+            954,
+            360,
+            984,
+            432
+          ],
+          "size_px": [
+            30,
+            72
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_22_text_block.png",
+          "kind": "text_block",
+          "label": "06",
+          "emu_bbox": [
+            6496050,
+            3981450,
+            552450,
+            285750
+          ],
+          "pixel_bbox": [
+            842,
+            516,
+            935,
+            544
+          ],
+          "size_px": [
+            93,
+            28
+          ]
+        },
+        {
+          "slide": 2,
+          "asset": "components/s02_23_text_block.png",
+          "kind": "text_block",
+          "label": "Contributions, Limits, and Q&A",
+          "emu_bbox": [
+            7181850,
+            3943350,
+            4191000,
+            400050
+          ],
+          "pixel_bbox": [
+            932,
+            507,
+            1502,
+            580
+          ],
+          "size_px": [
+            570,
+            73
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "title": "",
+      "subtitles": [],
+      "component_count": 0,
+      "components": []
+    },
+    {
+      "slide": 4,
+      "title": "",
+      "subtitles": [],
+      "component_count": 0,
+      "components": []
+    },
+    {
+      "slide": 5,
+      "title": "",
+      "subtitles": [],
+      "component_count": 0,
+      "components": []
+    },
+    {
+      "slide": 6,
+      "title": "The corpus uses five structurally diverse real-world domains",
+      "subtitles": [
+        "1,188,265 numeric arrays were extracted to maximise structural diversity."
+      ],
+      "component_count": 13,
+      "components": [
+        {
+          "slide": 6,
+          "asset": "components/s06_06_text_block.png",
+          "kind": "text_block",
+          "label": "1.18M",
+          "emu_bbox": [
+            685800,
+            1416368,
+            3305928,
+            1133475
+          ],
+          "pixel_bbox": [
+            80,
+            184,
+            533,
+            344
+          ],
+          "size_px": [
+            453,
+            160
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_07_text_block.png",
+          "kind": "text_block",
+          "label": "labeled array instances",
+          "emu_bbox": [
+            750570,
+            2252662,
+            3475863,
+            440055
+          ],
+          "pixel_bbox": [
+            112,
+            285,
+            449,
+            350
+          ],
+          "size_px": [
+            337,
+            65
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_08_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            762000,
+            3048000,
+            2381250,
+            952500
+          ],
+          "pixel_bbox": [
+            111,
+            390,
+            422,
+            535
+          ],
+          "size_px": [
+            311,
+            145
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_09_text_block.png",
+          "kind": "text_block",
+          "label": "Formula 1 telemetry",
+          "emu_bbox": [
+            954672,
+            3376612,
+            1995907,
+            440055
+          ],
+          "pixel_bbox": [
+            115,
+            471,
+            397,
+            510
+          ],
+          "size_px": [
+            282,
+            39
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_10_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            3524250,
+            3048000,
+            2381250,
+            952500
+          ],
+          "pixel_bbox": [
+            452,
+            390,
+            785,
+            535
+          ],
+          "size_px": [
+            333,
+            145
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_11_text_block.png",
+          "kind": "text_block",
+          "label": "Equity prices",
+          "emu_bbox": [
+            4258675,
+            3376612,
+            912400,
+            440055
+          ],
+          "pixel_bbox": [
+            548,
+            471,
+            688,
+            510
+          ],
+          "size_px": [
+            140,
+            39
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_12_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            6286500,
+            3048000,
+            2381250,
+            952500
+          ],
+          "pixel_bbox": [
+            815,
+            471,
+            1147,
+            535
+          ],
+          "size_px": [
+            332,
+            64
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_13_text_block.png",
+          "kind": "text_block",
+          "label": "Cryptocurrency OHLCV",
+          "emu_bbox": [
+            6441574,
+            3368720,
+            1078992,
+            440055
+          ],
+          "pixel_bbox": [
+            835,
+            471,
+            996,
+            509
+          ],
+          "size_px": [
+            161,
+            38
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_14_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            9048750,
+            3048000,
+            2381250,
+            952500
+          ],
+          "pixel_bbox": [
+            1177,
+            471,
+            1510,
+            535
+          ],
+          "size_px": [
+            333,
+            64
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_15_text_block.png",
+          "kind": "text_block",
+          "label": "Weather",
+          "emu_bbox": [
+            9584824,
+            3376612,
+            1309102,
+            440055
+          ],
+          "pixel_bbox": [
+            1247,
+            471,
+            1439,
+            510
+          ],
+          "size_px": [
+            192,
+            39
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_16_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            4905375,
+            4429125,
+            2381250,
+            952500
+          ],
+          "pixel_bbox": [
+            633,
+            571,
+            966,
+            716
+          ],
+          "size_px": [
+            333,
+            145
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_17_text_block.png",
+          "kind": "text_block",
+          "label": "Seismic measurements",
+          "emu_bbox": [
+            5032819,
+            4800219,
+            1745361,
+            440055
+          ],
+          "pixel_bbox": [
+            650,
+            621,
+            899,
+            697
+          ],
+          "size_px": [
+            249,
+            76
+          ]
+        },
+        {
+          "slide": 6,
+          "asset": "components/s06_18_text_block.png",
+          "kind": "text_block",
+          "label": "Real data was preferred because synthetic distributions failed to converge to ge",
+          "emu_bbox": [
+            1629039,
+            5637645,
+            8933921,
+            276999
+          ],
+          "pixel_bbox": [
+            763,
+            729,
+            1157,
+            786
+          ],
+          "size_px": [
+            394,
+            57
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "title": "",
+      "subtitles": [],
+      "component_count": 0,
+      "components": []
+    },
+    {
+      "slide": 8,
+      "title": "Labels are empirical fastest-algorithm measurements",
+      "subtitles": [
+        "Each candidate algorithm is timed on a fresh copy; the minimum observed runtime becomes the label."
+      ],
+      "component_count": 12,
+      "components": [
+        {
+          "slide": 8,
+          "asset": "components/s08_06_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            3261455,
+            1381125,
+            5669089,
+            3143250
+          ],
+          "pixel_bbox": [
+            418,
+            171,
+            1181,
+            603
+          ],
+          "size_px": [
+            763,
+            432
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_07_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            762000,
+            4810125,
+            1981200,
+            742950
+          ],
+          "pixel_bbox": [
+            90,
+            621,
+            370,
+            738
+          ],
+          "size_px": [
+            280,
+            117
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_08_text_block.png",
+          "kind": "text_block",
+          "label": "RAW",
+          "emu_bbox": [
+            1443190,
+            5063490,
+            618820,
+            352044
+          ],
+          "pixel_bbox": [
+            179,
+            654,
+            280,
+            720
+          ],
+          "size_px": [
+            101,
+            66
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_09_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            3048000,
+            4810125,
+            1981200,
+            742950
+          ],
+          "pixel_bbox": [
+            531,
+            621,
+            670,
+            646
+          ],
+          "size_px": [
+            139,
+            25
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_10_text_block.png",
+          "kind": "text_block",
+          "label": "REV",
+          "emu_bbox": [
+            3761651,
+            5063490,
+            553898,
+            352044
+          ],
+          "pixel_bbox": [
+            483,
+            654,
+            576,
+            720
+          ],
+          "size_px": [
+            93,
+            66
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_11_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            5334000,
+            4810125,
+            1981200,
+            742950
+          ],
+          "pixel_bbox": [
+            866,
+            621,
+            970,
+            670
+          ],
+          "size_px": [
+            104,
+            49
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_12_text_block.png",
+          "kind": "text_block",
+          "label": "SHUF",
+          "emu_bbox": [
+            5958383,
+            5063490,
+            732434,
+            352044
+          ],
+          "pixel_bbox": [
+            866,
+            654,
+            888,
+            670
+          ],
+          "size_px": [
+            22,
+            16
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_13_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            7620000,
+            4810125,
+            1981200,
+            742950
+          ],
+          "pixel_bbox": [
+            990,
+            621,
+            1270,
+            670
+          ],
+          "size_px": [
+            280,
+            49
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_14_text_block.png",
+          "kind": "text_block",
+          "label": "QBIN50",
+          "emu_bbox": [
+            8073962,
+            5063490,
+            1073277,
+            352044
+          ],
+          "pixel_bbox": [
+            1167,
+            654,
+            1210,
+            670
+          ],
+          "size_px": [
+            43,
+            16
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_15_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            9906000,
+            4810125,
+            1600200,
+            742950
+          ],
+          "pixel_bbox": [
+            1290,
+            621,
+            1313,
+            670
+          ],
+          "size_px": [
+            23,
+            49
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_16_text_block.png",
+          "kind": "text_block",
+          "label": "PSORT10",
+          "emu_bbox": [
+            10039617,
+            5063490,
+            1332967,
+            352044
+          ],
+          "pixel_bbox": [
+            1307,
+            654,
+            1502,
+            720
+          ],
+          "size_px": [
+            195,
+            66
+          ]
+        },
+        {
+          "slide": 8,
+          "asset": "components/s08_17_text_block.png",
+          "kind": "text_block",
+          "label": "RAW, REV, SHUF, QBIN50, and PSORT10 force a non-trivial decision boundary.",
+          "emu_bbox": [
+            753999,
+            5754529,
+            11212639,
+            308039
+          ],
+          "pixel_bbox": [
+            111,
+            748,
+            1580,
+            805
+          ],
+          "size_px": [
+            1469,
+            57
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "title": "Sixteen O(n) structural features characterise each array",
+      "subtitles": [
+        "Every feature must be cheap to compute and linked to differential sorting behaviour."
+      ],
+      "component_count": 13,
+      "components": [
+        {
+          "slide": 9,
+          "asset": "components/s09_06_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            666750,
+            1411319,
+            5334000,
+            3749612
+          ],
+          "pixel_bbox": [
+            77,
+            188,
+            797,
+            687
+          ],
+          "size_px": [
+            720,
+            499
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_07_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            6477000,
+            1524000,
+            2190750,
+            3143250
+          ],
+          "pixel_bbox": [
+            840,
+            190,
+            1147,
+            622
+          ],
+          "size_px": [
+            307,
+            432
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_08_text_block.png",
+          "kind": "text_block",
+          "label": "Size",
+          "emu_bbox": [
+            6751320,
+            1814512,
+            1554480,
+            440055
+          ],
+          "pixel_bbox": [
+            1011,
+            231,
+            1100,
+            305
+          ],
+          "size_px": [
+            89,
+            74
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_09_text_block.png",
+          "kind": "text_block",
+          "label": "length_norm",
+          "emu_bbox": [
+            6753606,
+            2453640,
+            1554480,
+            352044
+          ],
+          "pixel_bbox": [
+            1011,
+            312,
+            1100,
+            378
+          ],
+          "size_px": [
+            89,
+            66
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_10_text_block.png",
+          "kind": "text_block",
+          "label": "size effects",
+          "emu_bbox": [
+            6753606,
+            2796540,
+            1554480,
+            352044
+          ],
+          "pixel_bbox": [
+            1011,
+            357,
+            1100,
+            423
+          ],
+          "size_px": [
+            89,
+            66
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_11_text_block.png",
+          "kind": "text_block",
+          "label": "cache / constants",
+          "emu_bbox": [
+            6753606,
+            3139440,
+            1554480,
+            352044
+          ],
+          "pixel_bbox": [
+            1011,
+            402,
+            1100,
+            468
+          ],
+          "size_px": [
+            89,
+            66
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_12_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8934450,
+            1524000,
+            2190750,
+            3143250
+          ],
+          "pixel_bbox": [
+            1162,
+            190,
+            1470,
+            622
+          ],
+          "size_px": [
+            308,
+            432
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_13_text_block.png",
+          "kind": "text_block",
+          "label": "Ordering",
+          "emu_bbox": [
+            9208770,
+            1814512,
+            1554480,
+            440055
+          ],
+          "pixel_bbox": [
+            1198,
+            231,
+            1422,
+            305
+          ],
+          "size_px": [
+            224,
+            74
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_14_text_block.png",
+          "kind": "text_block",
+          "label": "adj_sorted_ratio",
+          "emu_bbox": [
+            9211056,
+            2453640,
+            1554480,
+            352044
+          ],
+          "pixel_bbox": [
+            1198,
+            312,
+            1416,
+            378
+          ],
+          "size_px": [
+            218,
+            66
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_15_text_block.png",
+          "kind": "text_block",
+          "label": "runs_ratio",
+          "emu_bbox": [
+            9211056,
+            2796540,
+            1554480,
+            352044
+          ],
+          "pixel_bbox": [
+            1198,
+            357,
+            1416,
+            423
+          ],
+          "size_px": [
+            218,
+            66
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_16_text_block.png",
+          "kind": "text_block",
+          "label": "inversion_ratio",
+          "emu_bbox": [
+            9211056,
+            3139440,
+            1554480,
+            352044
+          ],
+          "pixel_bbox": [
+            1198,
+            402,
+            1416,
+            468
+          ],
+          "size_px": [
+            218,
+            66
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_17_text_block.png",
+          "kind": "text_block",
+          "label": "Timing features are excluded at prediction time.",
+          "emu_bbox": [
+            3450620,
+            5369338,
+            4494371,
+            276999
+          ],
+          "pixel_bbox": [
+            442,
+            694,
+            1052,
+            750
+          ],
+          "size_px": [
+            610,
+            56
+          ]
+        },
+        {
+          "slide": 9,
+          "asset": "components/s09_18_text_block.png",
+          "kind": "text_block",
+          "label": "A single canonical feature extractor is shared across data generation, training,",
+          "emu_bbox": [
+            1696880,
+            5849969,
+            8653459,
+            276999
+          ],
+          "pixel_bbox": [
+            307,
+            757,
+            326,
+            766
+          ],
+          "size_px": [
+            19,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "title": "Prediction is made before any candidate algorithm is executed",
+      "subtitles": [
+        "The selector extracts features once, runs one XGBoost prediction, and chooses one portfolio member."
+      ],
+      "component_count": 12,
+      "components": [
+        {
+          "slide": 10,
+          "asset": "components/s10_06_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            857250,
+            1619250,
+            4762500,
+            3619500
+          ],
+          "pixel_bbox": [
+            102,
+            202,
+            747,
+            697
+          ],
+          "size_px": [
+            645,
+            495
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_07_text_block.png",
+          "kind": "text_block",
+          "label": "Allowed before sorting",
+          "emu_bbox": [
+            1131570,
+            1947862,
+            3596877,
+            440055
+          ],
+          "pixel_bbox": [
+            138,
+            246,
+            630,
+            323
+          ],
+          "size_px": [
+            492,
+            77
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_08_text_block.png",
+          "kind": "text_block",
+          "label": "Extract O(n) features",
+          "emu_bbox": [
+            1135498,
+            2576131,
+            3023306,
+            440055
+          ],
+          "pixel_bbox": [
+            139,
+            328,
+            555,
+            405
+          ],
+          "size_px": [
+            416,
+            77
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_09_text_block.png",
+          "kind": "text_block",
+          "label": "Measure order, runs, repetition, distribution, robust scale",
+          "emu_bbox": [
+            1148592,
+            3062695,
+            4529398,
+            553998
+          ],
+          "pixel_bbox": [
+            140,
+            391,
+            755,
+            484
+          ],
+          "size_px": [
+            615,
+            93
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_10_text_block.png",
+          "kind": "text_block",
+          "label": "Predict introsort, heapsort, or timsort",
+          "emu_bbox": [
+            1131570,
+            3841815,
+            4108371,
+            440055
+          ],
+          "pixel_bbox": [
+            138,
+            494,
+            697,
+            571
+          ],
+          "size_px": [
+            559,
+            77
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_11_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            6572250,
+            1619250,
+            4762500,
+            3619500
+          ],
+          "pixel_bbox": [
+            852,
+            202,
+            1497,
+            697
+          ],
+          "size_px": [
+            645,
+            495
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_12_text_block.png",
+          "kind": "text_block",
+          "label": "Not allowed at prediction time",
+          "emu_bbox": [
+            6846570,
+            1947862,
+            4743004,
+            440055
+          ],
+          "pixel_bbox": [
+            1026,
+            246,
+            1530,
+            323
+          ],
+          "size_px": [
+            504,
+            77
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_13_text_block.png",
+          "kind": "text_block",
+          "label": "Sort with introsort",
+          "emu_bbox": [
+            6846570,
+            2614612,
+            2156681,
+            346249
+          ],
+          "pixel_bbox": [
+            1026,
+            333,
+            1191,
+            398
+          ],
+          "size_px": [
+            165,
+            65
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_14_text_block.png",
+          "kind": "text_block",
+          "label": "Sort with heapsort",
+          "emu_bbox": [
+            6846570,
+            3090862,
+            2181879,
+            346249
+          ],
+          "pixel_bbox": [
+            1026,
+            395,
+            1194,
+            461
+          ],
+          "size_px": [
+            168,
+            66
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_15_text_block.png",
+          "kind": "text_block",
+          "label": "Sort with timsort",
+          "emu_bbox": [
+            6846570,
+            3567112,
+            1989327,
+            346249
+          ],
+          "pixel_bbox": [
+            1026,
+            458,
+            1169,
+            523
+          ],
+          "size_px": [
+            143,
+            65
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_16_text_block.png",
+          "kind": "text_block",
+          "label": "Pick after seeing all times",
+          "emu_bbox": [
+            6846570,
+            4043362,
+            2967223,
+            346249
+          ],
+          "pixel_bbox": [
+            1026,
+            520,
+            1275,
+            586
+          ],
+          "size_px": [
+            249,
+            66
+          ]
+        },
+        {
+          "slide": 10,
+          "asset": "components/s10_17_text_block.png",
+          "kind": "text_block",
+          "label": "The oracle is used only for evaluation; it is not available at run time.",
+          "emu_bbox": [
+            1963353,
+            5765673,
+            6330259,
+            276999
+          ],
+          "pixel_bbox": [
+            247,
+            746,
+            1044,
+            803
+          ],
+          "size_px": [
+            797,
+            57
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 11,
+      "title": "",
+      "subtitles": [],
+      "component_count": 0,
+      "components": []
+    },
+    {
+      "slide": 12,
+      "title": "Algorithm Selection Problem",
+      "subtitles": [],
+      "component_count": 6,
+      "components": [
+        {
+          "slide": 12,
+          "asset": "components/s12_04_group_container.png",
+          "kind": "group_container",
+          "label": "",
+          "emu_bbox": [
+            552450,
+            1295400,
+            2844241,
+            3257550
+          ],
+          "pixel_bbox": [
+            78,
+            160,
+            455,
+            607
+          ],
+          "size_px": [
+            377,
+            447
+          ]
+        },
+        {
+          "slide": 12,
+          "asset": "components/s12_05_group_container.png",
+          "kind": "group_container",
+          "label": "",
+          "emu_bbox": [
+            3524250,
+            1295400,
+            2655189,
+            3257550
+          ],
+          "pixel_bbox": [
+            452,
+            160,
+            820,
+            607
+          ],
+          "size_px": [
+            368,
+            447
+          ]
+        },
+        {
+          "slide": 12,
+          "asset": "components/s12_06_group_container.png",
+          "kind": "group_container",
+          "label": "",
+          "emu_bbox": [
+            6496050,
+            1543050,
+            2190750,
+            2762250
+          ],
+          "pixel_bbox": [
+            842,
+            195,
+            1150,
+            575
+          ],
+          "size_px": [
+            308,
+            380
+          ]
+        },
+        {
+          "slide": 12,
+          "asset": "components/s12_07_group_container.png",
+          "kind": "group_container",
+          "label": "",
+          "emu_bbox": [
+            9201150,
+            1295400,
+            2438400,
+            3257550
+          ],
+          "pixel_bbox": [
+            1197,
+            160,
+            1537,
+            607
+          ],
+          "size_px": [
+            340,
+            447
+          ]
+        },
+        {
+          "slide": 12,
+          "asset": "components/s12_08_group_container.png",
+          "kind": "group_container",
+          "label": "",
+          "emu_bbox": [
+            2933700,
+            2819400,
+            6267450,
+            209550
+          ],
+          "pixel_bbox": [
+            453,
+            360,
+            1217,
+            407
+          ],
+          "size_px": [
+            764,
+            47
+          ]
+        },
+        {
+          "slide": 12,
+          "asset": "components/s12_09_group_container.png",
+          "kind": "group_container",
+          "label": "",
+          "emu_bbox": [
+            1866900,
+            4552950,
+            8553450,
+            1847850
+          ],
+          "pixel_bbox": [
+            235,
+            587,
+            1377,
+            850
+          ],
+          "size_px": [
+            1142,
+            263
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 13,
+      "title": "",
+      "subtitles": [],
+      "component_count": 0,
+      "components": []
+    },
+    {
+      "slide": 14,
+      "title": "Model evolution reduced the problem to its deployable form",
+      "subtitles": [
+        "Regression, timing features, source-aware checks, regret-aware loss, and cascade tests define why v5 is retained."
+      ],
+      "component_count": 13,
+      "components": [
+        {
+          "slide": 14,
+          "asset": "components/s14_06_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            3570160,
+            1428750,
+            5051584,
+            2571750
+          ],
+          "pixel_bbox": [
+            458,
+            188,
+            1141,
+            535
+          ],
+          "size_px": [
+            683,
+            347
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_07_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            502920,
+            4333875,
+            2640330,
+            1000125
+          ],
+          "pixel_bbox": [
+            70,
+            673,
+            422,
+            710
+          ],
+          "size_px": [
+            352,
+            37
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_08_text_block.png",
+          "kind": "text_block",
+          "label": "v1 regressor",
+          "emu_bbox": [
+            1095756,
+            4530090,
+            1399421,
+            352044
+          ],
+          "pixel_bbox": [
+            133,
+            584,
+            337,
+            650
+          ],
+          "size_px": [
+            204,
+            66
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_09_text_block.png",
+          "kind": "text_block",
+          "label": "44.4%; size dominated",
+          "emu_bbox": [
+            863865,
+            4924329,
+            1129141,
+            308039
+          ],
+          "pixel_bbox": [
+            103,
+            673,
+            271,
+            696
+          ],
+          "size_px": [
+            168,
+            23
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_10_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            3524249,
+            4333875,
+            2358601,
+            1000125
+          ],
+          "pixel_bbox": [
+            452,
+            558,
+            782,
+            710
+          ],
+          "size_px": [
+            330,
+            152
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_11_text_block.png",
+          "kind": "text_block",
+          "label": "timing-feature model",
+          "emu_bbox": [
+            3743706,
+            4530090,
+            1885001,
+            352044
+          ],
+          "pixel_bbox": [
+            610,
+            586,
+            748,
+            623
+          ],
+          "size_px": [
+            138,
+            37
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_12_text_block.png",
+          "kind": "text_block",
+          "label": "100%; non-deployable",
+          "emu_bbox": [
+            3744849,
+            4897279,
+            1489586,
+            308039
+          ],
+          "pixel_bbox": [
+            481,
+            673,
+            696,
+            693
+          ],
+          "size_px": [
+            215,
+            20
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_13_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            6172199,
+            4333875,
+            2393807,
+            1000125
+          ],
+          "pixel_bbox": [
+            799,
+            558,
+            1134,
+            710
+          ],
+          "size_px": [
+            335,
+            152
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_14_text_block.png",
+          "kind": "text_block",
+          "label": "v5 XGBoost classifier",
+          "emu_bbox": [
+            6391656,
+            4530090,
+            1583044,
+            352044
+          ],
+          "pixel_bbox": [
+            828,
+            588,
+            1053,
+            623
+          ],
+          "size_px": [
+            225,
+            35
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_15_text_block.png",
+          "kind": "text_block",
+          "label": "main reported selector",
+          "emu_bbox": [
+            6392799,
+            4897279,
+            1648606,
+            308039
+          ],
+          "pixel_bbox": [
+            828,
+            673,
+            1065,
+            693
+          ],
+          "size_px": [
+            237,
+            20
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_16_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8820150,
+            4333875,
+            2990850,
+            1000125
+          ],
+          "pixel_bbox": [
+            1147,
+            558,
+            1560,
+            710
+          ],
+          "size_px": [
+            413,
+            152
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_17_text_block.png",
+          "kind": "text_block",
+          "label": "v6 / v7 / v8 checks",
+          "emu_bbox": [
+            9039606,
+            4530090,
+            1758145,
+            352044
+          ],
+          "pixel_bbox": [
+            1176,
+            584,
+            1242,
+            623
+          ],
+          "size_px": [
+            66,
+            39
+          ]
+        },
+        {
+          "slide": 14,
+          "asset": "components/s14_18_text_block.png",
+          "kind": "text_block",
+          "label": "leakage, objective, boundary",
+          "emu_bbox": [
+            9040749,
+            4897279,
+            1722815,
+            308039
+          ],
+          "pixel_bbox": [
+            1176,
+            673,
+            1422,
+            693
+          ],
+          "size_px": [
+            246,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 15,
+      "title": "Evaluation measures distance from SBS to VBS",
+      "subtitles": [
+        "Accuracy is reported, but selector quality is judged by regret and gap closed."
+      ],
+      "component_count": 15,
+      "components": [
+        {
+          "slide": 15,
+          "asset": "components/s15_06_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            762000,
+            1476375,
+            3333750,
+            2571750
+          ],
+          "pixel_bbox": [
+            90,
+            188,
+            547,
+            541
+          ],
+          "size_px": [
+            457,
+            353
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_07_text_block.png",
+          "kind": "text_block",
+          "label": "SBS",
+          "emu_bbox": [
+            1036320,
+            1804988,
+            725848,
+            440055
+          ],
+          "pixel_bbox": [
+            126,
+            226,
+            241,
+            304
+          ],
+          "size_px": [
+            115,
+            78
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_08_text_block.png",
+          "kind": "text_block",
+          "label": "best fixed algorithm",
+          "emu_bbox": [
+            1038606,
+            2377440,
+            2502027,
+            352044
+          ],
+          "pixel_bbox": [
+            126,
+            302,
+            474,
+            368
+          ],
+          "size_px": [
+            348,
+            66
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_09_text_block.png",
+          "kind": "text_block",
+          "label": "over the evaluation set",
+          "emu_bbox": [
+            1038606,
+            2720340,
+            2102206,
+            352044
+          ],
+          "pixel_bbox": [
+            126,
+            347,
+            422,
+            413
+          ],
+          "size_px": [
+            296,
+            66
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_10_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            4429125,
+            1476375,
+            3333750,
+            2571750
+          ],
+          "pixel_bbox": [
+            571,
+            188,
+            1028,
+            541
+          ],
+          "size_px": [
+            457,
+            353
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_11_text_block.png",
+          "kind": "text_block",
+          "label": "VBS",
+          "emu_bbox": [
+            4703445,
+            1804988,
+            725848,
+            440055
+          ],
+          "pixel_bbox": [
+            607,
+            226,
+            722,
+            304
+          ],
+          "size_px": [
+            115,
+            78
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_12_text_block.png",
+          "kind": "text_block",
+          "label": "oracle fastest algorithm",
+          "emu_bbox": [
+            4705731,
+            2377440,
+            3338017,
+            352044
+          ],
+          "pixel_bbox": [
+            607,
+            302,
+            830,
+            368
+          ],
+          "size_px": [
+            223,
+            66
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_13_text_block.png",
+          "kind": "text_block",
+          "label": "for each array",
+          "emu_bbox": [
+            4705731,
+            2720340,
+            1702384,
+            352044
+          ],
+          "pixel_bbox": [
+            607,
+            347,
+            850,
+            413
+          ],
+          "size_px": [
+            243,
+            66
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_14_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8096250,
+            1476375,
+            3333750,
+            2571750
+          ],
+          "pixel_bbox": [
+            1052,
+            188,
+            1510,
+            541
+          ],
+          "size_px": [
+            458,
+            353
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_15_text_block.png",
+          "kind": "text_block",
+          "label": "Model",
+          "emu_bbox": [
+            8370570,
+            1804988,
+            939895,
+            440055
+          ],
+          "pixel_bbox": [
+            1088,
+            226,
+            1231,
+            304
+          ],
+          "size_px": [
+            143,
+            78
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_16_text_block.png",
+          "kind": "text_block",
+          "label": "choose before execution",
+          "emu_bbox": [
+            8372856,
+            2377440,
+            2635301,
+            352044
+          ],
+          "pixel_bbox": [
+            1213,
+            302,
+            1454,
+            368
+          ],
+          "size_px": [
+            241,
+            66
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_17_text_block.png",
+          "kind": "text_block",
+          "label": "using structural features",
+          "emu_bbox": [
+            8372856,
+            2720340,
+            2308174,
+            352044
+          ],
+          "pixel_bbox": [
+            1213,
+            347,
+            1411,
+            413
+          ],
+          "size_px": [
+            198,
+            66
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_18_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            1152620,
+            4476750,
+            4267010,
+            904875
+          ],
+          "pixel_bbox": [
+            141,
+            577,
+            721,
+            716
+          ],
+          "size_px": [
+            580,
+            139
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_19_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            6572250,
+            4539044,
+            4381500,
+            780383
+          ],
+          "pixel_bbox": [
+            852,
+            585,
+            1447,
+            647
+          ],
+          "size_px": [
+            595,
+            62
+          ]
+        },
+        {
+          "slide": 15,
+          "asset": "components/s15_20_text_block.png",
+          "kind": "text_block",
+          "label": "Gap closed gives the fraction of the SBS-to-VBS improvement captured by the sele",
+          "emu_bbox": [
+            1134999,
+            5640229,
+            8634688,
+            308039
+          ],
+          "pixel_bbox": [
+            179,
+            730,
+            1292,
+            790
+          ],
+          "size_px": [
+            1113,
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 16,
+      "title": "The v5 selector closes most of the SBS-to-VBS gap",
+      "subtitles": [
+        "The reported result is 76.1% top-1 accuracy, 93.1% gap closed, and 89.6% zero regret."
+      ],
+      "component_count": 12,
+      "components": [
+        {
+          "slide": 16,
+          "asset": "components/s16_06_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            762000,
+            1571625,
+            4953000,
+            3381375
+          ],
+          "pixel_bbox": [
+            90,
+            196,
+            760,
+            660
+          ],
+          "size_px": [
+            670,
+            464
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_07_text_block.png",
+          "kind": "text_block",
+          "label": "93.1%",
+          "emu_bbox": [
+            1143000,
+            2130742,
+            2477465,
+            1133475
+          ],
+          "pixel_bbox": [
+            140,
+            269,
+            485,
+            438
+          ],
+          "size_px": [
+            345,
+            169
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_08_text_block.png",
+          "kind": "text_block",
+          "label": "SBS-to-VBS gap closed",
+          "emu_bbox": [
+            1187196,
+            3058478,
+            3149765,
+            498729
+          ],
+          "pixel_bbox": [
+            145,
+            391,
+            579,
+            476
+          ],
+          "size_px": [
+            434,
+            85
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_09_text_block.png",
+          "kind": "text_block",
+          "label": "Regret, not only accuracy,",
+          "emu_bbox": [
+            1191006,
+            3663315,
+            4306824,
+            352044
+          ],
+          "pixel_bbox": [
+            146,
+            470,
+            731,
+            536
+          ],
+          "size_px": [
+            585,
+            66
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_10_text_block.png",
+          "kind": "text_block",
+          "label": "is the main evaluation signal.",
+          "emu_bbox": [
+            1191006,
+            3977640,
+            4852492,
+            352044
+          ],
+          "pixel_bbox": [
+            146,
+            512,
+            803,
+            578
+          ],
+          "size_px": [
+            657,
+            66
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_11_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            6381750,
+            1571625,
+            2286000,
+            1571625
+          ],
+          "pixel_bbox": [
+            827,
+            196,
+            1147,
+            422
+          ],
+          "size_px": [
+            320,
+            226
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_12_text_block.png",
+          "kind": "text_block",
+          "label": "76.1%",
+          "emu_bbox": [
+            6598757,
+            1816418,
+            1851987,
+            847725
+          ],
+          "pixel_bbox": [
+            855,
+            238,
+            1119,
+            359
+          ],
+          "size_px": [
+            264,
+            121
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_13_text_block.png",
+          "kind": "text_block",
+          "label": "top-1 accuracy",
+          "emu_bbox": [
+            6785258,
+            2516029,
+            1478985,
+            308039
+          ],
+          "pixel_bbox": [
+            880,
+            320,
+            1094,
+            380
+          ],
+          "size_px": [
+            214,
+            60
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_14_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            9144000,
+            1571625,
+            2286000,
+            1571625
+          ],
+          "pixel_bbox": [
+            1190,
+            196,
+            1510,
+            422
+          ],
+          "size_px": [
+            320,
+            226
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_15_text_block.png",
+          "kind": "text_block",
+          "label": "89.6%",
+          "emu_bbox": [
+            9361007,
+            1816418,
+            1851987,
+            847725
+          ],
+          "pixel_bbox": [
+            1218,
+            238,
+            1481,
+            359
+          ],
+          "size_px": [
+            263,
+            121
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_16_text_block.png",
+          "kind": "text_block",
+          "label": "zero-regret predictions",
+          "emu_bbox": [
+            9334500,
+            2558700,
+            1245756,
+            308039
+          ],
+          "pixel_bbox": [
+            1215,
+            325,
+            1374,
+            386
+          ],
+          "size_px": [
+            159,
+            61
+          ]
+        },
+        {
+          "slide": 16,
+          "asset": "components/s16_17_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            7505033,
+            3429000,
+            2801779,
+            1952625
+          ],
+          "pixel_bbox": [
+            996,
+            440,
+            1362,
+            716
+          ],
+          "size_px": [
+            366,
+            276
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 17,
+      "title": "Accuracy alone is insufficient for algorithm selection",
+      "subtitles": [
+        "A wrong label can be harmless when the selected and optimal algorithms have nearly equal runtimes."
+      ],
+      "component_count": 8,
+      "components": [
+        {
+          "slide": 17,
+          "asset": "components/s17_06_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            760190,
+            1428750,
+            6480620,
+            4000500
+          ],
+          "pixel_bbox": [
+            89,
+            188,
+            960,
+            722
+          ],
+          "size_px": [
+            871,
+            534
+          ]
+        },
+        {
+          "slide": 17,
+          "asset": "components/s17_07_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            7953375,
+            1619250,
+            3286125,
+            1238250
+          ],
+          "pixel_bbox": [
+            1033,
+            202,
+            1485,
+            385
+          ],
+          "size_px": [
+            452,
+            183
+          ]
+        },
+        {
+          "slide": 17,
+          "asset": "components/s17_08_text_block.png",
+          "kind": "text_block",
+          "label": "76.1%",
+          "emu_bbox": [
+            8225409,
+            1804035,
+            1153293,
+            528066
+          ],
+          "pixel_bbox": [
+            1069,
+            253,
+            1137,
+            272
+          ],
+          "size_px": [
+            68,
+            19
+          ]
+        },
+        {
+          "slide": 17,
+          "asset": "components/s17_09_text_block.png",
+          "kind": "text_block",
+          "label": "top-1 accuracy",
+          "emu_bbox": [
+            8229981,
+            2282190,
+            1702384,
+            352044
+          ],
+          "pixel_bbox": [
+            1070,
+            289,
+            1313,
+            355
+          ],
+          "size_px": [
+            243,
+            66
+          ]
+        },
+        {
+          "slide": 17,
+          "asset": "components/s17_10_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            7953375,
+            3143250,
+            3286125,
+            1238250
+          ],
+          "pixel_bbox": [
+            1033,
+            402,
+            1485,
+            585
+          ],
+          "size_px": [
+            452,
+            183
+          ]
+        },
+        {
+          "slide": 17,
+          "asset": "components/s17_11_text_block.png",
+          "kind": "text_block",
+          "label": "93.1%",
+          "emu_bbox": [
+            8225409,
+            3328035,
+            1153293,
+            528066
+          ],
+          "pixel_bbox": [
+            1069,
+            426,
+            1137,
+            516
+          ],
+          "size_px": [
+            68,
+            90
+          ]
+        },
+        {
+          "slide": 17,
+          "asset": "components/s17_12_text_block.png",
+          "kind": "text_block",
+          "label": "SBS-to-VBS gap closed",
+          "emu_bbox": [
+            8229981,
+            3806190,
+            1229868,
+            352044
+          ],
+          "pixel_bbox": [
+            1070,
+            489,
+            1095,
+            555
+          ],
+          "size_px": [
+            25,
+            66
+          ]
+        },
+        {
+          "slide": 17,
+          "asset": "components/s17_13_text_block.png",
+          "kind": "text_block",
+          "label": "The result is evaluated by regret and gap closed, not accuracy alone.",
+          "emu_bbox": [
+            3006471,
+            5814822,
+            3963348,
+            352044
+          ],
+          "pixel_bbox": [
+            384,
+            753,
+            924,
+            819
+          ],
+          "size_px": [
+            540,
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 18,
+      "title": "Residual error is concentrated at the introsort-heapsort boundary",
+      "subtitles": [
+        "Timsort has a strong structural trace; introsort and heapsort often depend on lower-level effects."
+      ],
+      "component_count": 10,
+      "components": [
+        {
+          "slide": 18,
+          "asset": "components/s18_06_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            769906,
+            1428750,
+            5413343,
+            4429125
+          ],
+          "pixel_bbox": [
+            91,
+            188,
+            821,
+            778
+          ],
+          "size_px": [
+            730,
+            590
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_07_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            6858000,
+            1619250,
+            4191000,
+            1143000
+          ],
+          "pixel_bbox": [
+            890,
+            202,
+            1460,
+            372
+          ],
+          "size_px": [
+            570,
+            170
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_08_text_block.png",
+          "kind": "text_block",
+          "label": "94.5%",
+          "emu_bbox": [
+            7130034,
+            1804035,
+            1153293,
+            528066
+          ],
+          "pixel_bbox": [
+            1071,
+            246,
+            1097,
+            316
+          ],
+          "size_px": [
+            26,
+            70
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_09_text_block.png",
+          "kind": "text_block",
+          "label": "timsort recall",
+          "emu_bbox": [
+            7134606,
+            2282190,
+            1690268,
+            352044
+          ],
+          "pixel_bbox": [
+            1071,
+            289,
+            1168,
+            355
+          ],
+          "size_px": [
+            97,
+            66
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_10_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            6858000,
+            3143250,
+            5193792,
+            1762125
+          ],
+          "pixel_bbox": [
+            890,
+            402,
+            1591,
+            653
+          ],
+          "size_px": [
+            701,
+            251
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_11_text_block.png",
+          "kind": "text_block",
+          "label": "Interpretation",
+          "emu_bbox": [
+            7132320,
+            3395662,
+            2368296,
+            440055
+          ],
+          "pixel_bbox": [
+            937,
+            435,
+            1256,
+            513
+          ],
+          "size_px": [
+            319,
+            78
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_12_text_block.png",
+          "kind": "text_block",
+          "label": "timsort is separable when runs/order are visible.",
+          "emu_bbox": [
+            7130034,
+            3675098,
+            5967558,
+            352044
+          ],
+          "pixel_bbox": [
+            925,
+            486,
+            1728,
+            538
+          ],
+          "size_px": [
+            803,
+            52
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_13_text_block.png",
+          "kind": "text_block",
+          "label": "introsort and heapsort remain close in the current feature space.",
+          "emu_bbox": [
+            7130034,
+            4089630,
+            4624143,
+            553998
+          ],
+          "pixel_bbox": [
+            925,
+            526,
+            1552,
+            619
+          ],
+          "size_px": [
+            627,
+            93
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_14_text_block.png",
+          "kind": "text_block",
+          "label": "Most residual boundary errors",
+          "emu_bbox": [
+            6848856,
+            5282565,
+            4669675,
+            352044
+          ],
+          "pixel_bbox": [
+            888,
+            683,
+            1521,
+            749
+          ],
+          "size_px": [
+            633,
+            66
+          ]
+        },
+        {
+          "slide": 18,
+          "asset": "components/s18_15_text_block.png",
+          "kind": "text_block",
+          "label": "carry low measured regret.",
+          "emu_bbox": [
+            6848856,
+            5615940,
+            4222471,
+            352044
+          ],
+          "pixel_bbox": [
+            1071,
+            727,
+            1462,
+            781
+          ],
+          "size_px": [
+            391,
+            54
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 19,
+      "title": "Feature importance follows structural sorting signals",
+      "subtitles": [
+        "Length, repetition, and ordering account for most of the discriminative signal."
+      ],
+      "component_count": 10,
+      "components": [
+        {
+          "slide": 19,
+          "asset": "components/s19_06_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            1203579,
+            1381125,
+            6165247,
+            4238625
+          ],
+          "pixel_bbox": [
+            147,
+            171,
+            977,
+            747
+          ],
+          "size_px": [
+            830,
+            576
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_07_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8382000,
+            1545000,
+            2857500,
+            1380000
+          ],
+          "pixel_bbox": [
+            1090,
+            192,
+            1485,
+            393
+          ],
+          "size_px": [
+            395,
+            201
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_08_text_block.png",
+          "kind": "text_block",
+          "label": "Ordering",
+          "emu_bbox": [
+            8658606,
+            1820000,
+            2500000,
+            300000
+          ],
+          "pixel_bbox": [
+            1311,
+            234,
+            1474,
+            288
+          ],
+          "size_px": [
+            163,
+            54
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_09_text_block.png",
+          "kind": "text_block",
+          "label": "longest_run_ratio runs_ratio adj_sorted_ratio",
+          "emu_bbox": [
+            8659749,
+            2240000,
+            2450000,
+            620000
+          ],
+          "pixel_bbox": [
+            1311,
+            283,
+            1467,
+            385
+          ],
+          "size_px": [
+            156,
+            102
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_10_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8382000,
+            3200000,
+            2857500,
+            1380000
+          ],
+          "pixel_bbox": [
+            1311,
+            409,
+            1485,
+            611
+          ],
+          "size_px": [
+            174,
+            202
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_11_text_block.png",
+          "kind": "text_block",
+          "label": "Repetition / diversity",
+          "emu_bbox": [
+            8658606,
+            3480000,
+            2550000,
+            300000
+          ],
+          "pixel_bbox": [
+            1311,
+            446,
+            1480,
+            506
+          ],
+          "size_px": [
+            169,
+            60
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_12_text_block.png",
+          "kind": "text_block",
+          "label": "top5_freq_ratio duplicate_ratio entropy_ratio",
+          "emu_bbox": [
+            8659749,
+            3900000,
+            2450000,
+            620000
+          ],
+          "pixel_bbox": [
+            1311,
+            501,
+            1467,
+            603
+          ],
+          "size_px": [
+            156,
+            102
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_13_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8382000,
+            4860000,
+            2857500,
+            1180000
+          ],
+          "pixel_bbox": [
+            1090,
+            627,
+            1485,
+            802
+          ],
+          "size_px": [
+            395,
+            175
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_14_text_block.png",
+          "kind": "text_block",
+          "label": "Size / scale",
+          "emu_bbox": [
+            8658606,
+            5120000,
+            2450000,
+            300000
+          ],
+          "pixel_bbox": [
+            1311,
+            661,
+            1467,
+            721
+          ],
+          "size_px": [
+            156,
+            60
+          ]
+        },
+        {
+          "slide": 19,
+          "asset": "components/s19_15_text_block.png",
+          "kind": "text_block",
+          "label": "length_norm robust scale descriptors",
+          "emu_bbox": [
+            8659749,
+            5520000,
+            2450000,
+            420000
+          ],
+          "pixel_bbox": [
+            1311,
+            714,
+            1467,
+            789
+          ],
+          "size_px": [
+            156,
+            75
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 20,
+      "title": "Leave-one-domain-out testing supports cross-domain robustness",
+      "subtitles": [
+        "Each fold trains on four domains and tests on the unseen fifth domain."
+      ],
+      "component_count": 9,
+      "components": [
+        {
+          "slide": 20,
+          "asset": "components/s20_06_figure.png",
+          "kind": "figure",
+          "label": "",
+          "emu_bbox": [
+            790194,
+            1381125,
+            6992017,
+            4333875
+          ],
+          "pixel_bbox": [
+            93,
+            188,
+            1031,
+            760
+          ],
+          "size_px": [
+            938,
+            572
+          ]
+        },
+        {
+          "slide": 20,
+          "asset": "components/s20_07_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8382000,
+            1695450,
+            2857500,
+            1476375
+          ],
+          "pixel_bbox": [
+            1090,
+            250,
+            1485,
+            426
+          ],
+          "size_px": [
+            395,
+            176
+          ]
+        },
+        {
+          "slide": 20,
+          "asset": "components/s20_08_text_block.png",
+          "kind": "text_block",
+          "label": ">75%",
+          "emu_bbox": [
+            8884757,
+            1959292,
+            1851987,
+            847725
+          ],
+          "pixel_bbox": [
+            1155,
+            250,
+            1419,
+            378
+          ],
+          "size_px": [
+            264,
+            128
+          ]
+        },
+        {
+          "slide": 20,
+          "asset": "components/s20_09_text_block.png",
+          "kind": "text_block",
+          "label": "gap closed in every fold",
+          "emu_bbox": [
+            8779721,
+            2639854,
+            2062058,
+            308039
+          ],
+          "pixel_bbox": [
+            1142,
+            336,
+            1432,
+            396
+          ],
+          "size_px": [
+            290,
+            60
+          ]
+        },
+        {
+          "slide": 20,
+          "asset": "components/s20_10_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8382000,
+            3524250,
+            3162300,
+            1809750
+          ],
+          "pixel_bbox": [
+            1090,
+            452,
+            1525,
+            710
+          ],
+          "size_px": [
+            435,
+            258
+          ]
+        },
+        {
+          "slide": 20,
+          "asset": "components/s20_11_text_block.png",
+          "kind": "text_block",
+          "label": "F1 sensitivity",
+          "emu_bbox": [
+            8658606,
+            3806190,
+            2229924,
+            352044
+          ],
+          "pixel_bbox": [
+            1126,
+            489,
+            1438,
+            555
+          ],
+          "size_px": [
+            312,
+            66
+          ]
+        },
+        {
+          "slide": 20,
+          "asset": "components/s20_12_text_block.png",
+          "kind": "text_block",
+          "label": "F1 telemetry is the weakest",
+          "emu_bbox": [
+            8504210,
+            4240489,
+            2776027,
+            308039
+          ],
+          "pixel_bbox": [
+            1106,
+            546,
+            1490,
+            606
+          ],
+          "size_px": [
+            384,
+            60
+          ]
+        },
+        {
+          "slide": 20,
+          "asset": "components/s20_13_text_block.png",
+          "kind": "text_block",
+          "label": "held-out fold because it contains",
+          "emu_bbox": [
+            8500219,
+            4543452,
+            2973772,
+            308039
+          ],
+          "pixel_bbox": [
+            1105,
+            586,
+            1515,
+            646
+          ],
+          "size_px": [
+            410,
+            60
+          ]
+        },
+        {
+          "slide": 20,
+          "asset": "components/s20_14_text_block.png",
+          "kind": "text_block",
+          "label": "many distinct channel regimes.",
+          "emu_bbox": [
+            8500219,
+            4832549,
+            2888352,
+            308039
+          ],
+          "pixel_bbox": [
+            1105,
+            624,
+            1504,
+            684
+          ],
+          "size_px": [
+            399,
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 21,
+      "title": "",
+      "subtitles": [],
+      "component_count": 0,
+      "components": []
+    },
+    {
+      "slide": 22,
+      "title": "Strict checks define the boundary of the reported result",
+      "subtitles": [
+        "The reported result stays with v5; later variants explain leakage risk, objective risk, and the hard boundary."
+      ],
+      "component_count": 15,
+      "components": [
+        {
+          "slide": 22,
+          "asset": "components/s22_06_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            762000,
+            1476375,
+            3498708,
+            3619500
+          ],
+          "pixel_bbox": [
+            90,
+            188,
+            569,
+            678
+          ],
+          "size_px": [
+            479,
+            490
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_07_text_block.png",
+          "kind": "text_block",
+          "label": "v6 source-aware",
+          "emu_bbox": [
+            1036320,
+            1804988,
+            2630786,
+            440055
+          ],
+          "pixel_bbox": [
+            126,
+            226,
+            491,
+            304
+          ],
+          "size_px": [
+            365,
+            78
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_08_text_block.png",
+          "kind": "text_block",
+          "label": "71.2% accuracy; 45.6% gap closed.",
+          "emu_bbox": [
+            1038606,
+            2425065,
+            3416696,
+            352044
+          ],
+          "pixel_bbox": [
+            126,
+            308,
+            594,
+            374
+          ],
+          "size_px": [
+            468,
+            66
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_09_text_block.png",
+          "kind": "text_block",
+          "label": "source separation became",
+          "emu_bbox": [
+            1038606,
+            2806065,
+            3010042,
+            352044
+          ],
+          "pixel_bbox": [
+            126,
+            358,
+            541,
+            424
+          ],
+          "size_px": [
+            415,
+            66
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_10_text_block.png",
+          "kind": "text_block",
+          "label": "part of the evaluation protocol.",
+          "emu_bbox": [
+            1038606,
+            3187065,
+            2502027,
+            352044
+          ],
+          "pixel_bbox": [
+            126,
+            408,
+            474,
+            474
+          ],
+          "size_px": [
+            348,
+            66
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_11_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            4476750,
+            1476375,
+            3238500,
+            3619500
+          ],
+          "pixel_bbox": [
+            577,
+            188,
+            1022,
+            678
+          ],
+          "size_px": [
+            445,
+            490
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_12_text_block.png",
+          "kind": "text_block",
+          "label": "v7 regret-aware",
+          "emu_bbox": [
+            4751070,
+            1804988,
+            2630786,
+            440055
+          ],
+          "pixel_bbox": [
+            613,
+            226,
+            978,
+            304
+          ],
+          "size_px": [
+            365,
+            78
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_13_text_block.png",
+          "kind": "text_block",
+          "label": "regret-weighted loss",
+          "emu_bbox": [
+            4753356,
+            2425065,
+            3323558,
+            352044
+          ],
+          "pixel_bbox": [
+            613,
+            308,
+            991,
+            374
+          ],
+          "size_px": [
+            378,
+            66
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_14_text_block.png",
+          "kind": "text_block",
+          "label": "was less stable:",
+          "emu_bbox": [
+            4753356,
+            2806065,
+            2574722,
+            352044
+          ],
+          "pixel_bbox": [
+            613,
+            358,
+            971,
+            424
+          ],
+          "size_px": [
+            358,
+            66
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_15_text_block.png",
+          "kind": "text_block",
+          "label": "78.1% gap closed.",
+          "emu_bbox": [
+            4753356,
+            3187065,
+            866394,
+            352044
+          ],
+          "pixel_bbox": [
+            613,
+            408,
+            714,
+            474
+          ],
+          "size_px": [
+            101,
+            66
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_16_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            8191500,
+            1476375,
+            3238500,
+            3619500
+          ],
+          "pixel_bbox": [
+            1065,
+            188,
+            1510,
+            678
+          ],
+          "size_px": [
+            445,
+            490
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_17_text_block.png",
+          "kind": "text_block",
+          "label": "v8 cascade",
+          "emu_bbox": [
+            8465820,
+            1804988,
+            1692569,
+            440055
+          ],
+          "pixel_bbox": [
+            1101,
+            226,
+            1343,
+            304
+          ],
+          "size_px": [
+            242,
+            78
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_18_text_block.png",
+          "kind": "text_block",
+          "label": "Stage 2 AUC = 0.603",
+          "emu_bbox": [
+            8468106,
+            2425065,
+            2471532,
+            352044
+          ],
+          "pixel_bbox": [
+            1206,
+            308,
+            1445,
+            374
+          ],
+          "size_px": [
+            239,
+            66
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_19_text_block.png",
+          "kind": "text_block",
+          "label": "for introsort vs heapsort;",
+          "emu_bbox": [
+            8468106,
+            2806065,
+            2356637,
+            352044
+          ],
+          "pixel_bbox": [
+            1206,
+            358,
+            1430,
+            424
+          ],
+          "size_px": [
+            224,
+            66
+          ]
+        },
+        {
+          "slide": 22,
+          "asset": "components/s22_20_text_block.png",
+          "kind": "text_block",
+          "label": "Stage 1 AUC = 0.982.",
+          "emu_bbox": [
+            8468106,
+            3187065,
+            1884121,
+            352044
+          ],
+          "pixel_bbox": [
+            1206,
+            408,
+            1368,
+            474
+          ],
+          "size_px": [
+            162,
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 23,
+      "title": "Conclusion",
+      "subtitles": [
+        "Sixteen O(n) structural features are enough to support useful per-instance sorting decisions."
+      ],
+      "component_count": 12,
+      "components": [
+        {
+          "slide": 23,
+          "asset": "components/s23_06_text_block.png",
+          "kind": "text_block",
+          "label": "The selector improves practical runtime even when top-1 accuracy is imperfect.",
+          "emu_bbox": [
+            1238250,
+            2000250,
+            9715500,
+            400050
+          ],
+          "pixel_bbox": [
+            152,
+            252,
+            1447,
+            325
+          ],
+          "size_px": [
+            1295,
+            73
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_07_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            1762125,
+            2905125,
+            2381250,
+            1095375
+          ],
+          "pixel_bbox": [
+            265,
+            448,
+            553,
+            535
+          ],
+          "size_px": [
+            288,
+            87
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_08_text_block.png",
+          "kind": "text_block",
+          "label": "76.1%",
+          "emu_bbox": [
+            1914525,
+            3124200,
+            2076450,
+            304800
+          ],
+          "pixel_bbox": [
+            266,
+            448,
+            533,
+            460
+          ],
+          "size_px": [
+            267,
+            12
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_09_text_block.png",
+          "kind": "text_block",
+          "label": "top-1 accuracy",
+          "emu_bbox": [
+            1933575,
+            3543300,
+            2038350,
+            190500
+          ],
+          "pixel_bbox": [
+            265,
+            455,
+            531,
+            500
+          ],
+          "size_px": [
+            266,
+            45
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_10_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            4762500,
+            2905125,
+            2381250,
+            1095375
+          ],
+          "pixel_bbox": [
+            615,
+            448,
+            947,
+            535
+          ],
+          "size_px": [
+            332,
+            87
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_11_text_block.png",
+          "kind": "text_block",
+          "label": "93.1%",
+          "emu_bbox": [
+            4914900,
+            3124200,
+            2076450,
+            304800
+          ],
+          "pixel_bbox": [
+            635,
+            448,
+            927,
+            460
+          ],
+          "size_px": [
+            292,
+            12
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_12_text_block.png",
+          "kind": "text_block",
+          "label": "SBS-to-VBS gap closed",
+          "emu_bbox": [
+            4933950,
+            3543300,
+            2038350,
+            190500
+          ],
+          "pixel_bbox": [
+            637,
+            455,
+            925,
+            500
+          ],
+          "size_px": [
+            288,
+            45
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_13_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            7762875,
+            2905125,
+            2381250,
+            1095375
+          ],
+          "pixel_bbox": [
+            1008,
+            448,
+            1341,
+            535
+          ],
+          "size_px": [
+            333,
+            87
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_14_text_block.png",
+          "kind": "text_block",
+          "label": "89.6%",
+          "emu_bbox": [
+            7915275,
+            3124200,
+            2076450,
+            304800
+          ],
+          "pixel_bbox": [
+            1028,
+            448,
+            1321,
+            460
+          ],
+          "size_px": [
+            293,
+            12
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_15_text_block.png",
+          "kind": "text_block",
+          "label": "zero-regret predictions",
+          "emu_bbox": [
+            7934325,
+            3543300,
+            2038350,
+            190500
+          ],
+          "pixel_bbox": [
+            1031,
+            455,
+            1318,
+            500
+          ],
+          "size_px": [
+            287,
+            45
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_16_text_block.png",
+          "kind": "text_block",
+          "label": "The strongest cases are arrays where order, runs, and repetition leave a visible",
+          "emu_bbox": [
+            1571625,
+            4572000,
+            9048750,
+            323850
+          ],
+          "pixel_bbox": [
+            265,
+            590,
+            1403,
+            647
+          ],
+          "size_px": [
+            1138,
+            57
+          ]
+        },
+        {
+          "slide": 23,
+          "asset": "components/s23_17_text_block.png",
+          "kind": "text_block",
+          "label": "The main residual weakness is the introsort-heapsort boundary, where current val",
+          "emu_bbox": [
+            1571625,
+            5095875,
+            9048750,
+            323850
+          ],
+          "pixel_bbox": [
+            196,
+            658,
+            1403,
+            721
+          ],
+          "size_px": [
+            1207,
+            63
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 24,
+      "title": "Contributions",
+      "subtitles": [
+        "The contributions are the selector, the evaluation discipline, and the reproducible artefact."
+      ],
+      "component_count": 10,
+      "components": [
+        {
+          "slide": 24,
+          "asset": "components/s24_06_text_block.png",
+          "kind": "text_block",
+          "label": "01",
+          "emu_bbox": [
+            1143000,
+            2000250,
+            400050,
+            228600
+          ],
+          "pixel_bbox": [
+            140,
+            252,
+            212,
+            302
+          ],
+          "size_px": [
+            72,
+            50
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_07_text_block.png",
+          "kind": "text_block",
+          "label": "A deployable selector",
+          "emu_bbox": [
+            1714500,
+            2000250,
+            9334500,
+            228600
+          ],
+          "pixel_bbox": [
+            215,
+            252,
+            1460,
+            302
+          ],
+          "size_px": [
+            1245,
+            50
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_08_text_block.png",
+          "kind": "text_block",
+          "label": "A compact pipeline combines sixteen O(n) structural features with a gradient-boo",
+          "emu_bbox": [
+            1714500,
+            2324100,
+            9334500,
+            361950
+          ],
+          "pixel_bbox": [
+            215,
+            313,
+            578,
+            360
+          ],
+          "size_px": [
+            363,
+            47
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_10_text_block.png",
+          "kind": "text_block",
+          "label": "02",
+          "emu_bbox": [
+            1143000,
+            3143250,
+            400050,
+            228600
+          ],
+          "pixel_bbox": [
+            140,
+            402,
+            212,
+            452
+          ],
+          "size_px": [
+            72,
+            50
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_11_text_block.png",
+          "kind": "text_block",
+          "label": "A rigorous evaluation framework",
+          "emu_bbox": [
+            1714500,
+            3143250,
+            9334500,
+            228600
+          ],
+          "pixel_bbox": [
+            259,
+            402,
+            1460,
+            452
+          ],
+          "size_px": [
+            1201,
+            50
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_12_text_block.png",
+          "kind": "text_block",
+          "label": "Source-level separation, near-tie filtering, LODO testing, and regret metrics gi",
+          "emu_bbox": [
+            1714500,
+            3467100,
+            9334500,
+            361950
+          ],
+          "pixel_bbox": [
+            215,
+            445,
+            1460,
+            512
+          ],
+          "size_px": [
+            1245,
+            67
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_14_text_block.png",
+          "kind": "text_block",
+          "label": "03",
+          "emu_bbox": [
+            1143000,
+            4286250,
+            400050,
+            228600
+          ],
+          "pixel_bbox": [
+            140,
+            552,
+            212,
+            602
+          ],
+          "size_px": [
+            72,
+            50
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_15_text_block.png",
+          "kind": "text_block",
+          "label": "A reproducible artefact",
+          "emu_bbox": [
+            1714500,
+            4286250,
+            9334500,
+            228600
+          ],
+          "pixel_bbox": [
+            263,
+            552,
+            1458,
+            602
+          ],
+          "size_px": [
+            1195,
+            50
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_16_text_block.png",
+          "kind": "text_block",
+          "label": "One source-of-truth feature extractor, data pipeline, and exported XGBoost JSON ",
+          "emu_bbox": [
+            1714500,
+            4610100,
+            9334500,
+            361950
+          ],
+          "pixel_bbox": [
+            259,
+            595,
+            1460,
+            641
+          ],
+          "size_px": [
+            1201,
+            46
+          ]
+        },
+        {
+          "slide": 24,
+          "asset": "components/s24_18_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            1428750,
+            5810250,
+            9334500,
+            209550
+          ],
+          "pixel_bbox": [
+            263,
+            752,
+            1422,
+            800
+          ],
+          "size_px": [
+            1159,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 25,
+      "title": "Limitations and Future Work",
+      "subtitles": [
+        "The limits are portfolio scope, single hardware setting, unvalidated online adaptation, and small-array overhead."
+      ],
+      "component_count": 13,
+      "components": [
+        {
+          "slide": 25,
+          "asset": "components/s25_06_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            1190625,
+            2143125,
+            4381500,
+            3001518
+          ],
+          "pixel_bbox": [
+            174,
+            327,
+            741,
+            685
+          ],
+          "size_px": [
+            567,
+            358
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_07_text_block.png",
+          "kind": "text_block",
+          "label": "Limitations",
+          "emu_bbox": [
+            1438275,
+            2390775,
+            3886200,
+            228600
+          ],
+          "pixel_bbox": [
+            178,
+            327,
+            708,
+            353
+          ],
+          "size_px": [
+            530,
+            26
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_08_text_block.png",
+          "kind": "text_block",
+          "label": "portfolio limited to three C-level comparison sorts",
+          "emu_bbox": [
+            1514475,
+            2867025,
+            3733800,
+            285750
+          ],
+          "pixel_bbox": [
+            188,
+            366,
+            698,
+            423
+          ],
+          "size_px": [
+            510,
+            57
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_09_text_block.png",
+          "kind": "text_block",
+          "label": "absolute regret tied to one hardware/software environment",
+          "emu_bbox": [
+            1514475,
+            3324225,
+            3733800,
+            285750
+          ],
+          "pixel_bbox": [
+            188,
+            426,
+            698,
+            483
+          ],
+          "size_px": [
+            510,
+            57
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_10_text_block.png",
+          "kind": "text_block",
+          "label": "LinUCB contextual bandit designed but not validated",
+          "emu_bbox": [
+            1514475,
+            3781425,
+            3733800,
+            285750
+          ],
+          "pixel_bbox": [
+            188,
+            486,
+            698,
+            543
+          ],
+          "size_px": [
+            510,
+            57
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_11_text_block.png",
+          "kind": "text_block",
+          "label": "feature extraction becomes unprofitable below about 1,000 elements",
+          "emu_bbox": [
+            1514475,
+            4238625,
+            3733800,
+            285750
+          ],
+          "pixel_bbox": [
+            188,
+            546,
+            698,
+            603
+          ],
+          "size_px": [
+            510,
+            57
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_12_shape_container.png",
+          "kind": "shape_container",
+          "label": "",
+          "emu_bbox": [
+            6619875,
+            2143125,
+            4381500,
+            2857500
+          ],
+          "pixel_bbox": [
+            858,
+            327,
+            1453,
+            666
+          ],
+          "size_px": [
+            595,
+            339
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_13_text_block.png",
+          "kind": "text_block",
+          "label": "Future work",
+          "emu_bbox": [
+            6867525,
+            2390775,
+            3886200,
+            228600
+          ],
+          "pixel_bbox": [
+            1030,
+            328,
+            1421,
+            353
+          ],
+          "size_px": [
+            391,
+            25
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_14_text_block.png",
+          "kind": "text_block",
+          "label": "larger portfolios: Powersort, radix/bucket guards, SIMD/GPU sorts",
+          "emu_bbox": [
+            6943725,
+            2867025,
+            3733800,
+            285750
+          ],
+          "pixel_bbox": [
+            1030,
+            366,
+            1310,
+            423
+          ],
+          "size_px": [
+            280,
+            57
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_15_text_block.png",
+          "kind": "text_block",
+          "label": "validated LinUCB under gradual and abrupt distribution shift",
+          "emu_bbox": [
+            6943725,
+            3324225,
+            3733800,
+            285750
+          ],
+          "pixel_bbox": [
+            1030,
+            426,
+            1411,
+            483
+          ],
+          "size_px": [
+            381,
+            57
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_16_text_block.png",
+          "kind": "text_block",
+          "label": "domain embeddings and stricter channel-level routing evaluation",
+          "emu_bbox": [
+            6943725,
+            3781425,
+            3733800,
+            285750
+          ],
+          "pixel_bbox": [
+            1030,
+            486,
+            1411,
+            543
+          ],
+          "size_px": [
+            381,
+            57
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_17_text_block.png",
+          "kind": "text_block",
+          "label": "cross-platform deployment with feature-extraction overhead",
+          "emu_bbox": [
+            6943725,
+            4238625,
+            3733800,
+            285750
+          ],
+          "pixel_bbox": [
+            1030,
+            546,
+            1411,
+            603
+          ],
+          "size_px": [
+            381,
+            57
+          ]
+        },
+        {
+          "slide": 25,
+          "asset": "components/s25_18_text_block.png",
+          "kind": "text_block",
+          "label": "Future work extends the portfolio, adaptation, and generalisation axes while pre",
+          "emu_bbox": [
+            1524000,
+            5667375,
+            9144000,
+            228600
+          ],
+          "pixel_bbox": [
+            190,
+            733,
+            1410,
+            783
+          ],
+          "size_px": [
+            1220,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "slide": 26,
+      "title": "",
+      "subtitles": [],
+      "component_count": 2,
+      "components": [
+        {
+          "slide": 26,
+          "asset": "components/s26_04_text_block.png",
+          "kind": "text_block",
+          "label": "Thank you",
+          "emu_bbox": [
+            914400,
+            2057400,
+            10363200,
+            914400
+          ],
+          "pixel_bbox": [
+            652,
+            350,
+            1261,
+            400
+          ],
+          "size_px": [
+            609,
+            50
+          ]
+        },
+        {
+          "slide": 26,
+          "asset": "components/s26_05_text_block.png",
+          "kind": "text_block",
+          "label": "Questions?",
+          "emu_bbox": [
+            914400,
+            2999232,
+            10363200,
+            685800
+          ],
+          "pixel_bbox": [
+            674,
+            383,
+            1261,
+            483
+          ],
+          "size_px": [
+            587,
+            100
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "slide": 1,
+      "asset": "components/s01_03_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        10515600,
+        114300,
+        590550,
+        590550
+      ],
+      "pixel_bbox": [
+        1370,
+        5,
+        1467,
+        102
+      ],
+      "size_px": [
+        97,
+        97
+      ]
+    },
+    {
+      "slide": 1,
+      "asset": "components/s01_04_group_container.png",
+      "kind": "group_container",
+      "label": "",
+      "emu_bbox": [
+        1066799,
+        1658112,
+        10058400,
+        1554194
+      ],
+      "pixel_bbox": [
+        267,
+        266,
+        1469,
+        418
+      ],
+      "size_px": [
+        1202,
+        152
+      ]
+    },
+    {
+      "slide": 1,
+      "asset": "components/s01_05_group_container.png",
+      "kind": "group_container",
+      "label": "",
+      "emu_bbox": [
+        3234551,
+        3728513,
+        5486733,
+        1496377
+      ],
+      "pixel_bbox": [
+        414,
+        494,
+        1154,
+        679
+      ],
+      "size_px": [
+        740,
+        185
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_07_text_block.png",
+      "kind": "text_block",
+      "label": "01",
+      "emu_bbox": [
+        1123950,
+        1733550,
+        552450,
+        285750
+      ],
+      "pixel_bbox": [
+        137,
+        217,
+        230,
+        275
+      ],
+      "size_px": [
+        93,
+        58
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_08_text_block.png",
+      "kind": "text_block",
+      "label": "Problem, Motivation, and Prior Work",
+      "emu_bbox": [
+        1809750,
+        1695450,
+        4191000,
+        400050
+      ],
+      "pixel_bbox": [
+        279,
+        270,
+        785,
+        285
+      ],
+      "size_px": [
+        506,
+        15
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_10_text_block.png",
+      "kind": "text_block",
+      "label": "02",
+      "emu_bbox": [
+        1123950,
+        2857500,
+        552450,
+        285750
+      ],
+      "pixel_bbox": [
+        137,
+        365,
+        230,
+        422
+      ],
+      "size_px": [
+        93,
+        57
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_11_text_block.png",
+      "kind": "text_block",
+      "label": "Data Collection, Labels, and Features",
+      "emu_bbox": [
+        1809750,
+        2819400,
+        4191000,
+        400050
+      ],
+      "pixel_bbox": [
+        227,
+        360,
+        797,
+        432
+      ],
+      "size_px": [
+        570,
+        72
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_13_text_block.png",
+      "kind": "text_block",
+      "label": "03",
+      "emu_bbox": [
+        1123950,
+        3981450,
+        552450,
+        285750
+      ],
+      "pixel_bbox": [
+        137,
+        512,
+        230,
+        570
+      ],
+      "size_px": [
+        93,
+        58
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_14_text_block.png",
+      "kind": "text_block",
+      "label": "Algorithm Selection Task and v5 Selector",
+      "emu_bbox": [
+        1809750,
+        3943350,
+        4191000,
+        400050
+      ],
+      "pixel_bbox": [
+        275,
+        516,
+        797,
+        544
+      ],
+      "size_px": [
+        522,
+        28
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_16_text_block.png",
+      "kind": "text_block",
+      "label": "04",
+      "emu_bbox": [
+        6496050,
+        1733550,
+        552450,
+        285750
+      ],
+      "pixel_bbox": [
+        842,
+        217,
+        935,
+        275
+      ],
+      "size_px": [
+        93,
+        58
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_17_text_block.png",
+      "kind": "text_block",
+      "label": "Evaluation: SBS, VBS, Regret",
+      "emu_bbox": [
+        7181850,
+        1695450,
+        4191000,
+        400050
+      ],
+      "pixel_bbox": [
+        948,
+        256,
+        1469,
+        285
+      ],
+      "size_px": [
+        521,
+        29
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_19_text_block.png",
+      "kind": "text_block",
+      "label": "05",
+      "emu_bbox": [
+        6496050,
+        2857500,
+        552450,
+        285750
+      ],
+      "pixel_bbox": [
+        842,
+        365,
+        935,
+        422
+      ],
+      "size_px": [
+        93,
+        57
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_20_text_block.png",
+      "kind": "text_block",
+      "label": "Rigor, Generalisation, and Scope",
+      "emu_bbox": [
+        7181850,
+        2819400,
+        4191000,
+        400050
+      ],
+      "pixel_bbox": [
+        954,
+        360,
+        984,
+        432
+      ],
+      "size_px": [
+        30,
+        72
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_22_text_block.png",
+      "kind": "text_block",
+      "label": "06",
+      "emu_bbox": [
+        6496050,
+        3981450,
+        552450,
+        285750
+      ],
+      "pixel_bbox": [
+        842,
+        516,
+        935,
+        544
+      ],
+      "size_px": [
+        93,
+        28
+      ]
+    },
+    {
+      "slide": 2,
+      "asset": "components/s02_23_text_block.png",
+      "kind": "text_block",
+      "label": "Contributions, Limits, and Q&A",
+      "emu_bbox": [
+        7181850,
+        3943350,
+        4191000,
+        400050
+      ],
+      "pixel_bbox": [
+        932,
+        507,
+        1502,
+        580
+      ],
+      "size_px": [
+        570,
+        73
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_06_text_block.png",
+      "kind": "text_block",
+      "label": "1.18M",
+      "emu_bbox": [
+        685800,
+        1416368,
+        3305928,
+        1133475
+      ],
+      "pixel_bbox": [
+        80,
+        184,
+        533,
+        344
+      ],
+      "size_px": [
+        453,
+        160
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_07_text_block.png",
+      "kind": "text_block",
+      "label": "labeled array instances",
+      "emu_bbox": [
+        750570,
+        2252662,
+        3475863,
+        440055
+      ],
+      "pixel_bbox": [
+        112,
+        285,
+        449,
+        350
+      ],
+      "size_px": [
+        337,
+        65
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_08_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        762000,
+        3048000,
+        2381250,
+        952500
+      ],
+      "pixel_bbox": [
+        111,
+        390,
+        422,
+        535
+      ],
+      "size_px": [
+        311,
+        145
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_09_text_block.png",
+      "kind": "text_block",
+      "label": "Formula 1 telemetry",
+      "emu_bbox": [
+        954672,
+        3376612,
+        1995907,
+        440055
+      ],
+      "pixel_bbox": [
+        115,
+        471,
+        397,
+        510
+      ],
+      "size_px": [
+        282,
+        39
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_10_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        3524250,
+        3048000,
+        2381250,
+        952500
+      ],
+      "pixel_bbox": [
+        452,
+        390,
+        785,
+        535
+      ],
+      "size_px": [
+        333,
+        145
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_11_text_block.png",
+      "kind": "text_block",
+      "label": "Equity prices",
+      "emu_bbox": [
+        4258675,
+        3376612,
+        912400,
+        440055
+      ],
+      "pixel_bbox": [
+        548,
+        471,
+        688,
+        510
+      ],
+      "size_px": [
+        140,
+        39
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_12_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        6286500,
+        3048000,
+        2381250,
+        952500
+      ],
+      "pixel_bbox": [
+        815,
+        471,
+        1147,
+        535
+      ],
+      "size_px": [
+        332,
+        64
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_13_text_block.png",
+      "kind": "text_block",
+      "label": "Cryptocurrency OHLCV",
+      "emu_bbox": [
+        6441574,
+        3368720,
+        1078992,
+        440055
+      ],
+      "pixel_bbox": [
+        835,
+        471,
+        996,
+        509
+      ],
+      "size_px": [
+        161,
+        38
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_14_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        9048750,
+        3048000,
+        2381250,
+        952500
+      ],
+      "pixel_bbox": [
+        1177,
+        471,
+        1510,
+        535
+      ],
+      "size_px": [
+        333,
+        64
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_15_text_block.png",
+      "kind": "text_block",
+      "label": "Weather",
+      "emu_bbox": [
+        9584824,
+        3376612,
+        1309102,
+        440055
+      ],
+      "pixel_bbox": [
+        1247,
+        471,
+        1439,
+        510
+      ],
+      "size_px": [
+        192,
+        39
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_16_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        4905375,
+        4429125,
+        2381250,
+        952500
+      ],
+      "pixel_bbox": [
+        633,
+        571,
+        966,
+        716
+      ],
+      "size_px": [
+        333,
+        145
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_17_text_block.png",
+      "kind": "text_block",
+      "label": "Seismic measurements",
+      "emu_bbox": [
+        5032819,
+        4800219,
+        1745361,
+        440055
+      ],
+      "pixel_bbox": [
+        650,
+        621,
+        899,
+        697
+      ],
+      "size_px": [
+        249,
+        76
+      ]
+    },
+    {
+      "slide": 6,
+      "asset": "components/s06_18_text_block.png",
+      "kind": "text_block",
+      "label": "Real data was preferred because synthetic distributions failed to converge to ge",
+      "emu_bbox": [
+        1629039,
+        5637645,
+        8933921,
+        276999
+      ],
+      "pixel_bbox": [
+        763,
+        729,
+        1157,
+        786
+      ],
+      "size_px": [
+        394,
+        57
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_06_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        3261455,
+        1381125,
+        5669089,
+        3143250
+      ],
+      "pixel_bbox": [
+        418,
+        171,
+        1181,
+        603
+      ],
+      "size_px": [
+        763,
+        432
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_07_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        762000,
+        4810125,
+        1981200,
+        742950
+      ],
+      "pixel_bbox": [
+        90,
+        621,
+        370,
+        738
+      ],
+      "size_px": [
+        280,
+        117
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_08_text_block.png",
+      "kind": "text_block",
+      "label": "RAW",
+      "emu_bbox": [
+        1443190,
+        5063490,
+        618820,
+        352044
+      ],
+      "pixel_bbox": [
+        179,
+        654,
+        280,
+        720
+      ],
+      "size_px": [
+        101,
+        66
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_09_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        3048000,
+        4810125,
+        1981200,
+        742950
+      ],
+      "pixel_bbox": [
+        531,
+        621,
+        670,
+        646
+      ],
+      "size_px": [
+        139,
+        25
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_10_text_block.png",
+      "kind": "text_block",
+      "label": "REV",
+      "emu_bbox": [
+        3761651,
+        5063490,
+        553898,
+        352044
+      ],
+      "pixel_bbox": [
+        483,
+        654,
+        576,
+        720
+      ],
+      "size_px": [
+        93,
+        66
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_11_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        5334000,
+        4810125,
+        1981200,
+        742950
+      ],
+      "pixel_bbox": [
+        866,
+        621,
+        970,
+        670
+      ],
+      "size_px": [
+        104,
+        49
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_12_text_block.png",
+      "kind": "text_block",
+      "label": "SHUF",
+      "emu_bbox": [
+        5958383,
+        5063490,
+        732434,
+        352044
+      ],
+      "pixel_bbox": [
+        866,
+        654,
+        888,
+        670
+      ],
+      "size_px": [
+        22,
+        16
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_13_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        7620000,
+        4810125,
+        1981200,
+        742950
+      ],
+      "pixel_bbox": [
+        990,
+        621,
+        1270,
+        670
+      ],
+      "size_px": [
+        280,
+        49
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_14_text_block.png",
+      "kind": "text_block",
+      "label": "QBIN50",
+      "emu_bbox": [
+        8073962,
+        5063490,
+        1073277,
+        352044
+      ],
+      "pixel_bbox": [
+        1167,
+        654,
+        1210,
+        670
+      ],
+      "size_px": [
+        43,
+        16
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_15_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        9906000,
+        4810125,
+        1600200,
+        742950
+      ],
+      "pixel_bbox": [
+        1290,
+        621,
+        1313,
+        670
+      ],
+      "size_px": [
+        23,
+        49
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_16_text_block.png",
+      "kind": "text_block",
+      "label": "PSORT10",
+      "emu_bbox": [
+        10039617,
+        5063490,
+        1332967,
+        352044
+      ],
+      "pixel_bbox": [
+        1307,
+        654,
+        1502,
+        720
+      ],
+      "size_px": [
+        195,
+        66
+      ]
+    },
+    {
+      "slide": 8,
+      "asset": "components/s08_17_text_block.png",
+      "kind": "text_block",
+      "label": "RAW, REV, SHUF, QBIN50, and PSORT10 force a non-trivial decision boundary.",
+      "emu_bbox": [
+        753999,
+        5754529,
+        11212639,
+        308039
+      ],
+      "pixel_bbox": [
+        111,
+        748,
+        1580,
+        805
+      ],
+      "size_px": [
+        1469,
+        57
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_06_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        666750,
+        1411319,
+        5334000,
+        3749612
+      ],
+      "pixel_bbox": [
+        77,
+        188,
+        797,
+        687
+      ],
+      "size_px": [
+        720,
+        499
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_07_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        6477000,
+        1524000,
+        2190750,
+        3143250
+      ],
+      "pixel_bbox": [
+        840,
+        190,
+        1147,
+        622
+      ],
+      "size_px": [
+        307,
+        432
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_08_text_block.png",
+      "kind": "text_block",
+      "label": "Size",
+      "emu_bbox": [
+        6751320,
+        1814512,
+        1554480,
+        440055
+      ],
+      "pixel_bbox": [
+        1011,
+        231,
+        1100,
+        305
+      ],
+      "size_px": [
+        89,
+        74
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_09_text_block.png",
+      "kind": "text_block",
+      "label": "length_norm",
+      "emu_bbox": [
+        6753606,
+        2453640,
+        1554480,
+        352044
+      ],
+      "pixel_bbox": [
+        1011,
+        312,
+        1100,
+        378
+      ],
+      "size_px": [
+        89,
+        66
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_10_text_block.png",
+      "kind": "text_block",
+      "label": "size effects",
+      "emu_bbox": [
+        6753606,
+        2796540,
+        1554480,
+        352044
+      ],
+      "pixel_bbox": [
+        1011,
+        357,
+        1100,
+        423
+      ],
+      "size_px": [
+        89,
+        66
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_11_text_block.png",
+      "kind": "text_block",
+      "label": "cache / constants",
+      "emu_bbox": [
+        6753606,
+        3139440,
+        1554480,
+        352044
+      ],
+      "pixel_bbox": [
+        1011,
+        402,
+        1100,
+        468
+      ],
+      "size_px": [
+        89,
+        66
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_12_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8934450,
+        1524000,
+        2190750,
+        3143250
+      ],
+      "pixel_bbox": [
+        1162,
+        190,
+        1470,
+        622
+      ],
+      "size_px": [
+        308,
+        432
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_13_text_block.png",
+      "kind": "text_block",
+      "label": "Ordering",
+      "emu_bbox": [
+        9208770,
+        1814512,
+        1554480,
+        440055
+      ],
+      "pixel_bbox": [
+        1198,
+        231,
+        1422,
+        305
+      ],
+      "size_px": [
+        224,
+        74
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_14_text_block.png",
+      "kind": "text_block",
+      "label": "adj_sorted_ratio",
+      "emu_bbox": [
+        9211056,
+        2453640,
+        1554480,
+        352044
+      ],
+      "pixel_bbox": [
+        1198,
+        312,
+        1416,
+        378
+      ],
+      "size_px": [
+        218,
+        66
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_15_text_block.png",
+      "kind": "text_block",
+      "label": "runs_ratio",
+      "emu_bbox": [
+        9211056,
+        2796540,
+        1554480,
+        352044
+      ],
+      "pixel_bbox": [
+        1198,
+        357,
+        1416,
+        423
+      ],
+      "size_px": [
+        218,
+        66
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_16_text_block.png",
+      "kind": "text_block",
+      "label": "inversion_ratio",
+      "emu_bbox": [
+        9211056,
+        3139440,
+        1554480,
+        352044
+      ],
+      "pixel_bbox": [
+        1198,
+        402,
+        1416,
+        468
+      ],
+      "size_px": [
+        218,
+        66
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_17_text_block.png",
+      "kind": "text_block",
+      "label": "Timing features are excluded at prediction time.",
+      "emu_bbox": [
+        3450620,
+        5369338,
+        4494371,
+        276999
+      ],
+      "pixel_bbox": [
+        442,
+        694,
+        1052,
+        750
+      ],
+      "size_px": [
+        610,
+        56
+      ]
+    },
+    {
+      "slide": 9,
+      "asset": "components/s09_18_text_block.png",
+      "kind": "text_block",
+      "label": "A single canonical feature extractor is shared across data generation, training,",
+      "emu_bbox": [
+        1696880,
+        5849969,
+        8653459,
+        276999
+      ],
+      "pixel_bbox": [
+        307,
+        757,
+        326,
+        766
+      ],
+      "size_px": [
+        19,
+        9
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_06_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        857250,
+        1619250,
+        4762500,
+        3619500
+      ],
+      "pixel_bbox": [
+        102,
+        202,
+        747,
+        697
+      ],
+      "size_px": [
+        645,
+        495
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_07_text_block.png",
+      "kind": "text_block",
+      "label": "Allowed before sorting",
+      "emu_bbox": [
+        1131570,
+        1947862,
+        3596877,
+        440055
+      ],
+      "pixel_bbox": [
+        138,
+        246,
+        630,
+        323
+      ],
+      "size_px": [
+        492,
+        77
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_08_text_block.png",
+      "kind": "text_block",
+      "label": "Extract O(n) features",
+      "emu_bbox": [
+        1135498,
+        2576131,
+        3023306,
+        440055
+      ],
+      "pixel_bbox": [
+        139,
+        328,
+        555,
+        405
+      ],
+      "size_px": [
+        416,
+        77
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_09_text_block.png",
+      "kind": "text_block",
+      "label": "Measure order, runs, repetition, distribution, robust scale",
+      "emu_bbox": [
+        1148592,
+        3062695,
+        4529398,
+        553998
+      ],
+      "pixel_bbox": [
+        140,
+        391,
+        755,
+        484
+      ],
+      "size_px": [
+        615,
+        93
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_10_text_block.png",
+      "kind": "text_block",
+      "label": "Predict introsort, heapsort, or timsort",
+      "emu_bbox": [
+        1131570,
+        3841815,
+        4108371,
+        440055
+      ],
+      "pixel_bbox": [
+        138,
+        494,
+        697,
+        571
+      ],
+      "size_px": [
+        559,
+        77
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_11_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        6572250,
+        1619250,
+        4762500,
+        3619500
+      ],
+      "pixel_bbox": [
+        852,
+        202,
+        1497,
+        697
+      ],
+      "size_px": [
+        645,
+        495
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_12_text_block.png",
+      "kind": "text_block",
+      "label": "Not allowed at prediction time",
+      "emu_bbox": [
+        6846570,
+        1947862,
+        4743004,
+        440055
+      ],
+      "pixel_bbox": [
+        1026,
+        246,
+        1530,
+        323
+      ],
+      "size_px": [
+        504,
+        77
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_13_text_block.png",
+      "kind": "text_block",
+      "label": "Sort with introsort",
+      "emu_bbox": [
+        6846570,
+        2614612,
+        2156681,
+        346249
+      ],
+      "pixel_bbox": [
+        1026,
+        333,
+        1191,
+        398
+      ],
+      "size_px": [
+        165,
+        65
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_14_text_block.png",
+      "kind": "text_block",
+      "label": "Sort with heapsort",
+      "emu_bbox": [
+        6846570,
+        3090862,
+        2181879,
+        346249
+      ],
+      "pixel_bbox": [
+        1026,
+        395,
+        1194,
+        461
+      ],
+      "size_px": [
+        168,
+        66
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_15_text_block.png",
+      "kind": "text_block",
+      "label": "Sort with timsort",
+      "emu_bbox": [
+        6846570,
+        3567112,
+        1989327,
+        346249
+      ],
+      "pixel_bbox": [
+        1026,
+        458,
+        1169,
+        523
+      ],
+      "size_px": [
+        143,
+        65
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_16_text_block.png",
+      "kind": "text_block",
+      "label": "Pick after seeing all times",
+      "emu_bbox": [
+        6846570,
+        4043362,
+        2967223,
+        346249
+      ],
+      "pixel_bbox": [
+        1026,
+        520,
+        1275,
+        586
+      ],
+      "size_px": [
+        249,
+        66
+      ]
+    },
+    {
+      "slide": 10,
+      "asset": "components/s10_17_text_block.png",
+      "kind": "text_block",
+      "label": "The oracle is used only for evaluation; it is not available at run time.",
+      "emu_bbox": [
+        1963353,
+        5765673,
+        6330259,
+        276999
+      ],
+      "pixel_bbox": [
+        247,
+        746,
+        1044,
+        803
+      ],
+      "size_px": [
+        797,
+        57
+      ]
+    },
+    {
+      "slide": 12,
+      "asset": "components/s12_04_group_container.png",
+      "kind": "group_container",
+      "label": "",
+      "emu_bbox": [
+        552450,
+        1295400,
+        2844241,
+        3257550
+      ],
+      "pixel_bbox": [
+        78,
+        160,
+        455,
+        607
+      ],
+      "size_px": [
+        377,
+        447
+      ]
+    },
+    {
+      "slide": 12,
+      "asset": "components/s12_05_group_container.png",
+      "kind": "group_container",
+      "label": "",
+      "emu_bbox": [
+        3524250,
+        1295400,
+        2655189,
+        3257550
+      ],
+      "pixel_bbox": [
+        452,
+        160,
+        820,
+        607
+      ],
+      "size_px": [
+        368,
+        447
+      ]
+    },
+    {
+      "slide": 12,
+      "asset": "components/s12_06_group_container.png",
+      "kind": "group_container",
+      "label": "",
+      "emu_bbox": [
+        6496050,
+        1543050,
+        2190750,
+        2762250
+      ],
+      "pixel_bbox": [
+        842,
+        195,
+        1150,
+        575
+      ],
+      "size_px": [
+        308,
+        380
+      ]
+    },
+    {
+      "slide": 12,
+      "asset": "components/s12_07_group_container.png",
+      "kind": "group_container",
+      "label": "",
+      "emu_bbox": [
+        9201150,
+        1295400,
+        2438400,
+        3257550
+      ],
+      "pixel_bbox": [
+        1197,
+        160,
+        1537,
+        607
+      ],
+      "size_px": [
+        340,
+        447
+      ]
+    },
+    {
+      "slide": 12,
+      "asset": "components/s12_08_group_container.png",
+      "kind": "group_container",
+      "label": "",
+      "emu_bbox": [
+        2933700,
+        2819400,
+        6267450,
+        209550
+      ],
+      "pixel_bbox": [
+        453,
+        360,
+        1217,
+        407
+      ],
+      "size_px": [
+        764,
+        47
+      ]
+    },
+    {
+      "slide": 12,
+      "asset": "components/s12_09_group_container.png",
+      "kind": "group_container",
+      "label": "",
+      "emu_bbox": [
+        1866900,
+        4552950,
+        8553450,
+        1847850
+      ],
+      "pixel_bbox": [
+        235,
+        587,
+        1377,
+        850
+      ],
+      "size_px": [
+        1142,
+        263
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_06_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        3570160,
+        1428750,
+        5051584,
+        2571750
+      ],
+      "pixel_bbox": [
+        458,
+        188,
+        1141,
+        535
+      ],
+      "size_px": [
+        683,
+        347
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_07_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        502920,
+        4333875,
+        2640330,
+        1000125
+      ],
+      "pixel_bbox": [
+        70,
+        673,
+        422,
+        710
+      ],
+      "size_px": [
+        352,
+        37
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_08_text_block.png",
+      "kind": "text_block",
+      "label": "v1 regressor",
+      "emu_bbox": [
+        1095756,
+        4530090,
+        1399421,
+        352044
+      ],
+      "pixel_bbox": [
+        133,
+        584,
+        337,
+        650
+      ],
+      "size_px": [
+        204,
+        66
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_09_text_block.png",
+      "kind": "text_block",
+      "label": "44.4%; size dominated",
+      "emu_bbox": [
+        863865,
+        4924329,
+        1129141,
+        308039
+      ],
+      "pixel_bbox": [
+        103,
+        673,
+        271,
+        696
+      ],
+      "size_px": [
+        168,
+        23
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_10_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        3524249,
+        4333875,
+        2358601,
+        1000125
+      ],
+      "pixel_bbox": [
+        452,
+        558,
+        782,
+        710
+      ],
+      "size_px": [
+        330,
+        152
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_11_text_block.png",
+      "kind": "text_block",
+      "label": "timing-feature model",
+      "emu_bbox": [
+        3743706,
+        4530090,
+        1885001,
+        352044
+      ],
+      "pixel_bbox": [
+        610,
+        586,
+        748,
+        623
+      ],
+      "size_px": [
+        138,
+        37
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_12_text_block.png",
+      "kind": "text_block",
+      "label": "100%; non-deployable",
+      "emu_bbox": [
+        3744849,
+        4897279,
+        1489586,
+        308039
+      ],
+      "pixel_bbox": [
+        481,
+        673,
+        696,
+        693
+      ],
+      "size_px": [
+        215,
+        20
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_13_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        6172199,
+        4333875,
+        2393807,
+        1000125
+      ],
+      "pixel_bbox": [
+        799,
+        558,
+        1134,
+        710
+      ],
+      "size_px": [
+        335,
+        152
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_14_text_block.png",
+      "kind": "text_block",
+      "label": "v5 XGBoost classifier",
+      "emu_bbox": [
+        6391656,
+        4530090,
+        1583044,
+        352044
+      ],
+      "pixel_bbox": [
+        828,
+        588,
+        1053,
+        623
+      ],
+      "size_px": [
+        225,
+        35
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_15_text_block.png",
+      "kind": "text_block",
+      "label": "main reported selector",
+      "emu_bbox": [
+        6392799,
+        4897279,
+        1648606,
+        308039
+      ],
+      "pixel_bbox": [
+        828,
+        673,
+        1065,
+        693
+      ],
+      "size_px": [
+        237,
+        20
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_16_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8820150,
+        4333875,
+        2990850,
+        1000125
+      ],
+      "pixel_bbox": [
+        1147,
+        558,
+        1560,
+        710
+      ],
+      "size_px": [
+        413,
+        152
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_17_text_block.png",
+      "kind": "text_block",
+      "label": "v6 / v7 / v8 checks",
+      "emu_bbox": [
+        9039606,
+        4530090,
+        1758145,
+        352044
+      ],
+      "pixel_bbox": [
+        1176,
+        584,
+        1242,
+        623
+      ],
+      "size_px": [
+        66,
+        39
+      ]
+    },
+    {
+      "slide": 14,
+      "asset": "components/s14_18_text_block.png",
+      "kind": "text_block",
+      "label": "leakage, objective, boundary",
+      "emu_bbox": [
+        9040749,
+        4897279,
+        1722815,
+        308039
+      ],
+      "pixel_bbox": [
+        1176,
+        673,
+        1422,
+        693
+      ],
+      "size_px": [
+        246,
+        20
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_06_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        762000,
+        1476375,
+        3333750,
+        2571750
+      ],
+      "pixel_bbox": [
+        90,
+        188,
+        547,
+        541
+      ],
+      "size_px": [
+        457,
+        353
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_07_text_block.png",
+      "kind": "text_block",
+      "label": "SBS",
+      "emu_bbox": [
+        1036320,
+        1804988,
+        725848,
+        440055
+      ],
+      "pixel_bbox": [
+        126,
+        226,
+        241,
+        304
+      ],
+      "size_px": [
+        115,
+        78
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_08_text_block.png",
+      "kind": "text_block",
+      "label": "best fixed algorithm",
+      "emu_bbox": [
+        1038606,
+        2377440,
+        2502027,
+        352044
+      ],
+      "pixel_bbox": [
+        126,
+        302,
+        474,
+        368
+      ],
+      "size_px": [
+        348,
+        66
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_09_text_block.png",
+      "kind": "text_block",
+      "label": "over the evaluation set",
+      "emu_bbox": [
+        1038606,
+        2720340,
+        2102206,
+        352044
+      ],
+      "pixel_bbox": [
+        126,
+        347,
+        422,
+        413
+      ],
+      "size_px": [
+        296,
+        66
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_10_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        4429125,
+        1476375,
+        3333750,
+        2571750
+      ],
+      "pixel_bbox": [
+        571,
+        188,
+        1028,
+        541
+      ],
+      "size_px": [
+        457,
+        353
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_11_text_block.png",
+      "kind": "text_block",
+      "label": "VBS",
+      "emu_bbox": [
+        4703445,
+        1804988,
+        725848,
+        440055
+      ],
+      "pixel_bbox": [
+        607,
+        226,
+        722,
+        304
+      ],
+      "size_px": [
+        115,
+        78
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_12_text_block.png",
+      "kind": "text_block",
+      "label": "oracle fastest algorithm",
+      "emu_bbox": [
+        4705731,
+        2377440,
+        3338017,
+        352044
+      ],
+      "pixel_bbox": [
+        607,
+        302,
+        830,
+        368
+      ],
+      "size_px": [
+        223,
+        66
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_13_text_block.png",
+      "kind": "text_block",
+      "label": "for each array",
+      "emu_bbox": [
+        4705731,
+        2720340,
+        1702384,
+        352044
+      ],
+      "pixel_bbox": [
+        607,
+        347,
+        850,
+        413
+      ],
+      "size_px": [
+        243,
+        66
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_14_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8096250,
+        1476375,
+        3333750,
+        2571750
+      ],
+      "pixel_bbox": [
+        1052,
+        188,
+        1510,
+        541
+      ],
+      "size_px": [
+        458,
+        353
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_15_text_block.png",
+      "kind": "text_block",
+      "label": "Model",
+      "emu_bbox": [
+        8370570,
+        1804988,
+        939895,
+        440055
+      ],
+      "pixel_bbox": [
+        1088,
+        226,
+        1231,
+        304
+      ],
+      "size_px": [
+        143,
+        78
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_16_text_block.png",
+      "kind": "text_block",
+      "label": "choose before execution",
+      "emu_bbox": [
+        8372856,
+        2377440,
+        2635301,
+        352044
+      ],
+      "pixel_bbox": [
+        1213,
+        302,
+        1454,
+        368
+      ],
+      "size_px": [
+        241,
+        66
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_17_text_block.png",
+      "kind": "text_block",
+      "label": "using structural features",
+      "emu_bbox": [
+        8372856,
+        2720340,
+        2308174,
+        352044
+      ],
+      "pixel_bbox": [
+        1213,
+        347,
+        1411,
+        413
+      ],
+      "size_px": [
+        198,
+        66
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_18_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        1152620,
+        4476750,
+        4267010,
+        904875
+      ],
+      "pixel_bbox": [
+        141,
+        577,
+        721,
+        716
+      ],
+      "size_px": [
+        580,
+        139
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_19_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        6572250,
+        4539044,
+        4381500,
+        780383
+      ],
+      "pixel_bbox": [
+        852,
+        585,
+        1447,
+        647
+      ],
+      "size_px": [
+        595,
+        62
+      ]
+    },
+    {
+      "slide": 15,
+      "asset": "components/s15_20_text_block.png",
+      "kind": "text_block",
+      "label": "Gap closed gives the fraction of the SBS-to-VBS improvement captured by the sele",
+      "emu_bbox": [
+        1134999,
+        5640229,
+        8634688,
+        308039
+      ],
+      "pixel_bbox": [
+        179,
+        730,
+        1292,
+        790
+      ],
+      "size_px": [
+        1113,
+        60
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_06_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        762000,
+        1571625,
+        4953000,
+        3381375
+      ],
+      "pixel_bbox": [
+        90,
+        196,
+        760,
+        660
+      ],
+      "size_px": [
+        670,
+        464
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_07_text_block.png",
+      "kind": "text_block",
+      "label": "93.1%",
+      "emu_bbox": [
+        1143000,
+        2130742,
+        2477465,
+        1133475
+      ],
+      "pixel_bbox": [
+        140,
+        269,
+        485,
+        438
+      ],
+      "size_px": [
+        345,
+        169
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_08_text_block.png",
+      "kind": "text_block",
+      "label": "SBS-to-VBS gap closed",
+      "emu_bbox": [
+        1187196,
+        3058478,
+        3149765,
+        498729
+      ],
+      "pixel_bbox": [
+        145,
+        391,
+        579,
+        476
+      ],
+      "size_px": [
+        434,
+        85
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_09_text_block.png",
+      "kind": "text_block",
+      "label": "Regret, not only accuracy,",
+      "emu_bbox": [
+        1191006,
+        3663315,
+        4306824,
+        352044
+      ],
+      "pixel_bbox": [
+        146,
+        470,
+        731,
+        536
+      ],
+      "size_px": [
+        585,
+        66
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_10_text_block.png",
+      "kind": "text_block",
+      "label": "is the main evaluation signal.",
+      "emu_bbox": [
+        1191006,
+        3977640,
+        4852492,
+        352044
+      ],
+      "pixel_bbox": [
+        146,
+        512,
+        803,
+        578
+      ],
+      "size_px": [
+        657,
+        66
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_11_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        6381750,
+        1571625,
+        2286000,
+        1571625
+      ],
+      "pixel_bbox": [
+        827,
+        196,
+        1147,
+        422
+      ],
+      "size_px": [
+        320,
+        226
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_12_text_block.png",
+      "kind": "text_block",
+      "label": "76.1%",
+      "emu_bbox": [
+        6598757,
+        1816418,
+        1851987,
+        847725
+      ],
+      "pixel_bbox": [
+        855,
+        238,
+        1119,
+        359
+      ],
+      "size_px": [
+        264,
+        121
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_13_text_block.png",
+      "kind": "text_block",
+      "label": "top-1 accuracy",
+      "emu_bbox": [
+        6785258,
+        2516029,
+        1478985,
+        308039
+      ],
+      "pixel_bbox": [
+        880,
+        320,
+        1094,
+        380
+      ],
+      "size_px": [
+        214,
+        60
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_14_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        9144000,
+        1571625,
+        2286000,
+        1571625
+      ],
+      "pixel_bbox": [
+        1190,
+        196,
+        1510,
+        422
+      ],
+      "size_px": [
+        320,
+        226
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_15_text_block.png",
+      "kind": "text_block",
+      "label": "89.6%",
+      "emu_bbox": [
+        9361007,
+        1816418,
+        1851987,
+        847725
+      ],
+      "pixel_bbox": [
+        1218,
+        238,
+        1481,
+        359
+      ],
+      "size_px": [
+        263,
+        121
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_16_text_block.png",
+      "kind": "text_block",
+      "label": "zero-regret predictions",
+      "emu_bbox": [
+        9334500,
+        2558700,
+        1245756,
+        308039
+      ],
+      "pixel_bbox": [
+        1215,
+        325,
+        1374,
+        386
+      ],
+      "size_px": [
+        159,
+        61
+      ]
+    },
+    {
+      "slide": 16,
+      "asset": "components/s16_17_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        7505033,
+        3429000,
+        2801779,
+        1952625
+      ],
+      "pixel_bbox": [
+        996,
+        440,
+        1362,
+        716
+      ],
+      "size_px": [
+        366,
+        276
+      ]
+    },
+    {
+      "slide": 17,
+      "asset": "components/s17_06_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        760190,
+        1428750,
+        6480620,
+        4000500
+      ],
+      "pixel_bbox": [
+        89,
+        188,
+        960,
+        722
+      ],
+      "size_px": [
+        871,
+        534
+      ]
+    },
+    {
+      "slide": 17,
+      "asset": "components/s17_07_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        7953375,
+        1619250,
+        3286125,
+        1238250
+      ],
+      "pixel_bbox": [
+        1033,
+        202,
+        1485,
+        385
+      ],
+      "size_px": [
+        452,
+        183
+      ]
+    },
+    {
+      "slide": 17,
+      "asset": "components/s17_08_text_block.png",
+      "kind": "text_block",
+      "label": "76.1%",
+      "emu_bbox": [
+        8225409,
+        1804035,
+        1153293,
+        528066
+      ],
+      "pixel_bbox": [
+        1069,
+        253,
+        1137,
+        272
+      ],
+      "size_px": [
+        68,
+        19
+      ]
+    },
+    {
+      "slide": 17,
+      "asset": "components/s17_09_text_block.png",
+      "kind": "text_block",
+      "label": "top-1 accuracy",
+      "emu_bbox": [
+        8229981,
+        2282190,
+        1702384,
+        352044
+      ],
+      "pixel_bbox": [
+        1070,
+        289,
+        1313,
+        355
+      ],
+      "size_px": [
+        243,
+        66
+      ]
+    },
+    {
+      "slide": 17,
+      "asset": "components/s17_10_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        7953375,
+        3143250,
+        3286125,
+        1238250
+      ],
+      "pixel_bbox": [
+        1033,
+        402,
+        1485,
+        585
+      ],
+      "size_px": [
+        452,
+        183
+      ]
+    },
+    {
+      "slide": 17,
+      "asset": "components/s17_11_text_block.png",
+      "kind": "text_block",
+      "label": "93.1%",
+      "emu_bbox": [
+        8225409,
+        3328035,
+        1153293,
+        528066
+      ],
+      "pixel_bbox": [
+        1069,
+        426,
+        1137,
+        516
+      ],
+      "size_px": [
+        68,
+        90
+      ]
+    },
+    {
+      "slide": 17,
+      "asset": "components/s17_12_text_block.png",
+      "kind": "text_block",
+      "label": "SBS-to-VBS gap closed",
+      "emu_bbox": [
+        8229981,
+        3806190,
+        1229868,
+        352044
+      ],
+      "pixel_bbox": [
+        1070,
+        489,
+        1095,
+        555
+      ],
+      "size_px": [
+        25,
+        66
+      ]
+    },
+    {
+      "slide": 17,
+      "asset": "components/s17_13_text_block.png",
+      "kind": "text_block",
+      "label": "The result is evaluated by regret and gap closed, not accuracy alone.",
+      "emu_bbox": [
+        3006471,
+        5814822,
+        3963348,
+        352044
+      ],
+      "pixel_bbox": [
+        384,
+        753,
+        924,
+        819
+      ],
+      "size_px": [
+        540,
+        66
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_06_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        769906,
+        1428750,
+        5413343,
+        4429125
+      ],
+      "pixel_bbox": [
+        91,
+        188,
+        821,
+        778
+      ],
+      "size_px": [
+        730,
+        590
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_07_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        6858000,
+        1619250,
+        4191000,
+        1143000
+      ],
+      "pixel_bbox": [
+        890,
+        202,
+        1460,
+        372
+      ],
+      "size_px": [
+        570,
+        170
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_08_text_block.png",
+      "kind": "text_block",
+      "label": "94.5%",
+      "emu_bbox": [
+        7130034,
+        1804035,
+        1153293,
+        528066
+      ],
+      "pixel_bbox": [
+        1071,
+        246,
+        1097,
+        316
+      ],
+      "size_px": [
+        26,
+        70
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_09_text_block.png",
+      "kind": "text_block",
+      "label": "timsort recall",
+      "emu_bbox": [
+        7134606,
+        2282190,
+        1690268,
+        352044
+      ],
+      "pixel_bbox": [
+        1071,
+        289,
+        1168,
+        355
+      ],
+      "size_px": [
+        97,
+        66
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_10_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        6858000,
+        3143250,
+        5193792,
+        1762125
+      ],
+      "pixel_bbox": [
+        890,
+        402,
+        1591,
+        653
+      ],
+      "size_px": [
+        701,
+        251
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_11_text_block.png",
+      "kind": "text_block",
+      "label": "Interpretation",
+      "emu_bbox": [
+        7132320,
+        3395662,
+        2368296,
+        440055
+      ],
+      "pixel_bbox": [
+        937,
+        435,
+        1256,
+        513
+      ],
+      "size_px": [
+        319,
+        78
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_12_text_block.png",
+      "kind": "text_block",
+      "label": "timsort is separable when runs/order are visible.",
+      "emu_bbox": [
+        7130034,
+        3675098,
+        5967558,
+        352044
+      ],
+      "pixel_bbox": [
+        925,
+        486,
+        1728,
+        538
+      ],
+      "size_px": [
+        803,
+        52
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_13_text_block.png",
+      "kind": "text_block",
+      "label": "introsort and heapsort remain close in the current feature space.",
+      "emu_bbox": [
+        7130034,
+        4089630,
+        4624143,
+        553998
+      ],
+      "pixel_bbox": [
+        925,
+        526,
+        1552,
+        619
+      ],
+      "size_px": [
+        627,
+        93
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_14_text_block.png",
+      "kind": "text_block",
+      "label": "Most residual boundary errors",
+      "emu_bbox": [
+        6848856,
+        5282565,
+        4669675,
+        352044
+      ],
+      "pixel_bbox": [
+        888,
+        683,
+        1521,
+        749
+      ],
+      "size_px": [
+        633,
+        66
+      ]
+    },
+    {
+      "slide": 18,
+      "asset": "components/s18_15_text_block.png",
+      "kind": "text_block",
+      "label": "carry low measured regret.",
+      "emu_bbox": [
+        6848856,
+        5615940,
+        4222471,
+        352044
+      ],
+      "pixel_bbox": [
+        1071,
+        727,
+        1462,
+        781
+      ],
+      "size_px": [
+        391,
+        54
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_06_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        1203579,
+        1381125,
+        6165247,
+        4238625
+      ],
+      "pixel_bbox": [
+        147,
+        171,
+        977,
+        747
+      ],
+      "size_px": [
+        830,
+        576
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_07_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8382000,
+        1545000,
+        2857500,
+        1380000
+      ],
+      "pixel_bbox": [
+        1090,
+        192,
+        1485,
+        393
+      ],
+      "size_px": [
+        395,
+        201
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_08_text_block.png",
+      "kind": "text_block",
+      "label": "Ordering",
+      "emu_bbox": [
+        8658606,
+        1820000,
+        2500000,
+        300000
+      ],
+      "pixel_bbox": [
+        1311,
+        234,
+        1474,
+        288
+      ],
+      "size_px": [
+        163,
+        54
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_09_text_block.png",
+      "kind": "text_block",
+      "label": "longest_run_ratio runs_ratio adj_sorted_ratio",
+      "emu_bbox": [
+        8659749,
+        2240000,
+        2450000,
+        620000
+      ],
+      "pixel_bbox": [
+        1311,
+        283,
+        1467,
+        385
+      ],
+      "size_px": [
+        156,
+        102
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_10_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8382000,
+        3200000,
+        2857500,
+        1380000
+      ],
+      "pixel_bbox": [
+        1311,
+        409,
+        1485,
+        611
+      ],
+      "size_px": [
+        174,
+        202
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_11_text_block.png",
+      "kind": "text_block",
+      "label": "Repetition / diversity",
+      "emu_bbox": [
+        8658606,
+        3480000,
+        2550000,
+        300000
+      ],
+      "pixel_bbox": [
+        1311,
+        446,
+        1480,
+        506
+      ],
+      "size_px": [
+        169,
+        60
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_12_text_block.png",
+      "kind": "text_block",
+      "label": "top5_freq_ratio duplicate_ratio entropy_ratio",
+      "emu_bbox": [
+        8659749,
+        3900000,
+        2450000,
+        620000
+      ],
+      "pixel_bbox": [
+        1311,
+        501,
+        1467,
+        603
+      ],
+      "size_px": [
+        156,
+        102
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_13_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8382000,
+        4860000,
+        2857500,
+        1180000
+      ],
+      "pixel_bbox": [
+        1090,
+        627,
+        1485,
+        802
+      ],
+      "size_px": [
+        395,
+        175
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_14_text_block.png",
+      "kind": "text_block",
+      "label": "Size / scale",
+      "emu_bbox": [
+        8658606,
+        5120000,
+        2450000,
+        300000
+      ],
+      "pixel_bbox": [
+        1311,
+        661,
+        1467,
+        721
+      ],
+      "size_px": [
+        156,
+        60
+      ]
+    },
+    {
+      "slide": 19,
+      "asset": "components/s19_15_text_block.png",
+      "kind": "text_block",
+      "label": "length_norm robust scale descriptors",
+      "emu_bbox": [
+        8659749,
+        5520000,
+        2450000,
+        420000
+      ],
+      "pixel_bbox": [
+        1311,
+        714,
+        1467,
+        789
+      ],
+      "size_px": [
+        156,
+        75
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_06_figure.png",
+      "kind": "figure",
+      "label": "",
+      "emu_bbox": [
+        790194,
+        1381125,
+        6992017,
+        4333875
+      ],
+      "pixel_bbox": [
+        93,
+        188,
+        1031,
+        760
+      ],
+      "size_px": [
+        938,
+        572
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_07_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8382000,
+        1695450,
+        2857500,
+        1476375
+      ],
+      "pixel_bbox": [
+        1090,
+        250,
+        1485,
+        426
+      ],
+      "size_px": [
+        395,
+        176
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_08_text_block.png",
+      "kind": "text_block",
+      "label": ">75%",
+      "emu_bbox": [
+        8884757,
+        1959292,
+        1851987,
+        847725
+      ],
+      "pixel_bbox": [
+        1155,
+        250,
+        1419,
+        378
+      ],
+      "size_px": [
+        264,
+        128
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_09_text_block.png",
+      "kind": "text_block",
+      "label": "gap closed in every fold",
+      "emu_bbox": [
+        8779721,
+        2639854,
+        2062058,
+        308039
+      ],
+      "pixel_bbox": [
+        1142,
+        336,
+        1432,
+        396
+      ],
+      "size_px": [
+        290,
+        60
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_10_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8382000,
+        3524250,
+        3162300,
+        1809750
+      ],
+      "pixel_bbox": [
+        1090,
+        452,
+        1525,
+        710
+      ],
+      "size_px": [
+        435,
+        258
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_11_text_block.png",
+      "kind": "text_block",
+      "label": "F1 sensitivity",
+      "emu_bbox": [
+        8658606,
+        3806190,
+        2229924,
+        352044
+      ],
+      "pixel_bbox": [
+        1126,
+        489,
+        1438,
+        555
+      ],
+      "size_px": [
+        312,
+        66
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_12_text_block.png",
+      "kind": "text_block",
+      "label": "F1 telemetry is the weakest",
+      "emu_bbox": [
+        8504210,
+        4240489,
+        2776027,
+        308039
+      ],
+      "pixel_bbox": [
+        1106,
+        546,
+        1490,
+        606
+      ],
+      "size_px": [
+        384,
+        60
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_13_text_block.png",
+      "kind": "text_block",
+      "label": "held-out fold because it contains",
+      "emu_bbox": [
+        8500219,
+        4543452,
+        2973772,
+        308039
+      ],
+      "pixel_bbox": [
+        1105,
+        586,
+        1515,
+        646
+      ],
+      "size_px": [
+        410,
+        60
+      ]
+    },
+    {
+      "slide": 20,
+      "asset": "components/s20_14_text_block.png",
+      "kind": "text_block",
+      "label": "many distinct channel regimes.",
+      "emu_bbox": [
+        8500219,
+        4832549,
+        2888352,
+        308039
+      ],
+      "pixel_bbox": [
+        1105,
+        624,
+        1504,
+        684
+      ],
+      "size_px": [
+        399,
+        60
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_06_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        762000,
+        1476375,
+        3498708,
+        3619500
+      ],
+      "pixel_bbox": [
+        90,
+        188,
+        569,
+        678
+      ],
+      "size_px": [
+        479,
+        490
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_07_text_block.png",
+      "kind": "text_block",
+      "label": "v6 source-aware",
+      "emu_bbox": [
+        1036320,
+        1804988,
+        2630786,
+        440055
+      ],
+      "pixel_bbox": [
+        126,
+        226,
+        491,
+        304
+      ],
+      "size_px": [
+        365,
+        78
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_08_text_block.png",
+      "kind": "text_block",
+      "label": "71.2% accuracy; 45.6% gap closed.",
+      "emu_bbox": [
+        1038606,
+        2425065,
+        3416696,
+        352044
+      ],
+      "pixel_bbox": [
+        126,
+        308,
+        594,
+        374
+      ],
+      "size_px": [
+        468,
+        66
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_09_text_block.png",
+      "kind": "text_block",
+      "label": "source separation became",
+      "emu_bbox": [
+        1038606,
+        2806065,
+        3010042,
+        352044
+      ],
+      "pixel_bbox": [
+        126,
+        358,
+        541,
+        424
+      ],
+      "size_px": [
+        415,
+        66
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_10_text_block.png",
+      "kind": "text_block",
+      "label": "part of the evaluation protocol.",
+      "emu_bbox": [
+        1038606,
+        3187065,
+        2502027,
+        352044
+      ],
+      "pixel_bbox": [
+        126,
+        408,
+        474,
+        474
+      ],
+      "size_px": [
+        348,
+        66
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_11_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        4476750,
+        1476375,
+        3238500,
+        3619500
+      ],
+      "pixel_bbox": [
+        577,
+        188,
+        1022,
+        678
+      ],
+      "size_px": [
+        445,
+        490
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_12_text_block.png",
+      "kind": "text_block",
+      "label": "v7 regret-aware",
+      "emu_bbox": [
+        4751070,
+        1804988,
+        2630786,
+        440055
+      ],
+      "pixel_bbox": [
+        613,
+        226,
+        978,
+        304
+      ],
+      "size_px": [
+        365,
+        78
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_13_text_block.png",
+      "kind": "text_block",
+      "label": "regret-weighted loss",
+      "emu_bbox": [
+        4753356,
+        2425065,
+        3323558,
+        352044
+      ],
+      "pixel_bbox": [
+        613,
+        308,
+        991,
+        374
+      ],
+      "size_px": [
+        378,
+        66
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_14_text_block.png",
+      "kind": "text_block",
+      "label": "was less stable:",
+      "emu_bbox": [
+        4753356,
+        2806065,
+        2574722,
+        352044
+      ],
+      "pixel_bbox": [
+        613,
+        358,
+        971,
+        424
+      ],
+      "size_px": [
+        358,
+        66
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_15_text_block.png",
+      "kind": "text_block",
+      "label": "78.1% gap closed.",
+      "emu_bbox": [
+        4753356,
+        3187065,
+        866394,
+        352044
+      ],
+      "pixel_bbox": [
+        613,
+        408,
+        714,
+        474
+      ],
+      "size_px": [
+        101,
+        66
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_16_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        8191500,
+        1476375,
+        3238500,
+        3619500
+      ],
+      "pixel_bbox": [
+        1065,
+        188,
+        1510,
+        678
+      ],
+      "size_px": [
+        445,
+        490
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_17_text_block.png",
+      "kind": "text_block",
+      "label": "v8 cascade",
+      "emu_bbox": [
+        8465820,
+        1804988,
+        1692569,
+        440055
+      ],
+      "pixel_bbox": [
+        1101,
+        226,
+        1343,
+        304
+      ],
+      "size_px": [
+        242,
+        78
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_18_text_block.png",
+      "kind": "text_block",
+      "label": "Stage 2 AUC = 0.603",
+      "emu_bbox": [
+        8468106,
+        2425065,
+        2471532,
+        352044
+      ],
+      "pixel_bbox": [
+        1206,
+        308,
+        1445,
+        374
+      ],
+      "size_px": [
+        239,
+        66
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_19_text_block.png",
+      "kind": "text_block",
+      "label": "for introsort vs heapsort;",
+      "emu_bbox": [
+        8468106,
+        2806065,
+        2356637,
+        352044
+      ],
+      "pixel_bbox": [
+        1206,
+        358,
+        1430,
+        424
+      ],
+      "size_px": [
+        224,
+        66
+      ]
+    },
+    {
+      "slide": 22,
+      "asset": "components/s22_20_text_block.png",
+      "kind": "text_block",
+      "label": "Stage 1 AUC = 0.982.",
+      "emu_bbox": [
+        8468106,
+        3187065,
+        1884121,
+        352044
+      ],
+      "pixel_bbox": [
+        1206,
+        408,
+        1368,
+        474
+      ],
+      "size_px": [
+        162,
+        66
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_06_text_block.png",
+      "kind": "text_block",
+      "label": "The selector improves practical runtime even when top-1 accuracy is imperfect.",
+      "emu_bbox": [
+        1238250,
+        2000250,
+        9715500,
+        400050
+      ],
+      "pixel_bbox": [
+        152,
+        252,
+        1447,
+        325
+      ],
+      "size_px": [
+        1295,
+        73
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_07_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        1762125,
+        2905125,
+        2381250,
+        1095375
+      ],
+      "pixel_bbox": [
+        265,
+        448,
+        553,
+        535
+      ],
+      "size_px": [
+        288,
+        87
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_08_text_block.png",
+      "kind": "text_block",
+      "label": "76.1%",
+      "emu_bbox": [
+        1914525,
+        3124200,
+        2076450,
+        304800
+      ],
+      "pixel_bbox": [
+        266,
+        448,
+        533,
+        460
+      ],
+      "size_px": [
+        267,
+        12
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_09_text_block.png",
+      "kind": "text_block",
+      "label": "top-1 accuracy",
+      "emu_bbox": [
+        1933575,
+        3543300,
+        2038350,
+        190500
+      ],
+      "pixel_bbox": [
+        265,
+        455,
+        531,
+        500
+      ],
+      "size_px": [
+        266,
+        45
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_10_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        4762500,
+        2905125,
+        2381250,
+        1095375
+      ],
+      "pixel_bbox": [
+        615,
+        448,
+        947,
+        535
+      ],
+      "size_px": [
+        332,
+        87
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_11_text_block.png",
+      "kind": "text_block",
+      "label": "93.1%",
+      "emu_bbox": [
+        4914900,
+        3124200,
+        2076450,
+        304800
+      ],
+      "pixel_bbox": [
+        635,
+        448,
+        927,
+        460
+      ],
+      "size_px": [
+        292,
+        12
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_12_text_block.png",
+      "kind": "text_block",
+      "label": "SBS-to-VBS gap closed",
+      "emu_bbox": [
+        4933950,
+        3543300,
+        2038350,
+        190500
+      ],
+      "pixel_bbox": [
+        637,
+        455,
+        925,
+        500
+      ],
+      "size_px": [
+        288,
+        45
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_13_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        7762875,
+        2905125,
+        2381250,
+        1095375
+      ],
+      "pixel_bbox": [
+        1008,
+        448,
+        1341,
+        535
+      ],
+      "size_px": [
+        333,
+        87
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_14_text_block.png",
+      "kind": "text_block",
+      "label": "89.6%",
+      "emu_bbox": [
+        7915275,
+        3124200,
+        2076450,
+        304800
+      ],
+      "pixel_bbox": [
+        1028,
+        448,
+        1321,
+        460
+      ],
+      "size_px": [
+        293,
+        12
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_15_text_block.png",
+      "kind": "text_block",
+      "label": "zero-regret predictions",
+      "emu_bbox": [
+        7934325,
+        3543300,
+        2038350,
+        190500
+      ],
+      "pixel_bbox": [
+        1031,
+        455,
+        1318,
+        500
+      ],
+      "size_px": [
+        287,
+        45
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_16_text_block.png",
+      "kind": "text_block",
+      "label": "The strongest cases are arrays where order, runs, and repetition leave a visible",
+      "emu_bbox": [
+        1571625,
+        4572000,
+        9048750,
+        323850
+      ],
+      "pixel_bbox": [
+        265,
+        590,
+        1403,
+        647
+      ],
+      "size_px": [
+        1138,
+        57
+      ]
+    },
+    {
+      "slide": 23,
+      "asset": "components/s23_17_text_block.png",
+      "kind": "text_block",
+      "label": "The main residual weakness is the introsort-heapsort boundary, where current val",
+      "emu_bbox": [
+        1571625,
+        5095875,
+        9048750,
+        323850
+      ],
+      "pixel_bbox": [
+        196,
+        658,
+        1403,
+        721
+      ],
+      "size_px": [
+        1207,
+        63
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_06_text_block.png",
+      "kind": "text_block",
+      "label": "01",
+      "emu_bbox": [
+        1143000,
+        2000250,
+        400050,
+        228600
+      ],
+      "pixel_bbox": [
+        140,
+        252,
+        212,
+        302
+      ],
+      "size_px": [
+        72,
+        50
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_07_text_block.png",
+      "kind": "text_block",
+      "label": "A deployable selector",
+      "emu_bbox": [
+        1714500,
+        2000250,
+        9334500,
+        228600
+      ],
+      "pixel_bbox": [
+        215,
+        252,
+        1460,
+        302
+      ],
+      "size_px": [
+        1245,
+        50
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_08_text_block.png",
+      "kind": "text_block",
+      "label": "A compact pipeline combines sixteen O(n) structural features with a gradient-boo",
+      "emu_bbox": [
+        1714500,
+        2324100,
+        9334500,
+        361950
+      ],
+      "pixel_bbox": [
+        215,
+        313,
+        578,
+        360
+      ],
+      "size_px": [
+        363,
+        47
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_10_text_block.png",
+      "kind": "text_block",
+      "label": "02",
+      "emu_bbox": [
+        1143000,
+        3143250,
+        400050,
+        228600
+      ],
+      "pixel_bbox": [
+        140,
+        402,
+        212,
+        452
+      ],
+      "size_px": [
+        72,
+        50
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_11_text_block.png",
+      "kind": "text_block",
+      "label": "A rigorous evaluation framework",
+      "emu_bbox": [
+        1714500,
+        3143250,
+        9334500,
+        228600
+      ],
+      "pixel_bbox": [
+        259,
+        402,
+        1460,
+        452
+      ],
+      "size_px": [
+        1201,
+        50
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_12_text_block.png",
+      "kind": "text_block",
+      "label": "Source-level separation, near-tie filtering, LODO testing, and regret metrics gi",
+      "emu_bbox": [
+        1714500,
+        3467100,
+        9334500,
+        361950
+      ],
+      "pixel_bbox": [
+        215,
+        445,
+        1460,
+        512
+      ],
+      "size_px": [
+        1245,
+        67
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_14_text_block.png",
+      "kind": "text_block",
+      "label": "03",
+      "emu_bbox": [
+        1143000,
+        4286250,
+        400050,
+        228600
+      ],
+      "pixel_bbox": [
+        140,
+        552,
+        212,
+        602
+      ],
+      "size_px": [
+        72,
+        50
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_15_text_block.png",
+      "kind": "text_block",
+      "label": "A reproducible artefact",
+      "emu_bbox": [
+        1714500,
+        4286250,
+        9334500,
+        228600
+      ],
+      "pixel_bbox": [
+        263,
+        552,
+        1458,
+        602
+      ],
+      "size_px": [
+        1195,
+        50
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_16_text_block.png",
+      "kind": "text_block",
+      "label": "One source-of-truth feature extractor, data pipeline, and exported XGBoost JSON ",
+      "emu_bbox": [
+        1714500,
+        4610100,
+        9334500,
+        361950
+      ],
+      "pixel_bbox": [
+        259,
+        595,
+        1460,
+        641
+      ],
+      "size_px": [
+        1201,
+        46
+      ]
+    },
+    {
+      "slide": 24,
+      "asset": "components/s24_18_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        1428750,
+        5810250,
+        9334500,
+        209550
+      ],
+      "pixel_bbox": [
+        263,
+        752,
+        1422,
+        800
+      ],
+      "size_px": [
+        1159,
+        48
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_06_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        1190625,
+        2143125,
+        4381500,
+        3001518
+      ],
+      "pixel_bbox": [
+        174,
+        327,
+        741,
+        685
+      ],
+      "size_px": [
+        567,
+        358
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_07_text_block.png",
+      "kind": "text_block",
+      "label": "Limitations",
+      "emu_bbox": [
+        1438275,
+        2390775,
+        3886200,
+        228600
+      ],
+      "pixel_bbox": [
+        178,
+        327,
+        708,
+        353
+      ],
+      "size_px": [
+        530,
+        26
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_08_text_block.png",
+      "kind": "text_block",
+      "label": "portfolio limited to three C-level comparison sorts",
+      "emu_bbox": [
+        1514475,
+        2867025,
+        3733800,
+        285750
+      ],
+      "pixel_bbox": [
+        188,
+        366,
+        698,
+        423
+      ],
+      "size_px": [
+        510,
+        57
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_09_text_block.png",
+      "kind": "text_block",
+      "label": "absolute regret tied to one hardware/software environment",
+      "emu_bbox": [
+        1514475,
+        3324225,
+        3733800,
+        285750
+      ],
+      "pixel_bbox": [
+        188,
+        426,
+        698,
+        483
+      ],
+      "size_px": [
+        510,
+        57
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_10_text_block.png",
+      "kind": "text_block",
+      "label": "LinUCB contextual bandit designed but not validated",
+      "emu_bbox": [
+        1514475,
+        3781425,
+        3733800,
+        285750
+      ],
+      "pixel_bbox": [
+        188,
+        486,
+        698,
+        543
+      ],
+      "size_px": [
+        510,
+        57
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_11_text_block.png",
+      "kind": "text_block",
+      "label": "feature extraction becomes unprofitable below about 1,000 elements",
+      "emu_bbox": [
+        1514475,
+        4238625,
+        3733800,
+        285750
+      ],
+      "pixel_bbox": [
+        188,
+        546,
+        698,
+        603
+      ],
+      "size_px": [
+        510,
+        57
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_12_shape_container.png",
+      "kind": "shape_container",
+      "label": "",
+      "emu_bbox": [
+        6619875,
+        2143125,
+        4381500,
+        2857500
+      ],
+      "pixel_bbox": [
+        858,
+        327,
+        1453,
+        666
+      ],
+      "size_px": [
+        595,
+        339
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_13_text_block.png",
+      "kind": "text_block",
+      "label": "Future work",
+      "emu_bbox": [
+        6867525,
+        2390775,
+        3886200,
+        228600
+      ],
+      "pixel_bbox": [
+        1030,
+        328,
+        1421,
+        353
+      ],
+      "size_px": [
+        391,
+        25
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_14_text_block.png",
+      "kind": "text_block",
+      "label": "larger portfolios: Powersort, radix/bucket guards, SIMD/GPU sorts",
+      "emu_bbox": [
+        6943725,
+        2867025,
+        3733800,
+        285750
+      ],
+      "pixel_bbox": [
+        1030,
+        366,
+        1310,
+        423
+      ],
+      "size_px": [
+        280,
+        57
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_15_text_block.png",
+      "kind": "text_block",
+      "label": "validated LinUCB under gradual and abrupt distribution shift",
+      "emu_bbox": [
+        6943725,
+        3324225,
+        3733800,
+        285750
+      ],
+      "pixel_bbox": [
+        1030,
+        426,
+        1411,
+        483
+      ],
+      "size_px": [
+        381,
+        57
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_16_text_block.png",
+      "kind": "text_block",
+      "label": "domain embeddings and stricter channel-level routing evaluation",
+      "emu_bbox": [
+        6943725,
+        3781425,
+        3733800,
+        285750
+      ],
+      "pixel_bbox": [
+        1030,
+        486,
+        1411,
+        543
+      ],
+      "size_px": [
+        381,
+        57
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_17_text_block.png",
+      "kind": "text_block",
+      "label": "cross-platform deployment with feature-extraction overhead",
+      "emu_bbox": [
+        6943725,
+        4238625,
+        3733800,
+        285750
+      ],
+      "pixel_bbox": [
+        1030,
+        546,
+        1411,
+        603
+      ],
+      "size_px": [
+        381,
+        57
+      ]
+    },
+    {
+      "slide": 25,
+      "asset": "components/s25_18_text_block.png",
+      "kind": "text_block",
+      "label": "Future work extends the portfolio, adaptation, and generalisation axes while pre",
+      "emu_bbox": [
+        1524000,
+        5667375,
+        9144000,
+        228600
+      ],
+      "pixel_bbox": [
+        190,
+        733,
+        1410,
+        783
+      ],
+      "size_px": [
+        1220,
+        50
+      ]
+    },
+    {
+      "slide": 26,
+      "asset": "components/s26_04_text_block.png",
+      "kind": "text_block",
+      "label": "Thank you",
+      "emu_bbox": [
+        914400,
+        2057400,
+        10363200,
+        914400
+      ],
+      "pixel_bbox": [
+        652,
+        350,
+        1261,
+        400
+      ],
+      "size_px": [
+        609,
+        50
+      ]
+    },
+    {
+      "slide": 26,
+      "asset": "components/s26_05_text_block.png",
+      "kind": "text_block",
+      "label": "Questions?",
+      "emu_bbox": [
+        914400,
+        2999232,
+        10363200,
+        685800
+      ],
+      "pixel_bbox": [
+        674,
+        383,
+        1261,
+        483
+      ],
+      "size_px": [
+        587,
+        100
+      ]
+    }
+  ]
+}
