@@ -1,0 +1,1 @@
+The portfolio is deliberately limited to three real implementations: introsort, heapsort, and timsort. The model is not choosing from every sorting algorithm in theory. It is choosing from the measured implementations in this experiment.

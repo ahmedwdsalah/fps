@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#8F1D3A"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+
+  <text x="64" y="76" font-family="'Styrene A','Helvetica Neue',Arial,sans-serif" font-size="31" font-weight="700" fill="#191919">Training was designed to expose difficult decision boundaries</text>
+  <line x1="64" y1="104" x2="1216" y2="104" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <rect x="74" y="154" width="1132" height="420" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="118" y="198" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#64748B">training protocol logic</text>
+
+  <rect x="118" y="246" width="220" height="180" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="228" y="285" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">empirical labels</text>
+  <line x1="150" y1="310" x2="306" y2="310" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="228" y="348" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="20" fill="#8F1D3A">argmin T(a, x)</text>
+  <text x="228" y="385" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">winner comes from</text>
+  <text x="228" y="410" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">runtime measurement</text>
+
+  <path d="M360 336 H430" stroke="#8F1D3A" stroke-width="2.6" marker-end="url(#arr)"/>
+
+  <rect x="452" y="246" width="220" height="180" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="562" y="285" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">near-tie filtering</text>
+  <line x1="484" y1="310" x2="640" y2="310" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="562" y="348" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="19" fill="#8F1D3A">winner margin</text>
+  <text x="562" y="385" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">remove unstable</text>
+  <text x="562" y="410" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">training targets</text>
+
+  <path d="M694 336 H764" stroke="#8F1D3A" stroke-width="2.6" marker-end="url(#arr)"/>
+
+  <rect x="786" y="246" width="220" height="180" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="896" y="285" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">imbalance control</text>
+  <line x1="818" y1="310" x2="974" y2="310" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="896" y="348" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="19" fill="#8F1D3A">sample + weight</text>
+  <text x="896" y="385" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">minority boundaries</text>
+  <text x="896" y="410" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">stay visible</text>
+
+  <path d="M1028 336 H1098" stroke="#8F1D3A" stroke-width="2.6" marker-end="url(#arr)"/>
+
+  <rect x="1120" y="246" width="52" height="180" rx="8" fill="#191919"/>
+  <text x="1146" y="336" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" transform="rotate(-90 1146 336)">stratified split</text>
+
+  <rect x="236" y="486" width="808" height="48" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="640" y="517" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#64748B">the goal is not to memorize the majority class, but to learn where algorithm choice changes</text>
+</svg>

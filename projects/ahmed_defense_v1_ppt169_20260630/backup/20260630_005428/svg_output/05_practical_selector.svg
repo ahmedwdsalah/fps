@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="78" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">The aim is a practical selector, not a perfect oracle</text><rect x="56" y="104" width="180" height="5" fill="#0F766E"/></g>
+  <g id="metrics">
+    <text x="116" y="260" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="700" fill="#0F766E">93.1%</text><text x="116" y="314" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">gap closed</text>
+    <text x="496" y="260" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="700" fill="#173B6D">76.1%</text><text x="496" y="314" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">accuracy</text>
+    <text x="876" y="260" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="700" fill="#173B6D">89.6%</text><text x="876" y="314" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">zero regret</text>
+  </g>
+  <g id="message">
+    <rect x="150" y="430" width="980" height="118" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/>
+    <text x="190" y="488" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" fill="#172033">A wrong label is only damaging when it creates meaningful runtime regret.</text>
+    <text x="190" y="528" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">That is why the defense leads with runtime value, then explains accuracy and limits.</text>
+  </g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">05</text></g>
+</svg>

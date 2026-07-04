@@ -1,0 +1,55 @@
+{
+  "canvas": "ppt169",
+  "audience": "Mixed computer science and engineering MSc thesis defense committee at Cyprus International University. The talk must sound like Ahmed defending the submitted work, not like a generic machine-generated report.",
+  "content_divergence": "Restructure freely inside the thesis evidence, but keep every fact sourced. Use a script-first 22-slide defense flow: task, importance, data, labels, extracted features, v5 model, evaluation metrics, results, strict checks, limitations, contributions. No standalone literature survey, no backup appendix, no machine planning words on slides.",
+  "mode": "narrative",
+  "visual_style": "swiss-minimal",
+  "delivery_purpose": "presentation",
+  "page_count": "22 slides total. No backup deck, no appendix, no extra slides after the closing/Q&A slide.",
+  "color": {
+    "name": "Anthropic academic light",
+    "palette": {
+      "background": "#FFFFFF",
+      "secondary_bg": "#F8FAFC",
+      "primary": "#191919",
+      "accent": "#D97757",
+      "secondary_accent": "#4A90D9",
+      "body_text": "#191919"
+    }
+  },
+  "icons": "tabler-outline",
+  "typography": {
+    "name": "Anthropic fallback sans",
+    "heading": {
+      "cjk": "Microsoft YaHei",
+      "css": "\"Styrene A\", \"Helvetica Neue\", Arial, \"Microsoft YaHei\", sans-serif",
+      "latin": "Arial",
+      "sample_cjk": "Most mistakes are cheap",
+      "sample_latin": "Most mistakes are cheap"
+    },
+    "body": {
+      "cjk": "Microsoft YaHei",
+      "css": "\"Anthropic Sans\", \"Helvetica Neue\", Arial, \"Microsoft YaHei\", sans-serif",
+      "latin": "Arial",
+      "sample_cjk": "The selector closes most of the runtime gap while keeping the hard boundary visible.",
+      "sample_latin": "The selector closes most of the runtime gap while keeping the hard boundary visible."
+    },
+    "body_size": 32,
+    "sizes": {
+      "annotation": 21,
+      "subtitle": 36,
+      "title": 48
+    },
+    "body_size_unit": "px"
+  },
+  "formula_policy": "mixed",
+  "image_usage": [
+    "provided"
+  ],
+  "image_notes": "Use provided thesis and methodology figures as evidence, but do not dump them into generic boxes. Reframe with the academic template and Anthropic visual identity. No decorative AI images for v2. Use chart/diagram templates for process, feature groups, architecture, and evaluation explanation where they improve clarity. Every slide must fit within safe bounds; no clipped titles, no text outside containers.",
+  "generation_mode": "continuous",
+  "refine_spec": false,
+  "stage": "final",
+  "status": "confirmed",
+  "confirmed_at": "2026-06-30T11:09:14"
+}

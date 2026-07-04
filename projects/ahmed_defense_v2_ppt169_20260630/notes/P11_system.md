@@ -1,0 +1,1 @@
+The main system is v5. It is one general XGBoost classifier trained across all domains and choosing among the three algorithms. The F1-specific route is separate and I will only mention it as a specialization, not the main result.

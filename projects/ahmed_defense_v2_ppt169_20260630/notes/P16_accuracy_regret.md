@@ -1,0 +1,1 @@
+This slide explains why I do not defend the model only as a classifier. Some label mistakes happen between algorithms whose measured runtimes are very close. In those cases, the label is wrong, but the runtime regret is small.

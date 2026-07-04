@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+
+  <g id="title">
+    <text x="640" y="74" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#191919">Algorithm Selection Problem</text>
+    <text x="640" y="106" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#64748B">formal thesis mapping for sorting numeric arrays</text>
+  </g>
+
+  <g id="framework_equation">
+    <rect x="188" y="128" width="904" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="640" y="162" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="21" fill="#191919">P  →  F  →  S : F → A  →  A  →  Y</text>
+  </g>
+
+  <g id="problem_space">
+    <rect x="58" y="218" width="238" height="260" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="58" y="218" width="238" height="48" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="177" y="250" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Problem space P</text>
+    <text x="86" y="300" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">one numeric array</text>
+    <text x="86" y="332" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#191919">[4, 5, 5, 6, 17, 18,</text>
+    <text x="86" y="354" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#191919"> 19, 2, 2, 3, 31, 45]</text>
+    <line x1="86" y1="390" x2="268" y2="390" stroke="#E2E8F0"/>
+    <rect x="88" y="406" width="14" height="18" fill="#E2E8F0"/>
+    <rect x="108" y="402" width="14" height="22" fill="#E2E8F0"/>
+    <rect x="128" y="402" width="14" height="22" fill="#E2E8F0"/>
+    <rect x="148" y="397" width="14" height="27" fill="#E2E8F0"/>
+    <rect x="168" y="360" width="14" height="64" fill="#D97757"/>
+    <rect x="188" y="356" width="14" height="68" fill="#D97757"/>
+    <rect x="208" y="352" width="14" height="72" fill="#D97757"/>
+    <rect x="228" y="416" width="14" height="8" fill="#BA1D2C"/>
+    <rect x="248" y="416" width="14" height="8" fill="#BA1D2C"/>
+    <text x="86" y="458" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#64748B">instance-dependent structure</text>
+  </g>
+
+  <g id="feature_space">
+    <rect x="342" y="218" width="250" height="260" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="342" y="218" width="250" height="48" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="467" y="250" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Feature space F</text>
+    <text x="370" y="296" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">structural array features</text>
+    <rect x="370" y="324" width="194" height="118" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <line x1="370" y1="354" x2="564" y2="354" stroke="#E2E8F0"/>
+    <line x1="370" y1="384" x2="564" y2="384" stroke="#E2E8F0"/>
+    <line x1="370" y1="414" x2="564" y2="414" stroke="#E2E8F0"/>
+    <text x="386" y="345" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">size</text>
+    <text x="386" y="375" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">sortedness / disorder</text>
+    <text x="386" y="405" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">runs</text>
+    <text x="386" y="435" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">duplicates / entropy</text>
+    <text x="467" y="462" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#8F1D3A">x ∈ R^16</text>
+  </g>
+
+  <g id="selector_mapping">
+    <rect x="636" y="236" width="222" height="224" rx="12" fill="#191919"/>
+    <text x="747" y="290" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Selector</text>
+    <text x="747" y="328" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="21" fill="#F4511E">S : F → A</text>
+    <line x1="682" y1="354" x2="812" y2="354" stroke="#64748B"/>
+    <text x="747" y="392" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">XGBoost classifier</text>
+    <text x="747" y="420" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#CBD5E1">classification-based selection</text>
+  </g>
+
+  <g id="algorithm_space">
+    <rect x="902" y="218" width="320" height="260" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="902" y="218" width="320" height="48" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="1062" y="250" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Algorithm space A</text>
+    <text x="1062" y="296" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">algorithm portfolio</text>
+    <rect x="950" y="322" width="224" height="42" rx="21" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="2"/>
+    <text x="1062" y="349" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Introsort</text>
+    <rect x="950" y="374" width="224" height="42" rx="21" fill="#FFFFFF" stroke="#BA1D2C" stroke-width="2"/>
+    <text x="1062" y="401" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Heapsort</text>
+    <rect x="950" y="426" width="224" height="42" rx="21" fill="#F4511E"/>
+    <text x="1062" y="453" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Timsort</text>
+  </g>
+
+  <g id="flow_arrows">
+    <path d="M296 348 H342" stroke="#D97757" stroke-width="4"/>
+    <path d="M342 348 L324 337 V359 Z" fill="#D97757"/>
+    <path d="M592 348 H636" stroke="#D97757" stroke-width="4"/>
+    <path d="M636 348 L618 337 V359 Z" fill="#D97757"/>
+    <path d="M858 348 H902" stroke="#D97757" stroke-width="4"/>
+    <path d="M902 348 L884 337 V359 Z" fill="#D97757"/>
+  </g>
+
+  <g id="performance_space">
+    <rect x="160" y="536" width="960" height="118" rx="12" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="198" y="575" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Performance space Y</text>
+    <text x="198" y="606" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">training label comes from empirical runtime measurement</text>
+    <text x="198" y="635" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#191919">label(x) = argmin_a T(a, x)</text>
+    <rect x="720" y="562" width="320" height="66" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <line x1="826" y1="562" x2="826" y2="628" stroke="#E2E8F0"/>
+    <line x1="932" y1="562" x2="932" y2="628" stroke="#E2E8F0"/>
+    <text x="773" y="586" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#64748B">Introsort</text>
+    <text x="879" y="586" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#64748B">Heapsort</text>
+    <text x="986" y="586" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#F4511E">Timsort</text>
+    <text x="773" y="615" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">18.7 μs</text>
+    <text x="879" y="615" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">24.5 μs</text>
+    <text x="986" y="615" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F4511E">13.2 μs</text>
+    <path d="M1062 478 C1062 518 1018 526 986 562" fill="none" stroke="#D97757" stroke-width="3"/>
+    <path d="M986 562 L1008 554 L1000 576 Z" fill="#D97757"/>
+  </g>
+</svg>

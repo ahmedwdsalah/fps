@@ -1,0 +1,137 @@
+{
+  "tier": 2,
+  "lang": "en",
+  "recommend": {
+    "icons": "tabler-outline",
+    "formula_policy": "mixed",
+    "image_usage": ["provided"],
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "22 slides total. No backup deck, no appendix, no extra slides after the closing/Q&A slide."
+  },
+  "image_notes": {
+    "value": "Use provided thesis and methodology figures as evidence, but do not dump them into generic boxes. Reframe with the academic template and Anthropic visual identity. No decorative AI images for v2. Use chart/diagram templates for process, feature groups, architecture, and evaluation explanation where they improve clarity. Every slide must fit within safe bounds; no clipped titles, no text outside containers."
+  },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "Anthropic academic light",
+        "note": "Recommended. Claude/Anthropic orange as restrained accent over a clean academic light field.",
+        "palette": {
+          "background": "#FFFFFF",
+          "secondary_bg": "#F8FAFC",
+          "primary": "#191919",
+          "accent": "#D97757",
+          "secondary_accent": "#4A90D9",
+          "body_text": "#191919"
+        }
+      },
+      {
+        "name": "Evidence journal",
+        "note": "More chart/editorial. Useful if the result figures and metric definitions dominate the visual system.",
+        "palette": {
+          "background": "#FBFAF7",
+          "secondary_bg": "#F0EEE8",
+          "primary": "#1F2933",
+          "accent": "#D97757",
+          "secondary_accent": "#0F766E",
+          "body_text": "#1F2933"
+        }
+      },
+      {
+        "name": "Engineering blueprint light",
+        "note": "More system-oriented. Better for architecture and feature extraction, slightly less formal than the recommended academic light.",
+        "palette": {
+          "background": "#FFFFFF",
+          "secondary_bg": "#EEF5FF",
+          "primary": "#173B6D",
+          "accent": "#D97757",
+          "secondary_accent": "#2563EB",
+          "body_text": "#172033"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "Anthropic fallback sans",
+        "note": "Recommended. Uses Anthropic-style sans stacks but falls back safely to Arial and Microsoft YaHei.",
+        "sample_heading": "Most mistakes are cheap",
+        "sample_heading_latin": "Most mistakes are cheap",
+        "sample_body": "The selector closes most of the runtime gap while keeping the hard boundary visible.",
+        "sample_body_latin": "The selector closes most of the runtime gap while keeping the hard boundary visible.",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Styrene A\", \"Helvetica Neue\", Arial, \"Microsoft YaHei\", sans-serif"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Anthropic Sans\", \"Helvetica Neue\", Arial, \"Microsoft YaHei\", sans-serif"
+        },
+        "body_size": 32,
+        "sizes": {
+          "title": 48,
+          "subtitle": 36,
+          "annotation": 21
+        }
+      },
+      {
+        "name": "Formal academic serif contrast",
+        "note": "More thesis-like. Serif titles add academic weight while body stays readable.",
+        "sample_heading": "Runtime value explains the contribution",
+        "sample_heading_latin": "Runtime value explains the contribution",
+        "sample_body": "Accuracy is not enough; regret shows whether a mistake matters.",
+        "sample_body_latin": "Accuracy is not enough; regret shows whether a mistake matters.",
+        "heading": {
+          "cjk": "SimSun",
+          "latin": "Georgia",
+          "css": "Georgia, SimSun, serif"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "Arial, \"Microsoft YaHei\", sans-serif"
+        },
+        "body_size": 32,
+        "sizes": {
+          "title": 48,
+          "subtitle": 36,
+          "annotation": 21
+        }
+      },
+      {
+        "name": "Technical sans plus mono",
+        "note": "More engineering. Good if formulas, pipelines, and model structure need stronger system feeling.",
+        "sample_heading": "Feature structure drives the selector",
+        "sample_heading_latin": "Feature structure drives the selector",
+        "sample_body": "The model sees length, repetition, ordering, and distribution before sorting begins.",
+        "sample_body_latin": "The model sees length, repetition, ordering, and distribution before sorting begins.",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "Arial, \"Microsoft YaHei\", sans-serif"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "Arial, \"Microsoft YaHei\", sans-serif"
+        },
+        "body_size": 32,
+        "sizes": {
+          "title": 48,
+          "subtitle": 36,
+          "annotation": 21
+        }
+      }
+    ]
+  },
+  "refine_spec": {
+    "value": false
+  }
+}

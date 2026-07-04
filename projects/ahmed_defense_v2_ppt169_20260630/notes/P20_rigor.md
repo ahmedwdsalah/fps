@@ -1,0 +1,1 @@
+The negative results are part of the rigor. v6 checked source-awareness, v7 showed that a regret-aware attempt did not improve the final result, and v8 showed that the intro-versus-heap boundary remains difficult. These results keep the claim measured.

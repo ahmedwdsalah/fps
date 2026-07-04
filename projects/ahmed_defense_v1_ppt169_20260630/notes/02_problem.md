@@ -1,0 +1,1 @@
+Sorting is a familiar task, but choosing the sorting algorithm is still input-dependent. The same program may receive arrays with different sizes, repetitions, order, and distribution. My work treats this as a selection problem: given the array structure, choose introsort, heapsort, or timsort before execution.

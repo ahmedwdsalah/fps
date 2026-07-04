@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="70" fill="#191919"/><rect x="0" y="0" width="8" height="70" fill="#D97757"/>
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">The data was intentionally not from one shape</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC"/><rect x="40" y="86" width="4" height="18" fill="#D97757"/>
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">The final dataset contains 1.18M arrays from five real-data domains.</text>
+  <text x="74" y="215" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="78" font-weight="700" fill="#D97757">1.18M</text>
+  <text x="80" y="262" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">labeled array instances</text>
+  <rect x="80" y="320" width="250" height="100" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="205" y="380" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">F1 telemetry</text>
+  <rect x="370" y="320" width="250" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/><text x="495" y="380" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">Stock</text>
+  <rect x="660" y="320" width="250" height="100" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="785" y="380" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">Crypto</text>
+  <rect x="950" y="320" width="250" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/><text x="1075" y="380" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">Weather</text>
+  <rect x="515" y="465" width="250" height="100" rx="8" fill="#191919"/><text x="640" y="525" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#FFFFFF">Earthquake</text>
+  <text x="80" y="610" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">The point was to make the selector face different numeric patterns, not memorize one dataset family.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/><text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">Dataset scale</text><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">07 / 22</text>
+</svg>

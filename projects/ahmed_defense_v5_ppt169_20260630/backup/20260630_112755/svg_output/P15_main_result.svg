@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="70" fill="#191919"/><rect x="0" y="0" width="8" height="70" fill="#D97757"/>
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">The selector closes most of the runtime gap</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC"/><rect x="40" y="86" width="4" height="18" fill="#D97757"/>
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">The most important result is runtime value: v5 recovers 93.1% of the SBS-to-VBS gap.</text>
+  <rect x="80" y="165" width="520" height="355" rx="8" fill="#191919"/>
+  <text x="122" y="290" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="78" font-weight="700" fill="#D97757">93.1%</text>
+  <text x="126" y="350" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="34" fill="#FFFFFF">runtime gap closed</text>
+  <text x="126" y="405" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#FFFFFF">This is the headline because a wrong</text>
+  <text x="126" y="438" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#FFFFFF">label is not always an expensive mistake.</text>
+  <rect x="670" y="165" width="240" height="165" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="790" y="240" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#191919">76.1%</text><text x="790" y="282" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">test accuracy</text>
+  <rect x="960" y="165" width="240" height="165" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="1080" y="240" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#191919">89.6%</text><text x="1080" y="282" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">zero regret</text>
+  <image href="../images/06_vbs_sbs_model_comparison.png" x="660" y="360" width="550" height="205" preserveAspectRatio="xMidYMid meet"/>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/><text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">Main runtime result</text><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">15 / 22</text>
+</svg>

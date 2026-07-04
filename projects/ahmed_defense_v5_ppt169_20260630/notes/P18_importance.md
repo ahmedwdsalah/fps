@@ -1,0 +1,1 @@
+Feature importance shows that the model is using structural signals. This supports the method because the important features relate back to the properties that sorting algorithms react to: order, duplicates, distribution, and size.

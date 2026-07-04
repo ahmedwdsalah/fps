@@ -1,0 +1,1 @@
+The work connects to algorithm selection, adaptive sorting, and learned performance prediction. I am not presenting literature as a separate survey. I use it to position the task: previous work gives the idea of selecting from features, and this thesis applies that idea to measured sorting behavior.

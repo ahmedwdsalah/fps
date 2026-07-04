@@ -1,0 +1,1 @@
+Strict checks changed the interpretation. The source-aware v6 split lowers the numbers, which is expected when we reduce leakage risk. v7 regret-aware training did not improve the result and was rejected. v8 showed that the intro-heap boundary is genuinely difficult. These results make the final claim narrower, but more honest.

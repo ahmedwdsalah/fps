@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="900" viewBox="0 0 1000 900" font-family="Arial, sans-serif" font-size="12">
+
+  <rect width="1000" height="900" fill="white"/>
+
+  <!-- PAGE TITLE -->
+  <text x="500" y="30" text-anchor="middle" font-size="14" font-weight="bold">Sorting Algorithm Selector — Model Architectures</text>
+
+  <!-- COLUMN HEADERS -->
+  <text x="250" y="52" text-anchor="middle" font-size="12" font-weight="bold">(a) Global Model v5</text>
+  <text x="750" y="52" text-anchor="middle" font-size="12" font-weight="bold">(b) Routed Specialised Model</text>
+
+  <!-- vertical separator -->
+  <line x1="500" y1="42" x2="500" y2="870" stroke="black" stroke-width="1" stroke-dasharray="6,4"/>
+
+
+  <!-- ══════════════════════════════════════
+       LEFT — GLOBAL MODEL V5
+       ══════════════════════════════════════ -->
+
+  <!-- L1: Input -->
+  <rect x="150" y="62" width="200" height="36" rx="18" fill="white" stroke="black" stroke-width="2"/>
+  <text x="250" y="85" text-anchor="middle" font-weight="bold">Input Array</text>
+
+  <!-- L1→L2 -->
+  <line x1="250" y1="98" x2="250" y2="122" stroke="black" stroke-width="1.5"/>
+  <polygon points="250,125 246,115 254,115" fill="black"/>
+
+  <!-- L2: Size threshold diamond -->
+  <polygon points="250,125 370,162 250,199 130,162" fill="white" stroke="black" stroke-width="2"/>
+  <text x="250" y="157" text-anchor="middle">n &lt; length</text>
+  <text x="250" y="173" text-anchor="middle">threshold?</text>
+
+  <!-- YES → right -->
+  <line x1="370" y1="162" x2="430" y2="162" stroke="black" stroke-width="1.5"/>
+  <polygon points="433,162 423,158 423,166" fill="black"/>
+  <text x="400" y="154" text-anchor="middle" font-size="10" font-style="italic">YES</text>
+  <rect x="433" y="144" width="52" height="36" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="459" y="167" text-anchor="middle" font-size="11">Timsort</text>
+  <line x1="459" y1="180" x2="459" y2="205" stroke="black" stroke-width="1.5"/>
+  <polygon points="459,208 455,198 463,198" fill="black"/>
+  <rect x="419" y="208" width="80" height="30" rx="15" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="459" y="228" text-anchor="middle" font-size="11" font-weight="bold">Sorted Array</text>
+
+  <!-- NO → down -->
+  <line x1="250" y1="199" x2="250" y2="225" stroke="black" stroke-width="1.5"/>
+  <polygon points="250,228 246,218 254,218" fill="black"/>
+  <text x="262" y="218" font-size="10" font-style="italic">NO</text>
+
+  <!-- L3: Feature Extraction -->
+  <rect x="150" y="228" width="200" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="250" y="251" text-anchor="middle" font-weight="bold">Feature Extraction</text>
+
+  <!-- L3→L4 -->
+  <line x1="250" y1="264" x2="250" y2="290" stroke="black" stroke-width="1.5"/>
+  <polygon points="250,293 246,283 254,283" fill="black"/>
+
+  <!-- L4: XGBoost Classifier -->
+  <rect x="150" y="293" width="200" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="250" y="316" text-anchor="middle" font-weight="bold">XGBoost Classifier</text>
+
+  <!-- L4→L5 -->
+  <line x1="250" y1="329" x2="250" y2="355" stroke="black" stroke-width="1.5"/>
+  <polygon points="250,358 246,348 254,348" fill="black"/>
+
+  <!-- L5: argmax diamond -->
+  <polygon points="250,358 370,395 250,432 130,395" fill="white" stroke="black" stroke-width="2"/>
+  <text x="250" y="390" text-anchor="middle">argmax</text>
+  <text x="250" y="406" text-anchor="middle">probability</text>
+
+  <!-- Left: Introsort -->
+  <line x1="130" y1="395" x2="68" y2="395" stroke="black" stroke-width="1.5"/>
+  <line x1="68"  y1="395" x2="68"  y2="460" stroke="black" stroke-width="1.5"/>
+  <polygon points="68,463 64,453 72,453" fill="black"/>
+  <text x="99" y="387" text-anchor="middle" font-size="10" font-style="italic">Introsort</text>
+
+  <!-- Centre: Heapsort -->
+  <line x1="250" y1="432" x2="250" y2="460" stroke="black" stroke-width="1.5"/>
+  <polygon points="250,463 246,453 254,453" fill="black"/>
+  <text x="272" y="452" font-size="10" font-style="italic">Heapsort</text>
+
+  <!-- Right: Timsort -->
+  <line x1="370" y1="395" x2="432" y2="395" stroke="black" stroke-width="1.5"/>
+  <line x1="432" y1="395" x2="432" y2="460" stroke="black" stroke-width="1.5"/>
+  <polygon points="432,463 428,453 436,453" fill="black"/>
+  <text x="401" y="387" text-anchor="middle" font-size="10" font-style="italic">Timsort</text>
+
+  <!-- L6a -->
+  <rect x="24"  y="463" width="88" height="34" fill="white" stroke="black" stroke-width="2"/>
+  <text x="68"  y="484" text-anchor="middle" font-weight="bold">Introsort</text>
+
+  <!-- L6b -->
+  <rect x="206" y="463" width="88" height="34" fill="white" stroke="black" stroke-width="2"/>
+  <text x="250" y="484" text-anchor="middle" font-weight="bold">Heapsort</text>
+
+  <!-- L6c -->
+  <rect x="388" y="463" width="88" height="34" fill="white" stroke="black" stroke-width="2"/>
+  <text x="432" y="484" text-anchor="middle" font-weight="bold">Timsort</text>
+
+  <!-- Converge to L7 -->
+  <line x1="68"  y1="497" x2="68"  y2="540" stroke="black" stroke-width="1.5"/>
+  <line x1="68"  y1="540" x2="224" y2="540" stroke="black" stroke-width="1.5"/>
+  <polygon points="227,540 217,536 217,544" fill="black"/>
+
+  <line x1="250" y1="497" x2="250" y2="540" stroke="black" stroke-width="1.5"/>
+  <polygon points="250,543 246,533 254,533" fill="black"/>
+
+  <line x1="432" y1="497" x2="432" y2="540" stroke="black" stroke-width="1.5"/>
+  <line x1="432" y1="540" x2="276" y2="540" stroke="black" stroke-width="1.5"/>
+  <polygon points="273,540 283,536 283,544" fill="black"/>
+
+  <!-- L7: Execute -->
+  <rect x="150" y="543" width="200" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="250" y="566" text-anchor="middle" font-weight="bold">Execute Selected Algorithm</text>
+
+  <!-- L7→L8 -->
+  <line x1="250" y1="579" x2="250" y2="605" stroke="black" stroke-width="1.5"/>
+  <polygon points="250,608 246,598 254,598" fill="black"/>
+
+  <!-- L8: Output -->
+  <rect x="150" y="608" width="200" height="36" rx="18" fill="white" stroke="black" stroke-width="2"/>
+  <text x="250" y="631" text-anchor="middle" font-weight="bold">Sorted Array</text>
+
+
+  <!-- ══════════════════════════════════════
+       RIGHT — ROUTED SPECIALISED MODEL
+       ══════════════════════════════════════ -->
+
+  <!-- R1: Input -->
+  <rect x="650" y="62" width="200" height="36" rx="18" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="85" text-anchor="middle" font-weight="bold">Input Array</text>
+
+  <!-- R1→R2 -->
+  <line x1="750" y1="98" x2="750" y2="122" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,125 746,115 754,115" fill="black"/>
+
+  <!-- R2: Size threshold diamond -->
+  <polygon points="750,125 870,162 750,199 630,162" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="157" text-anchor="middle">n &lt; length</text>
+  <text x="750" y="173" text-anchor="middle">threshold?</text>
+
+  <!-- YES → right -->
+  <line x1="870" y1="162" x2="930" y2="162" stroke="black" stroke-width="1.5"/>
+  <polygon points="933,162 923,158 923,166" fill="black"/>
+  <text x="900" y="154" text-anchor="middle" font-size="10" font-style="italic">YES</text>
+  <rect x="933" y="144" width="52" height="36" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="959" y="167" text-anchor="middle" font-size="11">Timsort</text>
+  <line x1="959" y1="180" x2="959" y2="205" stroke="black" stroke-width="1.5"/>
+  <polygon points="959,208 955,198 963,198" fill="black"/>
+  <rect x="919" y="208" width="80" height="30" rx="15" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="959" y="228" text-anchor="middle" font-size="11" font-weight="bold">Sorted Array</text>
+
+  <!-- NO → down -->
+  <line x1="750" y1="199" x2="750" y2="225" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,228 746,218 754,218" fill="black"/>
+  <text x="762" y="218" font-size="10" font-style="italic">NO</text>
+
+  <!-- R3: Feature Extraction -->
+  <rect x="650" y="228" width="200" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="251" text-anchor="middle" font-weight="bold">Feature Extraction</text>
+
+  <!-- R3→R4 -->
+  <line x1="750" y1="264" x2="750" y2="290" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,293 746,283 754,283" fill="black"/>
+
+  <!-- R4: Domain Classifier -->
+  <rect x="650" y="293" width="200" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="316" text-anchor="middle" font-weight="bold">Domain Classifier</text>
+
+  <!-- R4→R5 -->
+  <line x1="750" y1="329" x2="750" y2="355" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,358 746,348 754,348" fill="black"/>
+
+  <!-- R5: F1 diamond -->
+  <polygon points="750,358 870,395 750,432 630,395" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="390" text-anchor="middle">Domain =</text>
+  <text x="750" y="406" text-anchor="middle">F1 Telemetry?</text>
+
+  <!-- YES → right: Channel Router -->
+  <line x1="870" y1="395" x2="940" y2="395" stroke="black" stroke-width="1.5"/>
+  <polygon points="943,395 933,391 933,399" fill="black"/>
+  <text x="905" y="387" text-anchor="middle" font-size="10" font-style="italic">YES</text>
+  <rect x="943" y="377" width="44" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="965" y="391" text-anchor="middle" font-size="10" font-weight="bold">Channel</text>
+  <text x="965" y="406" text-anchor="middle" font-size="10" font-weight="bold">Router</text>
+
+  <!-- Channel Router → Channel-Specific Selector -->
+  <line x1="965" y1="413" x2="965" y2="450" stroke="black" stroke-width="1.5"/>
+  <polygon points="965,453 961,443 969,443" fill="black"/>
+  <rect x="915" y="453" width="100" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="965" y="471" text-anchor="middle" font-size="10" font-weight="bold">Channel-Specific</text>
+  <text x="965" y="484" text-anchor="middle" font-size="10" font-weight="bold">Selector</text>
+
+  <!-- NO → down: Domain-Specific -->
+  <line x1="750" y1="432" x2="750" y2="460" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,463 746,453 754,453" fill="black"/>
+  <text x="762" y="452" font-size="10" font-style="italic">NO</text>
+
+  <!-- R6: Domain-Specific Model -->
+  <rect x="650" y="463" width="200" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="481" text-anchor="middle" font-weight="bold">Domain-Specific</text>
+  <text x="750" y="494" text-anchor="middle" font-weight="bold">XGBoost Selector</text>
+
+  <!-- Merge both paths → argmax -->
+  <line x1="965" y1="489" x2="965" y2="540" stroke="black" stroke-width="1.5"/>
+  <line x1="965" y1="540" x2="798" y2="540" stroke="black" stroke-width="1.5"/>
+  <polygon points="795,540 805,536 805,544" fill="black"/>
+
+  <line x1="750" y1="499" x2="750" y2="540" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,543 746,533 754,533" fill="black"/>
+
+  <!-- R7: argmax diamond -->
+  <polygon points="750,543 870,580 750,617 630,580" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="575" text-anchor="middle">argmax</text>
+  <text x="750" y="591" text-anchor="middle">probability</text>
+
+  <!-- Left: Introsort -->
+  <line x1="630" y1="580" x2="568" y2="580" stroke="black" stroke-width="1.5"/>
+  <line x1="568" y1="580" x2="568" y2="645" stroke="black" stroke-width="1.5"/>
+  <polygon points="568,648 564,638 572,638" fill="black"/>
+  <text x="599" y="572" text-anchor="middle" font-size="10" font-style="italic">Introsort</text>
+
+  <!-- Centre: Heapsort -->
+  <line x1="750" y1="617" x2="750" y2="645" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,648 746,638 754,638" fill="black"/>
+  <text x="772" y="637" font-size="10" font-style="italic">Heapsort</text>
+
+  <!-- Right: Timsort -->
+  <line x1="870" y1="580" x2="932" y2="580" stroke="black" stroke-width="1.5"/>
+  <line x1="932" y1="580" x2="932" y2="645" stroke="black" stroke-width="1.5"/>
+  <polygon points="932,648 928,638 936,638" fill="black"/>
+  <text x="901" y="572" text-anchor="middle" font-size="10" font-style="italic">Timsort</text>
+
+  <!-- R8a,b,c -->
+  <rect x="524" y="648" width="88" height="34" fill="white" stroke="black" stroke-width="2"/>
+  <text x="568" y="669" text-anchor="middle" font-weight="bold">Introsort</text>
+
+  <rect x="706" y="648" width="88" height="34" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="669" text-anchor="middle" font-weight="bold">Heapsort</text>
+
+  <rect x="888" y="648" width="88" height="34" fill="white" stroke="black" stroke-width="2"/>
+  <text x="932" y="669" text-anchor="middle" font-weight="bold">Timsort</text>
+
+  <!-- Converge to R9 -->
+  <line x1="568" y1="682" x2="568" y2="725" stroke="black" stroke-width="1.5"/>
+  <line x1="568" y1="725" x2="724" y2="725" stroke="black" stroke-width="1.5"/>
+  <polygon points="727,725 717,721 717,729" fill="black"/>
+
+  <line x1="750" y1="682" x2="750" y2="725" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,728 746,718 754,718" fill="black"/>
+
+  <line x1="932" y1="682" x2="932" y2="725" stroke="black" stroke-width="1.5"/>
+  <line x1="932" y1="725" x2="776" y2="725" stroke="black" stroke-width="1.5"/>
+  <polygon points="773,725 783,721 783,729" fill="black"/>
+
+  <!-- R9: Execute -->
+  <rect x="650" y="728" width="200" height="36" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="751" text-anchor="middle" font-weight="bold">Execute Selected Algorithm</text>
+
+  <!-- R9→R10 -->
+  <line x1="750" y1="764" x2="750" y2="790" stroke="black" stroke-width="1.5"/>
+  <polygon points="750,793 746,783 754,783" fill="black"/>
+
+  <!-- R10: Output -->
+  <rect x="650" y="793" width="200" height="36" rx="18" fill="white" stroke="black" stroke-width="2"/>
+  <text x="750" y="816" text-anchor="middle" font-weight="bold">Sorted Array</text>
+
+
+  <!-- LEGEND -->
+  <rect x="30" y="858" width="940" height="28" rx="4" fill="white" stroke="black" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="44" y="865" width="68" height="16" rx="8" fill="white" stroke="black" stroke-width="1.2"/>
+  <text x="78" y="877" text-anchor="middle" font-size="9">Start / End</text>
+  <rect x="124" y="865" width="56" height="16" fill="white" stroke="black" stroke-width="1.2"/>
+  <text x="152" y="877" text-anchor="middle" font-size="9">Process</text>
+  <polygon points="222,873 238,865 254,873 238,881" fill="white" stroke="black" stroke-width="1.2"/>
+  <text x="238" y="877" text-anchor="middle" font-size="9">Decision</text>
+  <line x1="278" y1="873" x2="320" y2="873" stroke="black" stroke-width="1.2"/>
+  <polygon points="322,873 313,870 313,876" fill="black"/>
+  <text x="300" y="868" text-anchor="middle" font-size="9">Flow</text>
+
+</svg>

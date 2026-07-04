@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#1b1f27" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title{font-family:Arial, Helvetica, sans-serif;font-size:45px;font-weight:800;fill:#1b1b1d}
+      .sub{font-family:Arial, Helvetica, sans-serif;font-size:24px;fill:#222}
+      .h{font-family:Arial, Helvetica, sans-serif;font-size:25px;font-weight:800;fill:#1b1b1d}
+      .b{font-family:Arial, Helvetica, sans-serif;font-size:21px;fill:#526278}
+      .accent{font-family:Arial, Helvetica, sans-serif;font-size:21px;fill:#9A173D}
+      .mono{font-family:Menlo, Consolas, monospace;font-size:16px;fill:#5d6c80}
+      .card{fill:#fff;stroke:#dbe4ef;stroke-width:1.4;rx:12}
+      .soft{fill:#f8fafc;stroke:#dbe4ef;stroke-width:1.4;rx:12}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="0" y="0" width="1600" height="24" fill="#9A173D"/>
+  <rect x="0" y="24" width="1600" height="8" fill="#F4511E"/>
+  <rect x="0" y="860" width="1600" height="40" fill="#9A173D"/>
+  <text x="64" y="94" class="title">v5 is the general cross-domain selector</text>
+  <text x="64" y="138" class="sub">One model is trained across domains and predicts among introsort, heapsort, and timsort.</text>
+  <rect x="64" y="172" width="1472" height="5" fill="#d8e0ea"/>
+
+  <g transform="translate(72,222)">
+    <rect x="0" y="0" width="1045" height="500" class="card" filter="url(#shadow)"/>
+    <image href="/Users/ahmed/Desktop/thesis/My-Master-thesis/projects/ahmed_defense_v5_ppt169_20260630/standalone_slide12_designs/F1_system_architecture_trimmed.png" x="30" y="30" width="985" height="440" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <g transform="translate(1160,222)">
+    <rect x="0" y="0" width="340" height="128" class="card"/>
+    <text x="30" y="48" class="h">Main result</text>
+    <text x="30" y="84" class="b">v5 general selector</text>
+    <text x="30" y="112" class="mono">all domains · 3 algorithms</text>
+
+    <rect x="0" y="168" width="340" height="118" class="soft"/>
+    <text x="30" y="215" class="h">Prediction path</text>
+    <text x="30" y="252" class="accent">features → XGBoost v5</text>
+
+    <rect x="0" y="326" width="340" height="142" class="card"/>
+    <text x="30" y="374" class="h">Separate track</text>
+    <text x="30" y="410" class="b">F1-specific routing is</text>
+    <text x="30" y="438" class="b">not part of the v5 result.</text>
+  </g>
+
+  <text x="1535" y="888" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#ffffff">11/24</text>
+</svg>

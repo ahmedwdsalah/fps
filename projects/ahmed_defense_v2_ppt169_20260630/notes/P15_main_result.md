@@ -1,0 +1,1 @@
+The main result is runtime value: v5 closes 93.1 percent of the gap between SBS and VBS. Accuracy is 76.1 percent, but this does not tell the whole story. The zero-regret rate is 89.6 percent, which shows many decisions are either correct or not costly.

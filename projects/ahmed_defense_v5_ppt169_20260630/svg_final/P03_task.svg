@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A" />
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E" />
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A" />
+
+  <g id="problem_space">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M68,116 H298 A10,10 0 0 1 308,126 V448 A10,10 0 0 1 298,458 H68 A10,10 0 0 1 58,448 V126 A10,10 0 0 1 68,116 Z" />
+    <rect x="58" y="116" width="250" height="50" fill="#F8FAFC" stroke="#CBD5E1" />
+    <text x="183" y="149" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Problem space P</text>
+    <text x="88" y="202" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">numeric array</text>
+    <text x="88" y="236" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#191919">[4, 5, 5, 6, 17, 18,</text>
+    <text x="88" y="260" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#191919"> 19, 2, 2, 3, 31, 45]</text>
+    <line x1="88" y1="303" x2="278" y2="303" stroke="#E2E8F0" />
+    <rect x="90" y="326" width="15" height="22" fill="#E2E8F0" />
+    <rect x="112" y="322" width="15" height="26" fill="#E2E8F0" />
+    <rect x="134" y="322" width="15" height="26" fill="#E2E8F0" />
+    <rect x="156" y="316" width="15" height="32" fill="#E2E8F0" />
+    <rect x="178" y="270" width="15" height="78" fill="#D97757" />
+    <rect x="200" y="266" width="15" height="82" fill="#D97757" />
+    <rect x="222" y="262" width="15" height="86" fill="#D97757" />
+    <rect x="244" y="338" width="15" height="10" fill="#BA1D2C" />
+    <rect x="266" y="338" width="15" height="10" fill="#BA1D2C" />
+    <text x="88" y="400" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#64748B">order, runs, duplicates, spread</text>
+  </g>
+
+  <g id="feature_space">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M380,116 H620 A10,10 0 0 1 630,126 V448 A10,10 0 0 1 620,458 H380 A10,10 0 0 1 370,448 V126 A10,10 0 0 1 380,116 Z" />
+    <rect x="370" y="116" width="260" height="50" fill="#F8FAFC" stroke="#CBD5E1" />
+    <text x="500" y="149" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Feature space F</text>
+    <text x="400" y="202" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">structural array features</text>
+    <rect x="400" y="232" width="200" height="160" fill="#FFFFFF" stroke="#E2E8F0" />
+    <line x1="400" y1="264" x2="600" y2="264" stroke="#E2E8F0" />
+    <line x1="400" y1="296" x2="600" y2="296" stroke="#E2E8F0" />
+    <line x1="400" y1="328" x2="600" y2="328" stroke="#E2E8F0" />
+    <line x1="400" y1="360" x2="600" y2="360" stroke="#E2E8F0" />
+    <text x="418" y="254" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">size</text>
+    <text x="418" y="286" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">sortedness / disorder</text>
+    <text x="418" y="318" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">runs</text>
+    <text x="418" y="350" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">duplicates / entropy</text>
+    <text x="418" y="382" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#191919">spread / outliers</text>
+    <text x="500" y="426" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8F1D3A">x ∈ R^16</text>
+  </g>
+
+  <g id="selector_mapping">
+    <path fill="#191919" d="M694,142 H900 A12,12 0 0 1 912,154 V420 A12,12 0 0 1 900,432 H694 A12,12 0 0 1 682,420 V154 A12,12 0 0 1 694,142 Z" />
+    <text x="797" y="205" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">Selector</text>
+    <text x="797" y="247" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#F4511E">S : F → A</text>
+    <line x1="728" y1="286" x2="866" y2="286" stroke="#64748B" />
+    <text x="797" y="330" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">XGBoost classifier</text>
+    <text x="797" y="362" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#CBD5E1">predict fastest class</text>
+  </g>
+
+  <g id="algorithm_space">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M976,116 H1212 A10,10 0 0 1 1222,126 V448 A10,10 0 0 1 1212,458 H976 A10,10 0 0 1 966,448 V126 A10,10 0 0 1 976,116 Z" />
+    <rect x="966" y="116" width="256" height="50" fill="#F8FAFC" stroke="#CBD5E1" />
+    <text x="1094" y="149" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Algorithm space A</text>
+    <path fill="#FFFFFF" stroke="#8F1D3A" stroke-width="2" d="M1025,218 H1163 A23,23 0 0 1 1186,241 V241 A23,23 0 0 1 1163,264 H1025 A23,23 0 0 1 1002,241 V241 A23,23 0 0 1 1025,218 Z" />
+    <text x="1094" y="248" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Introsort</text>
+    <path fill="#FFFFFF" stroke="#BA1D2C" stroke-width="2" d="M1025,292 H1163 A23,23 0 0 1 1186,315 V315 A23,23 0 0 1 1163,338 H1025 A23,23 0 0 1 1002,315 V315 A23,23 0 0 1 1025,292 Z" />
+    <text x="1094" y="322" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Heapsort</text>
+    <path fill="#F4511E" d="M1025,366 H1163 A23,23 0 0 1 1186,389 V389 A23,23 0 0 1 1163,412 H1025 A23,23 0 0 1 1002,389 V389 A23,23 0 0 1 1025,366 Z" />
+    <text x="1094" y="396" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Timsort</text>
+  </g>
+
+  <g id="flow_arrows">
+    <path d="M308 287 H370" stroke="#D97757" stroke-width="4" />
+    <path d="M370 287 L352 276 V298 Z" fill="#D97757" />
+    <path d="M630 287 H682" stroke="#D97757" stroke-width="4" />
+    <path d="M682 287 L664 276 V298 Z" fill="#D97757" />
+    <path d="M912 287 H966" stroke="#D97757" stroke-width="4" />
+    <path d="M966 287 L948 276 V298 Z" fill="#D97757" />
+  </g>
+
+  <g id="performance_space">
+    <path fill="#F8FAFC" stroke="#CBD5E1" d="M208,528 H1072 A12,12 0 0 1 1084,540 V640 A12,12 0 0 1 1072,652 H208 A12,12 0 0 1 196,640 V540 A12,12 0 0 1 208,528 Z" />
+    <text x="230" y="568" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Performance space Y</text>
+    <text x="230" y="601" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">label from measured runtime</text>
+    <text x="230" y="632" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#191919">label(x) = argmin_a T(a, x)</text>
+    <rect x="690" y="556" width="328" height="70" fill="#FFFFFF" stroke="#E2E8F0" />
+    <line x1="800" y1="556" x2="800" y2="626" stroke="#E2E8F0" />
+    <line x1="910" y1="556" x2="910" y2="626" stroke="#E2E8F0" />
+    <text x="745" y="581" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#64748B">Introsort</text>
+    <text x="855" y="581" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#64748B">Heapsort</text>
+    <text x="965" y="581" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#F4511E">Timsort</text>
+    <text x="745" y="612" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">18.7 μs</text>
+    <text x="855" y="612" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">24.5 μs</text>
+    <text x="965" y="612" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F4511E">13.2 μs</text>
+    <path d="M1094 458 C1094 500 1025 514 965 556" fill="none" stroke="#D97757" stroke-width="3" />
+    <path d="M965 556 L987 548 L979 570 Z" fill="#D97757" />
+  </g>
+</svg>

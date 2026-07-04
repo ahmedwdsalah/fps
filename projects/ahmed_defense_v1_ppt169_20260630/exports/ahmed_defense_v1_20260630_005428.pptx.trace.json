@@ -1,0 +1,5134 @@
+{
+  "output": "projects/ahmed_defense_v1_ppt169_20260630/exports/ahmed_defense_v1_20260630_005428.pptx",
+  "slide_count": 22,
+  "slides": [
+    {
+      "slide_num": 1,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/01_title.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 3
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            533400,
+            723900,
+            628650,
+            4724400
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            704850,
+            723900,
+            742950,
+            4724400
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "cover-accent",
+          "shape_id": 5,
+          "bounds_emu": [
+            533400,
+            723900,
+            742950,
+            4724400
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            971550,
+            959168,
+            8016752,
+            1806893
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            971550,
+            1625918,
+            6825844,
+            2473643
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            971550,
+            2292668,
+            9216919,
+            3140393
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            977646,
+            3534728,
+            5670637,
+            4033457
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "title-block",
+          "shape_id": 10,
+          "bounds_emu": [
+            971550,
+            959168,
+            9216919,
+            4033457
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            990600,
+            4762500,
+            3829050,
+            5638800
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            1204722,
+            4950142,
+            2422087,
+            5507545
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            1212342,
+            5378768,
+            2879865,
+            5642801
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            4095750,
+            4762500,
+            6572250,
+            5638800
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            4309872,
+            4950142,
+            5527237,
+            5507545
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            4317492,
+            5378768,
+            5585193,
+            5642801
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            6838950,
+            4762500,
+            9601200,
+            5638800
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            7053072,
+            4950142,
+            8270437,
+            5507545
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            7060692,
+            5378768,
+            8128483,
+            5642801
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "result-strip",
+          "shape_id": 20,
+          "bounds_emu": [
+            990600,
+            4762500,
+            9601200,
+            5642801
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            982218,
+            6108382,
+            4293762,
+            6431089
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 22,
+          "bounds_emu": [
+            983742,
+            6407468,
+            8889367,
+            6671501
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 23,
+          "bounds_emu": [
+            982218,
+            6108382,
+            8889367,
+            6671501
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 2,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/02_problem.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            16171382,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            16171382,
+            1083945
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            914400,
+            2286000,
+            3295650,
+            3714750
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1247775,
+            2669381,
+            1514475,
+            2769393
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1247775,
+            2719388,
+            1514475,
+            2869407
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            1247775,
+            2819400,
+            1514475,
+            2969419
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            1247775,
+            2669381,
+            1514475,
+            2969419
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            1759458,
+            2646045,
+            4007434,
+            3115437
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            1172718,
+            3174682,
+            4676813,
+            3497389
+          ]
+        },
+        {
+          "tag": "line",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            3524250,
+            3000375,
+            4953000,
+            3009900
+          ]
+        },
+        {
+          "tag": "polygon",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            4762500,
+            2886075,
+            4953000,
+            3114675
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            5219700,
+            2095500,
+            7600950,
+            3905250
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            5669756,
+            2640806,
+            5703094,
+            2674144
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            5603081,
+            2574131,
+            5769769,
+            2740819
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            5536406,
+            2507456,
+            5836444,
+            2807494
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            5536406,
+            2507456,
+            5836444,
+            2807494
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 20,
+          "bounds_emu": [
+            6064758,
+            2484120,
+            7439444,
+            2953512
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            5478018,
+            3079432,
+            8637822,
+            3402139
+          ]
+        },
+        {
+          "tag": "line",
+          "decision": "native",
+          "shape_id": 22,
+          "bounds_emu": [
+            7848600,
+            3000375,
+            9277350,
+            3009900
+          ]
+        },
+        {
+          "tag": "polygon",
+          "decision": "native",
+          "shape_id": 23,
+          "bounds_emu": [
+            9086850,
+            2886075,
+            9277350,
+            3114675
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 24,
+          "bounds_emu": [
+            9525000,
+            2266950,
+            11334750,
+            3733800
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 25,
+          "bounds_emu": [
+            9800082,
+            2487930,
+            11150117,
+            2898648
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 26,
+          "bounds_emu": [
+            9800082,
+            2868930,
+            11065307,
+            3279648
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 27,
+          "bounds_emu": [
+            9800082,
+            3249930,
+            10895686,
+            3660648
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "flow",
+          "shape_id": 28,
+          "bounds_emu": [
+            914400,
+            2095500,
+            11334750,
+            3905250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 29,
+          "bounds_emu": [
+            901446,
+            5058728,
+            15339869,
+            5557457
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 30,
+          "bounds_emu": [
+            901446,
+            5058728,
+            15339869,
+            5557457
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 31,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 31,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 3,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/03_complexity.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            12616614,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            12616614,
+            1083945
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            1123950,
+            1798320,
+            4976007,
+            2846070
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1131570,
+            2671762,
+            5925026,
+            3111817
+          ]
+        },
+        {
+          "tag": "line",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1143000,
+            3562350,
+            10668000,
+            3571875
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            1524000,
+            4191000,
+            3905250,
+            5010150
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            1798320,
+            4452938,
+            3244787,
+            4892993
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            4905375,
+            4095750,
+            7286625,
+            5105400
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            5179695,
+            4452938,
+            6535293,
+            4892993
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            8286750,
+            3905250,
+            10668000,
+            5295900
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            8561070,
+            4452938,
+            9734931,
+            4892993
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "contrast",
+          "shape_id": 15,
+          "bounds_emu": [
+            1123950,
+            1798320,
+            10668000,
+            5295900
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            1130046,
+            5725478,
+            17868391,
+            6224207
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 17,
+          "bounds_emu": [
+            1130046,
+            5725478,
+            17868391,
+            6224207
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 18,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 4,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/04_select_before.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            11622770,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            11622770,
+            1083945
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            1047750,
+            2000250,
+            3429000,
+            3429000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1339596,
+            2372678,
+            2320214,
+            2871407
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1344168,
+            2888932,
+            2960218,
+            3211639
+          ]
+        },
+        {
+          "tag": "line",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            3676650,
+            2714625,
+            4953000,
+            2724150
+          ]
+        },
+        {
+          "tag": "polygon",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            4762500,
+            2600325,
+            4953000,
+            2828925
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            5219700,
+            1809750,
+            7886700,
+            3619500
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            5597525,
+            2282825,
+            5889626,
+            2593182
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            5597525,
+            2282825,
+            5889626,
+            2593182
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            6160008,
+            2265045,
+            8058302,
+            2734437
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            5516118,
+            2907982,
+            8387163,
+            3230689
+          ]
+        },
+        {
+          "tag": "line",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            8134350,
+            2714625,
+            9410700,
+            2724150
+          ]
+        },
+        {
+          "tag": "polygon",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            9220200,
+            2600325,
+            9410700,
+            2828925
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            9677400,
+            2000250,
+            11487150,
+            3429000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            9969246,
+            2372678,
+            11333950,
+            2871407
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            9973818,
+            2888932,
+            11401063,
+            3211639
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "method",
+          "shape_id": 20,
+          "bounds_emu": [
+            1047750,
+            1809750,
+            11487150,
+            3619500
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            1033272,
+            5026342,
+            15578522,
+            5583745
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 22,
+          "bounds_emu": [
+            1033272,
+            5026342,
+            15578522,
+            5583745
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 23,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 23,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 5,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/05_practical_selector.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            14683511,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            14683511,
+            1083945
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            1085850,
+            1893570,
+            3375671,
+            2941320
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1093470,
+            2747962,
+            2630805,
+            3188017
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            4705350,
+            1893570,
+            6995171,
+            2941320
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            4712970,
+            2747962,
+            6068568,
+            3188017
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            8324850,
+            1893570,
+            10614671,
+            2941320
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            8332470,
+            2747962,
+            10112121,
+            3188017
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "metrics",
+          "shape_id": 12,
+          "bounds_emu": [
+            1085850,
+            1893570,
+            10614671,
+            3188017
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            1428750,
+            4095750,
+            10763250,
+            5219700
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            1796796,
+            4372928,
+            14243827,
+            4871657
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            1801368,
+            4851082,
+            10988222,
+            5173789
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "message",
+          "shape_id": 16,
+          "bounds_emu": [
+            1428750,
+            4095750,
+            14243827,
+            5219700
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 17,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 6,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/06_structural_signals.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 1,
+        "relationships": 1,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            13001155,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            13001155,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            533400,
+            1314450,
+            7581900,
+            6267450
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            805720,
+            1504950,
+            7309581,
+            6076950
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            533400,
+            1314450,
+            7581900,
+            6267450
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            7948422,
+            1578292,
+            16210062,
+            2135695
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            7950708,
+            2293620,
+            12348002,
+            2763012
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            7950708,
+            2807970,
+            8605114,
+            3277362
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            7950708,
+            3246120,
+            9315907,
+            3715512
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            7950708,
+            3684270,
+            9590532,
+            4153662
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            7950708,
+            4122420,
+            9865157,
+            4591812
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 15,
+          "bounds_emu": [
+            7948422,
+            1578292,
+            16210062,
+            4591812
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 16,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 7,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/07_system_decision.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 1,
+        "relationships": 1,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            13497999,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            13497999,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            533400,
+            1333500,
+            7962900,
+            5810250
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            857440,
+            1524000,
+            7638954,
+            5619750
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            533400,
+            1333500,
+            7962900,
+            5810250
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            8334375,
+            1619250,
+            11334750,
+            5314950
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            8682037,
+            2259012,
+            8751887,
+            2328862
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            8926512,
+            2014537,
+            8996362,
+            2084387
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            8716962,
+            2049462,
+            8978899,
+            2293937
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            8682037,
+            2014537,
+            8996362,
+            2328862
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            8617458,
+            2484120,
+            10063429,
+            2953512
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            8617458,
+            2979420,
+            9915906,
+            3448812
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            8617458,
+            3474720,
+            12389663,
+            3944112
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            8621268,
+            4584382,
+            14131864,
+            4907089
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "summary",
+          "shape_id": 18,
+          "bounds_emu": [
+            8334375,
+            1619250,
+            14131864,
+            5314950
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 19,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 8,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/08_algorithm_portfolio.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            17053332,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            17053332,
+            1083945
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            800100,
+            1809750,
+            4038600,
+            4667250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1128522,
+            2121218,
+            3050875,
+            2678621
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1132332,
+            2840355,
+            4136174,
+            3251073
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            1132332,
+            3259455,
+            4517822,
+            3670173
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            4476750,
+            1809750,
+            7715250,
+            4667250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            4805172,
+            2121218,
+            6606670,
+            2678621
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            4808982,
+            2840355,
+            8251012,
+            3251073
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            4808982,
+            3259455,
+            7925049,
+            3670173
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            8153400,
+            1809750,
+            11391900,
+            4667250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            8481822,
+            2121218,
+            10041609,
+            2678621
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            8485632,
+            2840355,
+            11023016,
+            3251073
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            8485632,
+            3259455,
+            11192637,
+            3670173
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "portfolio",
+          "shape_id": 18,
+          "bounds_emu": [
+            800100,
+            1809750,
+            11391900,
+            4667250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            787146,
+            5344478,
+            13152305,
+            5843207
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 20,
+          "bounds_emu": [
+            787146,
+            5344478,
+            13152305,
+            5843207
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 21,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 9,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/09_real_arrays.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 1,
+        "relationships": 1,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            18762389,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            18762389,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            533400,
+            1314450,
+            7772400,
+            5657850
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            723900,
+            1584960,
+            7581900,
+            5387435
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            533400,
+            1314450,
+            7772400,
+            5657850
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            8172450,
+            1360170,
+            10589727,
+            2407920
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            8201406,
+            2148840,
+            10982096,
+            2500884
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            8172450,
+            2579370,
+            8630362,
+            3627120
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            8694420,
+            2862262,
+            9868281,
+            3302317
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            8181594,
+            3694748,
+            9864574,
+            4076129
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            8181594,
+            4056698,
+            10012718,
+            4438079
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            8181594,
+            4418648,
+            10931500,
+            4800029
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "numbers",
+          "shape_id": 16,
+          "bounds_emu": [
+            8172450,
+            1360170,
+            10982096,
+            4800029
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            526542,
+            6045518,
+            5423938,
+            6309551
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 19,
+          "bounds_emu": [
+            526542,
+            6045518,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 10,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/10_labels_runtime.svg",
+      "summary": {
+        "converted": 6,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 3
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            14518350,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            14518350,
+            1083945
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            762000,
+            1733550,
+            3143250,
+            2990850
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1055370,
+            2043112,
+            3344623,
+            2483167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1059180,
+            2466975,
+            3850958,
+            2760345
+          ]
+        },
+        {
+          "tag": "line",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            3390900,
+            2362200,
+            4495800,
+            2371725
+          ]
+        },
+        {
+          "tag": "polygon",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            4305300,
+            2247900,
+            4495800,
+            2476500
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            4762500,
+            1733550,
+            7429500,
+            2990850
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            5055870,
+            2043112,
+            8011399,
+            2483167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            5059680,
+            2466975,
+            7770686,
+            2760345
+          ]
+        },
+        {
+          "tag": "line",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            7677150,
+            2362200,
+            8782050,
+            2371725
+          ]
+        },
+        {
+          "tag": "polygon",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            8591550,
+            2247900,
+            8782050,
+            2476500
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            9048750,
+            1733550,
+            11430000,
+            2990850
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            9342120,
+            2043112,
+            11388733,
+            2483167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            9345930,
+            2466975,
+            11269408,
+            2760345
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "protocol",
+          "shape_id": 19,
+          "bounds_emu": [
+            762000,
+            1733550,
+            11430000,
+            2990850
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 20,
+          "bounds_emu": [
+            845820,
+            3948112,
+            3529727,
+            4388167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            3131820,
+            3948112,
+            3776358,
+            4388167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 22,
+          "bounds_emu": [
+            4274820,
+            3948112,
+            4852149,
+            4388167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 23,
+          "bounds_emu": [
+            5322570,
+            3948112,
+            6084722,
+            4388167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 24,
+          "bounds_emu": [
+            6560820,
+            3948112,
+            7675817,
+            4388167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 25,
+          "bounds_emu": [
+            8180070,
+            3948112,
+            9563900,
+            4388167
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "transform-row",
+          "shape_id": 26,
+          "bounds_emu": [
+            845820,
+            3948112,
+            9563900,
+            4388167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 27,
+          "bounds_emu": [
+            844296,
+            5058728,
+            15462711,
+            5557457
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 28,
+          "bounds_emu": [
+            844296,
+            5058728,
+            15462711,
+            5557457
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 29,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 29,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 11,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/11_feature_groups.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            13829228,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            13829228,
+            1083945
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            857250,
+            1619250,
+            5715000,
+            3143250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1187196,
+            1867852,
+            1925918,
+            2366581
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1190244,
+            2437448,
+            2785110,
+            2818829
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            6477000,
+            1619250,
+            11334750,
+            3143250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            6806946,
+            1867852,
+            8645281,
+            2366581
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            6809994,
+            2437448,
+            11712473,
+            2818829
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            857250,
+            3600450,
+            5715000,
+            5124450
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            1187196,
+            3849052,
+            2792134,
+            4347781
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            1190244,
+            4418648,
+            6158351,
+            4800029
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            6477000,
+            3600450,
+            11334750,
+            5124450
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            6806946,
+            3849052,
+            8951404,
+            4347781
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            6809994,
+            4418648,
+            12053735,
+            4800029
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "groups",
+          "shape_id": 18,
+          "bounds_emu": [
+            857250,
+            1619250,
+            12053735,
+            5124450
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            845820,
+            5662612,
+            10855128,
+            6102667
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 20,
+          "bounds_emu": [
+            845820,
+            5662612,
+            10855128,
+            6102667
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 21,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 12,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/12_v5_selector.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            11569129,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            11569129,
+            1083945
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            1047750,
+            1619250,
+            5810250,
+            5381625
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1628775,
+            2239168,
+            1767681,
+            2397918
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1489869,
+            2239168,
+            1628775,
+            2397918
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            1727993,
+            2159793,
+            1807368,
+            2298699
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            1628775,
+            2040731,
+            1767681,
+            2165746
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            1450181,
+            2159793,
+            1529556,
+            2298699
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            1489869,
+            2040731,
+            1628775,
+            2308621
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            1450181,
+            2040731,
+            1807368,
+            2397918
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            2042922,
+            2054542,
+            4231735,
+            2611945
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            1379220,
+            2900362,
+            4839938,
+            3340417
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            1379220,
+            3414712,
+            4006977,
+            3854767
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            1379220,
+            3929062,
+            3870674,
+            4369117
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            1379220,
+            4443412,
+            5354860,
+            4883467
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "model-card",
+          "shape_id": 19,
+          "bounds_emu": [
+            1047750,
+            1619250,
+            5810250,
+            5381625
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 20,
+          "bounds_emu": [
+            6667500,
+            2000250,
+            10763250,
+            5000625
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            6978396,
+            2296478,
+            11499122,
+            2795207
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 22,
+          "bounds_emu": [
+            6980682,
+            3011805,
+            11242548,
+            3422523
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 23,
+          "bounds_emu": [
+            6980682,
+            3469005,
+            10220776,
+            3879723
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 24,
+          "bounds_emu": [
+            6980682,
+            3926205,
+            10281361,
+            4336923
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "separation",
+          "shape_id": 25,
+          "bounds_emu": [
+            6667500,
+            2000250,
+            11499122,
+            5000625
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 26,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 26,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 13,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/13_failed_paths.svg",
+      "summary": {
+        "converted": 6,
+        "skipped": 0,
+        "media_files": 1,
+        "relationships": 1,
+        "animation_targets": 3
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            11677512,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            11677512,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            533400,
+            1314450,
+            8439150,
+            5314950
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            931450,
+            1504950,
+            8041100,
+            5124450
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            533400,
+            1314450,
+            8439150,
+            5314950
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            8845296,
+            1534478,
+            11244268,
+            2033207
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            8848344,
+            2265998,
+            11519497,
+            2647379
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            8848344,
+            2685098,
+            11768880,
+            3066479
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            8848344,
+            3104198,
+            11690128,
+            3485579
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            8848344,
+            3523298,
+            12202020,
+            3904679
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "lessons",
+          "shape_id": 14,
+          "bounds_emu": [
+            8845296,
+            1534478,
+            12202020,
+            3904679
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            521970,
+            5710238,
+            13976960,
+            6150293
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 16,
+          "bounds_emu": [
+            521970,
+            5710238,
+            13976960,
+            6150293
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 17,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 14,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/14_main_result.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            14821956,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            14821956,
+            1083945
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            1076325,
+            2274570,
+            3366146,
+            3322320
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1080897,
+            3083242,
+            8193776,
+            3640645
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1082421,
+            4058602,
+            12862986,
+            4557331
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "hero",
+          "shape_id": 9,
+          "bounds_emu": [
+            1076325,
+            2274570,
+            12862986,
+            4557331
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            8591550,
+            2057400,
+            10972800,
+            4248150
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            9536906,
+            2526506,
+            9951244,
+            2940844
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            9721057,
+            2710657,
+            9767095,
+            2756695
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            9776532,
+            2641600,
+            9836151,
+            2701219
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            9628981,
+            2618581,
+            9744075,
+            2733675
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            9536906,
+            2526506,
+            9951244,
+            2940844
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            8944356,
+            3329940,
+            11240414,
+            3681984
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "source",
+          "shape_id": 17,
+          "bounds_emu": [
+            8591550,
+            2057400,
+            11240414,
+            4248150
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            526542,
+            6045518,
+            6577487,
+            6309551
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 20,
+          "bounds_emu": [
+            526542,
+            6045518,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 15,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/15_accuracy_regret.svg",
+      "summary": {
+        "converted": 6,
+        "skipped": 0,
+        "media_files": 3,
+        "relationships": 3,
+        "animation_targets": 3
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            11623267,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            11623267,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            533400,
+            1257300,
+            7962900,
+            4591050
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            926306,
+            1447800,
+            7569994,
+            4400550
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            533400,
+            1257300,
+            7962900,
+            4591050
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            8382000,
+            1428750,
+            11525250,
+            2714625
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            8667750,
+            1813274,
+            11239500,
+            2358676
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            8382000,
+            3095625,
+            11525250,
+            4381500
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            8572500,
+            3478244,
+            11334750,
+            3970210
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "formulae",
+          "shape_id": 13,
+          "bounds_emu": [
+            8382000,
+            1428750,
+            11525250,
+            4381500
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            710946,
+            5153978,
+            14589997,
+            5652707
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 15,
+          "bounds_emu": [
+            710946,
+            5153978,
+            14589997,
+            5652707
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 16,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 16,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/16_confusion_boundary.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 1,
+        "relationships": 1,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            16832585,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            16832585,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            666750,
+            1285875,
+            6000750,
+            5667375
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            952500,
+            1528286,
+            5715000,
+            5424868
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            666750,
+            1285875,
+            6000750,
+            5667375
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            6648450,
+            1369695,
+            8938271,
+            2417445
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            6656832,
+            2173605,
+            8628812,
+            2584323
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            6655308,
+            3074670,
+            9986162,
+            3544062
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            6655308,
+            3550920,
+            11929872,
+            4020312
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            6655308,
+            4027170,
+            12656820,
+            4496562
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "interpretation",
+          "shape_id": 14,
+          "bounds_emu": [
+            6648450,
+            1369695,
+            12656820,
+            4496562
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 15,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 17,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/17_feature_importance.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 1,
+        "relationships": 1,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            15758597,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            15758597,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            533400,
+            1285875,
+            7391400,
+            5905500
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            949071,
+            1524000,
+            6975824,
+            5667375
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            533400,
+            1285875,
+            7391400,
+            5905500
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            7892796,
+            1629728,
+            9839876,
+            2128457
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            7894320,
+            2424112,
+            8841010,
+            2864167
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            7894320,
+            2900362,
+            10007156,
+            3340417
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            7894320,
+            3376612,
+            9598247,
+            3816667
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            7894320,
+            3852862,
+            10113169,
+            4292917
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            7897368,
+            4917758,
+            12375113,
+            5240465
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 15,
+          "bounds_emu": [
+            7892796,
+            1629728,
+            12375113,
+            5240465
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 16,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 18,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/18_domain_transfer.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 1,
+        "relationships": 1,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            14104341,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            14104341,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            533400,
+            1285875,
+            7867650,
+            5810250
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            934974,
+            1524000,
+            7465981,
+            5572125
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            533400,
+            1285875,
+            7867650,
+            5810250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            8319897,
+            1644968,
+            10818885,
+            2202371
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            8322945,
+            2471738,
+            10087451,
+            2911793
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            8322945,
+            2947988,
+            10935557,
+            3388043
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            8322945,
+            3424238,
+            11132439,
+            3864293
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            8322945,
+            3900488,
+            10738675,
+            4340543
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "summary",
+          "shape_id": 14,
+          "bounds_emu": [
+            8319897,
+            1644968,
+            11132439,
+            4340543
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 15,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 19,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/19_strict_checks.svg",
+      "summary": {
+        "converted": 6,
+        "skipped": 0,
+        "media_files": 1,
+        "relationships": 1,
+        "animation_targets": 3
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            264795,
+            17714884,
+            1026795
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            933450,
+            2247900,
+            981075
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            264795,
+            17714884,
+            1026795
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            533400,
+            1257300,
+            7439025,
+            5353050
+          ]
+        },
+        {
+          "tag": "image",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            936403,
+            1485900,
+            7055073,
+            5124450
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "figure",
+          "shape_id": 8,
+          "bounds_emu": [
+            533400,
+            1257300,
+            7439025,
+            5353050
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            8131621,
+            1493044,
+            8550135,
+            1875506
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            8417719,
+            1793081,
+            8546307,
+            1878806
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            8131621,
+            1493044,
+            8550135,
+            1878806
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            8084820,
+            2090738,
+            12181618,
+            2530793
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            8084820,
+            2528888,
+            9925050,
+            2968943
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            8084820,
+            3119438,
+            11863578,
+            3559493
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            8084820,
+            3557588,
+            10015918,
+            3997643
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            8084820,
+            4148138,
+            11969591,
+            4588193
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            8084820,
+            4586288,
+            9440418,
+            5026343
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "checks",
+          "shape_id": 18,
+          "bounds_emu": [
+            8084820,
+            1493044,
+            12181618,
+            5026343
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            521970,
+            5710238,
+            11877907,
+            6150293
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "takeaway",
+          "shape_id": 20,
+          "bounds_emu": [
+            521970,
+            5710238,
+            11877907,
+            6150293
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 21,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 20,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/20_limits.svg",
+      "summary": {
+        "converted": 5,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            16364929,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            16364929,
+            1083945
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            1033272,
+            2025968,
+            3975380,
+            2583371
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1035558,
+            2646045,
+            4177741,
+            3115437
+          ]
+        },
+        {
+          "tag": "line",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1047750,
+            3429000,
+            10572750,
+            3438525
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            6843522,
+            2025968,
+            9665257,
+            2583371
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            6845808,
+            2646045,
+            10359542,
+            3115437
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "limit",
+          "shape_id": 11,
+          "bounds_emu": [
+            1033272,
+            2025968,
+            10572750,
+            3438525
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            1428750,
+            4333875,
+            10763250,
+            5334000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            1799082,
+            4535805,
+            14777813,
+            4946523
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            1802130,
+            4943475,
+            10918121,
+            5236845
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "f1",
+          "shape_id": 15,
+          "bounds_emu": [
+            1428750,
+            4333875,
+            14777813,
+            5334000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 16,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 21,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/21_contributions.svg",
+      "summary": {
+        "converted": 4,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 1
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            514350,
+            321945,
+            15977517,
+            1083945
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            533400,
+            990600,
+            2247900,
+            1038225
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "header",
+          "shape_id": 5,
+          "bounds_emu": [
+            514350,
+            321945,
+            15977517,
+            1083945
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            1223772,
+            1787842,
+            7550875,
+            2345245
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1608582,
+            2345055,
+            9460763,
+            2755773
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1223772,
+            3168968,
+            6412367,
+            3726371
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            1608582,
+            3726180,
+            8233743,
+            4136898
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            1223772,
+            4550092,
+            6907144,
+            5107495
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            1608582,
+            5107305,
+            9056833,
+            5518023
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "contrib",
+          "shape_id": 12,
+          "bounds_emu": [
+            1223772,
+            1787842,
+            9460763,
+            5518023
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "footer",
+          "shape_id": 13,
+          "bounds_emu": [
+            11233404,
+            6347460,
+            11423294,
+            6582156
+          ]
+        }
+      ]
+    },
+    {
+      "slide_num": 22,
+      "svg": "projects/ahmed_defense_v1_ppt169_20260630/svg_final/22_future.svg",
+      "summary": {
+        "converted": 4,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 3
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            0,
+            0,
+            12192000,
+            6858000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            800100,
+            959168,
+            17675775,
+            1806893
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            819150,
+            1762125,
+            2819400,
+            1809750
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "closing",
+          "shape_id": 5,
+          "bounds_emu": [
+            800100,
+            959168,
+            17675775,
+            1809750
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            952500,
+            2714625,
+            3857625,
+            4143375
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1264158,
+            3074670,
+            4256913,
+            3544062
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1267968,
+            3555682,
+            4474416,
+            3878389
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            4648200,
+            2714625,
+            7553325,
+            4143375
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            4959858,
+            3074670,
+            8003499,
+            3544062
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            4963668,
+            3555682,
+            7334936,
+            3878389
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            8343900,
+            2714625,
+            11249025,
+            4143375
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            8655558,
+            3074670,
+            11597427,
+            3544062
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            8659368,
+            3555682,
+            12230100,
+            3878389
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "future-path",
+          "shape_id": 15,
+          "bounds_emu": [
+            952500,
+            2714625,
+            12230100,
+            4143375
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            5778500,
+            5004594,
+            5938751,
+            5203031
+          ]
+        },
+        {
+          "tag": "path",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            5857875,
+            5282406,
+            5867400,
+            5291931
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            5778500,
+            5004594,
+            5938751,
+            5291931
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            4410075,
+            5389245,
+            7057471,
+            6151245
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 20,
+          "bounds_emu": [
+            4417695,
+            5948362,
+            8979515,
+            6388417
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "questions",
+          "shape_id": 21,
+          "bounds_emu": [
+            4410075,
+            5004594,
+            8979515,
+            6388417
+          ]
+        }
+      ]
+    }
+  ]
+}

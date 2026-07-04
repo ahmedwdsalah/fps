@@ -1,0 +1,1 @@
+The dataset is one of the main changes from the early experiments. The final v5 work uses about 1.18 million arrays from five domains: F1 telemetry, stock, crypto, earthquake, and weather. This matters because real arrays provide structures that synthetic data alone did not show.

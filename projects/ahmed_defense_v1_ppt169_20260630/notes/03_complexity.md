@@ -1,0 +1,1 @@
+The motivation starts from a practical gap. These algorithms can sit in the same broad complexity class, but their measured runtime is not the same on every input. Complexity tells us the high-level behavior, but it does not answer which algorithm is best for this specific array.

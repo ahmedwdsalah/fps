@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#D97757"/>
+    </marker>
+  </defs>
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+    <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+    <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+  </g>
+
+  <g id="title">
+    <text x="64" y="76" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#191919">Five real domains, five different numeric traces</text>
+    <line x1="64" y1="102" x2="1216" y2="102" stroke="#E2E8F0" stroke-width="1.4"/>
+  </g>
+
+  <g id="sample-stock">
+    <rect x="70" y="126" width="360" height="216" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <path d="M70 126 H430 V164 H70 Z" fill="#FFFFFF"/>
+    <line x1="70" y1="164" x2="430" y2="164" stroke="#E2E8F0"/>
+    <text x="94" y="151" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Stock market</text>
+    <text x="406" y="151" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8F1D3A">n = 6,835</text>
+    <text x="94" y="190" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#64748B">XLB · max · rolling_5d_mean</text>
+    <g transform="translate(94 213)">
+      <rect x="0" y="0" width="220" height="58" rx="5" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <line x1="0" y1="45" x2="220" y2="45" stroke="#E8EEF5"/>
+      <path d="M0.0,55.3 L2.8,53.2 L5.6,50.9 L8.4,50.6 L11.1,48.5 L13.9,46.4 L16.7,44.5 L19.5,41.4 L22.3,37.4 L25.1,36.3 L27.8,37.5 L30.6,39.1 L33.4,41.9 L36.2,45.8 L39.0,48.4 L41.8,50.0 L44.6,51.7 L47.3,53.1 L50.1,53.7 L52.9,54.5 L55.7,55.8 L58.5,55.7 L61.3,56.3 L64.1,56.6 L66.8,56.5 L69.6,54.1 L72.4,51.3 L75.2,49.2 L78.0,48.1 L80.8,47.0 L83.5,48.1 L86.3,50.1 L89.1,52.4 L91.9,54.2 L94.7,55.7 L97.5,56.2 L100.3,55.5 L103.0,54.8 L105.8,53.7 L108.6,53.0 L111.4,52.7 L114.2,54.0 L117.0,55.2 L119.7,56.7 L122.5,58.0 L125.3,57.5 L128.1,56.1 L130.9,54.6 L133.7,52.0 L136.5,49.1 L139.2,48.1 L142.0,47.3 L144.8,46.3 L147.6,46.3 L150.4,45.6 L153.2,44.6 L155.9,43.6 L158.7,43.8 L161.5,43.7 L164.3,44.7 L167.1,46.2 L169.9,46.9 L172.7,46.3 L175.4,46.5 L178.2,46.3 L181.0,45.0 L183.8,45.6 L186.6,45.5 L189.4,43.8 L192.2,43.0 L194.9,41.2 L197.7,37.7 L200.5,32.0 L203.3,24.7 L206.1,16.4 L208.9,9.1 L211.6,3.2 L214.4,0.0 L217.2,0.2 L220.0,0.1" fill="none" stroke="#D97757" stroke-width="2.4"/>
+    </g>
+    <text x="332" y="232" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">min 4.92</text>
+    <text x="332" y="253" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">med 14.5</text>
+    <text x="332" y="274" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">max 53.22</text>
+    <text x="94" y="307" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#191919">[5.873, 5.919, 5.968, 5.974, 6.021, ...]</text>
+    <text x="94" y="329" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#94A3B8">stock_XLB_max_1d_rolling_5d_mean.csv</text>
+  </g>
+
+  <g id="sample-crypto">
+    <rect x="460" y="126" width="360" height="216" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <path d="M460 126 H820 V164 H460 Z" fill="#FFFFFF"/>
+    <line x1="460" y1="164" x2="820" y2="164" stroke="#E2E8F0"/>
+    <text x="484" y="151" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Cryptocurrency</text>
+    <text x="796" y="151" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8F1D3A">n = 2,500</text>
+    <text x="484" y="190" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#64748B">XLM-USD · 1mo · momentum_5d_w2500c0</text>
+    <g transform="translate(484 213)">
+      <rect x="0" y="0" width="220" height="58" rx="5" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <line x1="0" y1="29" x2="220" y2="29" stroke="#E8EEF5"/>
+      <path d="M0.0,16.6 L2.8,25.3 L5.6,31.3 L8.4,42.3 L11.1,31.4 L13.9,22.6 L16.7,6.4 L19.5,5.7 L22.3,0.0 L25.1,16.1 L27.8,23.2 L30.6,37.1 L33.4,36.8 L36.2,42.8 L39.0,45.3 L41.8,50.5 L44.6,53.5 L47.3,55.3 L50.1,45.6 L52.9,37.2 L55.7,37.7 L58.5,34.4 L61.3,52.5 L64.1,47.4 L66.8,58.0 L69.6,49.2 L72.4,55.8 L75.2,34.4 L78.0,37.6 L80.8,25.1 L83.5,8.5 L86.3,4.4 L89.1,11.9 L91.9,15.4 L94.7,20.3 L97.5,35.6 L100.3,17.1 L103.0,22.5 L105.8,23.0 L108.6,23.9 L111.4,33.6 L114.2,46.5 L117.0,36.1 L119.7,35.7 L122.5,33.7 L125.3,33.0 L128.1,37.5 L130.9,37.6 L133.7,37.8 L136.5,46.9 L139.2,45.0 L142.0,49.6 L144.8,52.0 L147.6,50.0 L150.4,42.4 L153.2,41.2 L155.9,40.9 L158.7,40.9 L161.5,43.9 L164.3,46.5 L167.1,51.4 L169.9,49.3 L172.7,52.6 L175.4,57.2 L178.2,57.1 L181.0,46.4 L183.8,36.0 L186.6,33.4 L189.4,27.0 L192.2,29.9 L194.9,36.5 L197.7,38.1 L200.5,23.7 L203.3,13.7 L206.1,10.4 L208.9,10.6 L211.6,19.5 L214.4,35.7 L217.2,47.1 L220.0,28.3" fill="none" stroke="#4A90D9" stroke-width="2.4"/>
+    </g>
+    <text x="722" y="232" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">min -0.0083</text>
+    <text x="722" y="253" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">med -0.0001</text>
+    <text x="722" y="274" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">max 0.0108</text>
+    <text x="484" y="307" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#191919">[0.0009, 0.0005, 0.0002, -0.0003, ...]</text>
+    <text x="484" y="329" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#94A3B8">crypto_XLM-USD_1mo_5m_momentum_5d_w2500c0.csv</text>
+  </g>
+
+  <g id="sample-weather">
+    <rect x="850" y="126" width="360" height="216" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <path d="M850 126 H1210 V164 H850 Z" fill="#FFFFFF"/>
+    <line x1="850" y1="164" x2="1210" y2="164" stroke="#E2E8F0"/>
+    <text x="874" y="151" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Weather</text>
+    <text x="1186" y="151" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8F1D3A">n = 184,081</text>
+    <text x="874" y="190" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#64748B">Nairobi · 2000_2020 · wind_rolling_24h_std</text>
+    <g transform="translate(874 213)">
+      <rect x="0" y="0" width="220" height="58" rx="5" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <line x1="0" y1="46" x2="220" y2="46" stroke="#E8EEF5"/>
+      <path d="M0.0,46.6 L2.8,46.7 L5.6,47.6 L8.4,49.2 L11.1,51.5 L13.9,54.3 L16.7,55.8 L19.5,57.3 L22.3,58.0 L25.1,57.3 L27.8,55.5 L30.6,53.5 L33.4,51.1 L36.2,48.9 L39.0,46.5 L41.8,44.8 L44.6,43.7 L47.3,43.3 L50.1,43.0 L52.9,42.9 L55.7,43.0 L58.5,43.8 L61.3,44.9 L64.1,46.2 L66.8,47.3 L69.6,47.9 L72.4,47.5 L75.2,47.3 L78.0,47.0 L80.8,44.8 L83.5,44.0 L86.3,44.3 L89.1,43.6 L91.9,42.3 L94.7,40.6 L97.5,40.0 L100.3,39.6 L103.0,38.7 L105.8,38.1 L108.6,35.8 L111.4,31.7 L114.2,28.1 L117.0,25.1 L119.7,22.9 L122.5,23.1 L125.3,23.3 L128.1,24.7 L130.9,27.1 L133.7,29.9 L136.5,32.8 L139.2,34.7 L142.0,35.1 L144.8,33.7 L147.6,34.7 L150.4,36.0 L153.2,35.0 L155.9,35.0 L158.7,35.0 L161.5,34.8 L164.3,33.5 L167.1,31.7 L169.9,30.3 L172.7,27.1 L175.4,24.6 L178.2,23.4 L181.0,23.1 L183.8,22.6 L186.6,22.4 L189.4,22.5 L192.2,23.1 L194.9,23.0 L197.7,21.2 L200.5,17.1 L203.3,11.6 L206.1,5.8 L208.9,2.6 L211.6,2.7 L214.4,3.4 L217.2,0.5 L220.0,0.0" fill="none" stroke="#D97757" stroke-width="2.4"/>
+    </g>
+    <text x="1112" y="232" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">min 0.5445</text>
+    <text x="1112" y="253" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">med 3.259</text>
+    <text x="1112" y="274" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">max 8.55</text>
+    <text x="874" y="307" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#191919">[3.389, 3.385, 3.341, 3.269, 3.164, ...]</text>
+    <text x="874" y="329" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#94A3B8">weather_Nairobi_wind_rolling_24h_std.csv</text>
+  </g>
+
+  <g id="sample-f1">
+    <rect x="92" y="390" width="520" height="236" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <path d="M92 390 H612 V430 H92 Z" fill="#FFFFFF"/>
+    <line x1="92" y1="430" x2="612" y2="430" stroke="#E2E8F0"/>
+    <text x="120" y="416" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#191919">Formula 1 telemetry</text>
+    <text x="584" y="416" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8F1D3A">n = 286</text>
+    <text x="120" y="458" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#64748B">Canadian Grand Prix · R · VER · lap 68 · Z</text>
+    <g transform="translate(120 486)">
+      <rect x="0" y="0" width="300" height="70" rx="5" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <line x1="0" y1="58" x2="300" y2="58" stroke="#E8EEF5"/>
+      <g transform="scale(1.3636 1.2069)">
+        <path d="M0.0,58.0 L2.8,57.3 L5.6,56.5 L8.4,55.3 L11.1,53.8 L13.9,52.3 L16.7,51.4 L19.5,50.1 L22.3,49.6 L25.1,48.5 L27.8,48.0 L30.6,47.5 L33.4,46.7 L36.2,46.0 L39.0,45.6 L41.8,45.1 L44.6,44.7 L47.3,44.1 L50.1,43.5 L52.9,42.8 L55.7,42.5 L58.5,42.3 L61.3,41.9 L64.1,41.5 L66.8,41.3 L69.6,41.1 L72.4,40.9 L75.2,40.6 L78.0,40.3 L80.8,39.9 L83.5,39.3 L86.3,39.1 L89.1,38.7 L91.9,38.1 L94.7,37.6 L97.5,36.9 L100.3,36.1 L103.0,35.7 L105.8,35.3 L108.6,34.7 L111.4,34.0 L114.2,33.3 L117.0,32.3 L119.7,31.7 L122.5,30.3 L125.3,29.5 L128.1,28.4 L130.9,27.8 L133.7,26.7 L136.5,25.9 L139.2,24.7 L142.0,23.8 L144.8,23.4 L147.6,22.9 L150.4,22.4 L153.2,22.0 L155.9,21.6 L158.7,20.9 L161.5,20.3 L164.3,19.8 L167.1,19.4 L169.9,18.8 L172.7,17.8 L175.4,16.8 L178.2,15.9 L181.0,14.8 L183.8,14.0 L186.6,13.3 L189.4,12.3 L192.2,10.8 L194.9,10.1 L197.7,9.2 L200.5,7.9 L203.3,7.0 L206.1,5.5 L208.9,4.7 L211.6,3.1 L214.4,1.7 L217.2,0.9 L220.0,0.0" fill="none" stroke="#D97757" stroke-width="2.2"/>
+      </g>
+    </g>
+    <text x="444" y="506" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">min 0.0797</text>
+    <text x="444" y="530" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">med 2025</text>
+    <text x="444" y="554" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">max 4329</text>
+    <text x="120" y="590" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#191919">[0.0797, 12.79, 28.74, 51.06, 79.76, 108.46, ...]</text>
+    <text x="120" y="614" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#94A3B8">f1_2024_R9_R_VER_68.0_Z.csv</text>
+  </g>
+
+  <g id="sample-seismic">
+    <rect x="668" y="390" width="520" height="236" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <path d="M668 390 H1188 V430 H668 Z" fill="#FFFFFF"/>
+    <line x1="668" y1="430" x2="1188" y2="430" stroke="#E2E8F0"/>
+    <text x="696" y="416" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#191919">Seismic events</text>
+    <text x="1160" y="416" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8F1D3A">n = 200</text>
+    <text x="696" y="458" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#64748B">california · 20200101_20200630 · latitude_c200_1</text>
+    <g transform="translate(696 486)">
+      <rect x="0" y="0" width="300" height="70" rx="5" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <line x1="0" y1="35" x2="300" y2="35" stroke="#E8EEF5"/>
+      <g transform="scale(1.3636 1.2069)">
+        <path d="M0.0,18.3 L2.8,47.0 L5.6,31.3 L8.4,32.5 L11.1,50.6 L13.9,26.0 L16.7,34.7 L19.5,34.7 L22.3,37.3 L25.1,18.3 L27.8,0.0 L30.6,21.3 L33.4,34.0 L36.2,21.3 L39.0,39.7 L41.8,10.9 L44.6,53.0 L47.3,35.7 L50.1,30.2 L52.9,22.1 L55.7,31.9 L58.5,30.2 L61.3,34.9 L64.1,27.6 L66.8,26.4 L69.6,17.2 L72.4,35.0 L75.2,41.8 L78.0,39.6 L80.8,32.0 L83.5,34.4 L86.3,34.2 L89.1,48.1 L91.9,13.1 L94.7,28.3 L97.5,16.4 L100.3,17.1 L103.0,13.1 L105.8,21.3 L108.6,33.0 L111.4,31.0 L114.2,21.5 L117.0,32.8 L119.7,34.4 L122.5,22.2 L125.3,32.2 L128.1,33.1 L130.9,57.4 L133.7,33.5 L136.5,34.5 L139.2,13.9 L142.0,32.5 L144.8,20.9 L147.6,12.1 L150.4,43.6 L153.2,13.1 L155.9,34.8 L158.7,33.6 L161.5,57.8 L164.3,58.0 L167.1,33.7 L169.9,34.2 L172.7,21.9 L175.4,34.7 L178.2,15.0 L181.0,32.9 L183.8,35.1 L186.6,1.9 L189.4,32.8 L192.2,30.7 L194.9,21.8 L197.7,47.3 L200.5,19.9 L203.3,47.8 L206.1,25.0 L208.9,33.5 L211.6,34.7 L214.4,33.8 L217.2,36.8 L220.0,50.9" fill="none" stroke="#4A90D9" stroke-width="2.2"/>
+      </g>
+    </g>
+    <text x="1020" y="506" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">min 32.39</text>
+    <text x="1020" y="530" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">med 35.91</text>
+    <text x="1020" y="554" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">max 40.91</text>
+    <text x="696" y="590" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#191919">[37.83, 34.02, 36.10, 35.95, 33.54, 36.80, ...]</text>
+    <text x="696" y="614" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#94A3B8">quake_california_M1plus_latitude_c200_1.csv</text>
+  </g>
+</svg>

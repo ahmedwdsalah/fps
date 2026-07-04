@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <g id="header"><text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="46" x="56" y="64">The contribution is a selector</text><text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="46" x="56" y="116">and an evaluation discipline</text><rect x="56" y="128" width="180" height="5" fill="#0F766E" /></g>
+  <g id="contrib">
+    <text x="130" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700" fill="#173B6D">1. Dataset and labeling protocol</text><text x="170" y="270" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">real domains, structural transforms, measured winners</text>
+    <text x="130" y="365" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700" fill="#173B6D">2. Structural ML selector</text><text x="170" y="415" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">v5 XGBoost model using 16 cheap array features</text>
+    <text x="130" y="510" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700" fill="#173B6D">3. Runtime-aware evaluation</text><text x="170" y="560" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">accuracy, regret, SBS, VBS, and gap closed together</text>
+  </g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">21</text></g>
+</svg>

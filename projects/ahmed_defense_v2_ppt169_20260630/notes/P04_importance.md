@@ -1,0 +1,1 @@
+This matters because the same input size can have different structure. A sorted-like array, random array, and duplicated array can reward different algorithms. So the useful target is not only classification accuracy; it is how much runtime loss we avoid compared with the best per-input choice.

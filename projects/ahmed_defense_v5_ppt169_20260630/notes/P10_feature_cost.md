@@ -1,0 +1,1 @@
+At prediction time, the selector cannot sort the array with all three algorithms and then choose the fastest. That would be the oracle, not a usable method. The selector must use cheaper information from the input before sorting.

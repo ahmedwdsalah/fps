@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="ciu_background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <path d="M0 0 H1280 V86 H0 Z" fill="#8F1D3A"/>
+    <path d="M0 86 H1280 V100 H0 Z" fill="#F4511E"/>
+    <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+  </g>
+
+  <g id="ciu_watermark">
+    <image href="../images/ciu-logo-tranpernt.png" x="1104" y="12" width="62" height="62" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <g id="title_block">
+    <text x="640" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">MACHINE LEARNING BASED</text>
+    <text x="640" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">ALGORITHM SELECTION FOR</text>
+    <text x="640" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">SORTING NUMERIC ARRAYS</text>
+    <rect x="112" y="390" width="1056" height="2" fill="#8F1D3A"/>
+  </g>
+
+  <g id="identity_block">
+    <text x="640" y="506" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#64748B">Presented by</text>
+    <text x="640" y="540" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="700" fill="#191919">AHMED SALAH ABDALHI MOHAMMED</text>
+    <text x="640" y="594" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#64748B">Supervised by</text>
+    <text x="640" y="628" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="700" fill="#191919">Assoc. Prof. Dr. Emre Özbilge</text>
+  </g>
+</svg>

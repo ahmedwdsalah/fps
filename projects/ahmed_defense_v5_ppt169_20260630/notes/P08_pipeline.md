@@ -1,0 +1,1 @@
+For each domain, I generated transformed arrays and measured runtime across the three sorting algorithms. The label is not guessed; it is the fastest measured algorithm for that instance. The transformations create raw, reversed, shuffled, quantized, and partially sorted cases.

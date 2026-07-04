@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="70" fill="#191919" /><rect x="0" y="0" width="8" height="70" fill="#D97757" />
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">What I claim, and what I do not claim</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC" /><rect x="40" y="86" width="4" height="18" fill="#D97757" />
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">The contribution is strong, but it is not a universal sorting theorem.</text>
+  <path fill="#191919" d="M98,170 H582 A8,8 0 0 1 590,178 V502 A8,8 0 0 1 582,510 H98 A8,8 0 0 1 90,502 V178 A8,8 0 0 1 98,170 Z" />
+  <text x="125" y="230" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">I claim</text>
+  <text x="125" y="300" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#FFFFFF">v5 closes most measured runtime gap.</text>
+  <text x="125" y="355" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#FFFFFF">Cheap structural features are useful.</text>
+  <text x="125" y="410" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#FFFFFF">Limitations are visible in the results.</text>
+  <path fill="#F8FAFC" stroke="#E2E8F0" d="M698,170 H1182 A8,8 0 0 1 1190,178 V502 A8,8 0 0 1 1182,510 H698 A8,8 0 0 1 690,502 V178 A8,8 0 0 1 698,170 Z" />
+  <text x="725" y="230" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">I do not claim</text>
+  <text x="725" y="300" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">The model is perfect.</text>
+  <text x="725" y="355" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">F1 specialization is the main result.</text>
+  <text x="725" y="410" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">LinUCB is validated in this thesis.</text>
+  <text x="90" y="590" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#191919">The F1 route is a separate specialization: useful to discuss, but not mixed with v5.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0" /><text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">Limits and scope</text><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">21 / 22</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="72" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">The array is converted into structural signals</text><rect x="56" y="98" width="180" height="5" fill="#0F766E"/></g>
+  <g id="figure"><rect x="56" y="138" width="740" height="520" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><image href="../images/F2_feature_extraction.png" x="76" y="158" width="700" height="480" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="takeaway"><text x="836" y="198" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700" fill="#173B6D">The model does not see the raw sequence.</text><text x="836" y="268" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" fill="#172033"><tspan x="836" dy="0">It sees compact structure:</tspan><tspan x="836" dy="54">size</tspan><tspan x="836" dy="46">ordering</tspan><tspan x="836" dy="46">repetition</tspan><tspan x="836" dy="46">distribution</tspan></text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">06</text></g>
+</svg>

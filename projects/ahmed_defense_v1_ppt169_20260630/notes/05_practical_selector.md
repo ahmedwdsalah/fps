@@ -1,0 +1,1 @@
+The aim is not to build a perfect oracle. The aim is a practical selector. A wrong class label is not always a serious runtime mistake, because two algorithms can be very close in time. That is why I evaluate accuracy together with regret and gap closed.

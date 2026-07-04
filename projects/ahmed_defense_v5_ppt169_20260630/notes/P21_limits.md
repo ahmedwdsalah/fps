@@ -1,0 +1,1 @@
+My claim is that v5 closes most of the measured runtime gap with cheap structural features and known limitations. I do not claim a perfect classifier, I do not claim the F1 route is the main result, and I do not claim LinUCB is validated in this thesis.

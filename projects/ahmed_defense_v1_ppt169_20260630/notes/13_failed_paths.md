@@ -1,0 +1,1 @@
+The research journey is important, but I keep it compact. Regression was not the right framing. Timing-based features gave a ceiling but were not deployable because they used information that would not be available before sorting. Later strict checks and alternative models helped define the limits of the final claim.

@@ -1,0 +1,1 @@
+The feature importance is consistent with the story. Length, frequency features, longest runs, and duplicate ratio are among the strongest signals. I do not claim feature importance proves causality, but it supports that the model is using meaningful structural information.

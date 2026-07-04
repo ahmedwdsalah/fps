@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="70" fill="#191919"/>
+  <rect x="0" y="0" width="8" height="70" fill="#D97757"/>
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">How I will defend the work</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC"/>
+  <rect x="40" y="86" width="4" height="18" fill="#D97757"/>
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">I start from the decision problem, then show how the final selector was tested.</text>
+
+  <rect x="70" y="166" width="1140" height="410" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="126" cy="230" r="22" fill="#D97757"/><text x="126" y="238" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="170" y="239" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Task and importance</text>
+  <text x="558" y="239" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">Why one sorting algorithm is not always the practical choice</text>
+
+  <circle cx="126" cy="312" r="22" fill="#D97757"/><text x="126" y="320" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="170" y="321" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Data and features</text>
+  <text x="558" y="321" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">Five domains, measured labels, and cheap structural summaries</text>
+
+  <circle cx="126" cy="394" r="22" fill="#D97757"/><text x="126" y="402" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="170" y="403" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Model and evaluation</text>
+  <text x="558" y="403" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">XGBoost v5, accuracy, regret, SBS, VBS, and gap closed</text>
+
+  <circle cx="126" cy="476" r="22" fill="#D97757"/><text x="126" y="484" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="170" y="485" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Evidence and limits</text>
+  <text x="558" y="485" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">Runtime value, hard cases, strict checks, and what I do not claim</text>
+
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/>
+  <text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">Defense route</text>
+  <text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">02 / 22</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="70" fill="#191919"/><rect x="0" y="0" width="8" height="70" fill="#D97757"/>
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Labels came from measured runtime</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC"/><rect x="40" y="86" width="4" height="18" fill="#D97757"/>
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">Each array was transformed, timed across the portfolio, and labeled by the fastest observed algorithm.</text>
+  <image href="../images/F8_data_pipeline.png" x="70" y="145" width="1140" height="330" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="80" y="505" width="208" height="78" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="184" y="552" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#191919">RAW</text>
+  <rect x="320" y="505" width="208" height="78" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="424" y="552" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#191919">REV</text>
+  <rect x="560" y="505" width="208" height="78" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="664" y="552" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#191919">SHUF</text>
+  <rect x="800" y="505" width="208" height="78" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="904" y="552" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#191919">QBIN50</text>
+  <rect x="1040" y="505" width="168" height="78" rx="8" fill="#191919"/><text x="1124" y="552" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#FFFFFF">PSORT10</text>
+  <text x="80" y="622" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">Transforms forced the model to see sorted, reversed, shuffled, quantized, and partially sorted behavior.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/><text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">Transforms and labels</text><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">08 / 22</text>
+</svg>

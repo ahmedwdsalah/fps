@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="78" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">Same complexity does not mean same runtime</text><rect x="56" y="104" width="180" height="5" fill="#D99A20"/></g>
+  <g id="contrast">
+    <text x="120" y="250" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="700" fill="#173B6D">O(n log n)</text>
+    <text x="120" y="306" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#586174">same high-level complexity class</text>
+    <line x1="120" y1="374" x2="1120" y2="374" stroke="#D8DEE8" stroke-width="2"/>
+    <rect x="160" y="440" width="250" height="86" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="190" y="493" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">introsort</text>
+    <rect x="515" y="430" width="250" height="106" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="545" y="493" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">heapsort</text>
+    <rect x="870" y="410" width="250" height="146" rx="8" fill="#F6F8FB" stroke="#0F766E" stroke-width="2"/><text x="900" y="493" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">timsort</text>
+  </g>
+  <g id="takeaway"><text x="120" y="630" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" fill="#172033">The practical winner depends on input structure, constants, memory behavior, and existing order.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">03</text></g>
+</svg>

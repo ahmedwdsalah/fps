@@ -1,0 +1,1 @@
+This slide shows the feature extraction idea. The raw array is converted into a compact description: size, ordering, repetition, and distribution. These are the signals that sorting algorithms can react to. I will not go through every formula here; the important point is that the selector sees structure, not the full raw sequence.

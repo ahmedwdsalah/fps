@@ -1,0 +1,1 @@
+The research question is whether simple array structure can predict the best sorting algorithm. I evaluate that question in two ways: whether the label is correct, and how expensive a mistake is when it is not correct.

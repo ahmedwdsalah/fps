@@ -1,0 +1,1 @@
+The main model in the thesis is the general v5 selector. It uses XGBoost, 16 structural features, and three labels: introsort, heapsort, and timsort. The F1 channel routing work is separate. I mention it as a specialization, but I do not mix it with the general v5 result.

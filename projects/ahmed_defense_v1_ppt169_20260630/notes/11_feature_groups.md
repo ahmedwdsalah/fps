@@ -1,0 +1,1 @@
+The 16 features are grouped by what they describe. Some describe size, some repetition, some ordering, and some distribution. This makes the model easier to defend, because the features are connected to how sorting algorithms behave.

@@ -1,0 +1,1 @@
+Domain holdout is stricter because the held-out domain is unseen during training. The weighted gap closed is 79.7 percent. F1 is harder than the other domains, and that is why the F1-specific route exists separately.

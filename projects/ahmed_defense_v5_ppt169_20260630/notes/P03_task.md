@@ -1,0 +1,1 @@
+The task is not to invent a new sorting algorithm. The task is: given one array before sorting, choose introsort, heapsort, or timsort. The model sees cheap structural features and outputs one algorithm choice.

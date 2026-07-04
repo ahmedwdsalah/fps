@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrowA" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#D97757"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+
+  <text x="64" y="78" font-family="'Styrene A','Helvetica Neue',Arial,sans-serif" font-size="31" font-weight="700" fill="#191919">The selector is trained as a supervised classification problem</text>
+  <line x1="64" y1="104" x2="1216" y2="104" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <rect x="68" y="148" width="242" height="338" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+  <rect x="68" y="148" width="242" height="46" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+  <text x="189" y="178" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">one numeric array x</text>
+  <rect x="92" y="216" width="194" height="56" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="189" y="240" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="15" fill="#64748B">[4, 5, 5, 6, 17, 18,</text>
+  <text x="189" y="262" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="15" fill="#64748B">19, 2, 2, 3, 31, 45]</text>
+  <line x1="96" y1="352" x2="282" y2="352" stroke="#191919" stroke-width="2"/>
+  <rect x="104" y="315" width="17" height="37" fill="#E8EEF5"/>
+  <rect x="129" y="312" width="17" height="40" fill="#E8EEF5"/>
+  <rect x="154" y="312" width="17" height="40" fill="#E8EEF5"/>
+  <rect x="179" y="307" width="17" height="45" fill="#E8EEF5"/>
+  <rect x="204" y="249" width="24" height="103" rx="4" fill="#D97757"/>
+  <rect x="234" y="240" width="24" height="112" rx="4" fill="#D97757"/>
+  <rect x="264" y="233" width="24" height="119" rx="4" fill="#D97757"/>
+  <path d="M96 392 H184" stroke="#D97757" stroke-width="6" stroke-linecap="round"/>
+  <path d="M204 392 H282" stroke="#BA1D2C" stroke-width="6" stroke-linecap="round"/>
+  <text x="140" y="426" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#64748B">local order</text>
+  <text x="243" y="426" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#64748B">duplicates</text>
+  <text x="189" y="460" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="17" fill="#64748B">raw array is not the model input</text>
+
+  <path d="M326 317 H386" stroke="#D97757" stroke-width="3" marker-end="url(#arrowA)"/>
+
+  <rect x="404" y="148" width="282" height="338" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+  <rect x="404" y="148" width="282" height="46" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+  <text x="545" y="178" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">fixed structural vector</text>
+  <text x="545" y="235" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="26" font-weight="700" fill="#8F1D3A">f(x) ∈ R^16</text>
+  <line x1="438" y1="268" x2="652" y2="268" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="438" y="303" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#191919">size</text>
+  <text x="438" y="337" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#191919">sortedness / disorder</text>
+  <text x="438" y="371" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#191919">runs and longest run</text>
+  <text x="438" y="405" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#191919">duplicates and entropy</text>
+  <text x="438" y="439" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#191919">spread, shape, outliers</text>
+  <circle cx="640" cy="297" r="5" fill="#D97757"/>
+  <circle cx="640" cy="331" r="5" fill="#D97757"/>
+  <circle cx="640" cy="365" r="5" fill="#D97757"/>
+  <circle cx="640" cy="399" r="5" fill="#D97757"/>
+  <circle cx="640" cy="433" r="5" fill="#D97757"/>
+
+  <path d="M706 317 H766" stroke="#D97757" stroke-width="3" marker-end="url(#arrowA)"/>
+
+  <rect x="784" y="177" width="208" height="280" rx="10" fill="#191919"/>
+  <text x="888" y="229" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">selector S</text>
+  <text x="888" y="278" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="22" fill="#F4511E">S : F → A</text>
+  <line x1="818" y1="312" x2="958" y2="312" stroke="#64748B" stroke-width="1"/>
+  <text x="888" y="358" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">XGBoost v5</text>
+  <text x="888" y="386" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#CBD5E1">multi-class classifier</text>
+
+  <path d="M1012 317 H1072" stroke="#D97757" stroke-width="3" marker-end="url(#arrowA)"/>
+
+  <rect x="1090" y="148" width="126" height="338" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+  <rect x="1090" y="148" width="126" height="46" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+  <text x="1153" y="178" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">A</text>
+  <rect x="1112" y="231" width="82" height="38" rx="19" fill="#FFFFFF" stroke="#BA1D2C" stroke-width="1.6"/>
+  <rect x="1112" y="300" width="82" height="38" rx="19" fill="#FFFFFF" stroke="#BA1D2C" stroke-width="1.6"/>
+  <rect x="1112" y="369" width="82" height="38" rx="19" fill="#F4511E"/>
+  <text x="1153" y="256" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#191919">introsort</text>
+  <text x="1153" y="325" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#191919">heapsort</text>
+  <text x="1153" y="394" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">timsort</text>
+
+  <rect x="196" y="532" width="888" height="72" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+  <text x="640" y="565" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="22" fill="#191919">label(x) = argmin_a T(a, x)</text>
+  <text x="640" y="592" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="17" fill="#64748B">training label comes from measured runtime, not manual annotation</text>
+</svg>

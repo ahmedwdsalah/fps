@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="72" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">Each failed path clarified the final design</text><rect x="56" y="98" width="180" height="5" fill="#D99A20"/></g>
+  <g id="figure"><rect x="56" y="138" width="830" height="420" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><image href="../images/F3_model_evolution.png" x="76" y="158" width="790" height="380" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="lessons"><text x="930" y="190" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">What changed</text><text x="930" y="260" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033"><tspan x="930" dy="0">regression was weak</tspan><tspan x="930" dy="44">timing features leaked</tspan><tspan x="930" dy="44">regret weighting hurt</tspan><tspan x="930" dy="44">cascade exposed boundary</tspan></text></g>
+  <g id="takeaway"><text x="56" y="625" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#172033">The journey matters because it explains why v5 is the defensible center of the thesis.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">13</text></g>
+</svg>

@@ -1,0 +1,1 @@
+The contribution is the framing, the data and feature pipeline, and the measured selector result. The future work is stronger domain adaptation, validated online selection, and deeper F1-specific evaluation.

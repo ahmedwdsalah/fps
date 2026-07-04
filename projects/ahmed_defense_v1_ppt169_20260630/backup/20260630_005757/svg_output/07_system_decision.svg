@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="72" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">The system makes one decision before execution</text><rect x="56" y="98" width="180" height="5" fill="#0F766E"/></g>
+  <g id="figure"><rect x="56" y="140" width="780" height="470" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><image href="../images/F1_system_architecture.png" x="76" y="160" width="740" height="430" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="summary"><rect x="875" y="170" width="315" height="388" rx="8" fill="#FFFFFF" stroke="#D8DEE8"/><use data-icon="tabler-outline/route" x="906" y="206" width="44" height="44" fill="#173B6D" stroke-width="2"/><text x="906" y="288" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" fill="#172033"><tspan x="906" dy="0">features</tspan><tspan x="906" dy="52">XGBoost</tspan><tspan x="906" dy="52">one of three algorithms</tspan></text><text x="906" y="500" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">No multiple sorting runs are used at decision time.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">07</text></g>
+</svg>

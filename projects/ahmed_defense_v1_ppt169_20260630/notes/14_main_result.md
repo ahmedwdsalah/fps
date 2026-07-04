@@ -1,0 +1,1 @@
+The main result is that v5 closes 93.1 percent of the runtime gap between the single best solver and the virtual best solver. Its test accuracy is 76.1 percent, and 89.6 percent of selections have zero regret. So the classifier is not perfect, but most mistakes are cheap in runtime terms.

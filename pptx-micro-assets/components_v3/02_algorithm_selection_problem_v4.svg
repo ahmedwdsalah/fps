@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+
+  <g id="title">
+    <text x="640" y="78" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#191919">Algorithm Selection Problem</text>
+    <text x="640" y="112" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#64748B">Formal mapping used in this thesis for sorting numeric arrays</text>
+  </g>
+
+  <g id="rice_framework_backbone">
+    <line x1="132" y1="354" x2="1148" y2="354" stroke="#CBD5E1" stroke-width="2"/>
+    <circle cx="170" cy="354" r="6" fill="#8F1D3A"/>
+    <circle cx="430" cy="354" r="6" fill="#D97757"/>
+    <circle cx="704" cy="354" r="6" fill="#191919"/>
+    <circle cx="980" cy="354" r="6" fill="#BA1D2C"/>
+    <path d="M1148 354 L1128 342 V366 Z" fill="#CBD5E1"/>
+  </g>
+
+  <g id="problem_space">
+    <rect x="70" y="170" width="250" height="320" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="70" y="170" width="250" height="48" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="195" y="202" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="21" font-weight="700" fill="#191919">Problem space P</text>
+    <text x="96" y="252" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">one numeric array</text>
+    <text x="96" y="282" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#191919">[4, 5, 5, 6, 17, 18,</text>
+    <text x="96" y="306" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#191919"> 19, 2, 2, 3, 31, 45]</text>
+    <line x1="96" y1="342" x2="290" y2="342" stroke="#E2E8F0"/>
+    <rect x="96" y="372" width="18" height="20" fill="#E2E8F0"/>
+    <rect x="120" y="368" width="18" height="24" fill="#E2E8F0"/>
+    <rect x="144" y="368" width="18" height="24" fill="#E2E8F0"/>
+    <rect x="168" y="362" width="18" height="30" fill="#E2E8F0"/>
+    <rect x="192" y="324" width="18" height="68" fill="#D97757"/>
+    <rect x="216" y="320" width="18" height="72" fill="#D97757"/>
+    <rect x="240" y="316" width="18" height="76" fill="#D97757"/>
+    <rect x="264" y="382" width="18" height="10" fill="#BA1D2C"/>
+    <text x="96" y="438" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#64748B">input-dependent structure</text>
+  </g>
+
+  <g id="feature_space">
+    <rect x="356" y="170" width="250" height="320" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="356" y="170" width="250" height="48" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="481" y="202" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="21" font-weight="700" fill="#191919">Feature space F</text>
+    <text x="382" y="250" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">structural array features</text>
+    <rect x="382" y="278" width="198" height="34" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="398" y="301" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">size</text>
+    <text x="560" y="301" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">n</text>
+    <rect x="382" y="312" width="198" height="34" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="398" y="335" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">sortedness / disorder</text>
+    <rect x="382" y="346" width="198" height="34" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="398" y="369" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">runs</text>
+    <rect x="382" y="380" width="198" height="34" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="398" y="403" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">duplicates / entropy</text>
+    <rect x="382" y="414" width="198" height="34" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="398" y="437" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">spread / outliers</text>
+    <text x="481" y="472" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#8F1D3A">x ∈ R^16</text>
+  </g>
+
+  <g id="selector_mapping">
+    <rect x="650" y="206" width="210" height="248" rx="12" fill="#191919"/>
+    <text x="755" y="264" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Selector</text>
+    <text x="755" y="305" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#D97757">S : F → A</text>
+    <line x1="690" y1="334" x2="820" y2="334" stroke="#475569"/>
+    <text x="755" y="372" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#FFFFFF">XGBoost classifier</text>
+    <text x="755" y="402" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#CBD5E1">predicts fastest class</text>
+  </g>
+
+  <g id="algorithm_space">
+    <rect x="904" y="170" width="270" height="320" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="904" y="170" width="270" height="48" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="1039" y="202" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="21" font-weight="700" fill="#191919">Algorithm space A</text>
+    <rect x="936" y="262" width="206" height="46" rx="23" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="2"/>
+    <text x="1039" y="292" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Introsort</text>
+    <rect x="936" y="334" width="206" height="46" rx="23" fill="#FFFFFF" stroke="#BA1D2C" stroke-width="2"/>
+    <text x="1039" y="364" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Heapsort</text>
+    <rect x="936" y="406" width="206" height="46" rx="23" fill="#F4511E"/>
+    <text x="1039" y="436" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Timsort</text>
+  </g>
+
+  <g id="performance_space">
+    <rect x="190" y="550" width="900" height="94" rx="10" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="230" y="586" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Performance space Y</text>
+    <text x="230" y="616" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">Measured runtime determines the training label: label = argmin T(a, x)</text>
+    <text x="826" y="586" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">example:</text>
+    <text x="895" y="586" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">Timsort 13.2 μs</text>
+    <text x="895" y="614" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#64748B">Introsort 18.7 μs</text>
+    <text x="895" y="642" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#64748B">Heapsort 24.5 μs</text>
+  </g>
+
+  <g id="flow_arrows">
+    <path d="M320 354 H356" stroke="#D97757" stroke-width="4"/>
+    <path d="M356 354 L338 343 V365 Z" fill="#D97757"/>
+    <path d="M606 354 H650" stroke="#D97757" stroke-width="4"/>
+    <path d="M650 354 L632 343 V365 Z" fill="#D97757"/>
+    <path d="M860 354 H904" stroke="#D97757" stroke-width="4"/>
+    <path d="M904 354 L886 343 V365 Z" fill="#D97757"/>
+    <path d="M1039 490 C1039 526 958 536 910 550" fill="none" stroke="#D97757" stroke-width="3"/>
+    <path d="M910 550 L928 536 L933 557 Z" fill="#D97757"/>
+  </g>
+</svg>

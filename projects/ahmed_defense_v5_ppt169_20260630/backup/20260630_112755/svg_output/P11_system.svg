@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="70" fill="#191919"/><rect x="0" y="0" width="8" height="70" fill="#D97757"/>
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">The main system is one general v5 selector</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC"/><rect x="40" y="86" width="4" height="18" fill="#D97757"/>
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">v5 is trained across all domains and predicts among introsort, heapsort, and timsort.</text>
+  <image href="../images/F1_system_architecture.png" x="70" y="145" width="760" height="455" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="890" y="170" width="290" height="80" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="1035" y="221" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#191919">Array features</text>
+  <rect x="890" y="285" width="290" height="80" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/><text x="1035" y="336" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#191919">XGBoost v5</text>
+  <rect x="890" y="400" width="290" height="80" rx="8" fill="#191919"/><text x="1035" y="451" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#FFFFFF">One algorithm choice</text>
+  <text x="890" y="548" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">The F1-specific route exists, but it is a separate specialization and not the main claim.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/><text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">System idea</text><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">11 / 22</text>
+</svg>

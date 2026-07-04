@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="heatA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8F1D3A"/>
+      <stop offset="0.55" stop-color="#D97757"/>
+      <stop offset="1" stop-color="#F4511E"/>
+    </linearGradient>
+    <linearGradient id="fadeA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.16"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+
+  <text x="64" y="76" font-family="'Styrene A','Helvetica Neue',Arial,sans-serif" font-size="31" font-weight="700" fill="#191919">XGBoost builds a strong model by adding correction trees</text>
+  <line x1="64" y1="104" x2="1216" y2="104" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <path d="M86 180 C235 132, 405 132, 552 180 C710 232, 880 228, 1034 178 C1105 156, 1160 160, 1196 184 L1196 548 C1016 602, 830 596, 650 548 C478 502, 298 510, 86 554 Z" fill="url(#fadeA)" stroke="#CBD5E1" stroke-width="1.4"/>
+
+  <circle cx="160" cy="260" r="54" fill="#8F1D3A" opacity="0.22"/>
+  <circle cx="238" cy="330" r="35" fill="#D97757" opacity="0.22"/>
+  <circle cx="340" cy="246" r="46" fill="#F4511E" opacity="0.22"/>
+  <circle cx="474" cy="356" r="64" fill="#8F1D3A" opacity="0.22"/>
+  <circle cx="612" cy="286" r="38" fill="#D97757" opacity="0.22"/>
+  <circle cx="760" cy="374" r="56" fill="#F4511E" opacity="0.22"/>
+  <circle cx="910" cy="278" r="42" fill="#8F1D3A" opacity="0.22"/>
+  <circle cx="1048" cy="352" r="62" fill="#D97757" opacity="0.22"/>
+
+  <path d="M116 473 C240 416, 358 438, 492 472 C638 510, 772 510, 918 466 C1012 438, 1100 438, 1168 470" fill="none" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+
+  <g filter="url(#soft)">
+    <path d="M138 220 H344 A10 10 0 0 1 354 230 V430 A10 10 0 0 1 344 440 H138 A10 10 0 0 1 128 430 V230 A10 10 0 0 1 138 220 Z" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.3"/>
+    <text x="241" y="260" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">initial prediction</text>
+    <path d="M172 344 C210 300, 256 300, 310 344" fill="none" stroke="#64748B" stroke-width="5" stroke-linecap="round"/>
+    <path d="M172 352 C208 390, 260 394, 310 352" fill="none" stroke="#D97757" stroke-width="5" stroke-linecap="round"/>
+    <text x="241" y="400" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">large remaining error</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <path d="M420 185 H642 A10 10 0 0 1 652 195 V466 A10 10 0 0 1 642 476 H420 A10 10 0 0 1 410 466 V195 A10 10 0 0 1 420 185 Z" fill="#191919"/>
+    <text x="531" y="226" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">boosting engine</text>
+    <path d="M531 266 V390" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M531 300 L486 352" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M531 300 L576 352" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="531" cy="266" r="19" fill="#F4511E"/>
+    <circle cx="486" cy="352" r="16" fill="#8F1D3A"/>
+    <circle cx="576" cy="352" r="16" fill="#D97757"/>
+    <path d="M472 418 H590" stroke="#F4511E" stroke-width="5" stroke-linecap="round"/>
+    <text x="531" y="446" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#CBD5E1">fit next tree to correction signal</text>
+  </g>
+
+  <g>
+    <path d="M372 330 C386 318, 396 318, 408 330" fill="none" stroke="#8F1D3A" stroke-width="3"/>
+    <path d="M664 330 C682 318, 698 318, 716 330" fill="none" stroke="#8F1D3A" stroke-width="3"/>
+  </g>
+
+  <g filter="url(#soft)">
+    <path d="M746 218 H956 A10 10 0 0 1 966 228 V432 A10 10 0 0 1 956 442 H746 A10 10 0 0 1 736 432 V228 A10 10 0 0 1 746 218 Z" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.3"/>
+    <text x="851" y="258" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">accumulated corrections</text>
+    <g>
+      <path d="M786 316 V360" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M786 338 L766 360" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M786 338 L806 360" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="786" cy="316" r="9" fill="#8F1D3A"/>
+      <path d="M850 296 V362" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M850 326 L826 362" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M850 326 L874 362" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="850" cy="296" r="9" fill="#D97757"/>
+      <path d="M914 318 V360" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M914 338 L894 360" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M914 338 L934 360" stroke="#191919" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="914" cy="318" r="9" fill="#F4511E"/>
+    </g>
+    <text x="851" y="400" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">many small trees combine</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <path d="M1030 204 H1168 A10 10 0 0 1 1178 214 V446 A10 10 0 0 1 1168 456 H1030 A10 10 0 0 1 1020 446 V214 A10 10 0 0 1 1030 204 Z" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.3"/>
+    <text x="1099" y="244" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#191919">final ensemble</text>
+    <path d="M1052 350 C1076 300, 1110 300, 1148 350" fill="none" stroke="#8F1D3A" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1052 358 C1078 382, 1114 384, 1148 358" fill="none" stroke="#F4511E" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1054 298 H1146" stroke="#D97757" stroke-width="5" stroke-linecap="round"/>
+    <text x="1099" y="404" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#64748B">smaller residual error</text>
+  </g>
+
+  <rect x="238" y="592" width="804" height="42" rx="21" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="640" y="619" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="17" fill="#64748B">the architecture is sequential correction: each added tree improves the current ensemble</text>
+</svg>

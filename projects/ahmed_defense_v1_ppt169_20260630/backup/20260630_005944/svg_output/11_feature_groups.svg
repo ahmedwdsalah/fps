@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="78" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">The features describe structure, not raw values</text><rect x="56" y="104" width="180" height="5" fill="#0F766E"/></g>
+  <g id="groups">
+    <rect x="90" y="170" width="510" height="160" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="126" y="225" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Size</text><text x="126" y="278" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033">length_norm</text>
+    <rect x="680" y="170" width="510" height="160" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="716" y="225" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Repetition</text><text x="716" y="278" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033">duplicate_ratio, top frequency ratios</text>
+    <rect x="90" y="378" width="510" height="160" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="126" y="433" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Ordering</text><text x="126" y="486" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033">runs, inversions, adjacent sortedness</text>
+    <rect x="680" y="378" width="510" height="160" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="716" y="433" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Distribution</text><text x="716" y="486" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033">entropy, skewness, dispersion, outliers</text>
+  </g>
+  <g id="takeaway"><text x="90" y="620" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#0F766E">16 features summarize what the sorting algorithms can exploit.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">11</text></g>
+</svg>

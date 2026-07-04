@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="72" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">Accuracy alone does not explain the value</text><rect x="56" y="98" width="180" height="5" fill="#0F766E"/></g>
+  <g id="figure"><rect x="56" y="132" width="780" height="350" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><image href="../images/F9_regret_distribution.png" x="76" y="152" width="740" height="310" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="formulae"><rect x="880" y="150" width="330" height="135" rx="8" fill="#FFFFFF" stroke="#D8DEE8"/><image href="../images/formula_regret.png" x="910" y="190" width="270" height="58" preserveAspectRatio="xMidYMid meet"/><rect x="880" y="325" width="330" height="135" rx="8" fill="#FFFFFF" stroke="#D8DEE8"/><image href="../images/formula_gap_closed.png" x="900" y="365" width="290" height="52" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="takeaway"><text x="76" y="570" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">A selection can be wrong as a label and still almost right as a runtime decision.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">15</text></g>
+</svg>

@@ -1,0 +1,1 @@
+The confusion matrix shows that timsort is often easier to identify when order signals are strong. The harder boundary is between introsort and heapsort because their runtime behavior is often closer. This is a limitation, but it is also why regret is necessary.

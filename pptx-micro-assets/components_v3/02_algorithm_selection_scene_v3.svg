@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+
+  <g id="title_layer">
+    <text x="640" y="78" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#191919">Algorithm Selection Problem</text>
+    <text x="640" y="112" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#64748B">sorting numeric arrays by selecting from a fixed algorithm portfolio before execution</text>
+  </g>
+
+  <g id="array_stage">
+    <path d="M92 205 C170 165 278 150 380 174 C478 198 532 246 615 237 C701 228 743 165 843 158 C946 151 1031 192 1102 247" fill="none" stroke="#E2E8F0" stroke-width="28" stroke-linecap="round"/>
+    <path d="M92 205 C170 165 278 150 380 174 C478 198 532 246 615 237 C701 228 743 165 843 158 C946 151 1031 192 1102 247" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6 10"/>
+    <text x="640" y="165" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">input array instance</text>
+
+    <rect x="120" y="262" width="38" height="38" rx="4" fill="#F8FAFC" stroke="#E2E8F0"/><text x="139" y="287" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">4</text>
+    <rect x="165" y="254" width="38" height="46" rx="4" fill="#F8FAFC" stroke="#E2E8F0"/><text x="184" y="283" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">5</text>
+    <rect x="210" y="254" width="38" height="46" rx="4" fill="#F8FAFC" stroke="#E2E8F0"/><text x="229" y="283" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">5</text>
+    <rect x="255" y="246" width="38" height="54" rx="4" fill="#F8FAFC" stroke="#E2E8F0"/><text x="274" y="279" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">6</text>
+    <rect x="300" y="202" width="38" height="98" rx="4" fill="#F4511E"/><text x="319" y="257" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">17</text>
+    <rect x="345" y="198" width="38" height="102" rx="4" fill="#F4511E"/><text x="364" y="255" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">18</text>
+    <rect x="390" y="194" width="38" height="106" rx="4" fill="#F4511E"/><text x="409" y="253" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">19</text>
+    <rect x="435" y="276" width="38" height="24" rx="4" fill="#BA1D2C"/><text x="454" y="294" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">2</text>
+    <rect x="480" y="276" width="38" height="24" rx="4" fill="#BA1D2C"/><text x="499" y="294" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">2</text>
+    <rect x="525" y="268" width="38" height="32" rx="4" fill="#BA1D2C"/><text x="544" y="290" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">3</text>
+    <rect x="570" y="146" width="38" height="154" rx="4" fill="#8F1D3A"/><text x="589" y="229" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">31</text>
+    <rect x="615" y="105" width="38" height="195" rx="4" fill="#8F1D3A"/><text x="634" y="208" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">45</text>
+    <rect x="660" y="101" width="38" height="199" rx="4" fill="#8F1D3A"/><text x="679" y="206" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">46</text>
+    <rect x="705" y="97" width="38" height="203" rx="4" fill="#8F1D3A"/><text x="724" y="204" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">47</text>
+    <rect x="750" y="52" width="38" height="248" rx="4" fill="#191919"/><text x="769" y="182" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">80</text>
+    <rect x="795" y="50" width="38" height="250" rx="4" fill="#191919"/><text x="814" y="181" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">81</text>
+    <line x1="115" y1="300" x2="838" y2="300" stroke="#191919" stroke-width="2"/>
+  </g>
+
+  <g id="structure_annotations">
+    <path d="M124 326 H292" stroke="#D97757" stroke-width="5" stroke-linecap="round"/>
+    <text x="208" y="354" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#8F1D3A">natural run</text>
+    <path d="M438 326 H560" stroke="#BA1D2C" stroke-width="5" stroke-linecap="round"/>
+    <text x="499" y="354" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#BA1D2C">drop + duplicates</text>
+    <path d="M615 326 H834" stroke="#191919" stroke-width="5" stroke-linecap="round"/>
+    <text x="724" y="354" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#191919">long ordered tail</text>
+    <circle cx="910" cy="202" r="54" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="910" y="194" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#191919">instance</text>
+    <text x="910" y="220" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">features</text>
+    <path d="M850 205 H856" stroke="#D97757" stroke-width="4"/><path d="M856 205 L838 194 V216 Z" fill="#D97757"/>
+  </g>
+
+  <g id="feature_ring">
+    <circle cx="640" cy="462" r="92" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+    <circle cx="640" cy="462" r="58" fill="#191919"/>
+    <text x="640" y="455" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">feature</text>
+    <text x="640" y="481" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">vector</text>
+    <text x="640" y="511" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#D97757">x ∈ R^16</text>
+    <rect x="405" y="412" width="154" height="42" rx="21" fill="#F8FAFC" stroke="#E2E8F0"/><text x="482" y="439" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">size</text>
+    <rect x="430" y="504" width="154" height="42" rx="21" fill="#F8FAFC" stroke="#E2E8F0"/><text x="507" y="531" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">duplicates</text>
+    <rect x="696" y="504" width="154" height="42" rx="21" fill="#F8FAFC" stroke="#E2E8F0"/><text x="773" y="531" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">entropy</text>
+    <rect x="720" y="412" width="154" height="42" rx="21" fill="#F8FAFC" stroke="#E2E8F0"/><text x="797" y="439" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#191919">runs</text>
+    <path d="M552 433 L588 448" stroke="#D97757" stroke-width="3"/><path d="M578 515 L603 496" stroke="#D97757" stroke-width="3"/><path d="M700 496 L728 515" stroke="#D97757" stroke-width="3"/><path d="M724 433 L692 448" stroke="#D97757" stroke-width="3"/>
+  </g>
+
+  <g id="algorithm_portfolio">
+    <path d="M174 622 C300 578 438 590 540 622" fill="none" stroke="#8F1D3A" stroke-width="5" stroke-linecap="round"/>
+    <path d="M370 622 C496 578 634 590 736 622" fill="none" stroke="#BA1D2C" stroke-width="5" stroke-linecap="round"/>
+    <path d="M566 622 C692 578 830 590 932 622" fill="none" stroke="#F4511E" stroke-width="5" stroke-linecap="round"/>
+    <rect x="142" y="610" width="170" height="58" rx="29" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="3"/><text x="227" y="647" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Introsort</text>
+    <rect x="555" y="610" width="170" height="58" rx="29" fill="#FFFFFF" stroke="#BA1D2C" stroke-width="3"/><text x="640" y="647" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Heapsort</text>
+    <rect x="968" y="610" width="170" height="58" rx="29" fill="#F4511E"/><text x="1053" y="647" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Timsort</text>
+  </g>
+
+  <g id="selector_decision">
+    <path d="M640 554 V590" stroke="#D97757" stroke-width="4"/>
+    <path d="M640 590 L628 570 H652 Z" fill="#D97757"/>
+    <path d="M732 554 C860 580 930 605 968 630" fill="none" stroke="#F4511E" stroke-width="5" stroke-linecap="round"/>
+    <path d="M968 630 L944 627 L957 608 Z" fill="#F4511E"/>
+    <text x="1014" y="586" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#F4511E">selected before sorting</text>
+  </g>
+</svg>

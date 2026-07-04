@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="70" fill="#191919"/><rect x="0" y="0" width="8" height="70" fill="#D97757"/>
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Features translate array shape into model input</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC"/><rect x="40" y="86" width="4" height="18" fill="#D97757"/>
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">The 16 features describe structure that sorting algorithms react to: size, order, duplicates, and local disorder.</text>
+  <image href="../images/F2_feature_extraction.png" x="70" y="145" width="560" height="400" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="680" y="160" width="230" height="330" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="710" y="216" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Scale</text>
+  <text x="710" y="278" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">length</text>
+  <text x="710" y="314" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">range</text>
+  <text x="710" y="350" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">spread</text>
+  <rect x="938" y="160" width="230" height="330" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="968" y="216" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Shape</text>
+  <text x="968" y="278" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">inversions</text>
+  <text x="968" y="314" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">runs</text>
+  <text x="968" y="350" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">duplicates</text>
+  <text x="680" y="545" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">The features are not timing features.</text>
+  <text x="680" y="585" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">They are cheap summaries before sorting.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/><text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">Feature extraction</text><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">09 / 22</text>
+</svg>

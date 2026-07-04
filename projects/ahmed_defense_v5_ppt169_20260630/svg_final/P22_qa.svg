@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="86" fill="#191919" />
+  <rect x="0" y="0" width="10" height="86" fill="#D97757" />
+  <text x="44" y="54" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#FFFFFF">MSc Thesis Defense · June 2026</text>
+  <text x="72" y="180" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#191919">Thank you</text>
+  <text x="72" y="245" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="48" font-weight="700" fill="#D97757">Questions?</text>
+  <path fill="#F8FAFC" stroke="#E2E8F0" d="M80,330 H404 A8,8 0 0 1 412,338 V492 A8,8 0 0 1 404,500 H80 A8,8 0 0 1 72,492 V338 A8,8 0 0 1 80,330 Z" />
+  <text x="104" y="385" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Contribution 1</text>
+  <text x="104" y="430" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">sorting selection framed as</text>
+  <text x="104" y="464" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">a measured ML problem</text>
+  <path fill="#F8FAFC" stroke="#E2E8F0" d="M478,330 H802 A8,8 0 0 1 810,338 V492 A8,8 0 0 1 802,500 H478 A8,8 0 0 1 470,492 V338 A8,8 0 0 1 478,330 Z" />
+  <text x="502" y="385" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Contribution 2</text>
+  <text x="502" y="430" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">cheap structural features</text>
+  <text x="502" y="464" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">across five domains</text>
+  <path fill="#191919" d="M876,330 H1200 A8,8 0 0 1 1208,338 V492 A8,8 0 0 1 1200,500 H876 A8,8 0 0 1 868,492 V338 A8,8 0 0 1 876,330 Z" />
+  <text x="900" y="385" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Contribution 3</text>
+  <text x="900" y="430" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#FFFFFF">93.1% gap closed with</text>
+  <text x="900" y="464" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#FFFFFF">clear limitations</text>
+  <text x="72" y="600" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">Future work: stronger domain adaptation, validated online selection, and deeper F1-specific evaluation.</text>
+  <text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">22 / 22</text>
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A" />
+</svg>

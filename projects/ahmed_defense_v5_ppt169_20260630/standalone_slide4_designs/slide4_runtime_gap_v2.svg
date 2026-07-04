@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <filter id="shadow" x="-8%" y="-8%" width="116%" height="124%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.13"/>
+    </filter>
+    <linearGradient id="gap" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9A1C3E"/>
+      <stop offset="1" stop-color="#F94E1F"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#263445"/>
+    </marker>
+    <marker id="arrowSoft" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#D97757"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1600" height="27" fill="#9A1C3E"/>
+  <rect x="0" y="27" width="1600" height="8" fill="#F94E1F"/>
+  <rect x="0" y="866" width="1600" height="34" fill="#9A1C3E"/>
+
+  <text x="74" y="94" font-family="Aptos Display, Arial, sans-serif" font-size="44" font-weight="700" fill="#191919">Why sorting selection matters</text>
+  <text x="74" y="136" font-family="Aptos, Arial, sans-serif" font-size="22" fill="#263445">The thesis measures how much runtime gap remains between a fixed solver and the per-instance best solver.</text>
+  <line x1="74" y1="164" x2="1526" y2="164" stroke="#D8E0EA" stroke-width="2"/>
+
+  <!-- Main grid: x columns 90, 540, 875, 1235. Top 220. Height 360. -->
+  <g id="input" transform="translate(90,220)">
+    <rect x="0" y="0" width="390" height="360" rx="7" fill="#F6F8FB" stroke="#D6DFEA" filter="url(#shadow)"/>
+    <text x="34" y="46" font-family="Aptos Display, Arial, sans-serif" font-size="30" font-weight="700" fill="#191919">Input instance</text>
+    <text x="34" y="82" font-family="Aptos, Arial, sans-serif" font-size="18" fill="#586A86">same task, different structure</text>
+
+    <g transform="translate(34,124)">
+      <text x="0" y="0" font-family="Aptos, Arial, sans-serif" font-size="15" fill="#586A86">ordered runs</text>
+      <line x1="0" y1="50" x2="282" y2="50" stroke="#D8E0EA"/>
+      <rect x="0" y="38" width="24" height="12" fill="#DDE5EF"/>
+      <rect x="34" y="34" width="24" height="16" fill="#DDE5EF"/>
+      <rect x="68" y="30" width="24" height="20" fill="#DDE5EF"/>
+      <rect x="112" y="12" width="24" height="38" fill="#D97757"/>
+      <rect x="146" y="8" width="24" height="42" fill="#D97757"/>
+      <rect x="180" y="4" width="24" height="46" fill="#D97757"/>
+      <rect x="224" y="40" width="24" height="10" fill="#B91C1C"/>
+      <rect x="258" y="40" width="24" height="10" fill="#B91C1C"/>
+    </g>
+
+    <g transform="translate(34,204)">
+      <text x="0" y="0" font-family="Aptos, Arial, sans-serif" font-size="15" fill="#586A86">duplicate-heavy values</text>
+      <line x1="0" y1="50" x2="282" y2="50" stroke="#D8E0EA"/>
+      <rect x="0" y="23" width="24" height="27" fill="#8DA6C8"/>
+      <rect x="34" y="23" width="24" height="27" fill="#8DA6C8"/>
+      <rect x="68" y="23" width="24" height="27" fill="#8DA6C8"/>
+      <rect x="112" y="25" width="24" height="25" fill="#8DA6C8"/>
+      <rect x="156" y="13" width="24" height="37" fill="#9A1C3E"/>
+      <rect x="190" y="13" width="24" height="37" fill="#9A1C3E"/>
+      <rect x="224" y="40" width="24" height="10" fill="#DDE5EF"/>
+      <rect x="258" y="40" width="24" height="10" fill="#DDE5EF"/>
+    </g>
+
+    <g transform="translate(34,284)">
+      <text x="0" y="0" font-family="Aptos, Arial, sans-serif" font-size="15" fill="#586A86">local disorder</text>
+      <path d="M0,46 L24,16 L48,42 L72,8 L96,36 L120,20 L144,48 L168,12 L192,30 L216,18 L240,43 L264,22 L288,38" fill="none" stroke="#263445" stroke-width="3"/>
+    </g>
+  </g>
+
+  <text x="865" y="205" text-anchor="middle" font-family="Aptos Display, Arial, sans-serif" font-size="25" font-weight="700" fill="#191919">Reference points used in the thesis</text>
+
+  <g id="sbs" transform="translate(540,252)">
+    <rect x="0" y="0" width="285" height="174" rx="7" fill="#FFFFFF" stroke="#D6DFEA" filter="url(#shadow)"/>
+    <text x="142.5" y="58" text-anchor="middle" font-family="Aptos Display, Arial, sans-serif" font-size="44" font-weight="700" fill="#191919">SBS</text>
+    <text x="142.5" y="96" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="20" fill="#586A86">Single Best Solver</text>
+    <text x="142.5" y="136" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="18" fill="#263445">one fixed algorithm</text>
+  </g>
+
+  <g id="vbs" transform="translate(875,252)">
+    <rect x="0" y="0" width="285" height="174" rx="7" fill="#191919" stroke="#191919" filter="url(#shadow)"/>
+    <text x="142.5" y="58" text-anchor="middle" font-family="Aptos Display, Arial, sans-serif" font-size="44" font-weight="700" fill="#F94E1F">VBS</text>
+    <text x="142.5" y="96" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="20" fill="#FFFFFF">Virtual Best Solver</text>
+    <text x="142.5" y="136" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="18" fill="#D8E0EA">best per instance</text>
+  </g>
+
+  <g id="objective" transform="translate(540,485)">
+    <text x="0" y="-32" font-family="Aptos Display, Arial, sans-serif" font-size="25" font-weight="700" fill="#191919">Runtime objective</text>
+    <rect x="0" y="0" width="620" height="150" rx="7" fill="#F6F8FB" stroke="#D6DFEA"/>
+    <text x="40" y="62" font-family="Aptos, Arial, sans-serif" font-size="25" fill="#263445">gap closed</text>
+    <rect x="190" y="42" width="365" height="28" rx="14" fill="#E6EBF2"/>
+    <rect x="190" y="42" width="322" height="28" rx="14" fill="url(#gap)"/>
+    <line x1="190" y1="88" x2="190" y2="116" stroke="#586A86" stroke-width="2"/>
+    <line x1="555" y1="88" x2="555" y2="116" stroke="#586A86" stroke-width="2"/>
+    <text x="190" y="137" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="16" fill="#586A86">SBS</text>
+    <text x="555" y="137" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="16" fill="#586A86">VBS</text>
+    <text x="378" y="106" text-anchor="middle" font-family="Aptos Display, Arial, sans-serif" font-size="30" font-weight="700" fill="#9A1C3E">move toward VBS</text>
+  </g>
+
+  <g id="selector" transform="translate(1235,220)">
+    <rect x="0" y="0" width="275" height="360" rx="7" fill="#FFFFFF" stroke="#D6DFEA" filter="url(#shadow)"/>
+    <text x="137.5" y="50" text-anchor="middle" font-family="Aptos Display, Arial, sans-serif" font-size="30" font-weight="700" fill="#191919">Selector</text>
+    <text x="137.5" y="91" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="20" fill="#586A86">features only</text>
+    <line x1="44" y1="126" x2="231" y2="126" stroke="#D8E0EA"/>
+    <text x="137.5" y="178" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="21" font-weight="700" fill="#191919">choose before sorting</text>
+    <text x="137.5" y="226" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="17" fill="#586A86">no portfolio timing</text>
+    <text x="137.5" y="255" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="17" fill="#586A86">at prediction time</text>
+    <rect x="48" y="292" width="179" height="50" rx="25" fill="#F94E1F"/>
+    <text x="137.5" y="325" text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">low regret</text>
+  </g>
+
+  <line x1="480" y1="400" x2="530" y2="400" stroke="#263445" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="825" y1="339" x2="864" y2="339" stroke="#D97757" stroke-width="4" marker-end="url(#arrowSoft)"/>
+  <line x1="1160" y1="400" x2="1225" y2="400" stroke="#263445" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="800" y="766" text-anchor="middle" font-family="Aptos Display, Arial, sans-serif" font-size="26" font-weight="700" fill="#191919">Accuracy is reported, but runtime regret decides whether a wrong label matters.</text>
+  <text x="1532" y="891" text-anchor="end" font-family="Aptos, Arial, sans-serif" font-size="14" fill="#FFFFFF">4/24</text>
+</svg>

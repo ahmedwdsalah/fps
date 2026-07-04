@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A" />
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E" />
+  <text x="64" y="72" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">The selector must be cheaper than the decision it improves</text>
+  
+  <text x="64" y="108" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">Features are computed from the input structure; the system does not benchmark all algorithms at prediction time.</text>
+  <path fill="#F8FAFC" stroke="#E2E8F0" d="M98,170 H582 A8,8 0 0 1 590,178 V542 A8,8 0 0 1 582,550 H98 A8,8 0 0 1 90,542 V178 A8,8 0 0 1 98,170 Z" />
+  <text x="120" y="230" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Allowed before sorting</text>
+  <text x="120" y="300" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">Read the array once</text>
+  <text x="120" y="350" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">Count order and duplicate signals</text>
+  <text x="120" y="400" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">Predict one algorithm class</text>
+  <path fill="#FFFFFF" stroke="#E2E8F0" d="M698,170 H1182 A8,8 0 0 1 1190,178 V542 A8,8 0 0 1 1182,550 H698 A8,8 0 0 1 690,542 V178 A8,8 0 0 1 698,170 Z" />
+  <text x="720" y="230" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Not allowed at prediction time</text>
+  <text x="720" y="300" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">Sort with introsort</text>
+  <text x="720" y="350" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">Sort with heapsort</text>
+  <text x="720" y="400" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">Sort with timsort</text>
+  <text x="720" y="450" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">Pick after seeing all times</text>
+  <text x="90" y="610" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#191919">This is the difference between a real selector and an oracle used only for evaluation.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0" /><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">10 / 22</text>
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A" />
+</svg>

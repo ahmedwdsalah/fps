@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <g id="cover-accent">
+    <rect x="56" y="76" width="10" height="420" fill="#173B6D" />
+    <rect x="74" y="76" width="4" height="420" fill="#0F766E" />
+  </g>
+  <g id="title-block">
+    <text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="58" x="104" y="150">Machine Learning Based</text><text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="58" x="104" y="220">Algorithm Selection</text><text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="58" x="104" y="290">for Sorting Numeric Arrays</text><text x="104" y="400" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" fill="#586174">Official MSc thesis defense</text>
+  </g>
+  <g id="result-strip">
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M112,500 H394 A8,8 0 0 1 402,508 V584 A8,8 0 0 1 394,592 H112 A8,8 0 0 1 104,584 V508 A8,8 0 0 1 112,500 Z" />
+    <text x="128" y="552" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700" fill="#0F766E">93.1%</text>
+    <text x="128" y="580" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#586174">runtime gap closed</text>
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M438,500 H682 A8,8 0 0 1 690,508 V584 A8,8 0 0 1 682,592 H438 A8,8 0 0 1 430,584 V508 A8,8 0 0 1 438,500 Z" />
+    <text x="454" y="552" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700" fill="#173B6D">76.1%</text>
+    <text x="454" y="580" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#586174">test accuracy</text>
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M726,500 H1000 A8,8 0 0 1 1008,508 V584 A8,8 0 0 1 1000,592 H726 A8,8 0 0 1 718,584 V508 A8,8 0 0 1 726,500 Z" />
+    <text x="742" y="552" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700" fill="#173B6D">89.6%</text>
+    <text x="742" y="580" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#586174">zero regret</text>
+  </g>
+  <g id="footer">
+    <text x="104" y="660" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#172033">Ahmed Salah Abdalhi Mohammed</text>
+    <text x="104" y="688" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#586174">Supervisor: Assoc. Prof. Dr. Emre Özbilge - Cyprus International University - June 2026</text>
+  </g>
+</svg>

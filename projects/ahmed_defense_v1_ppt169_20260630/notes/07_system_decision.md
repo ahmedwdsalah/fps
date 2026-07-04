@@ -1,0 +1,1 @@
+The full system is a single decision pipeline. The array enters, the structural features are computed, XGBoost predicts the algorithm, and then only that algorithm runs. This keeps the method practical and separates the decision cost from the sorting runtime.

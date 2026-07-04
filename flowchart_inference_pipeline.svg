@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100" font-family="Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="800" height="1100" fill="white"/>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-size="16" font-weight="bold">Sorting Algorithm Selector — Inference Pipeline</text>
+
+  <!-- ============================================================
+       NODE 1: Input (rounded rect = terminal)
+       ============================================================ -->
+  <rect x="275" y="60" width="250" height="50" rx="25" ry="25"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="90" text-anchor="middle" font-size="13" font-weight="bold">Input: Numeric Array  x</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="400" y1="110" x2="400" y2="150" stroke="black" stroke-width="2"/>
+  <polygon points="400,155 395,143 405,143" fill="black"/>
+
+  <!-- ============================================================
+       NODE 2: Decision — size threshold
+       ============================================================ -->
+  <!-- Diamond: centre (400,190), half-width=130, half-height=45 -->
+  <polygon points="400,155 530,200 400,245 270,200"
+           fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="195" text-anchor="middle" font-size="12">n  &lt;  length</text>
+  <text x="400" y="212" text-anchor="middle" font-size="12">threshold?</text>
+
+  <!-- YES branch: right → node A -->
+  <line x1="530" y1="200" x2="640" y2="200" stroke="black" stroke-width="2"/>
+  <polygon points="645,200 633,195 633,205" fill="black"/>
+  <text x="580" y="190" text-anchor="middle" font-size="11" font-style="italic">YES</text>
+
+  <!-- Node A: Apply default Timsort -->
+  <rect x="645" y="175" width="130" height="50"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="710" y="196" text-anchor="middle" font-size="11">Apply Timsort</text>
+  <text x="710" y="212" text-anchor="middle" font-size="10">(default, no overhead)</text>
+
+  <!-- Arrow A → Output A -->
+  <line x1="710" y1="225" x2="710" y2="270" stroke="black" stroke-width="2"/>
+  <polygon points="710,275 705,263 715,263" fill="black"/>
+
+  <!-- Node Output A: terminal -->
+  <rect x="645" y="275" width="130" height="40" rx="20" ry="20"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="710" y="300" text-anchor="middle" font-size="12" font-weight="bold">Sorted Array</text>
+
+  <!-- NO branch: down -->
+  <line x1="400" y1="245" x2="400" y2="285" stroke="black" stroke-width="2"/>
+  <polygon points="400,290 395,278 405,278" fill="black"/>
+  <text x="415" y="270" font-size="11" font-style="italic">NO</text>
+
+  <!-- ============================================================
+       NODE 3: Feature Extraction
+       ============================================================ -->
+  <rect x="220" y="290" width="360" height="100"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="313" text-anchor="middle" font-size="13" font-weight="bold">Feature Extraction  O(n)</text>
+  <line x1="230" y1="320" x2="570" y2="320" stroke="black" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="400" y="337" text-anchor="middle" font-size="10">length_norm · adj_sorted_ratio · inversion_ratio · runs_ratio</text>
+  <text x="400" y="352" text-anchor="middle" font-size="10">longest_run_ratio · duplicate_ratio · top1_freq_ratio · top5_freq_ratio</text>
+  <text x="400" y="367" text-anchor="middle" font-size="10">entropy_ratio · dispersion_ratio · skewness_t · kurtosis_excess_t</text>
+  <text x="400" y="382" text-anchor="middle" font-size="10">outlier_ratio · iqr_norm · mad_norm · mean_abs_diff_norm</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="400" y1="390" x2="400" y2="430" stroke="black" stroke-width="2"/>
+  <polygon points="400,435 395,423 405,423" fill="black"/>
+
+  <!-- ============================================================
+       NODE 4: XGBoost Classifier
+       ============================================================ -->
+  <rect x="220" y="435" width="360" height="85"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="458" text-anchor="middle" font-size="13" font-weight="bold">XGBoost Classifier</text>
+  <line x1="230" y1="465" x2="570" y2="465" stroke="black" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="400" y="482" text-anchor="middle" font-size="10">Trained on 1,082,547 arrays · 5 real-world domains</text>
+  <text x="400" y="497" text-anchor="middle" font-size="10">Outputs: P(Introsort),  P(Heapsort),  P(Timsort)</text>
+  <text x="400" y="512" text-anchor="middle" font-size="10">76.1% accuracy · 93.1% gap closed · 0.23 µs mean regret</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="400" y1="520" x2="400" y2="560" stroke="black" stroke-width="2"/>
+  <polygon points="400,565 395,553 405,553" fill="black"/>
+
+  <!-- ============================================================
+       NODE 5: Decision — argmax
+       ============================================================ -->
+  <!-- Diamond: centre (400,605), half-width=140, half-height=45 -->
+  <polygon points="400,565 540,610 400,655 260,610"
+           fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="605" text-anchor="middle" font-size="12">argmax predicted</text>
+  <text x="400" y="622" text-anchor="middle" font-size="12">probability</text>
+
+  <!-- Left branch: Introsort -->
+  <line x1="260" y1="610" x2="120" y2="610" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="610" x2="120" y2="695" stroke="black" stroke-width="2"/>
+  <polygon points="120,700 115,688 125,688" fill="black"/>
+  <text x="190" y="600" text-anchor="middle" font-size="10" font-style="italic">Introsort</text>
+
+  <!-- Centre branch: Heapsort -->
+  <line x1="400" y1="655" x2="400" y2="695" stroke="black" stroke-width="2"/>
+  <polygon points="400,700 395,688 405,688" fill="black"/>
+  <text x="430" y="678" font-size="10" font-style="italic">Heapsort</text>
+
+  <!-- Right branch: Timsort -->
+  <line x1="540" y1="610" x2="680" y2="610" stroke="black" stroke-width="2"/>
+  <line x1="680" y1="610" x2="680" y2="695" stroke="black" stroke-width="2"/>
+  <polygon points="680,700 675,688 685,688" fill="black"/>
+  <text x="610" y="600" text-anchor="middle" font-size="10" font-style="italic">Timsort</text>
+
+  <!-- ============================================================
+       NODE 6a: Introsort box
+       ============================================================ -->
+  <rect x="40" y="700" width="160" height="60"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="120" y="723" text-anchor="middle" font-size="12" font-weight="bold">Introsort</text>
+  <text x="120" y="740" text-anchor="middle" font-size="10">np.sort(kind=</text>
+  <text x="120" y="754" text-anchor="middle" font-size="10">'quicksort')</text>
+
+  <!-- ============================================================
+       NODE 6b: Heapsort box
+       ============================================================ -->
+  <rect x="320" y="700" width="160" height="60"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="723" text-anchor="middle" font-size="12" font-weight="bold">Heapsort</text>
+  <text x="400" y="740" text-anchor="middle" font-size="10">np.sort(kind=</text>
+  <text x="400" y="754" text-anchor="middle" font-size="10">'heapsort')</text>
+
+  <!-- ============================================================
+       NODE 6c: Timsort box
+       ============================================================ -->
+  <rect x="600" y="700" width="160" height="60"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="680" y="723" text-anchor="middle" font-size="12" font-weight="bold">Timsort</text>
+  <text x="680" y="740" text-anchor="middle" font-size="10">np.sort(kind=</text>
+  <text x="680" y="754" text-anchor="middle" font-size="10">'stable')</text>
+
+  <!-- Converge arrows down to Execute node -->
+  <!-- Left: Introsort → down then right -->
+  <line x1="120" y1="760" x2="120" y2="830" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="830" x2="355" y2="830" stroke="black" stroke-width="2"/>
+  <polygon points="360,830 348,825 348,835" fill="black"/>
+
+  <!-- Centre: Heapsort → down -->
+  <line x1="400" y1="760" x2="400" y2="830" stroke="black" stroke-width="2"/>
+  <polygon points="400,835 395,823 405,823" fill="black"/>
+
+  <!-- Right: Timsort → down then left -->
+  <line x1="680" y1="760" x2="680" y2="830" stroke="black" stroke-width="2"/>
+  <line x1="680" y1="830" x2="445" y2="830" stroke="black" stroke-width="2"/>
+  <polygon points="440,830 452,825 452,835" fill="black"/>
+
+  <!-- ============================================================
+       NODE 7: Execute Selected Algorithm
+       ============================================================ -->
+  <rect x="240" y="835" width="320" height="50"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="856" text-anchor="middle" font-size="13" font-weight="bold">Execute Selected Algorithm</text>
+  <text x="400" y="874" text-anchor="middle" font-size="10">C-level NumPy sort  ·  O(n log n)</text>
+
+  <!-- Arrow 7→8 -->
+  <line x1="400" y1="885" x2="400" y2="925" stroke="black" stroke-width="2"/>
+  <polygon points="400,930 395,918 405,918" fill="black"/>
+
+  <!-- ============================================================
+       NODE 8: Output terminal
+       ============================================================ -->
+  <rect x="275" y="930" width="250" height="50" rx="25" ry="25"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="400" y="960" text-anchor="middle" font-size="13" font-weight="bold">Sorted Array  (Output)</text>
+
+  <!-- ============================================================
+       LEGEND
+       ============================================================ -->
+  <rect x="30" y="1000" width="740" height="80" rx="5" fill="white" stroke="black" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="400" y="1020" text-anchor="middle" font-size="11" font-weight="bold">Legend</text>
+  <!-- Terminal symbol -->
+  <rect x="50" y="1030" width="80" height="28" rx="14" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="90" y="1049" text-anchor="middle" font-size="10">Start / End</text>
+  <!-- Process box -->
+  <rect x="170" y="1030" width="80" height="28" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="210" y="1049" text-anchor="middle" font-size="10">Process</text>
+  <!-- Decision diamond -->
+  <polygon points="340,1044 370,1030 400,1044 370,1058" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="370" y="1049" text-anchor="middle" font-size="10">Decision</text>
+  <!-- Arrow -->
+  <line x1="440" y1="1044" x2="510" y2="1044" stroke="black" stroke-width="1.5"/>
+  <polygon points="512,1044 502,1040 502,1048" fill="black"/>
+  <text x="476" y="1035" text-anchor="middle" font-size="10">Flow</text>
+  <!-- dashed line -->
+  <line x1="540" y1="1044" x2="620" y2="1044" stroke="black" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="580" y="1035" text-anchor="middle" font-size="10">Section divider</text>
+
+</svg>

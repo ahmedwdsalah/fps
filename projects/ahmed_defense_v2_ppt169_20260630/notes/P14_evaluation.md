@@ -1,0 +1,1 @@
+SBS means one algorithm used for all test inputs. VBS means the fastest measured algorithm per input, which is an oracle for evaluation. The model is judged by how close it gets to VBS without having oracle information at prediction time.

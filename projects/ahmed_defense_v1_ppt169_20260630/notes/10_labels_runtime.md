@@ -1,0 +1,1 @@
+The labels were created from measured runtime. For each array, the candidate algorithms were benchmarked, and the fastest algorithm became the label after filtering noisy cases. So the model is not learning my preference. It is learning from measured winners.

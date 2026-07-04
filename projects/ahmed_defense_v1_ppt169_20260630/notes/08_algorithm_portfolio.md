@@ -1,0 +1,1 @@
+The portfolio has three algorithms: introsort, heapsort, and timsort. I kept the portfolio focused because the defense needs a clear measured comparison. They are also different enough: timsort benefits strongly from existing runs, while introsort and heapsort are closer and harder to separate.

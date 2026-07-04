@@ -1,0 +1,1 @@
+The final model came after earlier paths were rejected. Regression was not strong enough, timing features were not deployable, and strict checks changed the interpretation. v5 became the main model because it gave the best practical balance under the submitted evaluation.

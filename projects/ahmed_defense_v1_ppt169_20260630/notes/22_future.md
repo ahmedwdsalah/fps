@@ -1,0 +1,1 @@
+The next step is to make the selector more hardware-aware and more adaptive. Hardware context, memory behavior, and online feedback could all affect the best algorithm choice. I also want to be clear that the bandit direction is future work, not a validated result in this thesis. Thank you, I am ready for your questions.

@@ -1,0 +1,1 @@
+The domain holdout results show a measured generalization picture. The selector does not transfer equally to every domain, but the runtime value survives in several leave-one-domain-out tests. My interpretation is that transfer works when the held-out domain shares relevant structure.

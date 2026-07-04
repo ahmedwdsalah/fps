@@ -1,0 +1,1 @@
+The contribution has three parts. First, a dataset and labeling protocol based on measured runtime. Second, a structural machine learning selector for sorting algorithm choice. Third, an evaluation discipline that combines accuracy with regret, SBS, VBS, and gap closed.

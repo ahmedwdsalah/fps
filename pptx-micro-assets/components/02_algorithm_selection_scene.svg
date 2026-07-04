@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <text x="64" y="70" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#191919">Algorithm Selection Problem for Sorting Numeric Arrays</text>
+  <text x="66" y="108" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#64748B">Given one numeric array, extract structural array features and select the fastest algorithm before execution.</text>
+
+  <g id="array_input">
+    <text x="72" y="168" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Input instance</text>
+    <text x="72" y="199" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#64748B">x = [4, 5, 5, 6, 17, 18, 19, 2, 2, 3, 31, 45, 46, 47, 80, 81]</text>
+    <rect x="72" y="230" width="34" height="52" fill="#E2E8F0"/><text x="89" y="260" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">4</text>
+    <rect x="112" y="222" width="34" height="60" fill="#E2E8F0"/><text x="129" y="256" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">5</text>
+    <rect x="152" y="222" width="34" height="60" fill="#E2E8F0"/><text x="169" y="256" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">5</text>
+    <rect x="192" y="214" width="34" height="68" fill="#E2E8F0"/><text x="209" y="252" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#191919">6</text>
+    <rect x="232" y="173" width="34" height="109" fill="#F4511E"/><text x="249" y="232" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">17</text>
+    <rect x="272" y="169" width="34" height="113" fill="#F4511E"/><text x="289" y="229" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">18</text>
+    <rect x="312" y="165" width="34" height="117" fill="#F4511E"/><text x="329" y="226" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">19</text>
+    <rect x="352" y="244" width="34" height="38" fill="#BA1D2C"/><text x="369" y="267" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">2</text>
+    <rect x="392" y="244" width="34" height="38" fill="#BA1D2C"/><text x="409" y="267" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">2</text>
+    <rect x="432" y="237" width="34" height="45" fill="#BA1D2C"/><text x="449" y="264" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">3</text>
+    <rect x="472" y="114" width="34" height="168" fill="#8F1D3A"/><text x="489" y="204" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">31</text>
+    <rect x="512" y="72" width="34" height="210" fill="#8F1D3A"/><text x="529" y="182" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">45</text>
+    <rect x="552" y="69" width="34" height="213" fill="#8F1D3A"/><text x="569" y="180" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">46</text>
+    <rect x="592" y="66" width="34" height="216" fill="#8F1D3A"/><text x="609" y="178" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">47</text>
+    <rect x="632" y="20" width="34" height="262" fill="#191919"/><text x="649" y="158" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">80</text>
+    <rect x="672" y="18" width="34" height="264" fill="#191919"/><text x="689" y="156" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#FFFFFF">81</text>
+    <line x1="72" y1="282" x2="706" y2="282" stroke="#191919" stroke-width="2"/>
+  </g>
+
+  <g id="structure_highlights">
+    <path d="M78 310 H220" stroke="#D97757" stroke-width="4"/><text x="148" y="342" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#8F1D3A">local run</text>
+    <path d="M357 310 H463" stroke="#BA1D2C" stroke-width="4"/><text x="410" y="342" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#BA1D2C">drop + duplicate</text>
+    <path d="M512 310 H704" stroke="#191919" stroke-width="4"/><text x="608" y="342" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#191919">long increasing tail</text>
+  </g>
+
+  <g id="feature_vector">
+    <path d="M735 260 C800 260 800 260 855 260" fill="none" stroke="#D97757" stroke-width="4"/>
+    <path d="M855 260 L835 248 V272 Z" fill="#D97757"/>
+    <rect x="880" y="152" width="270" height="244" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="910" y="194" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Structural features</text>
+    <text x="910" y="238" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" fill="#64748B">size · sortedness</text>
+    <text x="910" y="274" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" fill="#64748B">runs · inversions</text>
+    <text x="910" y="310" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" fill="#64748B">duplicates · entropy</text>
+    <text x="910" y="346" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" fill="#64748B">spread · outliers</text>
+    <text x="910" y="374" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#8F1D3A">x ∈ R^16</text>
+  </g>
+
+  <g id="algorithm_portfolio">
+    <text x="92" y="452" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Algorithm portfolio</text>
+    <path d="M96 505 H930" stroke="#E2E8F0" stroke-width="2"/>
+    <rect x="110" y="482" width="190" height="84" rx="42" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="3"/><text x="205" y="533" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Introsort</text>
+    <rect x="390" y="482" width="190" height="84" rx="42" fill="#FFFFFF" stroke="#BA1D2C" stroke-width="3"/><text x="485" y="533" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Heapsort</text>
+    <rect x="670" y="482" width="190" height="84" rx="42" fill="#FFFFFF" stroke="#F4511E" stroke-width="3"/><text x="765" y="533" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Timsort</text>
+  </g>
+
+  <g id="selector_decision">
+    <rect x="965" y="455" width="160" height="138" rx="14" fill="#191919"/>
+    <text x="1045" y="505" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Selector</text>
+    <text x="1045" y="540" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#FFFFFF">S : F → A</text>
+    <path d="M880 524 H950" stroke="#D97757" stroke-width="4"/><path d="M950 524 L930 512 V536 Z" fill="#D97757"/>
+  </g>
+
+  <g id="chosen_algorithm">
+    <path d="M1125 524 H1190" stroke="#F4511E" stroke-width="4"/>
+    <path d="M1190 524 L1170 512 V536 Z" fill="#F4511E"/>
+    <rect x="1010" y="615" width="210" height="52" rx="26" fill="#F4511E"/>
+    <text x="1115" y="649" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Predicted: Timsort</text>
+  </g>
+</svg>

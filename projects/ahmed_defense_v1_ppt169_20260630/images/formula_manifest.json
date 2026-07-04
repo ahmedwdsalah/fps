@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "formula_regret",
+      "filename": "formula_regret.png",
+      "latex": "Regret = \\frac{T_{model} - T_{VBS}}{T_{VBS}}",
+      "display": "block",
+      "dpi": 300,
+      "color": "#172033",
+      "transparent": true,
+      "file": "images/formula_regret.png",
+      "providers": [
+        "codecogs",
+        "quicklatex",
+        "mathpad",
+        "wikimedia"
+      ],
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 514,
+      "pixel_height": 109,
+      "ratio": 4.7156,
+      "status": "Rendered"
+    },
+    {
+      "id": "formula_gap_closed",
+      "filename": "formula_gap_closed.png",
+      "latex": "Gap\\ Closed = \\frac{T_{SBS} - T_{model}}{T_{SBS} - T_{VBS}}",
+      "display": "block",
+      "dpi": 300,
+      "color": "#172033",
+      "transparent": true,
+      "file": "images/formula_gap_closed.png",
+      "providers": [
+        "codecogs",
+        "quicklatex",
+        "mathpad",
+        "wikimedia"
+      ],
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 612,
+      "pixel_height": 109,
+      "ratio": 5.6147,
+      "status": "Rendered"
+    }
+  ],
+  "renderer": {
+    "providers": [
+      "codecogs",
+      "quicklatex",
+      "mathpad",
+      "wikimedia"
+    ],
+    "default_dpi": 300,
+    "output_dir": "images"
+  }
+}

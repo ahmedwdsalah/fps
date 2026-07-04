@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="58" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="44" font-weight="700" fill="#172033"><tspan x="56" dy="0">The model mostly uses features</tspan><tspan x="56" dy="50">that make sorting sense</tspan></text><rect x="56" y="122" width="180" height="5" fill="#0F766E"/></g>
+  <g id="figure"><rect x="56" y="135" width="720" height="485" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><image href="../images/F4_feature_importance.png" x="82" y="160" width="668" height="435" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="takeaway"><text x="830" y="200" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Top signals</text><text x="830" y="280" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033"><tspan x="830" dy="0">length</tspan><tspan x="830" dy="50">top frequency</tspan><tspan x="830" dy="50">longest run</tspan><tspan x="830" dy="50">duplicate ratio</tspan></text><text x="830" y="535" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">This is interpretation, not causal proof.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">17</text></g>
+</svg>

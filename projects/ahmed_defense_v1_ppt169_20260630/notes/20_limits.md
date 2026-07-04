@@ -1,0 +1,1 @@
+The main limitation is clear: the current features can identify timsort-friendly structure much better than they separate introsort from heapsort. The F1 channel routing work is also separate from the general selector. It shows a specialization path, but the main contribution remains the v5 three-algorithm selector.

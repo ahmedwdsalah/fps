@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <g id="header"><text x="56" y="78" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">This thesis selects before sorting begins</text><rect x="56" y="104" width="180" height="5" fill="#0F766E" /></g>
+  <g id="method">
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M118,210 H352 A8,8 0 0 1 360,218 V352 A8,8 0 0 1 352,360 H118 A8,8 0 0 1 110,352 V218 A8,8 0 0 1 118,210 Z" /><text x="142" y="278" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" fill="#172033">Array</text><text x="142" y="322" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">not sorted yet</text>
+    <line x1="386" y1="285" x2="520" y2="285" stroke="#173B6D" stroke-width="4" /><polygon points="520,285 500,273 500,297" fill="#173B6D" />
+    <path fill="#FFFFFF" stroke="#173B6D" stroke-width="2" d="M556,190 H820 A8,8 0 0 1 828,198 V372 A8,8 0 0 1 820,380 H556 A8,8 0 0 1 548,372 V198 A8,8 0 0 1 556,190 Z" />
+  <g transform="translate(580, 232) scale(1.91667)" fill="none" stroke="#173B6D" stroke-width="2">
+    <path d="M4 4h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414v7l-6 2v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227" />
+  </g><text x="648" y="265" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" fill="#172033">16 features</text><text x="580" y="324" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">cheap structural summary</text>
+    <line x1="854" y1="285" x2="988" y2="285" stroke="#173B6D" stroke-width="4" /><polygon points="988,285 968,273 968,297" fill="#173B6D" />
+    <path fill="#F6F8FB" stroke="#0F766E" stroke-width="2" d="M1024,210 H1198 A8,8 0 0 1 1206,218 V352 A8,8 0 0 1 1198,360 H1024 A8,8 0 0 1 1016,352 V218 A8,8 0 0 1 1024,210 Z" /><text x="1048" y="278" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" fill="#172033">one pick</text><text x="1048" y="322" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">then execute</text>
+  </g>
+  <g id="takeaway"><text fill="#173B6D" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" x="110" y="540">The selector pays a small feature cost</text><text fill="#173B6D" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" x="110" y="586">to avoid a larger runtime mistake.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">04</text></g>
+</svg>

@@ -1,0 +1,35 @@
+[00:36:33] [INFO] confirm_ui: running at http://localhost:5050
+[00:36:33] [INFO] confirm_ui: project: /Users/ahmed/Desktop/thesis/My-Master-thesis/projects/ahmed_defense_v1_ppt169_20260630
+[00:36:33] [INFO] confirm_ui: idle timeout: 900s (0 = disabled)
+ * Tip: There are .env files present. Install python-dotenv to use them.
+ * Serving Flask app 'server'
+ * Debug mode: off
+[00:36:33] [INFO] confirm_ui: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+[00:36:33] [INFO] confirm_ui: [33mPress CTRL+C to quit[0m
+[00:36:33] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:36:33] "GET / HTTP/1.1" 200 -
+[00:36:33] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:36:33] "GET /static/app.js HTTP/1.1" 200 -
+[00:36:33] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:36:33] "GET /static/style.css HTTP/1.1" 200 -
+[00:36:33] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:36:33] "GET /api/recommendations HTTP/1.1" 200 -
+[00:36:33] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:36:33] "GET /api/catalogs HTTP/1.1" 200 -
+[00:36:33] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:36:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[00:38:40] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:38:40] "POST /api/shutdown HTTP/1.1" 200 -
+[00:38:40] [INFO] confirm_ui: shutting down (step4-cleanup)
+[00:41:31] [INFO] confirm_ui: running at http://localhost:5050
+[00:41:31] [INFO] confirm_ui: project: /Users/ahmed/Desktop/thesis/My-Master-thesis/projects/ahmed_defense_v1_ppt169_20260630
+[00:41:31] [INFO] confirm_ui: idle timeout: 900s (0 = disabled)
+ * Tip: There are .env files present. Install python-dotenv to use them.
+ * Serving Flask app 'server'
+ * Debug mode: off
+[00:41:31] [INFO] confirm_ui: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+[00:41:31] [INFO] confirm_ui: [33mPress CTRL+C to quit[0m
+[00:41:31] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:41:31] "[36mGET / HTTP/1.1[0m" 304 -
+[00:41:31] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:41:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[00:41:31] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:41:31] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+[00:41:31] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:41:31] "GET /api/recommendations HTTP/1.1" 200 -
+[00:41:31] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:41:31] "GET /api/catalogs HTTP/1.1" 200 -
+[00:41:36] [INFO] confirm_ui: final confirmation written to /Users/ahmed/Desktop/thesis/My-Master-thesis/projects/ahmed_defense_v1_ppt169_20260630/confirm_ui/result.json
+[00:41:36] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:41:36] "POST /api/confirm HTTP/1.1" 200 -
+[00:41:36] [INFO] confirm_ui: 127.0.0.1 - - [30/Jun/2026 00:41:36] "POST /api/shutdown HTTP/1.1" 200 -
+[00:41:36] [INFO] confirm_ui: shutting down (confirmed)

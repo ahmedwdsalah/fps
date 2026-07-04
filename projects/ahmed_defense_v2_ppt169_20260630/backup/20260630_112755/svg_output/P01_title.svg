@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="86" fill="#191919"/>
+  <rect x="0" y="0" width="10" height="86" fill="#D97757"/>
+  <text x="44" y="54" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#FFFFFF">MSc Thesis Defense · June 2026</text>
+  <text x="1028" y="54" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#FFFFFF">Ahmed</text>
+
+  <text x="72" y="190" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#191919">Learning When to Use</text>
+  <text x="72" y="258" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#191919">Each Sorting Algorithm</text>
+  <text x="76" y="320" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">A machine learning selector for practical runtime behavior</text>
+
+  <rect x="72" y="402" width="332" height="142" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="96" y="456" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#D97757">93.1%</text>
+  <text x="98" y="496" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">runtime gap closed</text>
+
+  <rect x="474" y="402" width="332" height="142" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="498" y="456" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#191919">76.1%</text>
+  <text x="500" y="496" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">test accuracy</text>
+
+  <rect x="876" y="402" width="332" height="142" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="900" y="456" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#191919">89.6%</text>
+  <text x="902" y="496" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">zero-regret decisions</text>
+
+  <text x="72" y="625" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">Cyprus International University · Computer Engineering</text>
+  <text x="72" y="658" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">Supervisor: Prof. Emre</text>
+</svg>

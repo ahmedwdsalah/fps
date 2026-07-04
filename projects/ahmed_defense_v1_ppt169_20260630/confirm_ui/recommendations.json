@@ -1,0 +1,178 @@
+{
+  "tier": 2,
+  "lang": "en",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "narrative",
+    "visual_style": "swiss-minimal",
+    "delivery_purpose": "presentation",
+    "icons": "tabler-outline",
+    "formula_policy": "mixed",
+    "image_usage": [
+      "provided"
+    ],
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "22 total defense slides. No backup deck, no appendix, no extra slides after Q&A."
+  },
+  "audience": {
+    "value": "Mixed computer science and engineering MSc thesis defense committee at Cyprus International University."
+  },
+  "content_divergence": {
+    "value": "Use the locked Spoken Main Slide Plan in pptx.md as the structure. Build one complete 22-slide defense talk. Keep all facts and numbers sourced from the submitted thesis and final artifacts. Rewrite visible slide wording into concise Ahmed-style defense claims. Do not copy internal planning words into audience-facing slides."
+  },
+  "image_notes": {
+    "value": "Use provided thesis figures and methodology assets as the evidence base. No decorative AI images for this deck. Integrate v6/v7/v8/F1/source-aware caveats only where they fit the 22-slide story; do not create any backup appendix."
+  },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "CIU clean academic",
+        "note": "White field, deep academic blue, restrained teal and amber accents for runtime evidence.",
+        "palette": {
+          "background": "#FFFFFF",
+          "secondary_bg": "#F6F8FB",
+          "primary": "#173B6D",
+          "accent": "#0F766E",
+          "secondary_accent": "#D99A20",
+          "body_text": "#172033"
+        }
+      },
+      {
+        "name": "Research editorial light",
+        "note": "Warmer off-white paper feel with navy text and muted evidence colors.",
+        "palette": {
+          "background": "#FCFBF7",
+          "secondary_bg": "#F1F3F0",
+          "primary": "#1F2A44",
+          "accent": "#2F6F8F",
+          "secondary_accent": "#B7791F",
+          "body_text": "#1B1E24"
+        }
+      },
+      {
+        "name": "Engineering blue line",
+        "note": "Very light technical field with stronger schematic blue and crisp dividers.",
+        "palette": {
+          "background": "#FDFEFF",
+          "secondary_bg": "#EEF5FA",
+          "primary": "#0B3A5B",
+          "accent": "#1D70A2",
+          "secondary_accent": "#8A5A00",
+          "body_text": "#10202E"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "Strict sans academic",
+        "note": "Single-family Swiss discipline; strong weight contrast, clean on projector.",
+        "sample_heading": "Most wrong choices are low-cost",
+        "sample_heading_latin": "Most wrong choices are low-cost",
+        "sample_body": "The selector closes most of the runtime gap while keeping the main limitation visible.",
+        "sample_body_latin": "The selector closes most of the runtime gap while keeping the main limitation visible.",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "Arial, 'Microsoft YaHei', sans-serif"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "Arial, 'Microsoft YaHei', sans-serif"
+        },
+        "body_size": 32,
+        "sizes": {
+          "title": 52,
+          "subtitle": 38,
+          "annotation": 22
+        }
+      },
+      {
+        "name": "Academic serif contrast",
+        "note": "More thesis-like: serif title with clean sans body, still formal.",
+        "sample_heading": "Accuracy alone does not explain the value",
+        "sample_heading_latin": "Accuracy alone does not explain the value",
+        "sample_body": "Runtime-sensitive metrics show why the model is useful despite imperfect labels.",
+        "sample_body_latin": "Runtime-sensitive metrics show why the model is useful despite imperfect labels.",
+        "heading": {
+          "cjk": "SimSun",
+          "latin": "Georgia",
+          "css": "Georgia, SimSun, serif"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "Arial, 'Microsoft YaHei', sans-serif"
+        },
+        "body_size": 32,
+        "sizes": {
+          "title": 50,
+          "subtitle": 38,
+          "annotation": 22
+        }
+      },
+      {
+        "name": "Technical sans + mono",
+        "note": "Clean engineering tone with monospace reserved for formulas and labels.",
+        "sample_heading": "The labels come from measured runtime",
+        "sample_heading_latin": "The labels come from measured runtime",
+        "sample_body": "SBS, VBS, regret, and gap closed define the practical value of each decision.",
+        "sample_body_latin": "SBS, VBS, regret, and gap closed define the practical value of each decision.",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Segoe UI",
+          "css": "'Segoe UI', 'Microsoft YaHei', sans-serif"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Segoe UI",
+          "css": "'Segoe UI', 'Microsoft YaHei', sans-serif"
+        },
+        "body_size": 32,
+        "sizes": {
+          "title": 52,
+          "subtitle": 38,
+          "annotation": 22
+        }
+      }
+    ]
+  },
+  "image_strategy": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "Provided evidence only",
+        "rendering": "minimalist-swiss",
+        "palette": "cool-corporate",
+        "visual": "Use thesis figures, diagrams, and charts only.",
+        "color": "Match the clean academic palette.",
+        "mood": "Official, evidence-led, restrained."
+      },
+      {
+        "name": "Formula-only rendered assets",
+        "rendering": "minimalist-swiss",
+        "palette": "cool-corporate",
+        "visual": "Only render LaTeX formulas as transparent PNG assets.",
+        "color": "Black/blue formula ink on transparent background.",
+        "mood": "Precise and academic."
+      },
+      {
+        "name": "Sparse schematic accents",
+        "rendering": "minimalist-swiss",
+        "palette": "cool-corporate",
+        "visual": "If later needed, add tiny schematic arrows/lines, not illustrations.",
+        "color": "Primary blue with one accent.",
+        "mood": "Technical but quiet."
+      }
+    ]
+  },
+  "refine_spec": {
+    "value": false
+  }
+}

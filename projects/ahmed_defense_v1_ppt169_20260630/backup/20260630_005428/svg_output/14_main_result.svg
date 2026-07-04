@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="78" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">The model is imperfect, but most mistakes are cheap</text><rect x="56" y="104" width="180" height="5" fill="#0F766E"/></g>
+  <g id="hero"><text x="115" y="300" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="700" fill="#0F766E">93.1%</text><text x="115" y="356" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" fill="#172033">of the SBS-to-VBS runtime gap closed</text><text x="115" y="455" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" fill="#586174">Supported by 76.1% test accuracy and 89.6% zero-regret selections.</text></g>
+  <g id="source"><rect x="902" y="216" width="250" height="230" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><use data-icon="tabler-outline/gauge" x="994" y="258" width="58" height="58" fill="#0F766E" stroke-width="2"/><text x="940" y="370" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#172033">runtime value first</text></g>
+  <g id="footer"><text x="56" y="650" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#7A8495">Source: metrics_summary.json M1_v5_evaluation and M2_v5_regret</text><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">14</text></g>
+</svg>

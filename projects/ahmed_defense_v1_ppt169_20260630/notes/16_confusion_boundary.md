@@ -1,0 +1,1 @@
+The confusion matrix shows the main behavior. Timsort is structurally visible, with strong recall. The hard part is separating introsort and heapsort. That weakness is important, and I do not hide it. It tells us where the current features stop being enough.

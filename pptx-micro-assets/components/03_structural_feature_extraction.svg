@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <text x="64" y="70" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#191919">Feature-Based Instance Characterisation</text>
+  <text x="66" y="108" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#64748B">A numeric array is converted into structural array features before the XGBoost classifier makes a choice.</text>
+
+  <g id="source_array">
+    <text x="70" y="168" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Numeric array</text>
+    <rect x="70" y="198" width="450" height="210" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <polyline points="94,345 122,336 150,336 178,325 206,250 234,244 262,238 290,365 318,365 346,354 374,172 402,128 430,124 458,120 486,82" fill="none" stroke="#8F1D3A" stroke-width="4"/>
+    <circle cx="122" cy="336" r="5" fill="#D97757"/><circle cx="150" cy="336" r="5" fill="#D97757"/><circle cx="318" cy="365" r="5" fill="#BA1D2C"/>
+    <text x="94" y="390" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#64748B">[4,5,5,6,17,18,19,2,2,3,31,45,46,47,80,81]</text>
+  </g>
+
+  <g id="feature_group_size">
+    <rect x="590" y="150" width="250" height="96" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="590" y="150" width="8" height="96" fill="#191919"/>
+    <text x="620" y="190" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Size features</text>
+    <text x="620" y="222" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">length and scaling context</text>
+  </g>
+
+  <g id="feature_group_order">
+    <rect x="590" y="270" width="250" height="96" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="590" y="270" width="8" height="96" fill="#D97757"/>
+    <text x="620" y="310" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Sortedness and disorder</text>
+    <text x="620" y="342" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">inversions and monotonicity</text>
+  </g>
+
+  <g id="feature_group_runs">
+    <rect x="590" y="390" width="250" height="96" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="590" y="390" width="8" height="96" fill="#8F1D3A"/>
+    <text x="620" y="430" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Run-based features</text>
+    <text x="620" y="462" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">natural order and run lengths</text>
+  </g>
+
+  <g id="feature_group_duplicates">
+    <rect x="900" y="150" width="290" height="96" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="900" y="150" width="8" height="96" fill="#BA1D2C"/>
+    <text x="930" y="190" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Duplicate and frequency</text>
+    <text x="930" y="222" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">repeated values and density</text>
+  </g>
+
+  <g id="feature_group_distribution">
+    <rect x="900" y="270" width="290" height="216" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="900" y="270" width="8" height="216" fill="#F4511E"/>
+    <text x="930" y="310" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Entropy, spread, shape</text>
+    <text x="930" y="342" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">value diversity</text>
+    <text x="930" y="374" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">dispersion and robust spread</text>
+    <text x="930" y="406" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">skewness and outliers</text>
+    <rect x="932" y="438" width="32" height="20" fill="#E2E8F0"/><rect x="970" y="425" width="32" height="33" fill="#D97757"/><rect x="1008" y="410" width="32" height="48" fill="#8F1D3A"/><rect x="1046" y="435" width="32" height="23" fill="#BA1D2C"/><rect x="1084" y="390" width="32" height="68" fill="#191919"/>
+  </g>
+
+  <g id="feature_vector_output">
+    <path d="M520 304 H565" stroke="#D97757" stroke-width="4"/><path d="M565 304 L545 292 V316 Z" fill="#D97757"/>
+    <path d="M838 318 H878" stroke="#D97757" stroke-width="4"/><path d="M878 318 L858 306 V330 Z" fill="#D97757"/>
+    <rect x="690" y="555" width="390" height="70" rx="35" fill="#191919"/>
+    <text x="885" y="598" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#FFFFFF">x ∈ R^16  →  XGBoost classifier</text>
+    <path d="M715 488 C715 525 760 540 820 555" fill="none" stroke="#D97757" stroke-width="3"/>
+    <path d="M1035 488 C1035 525 985 540 930 555" fill="none" stroke="#D97757" stroke-width="3"/>
+  </g>
+</svg>

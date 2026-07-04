@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <g id="header"><text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="46" x="56" y="64">The problem is choosing the right algorithm</text><text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="46" x="56" y="116">for each input</text><rect x="56" y="128" width="180" height="5" fill="#0F766E" /></g>
+  <g id="flow">
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M104,240 H338 A8,8 0 0 1 346,248 V382 A8,8 0 0 1 338,390 H104 A8,8 0 0 1 96,382 V248 A8,8 0 0 1 104,240 Z" />
+  <g transform="translate(124, 275) scale(1.75)" fill="none" stroke="#173B6D" stroke-width="2">
+    <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+    <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+    <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+  </g><text x="186" y="305" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" fill="#172033">Numeric array</text><text x="124" y="352" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">same task, different structure</text>
+    <line x1="370" y1="315" x2="520" y2="315" stroke="#173B6D" stroke-width="4" /><polygon points="520,315 500,303 500,327" fill="#173B6D" />
+    <path fill="#FFFFFF" stroke="#173B6D" stroke-width="2" d="M556,220 H790 A8,8 0 0 1 798,228 V402 A8,8 0 0 1 790,410 H556 A8,8 0 0 1 548,402 V228 A8,8 0 0 1 556,220 Z" />
+  <g transform="translate(576, 258) scale(1.75)" fill="none" stroke="#0F766E" stroke-width="2">
+    <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  </g><text x="638" y="288" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" fill="#172033">Selector</text><text x="576" y="342" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">decide before sorting starts</text>
+    <line x1="824" y1="315" x2="974" y2="315" stroke="#173B6D" stroke-width="4" /><polygon points="974,315 954,303 954,327" fill="#173B6D" />
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M1008,238 H1182 A8,8 0 0 1 1190,246 V384 A8,8 0 0 1 1182,392 H1008 A8,8 0 0 1 1000,384 V246 A8,8 0 0 1 1008,238 Z" /><text x="1030" y="285" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">introsort</text><text x="1030" y="325" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">heapsort</text><text x="1030" y="365" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">timsort</text>
+  </g>
+  <g id="takeaway"><text fill="#173B6D" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" x="96" y="540">The thesis question is not how to sort,</text><text fill="#173B6D" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" x="96" y="582">but which sorter to trust for this array.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">02</text></g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#8F1D3A"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+
+  <text x="64" y="76" font-family="'Styrene A','Helvetica Neue',Arial,sans-serif" font-size="31" font-weight="700" fill="#191919">XGBoost models the selection boundary from structural features</text>
+  <line x1="64" y1="104" x2="1216" y2="104" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <rect x="70" y="145" width="486" height="396" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="108" y="190" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#64748B">why this model is appropriate here</text>
+  <line x1="108" y1="215" x2="518" y2="215" stroke="#E2E8F0" stroke-width="1.2"/>
+
+  <text x="108" y="263" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" fill="#191919">Input form</text>
+  <text x="270" y="263" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#64748B">fixed-length tabular vector</text>
+  <text x="108" y="314" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" fill="#191919">Boundary</text>
+  <text x="270" y="314" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#64748B">non-linear feature interactions</text>
+  <text x="108" y="365" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" fill="#191919">Output</text>
+  <text x="270" y="365" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#64748B">probability over algorithms</text>
+  <text x="108" y="416" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" fill="#191919">Interpretation</text>
+  <text x="270" y="416" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#64748B">feature importance is inspectable</text>
+  <text x="108" y="467" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" fill="#191919">Deployment fit</text>
+  <text x="270" y="467" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#64748B">cheap inference before sorting</text>
+
+  <rect x="604" y="145" width="606" height="396" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="642" y="190" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#64748B">additive boosted-tree view</text>
+  <line x1="642" y1="215" x2="1172" y2="215" stroke="#E2E8F0" stroke-width="1.2"/>
+
+  <text x="907" y="284" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="25" fill="#191919">score_a(f(x)) = Σ_k tree_{k,a}(f(x))</text>
+  <path d="M907 310 V354" stroke="#8F1D3A" stroke-width="2.6" marker-end="url(#arr)"/>
+  <text x="907" y="396" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="25" fill="#191919">p(a | f(x)) = softmax(score_a)</text>
+  <path d="M907 422 V466" stroke="#8F1D3A" stroke-width="2.6" marker-end="url(#arr)"/>
+  <text x="907" y="505" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="25" fill="#191919">S(f(x)) = argmax_a p(a | f(x))</text>
+
+  <rect x="258" y="582" width="764" height="48" rx="8" fill="#191919"/>
+  <text x="640" y="613" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="18" fill="#FFFFFF">objective: multi:softprob    |    model: XGBoost v5 classifier</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="70" fill="#191919"/><rect x="0" y="0" width="8" height="70" fill="#D97757"/>
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">The task is one decision before sorting</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC"/><rect x="40" y="86" width="4" height="18" fill="#D97757"/>
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">Given one input array, predict which algorithm will finish fastest on that array.</text>
+
+  <rect x="80" y="178" width="310" height="300" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="110" y="222" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Input array</text>
+  <rect x="112" y="264" width="214" height="34" fill="#FFFFFF" stroke="#E2E8F0"/><rect x="112" y="320" width="176" height="34" fill="#FFFFFF" stroke="#E2E8F0"/><rect x="112" y="376" width="236" height="34" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="110" y="448" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">values, order, duplicates, runs</text>
+
+  <path d="M430 326 H526" stroke="#D97757" stroke-width="4"/><path d="M526 326 L506 314 V338 Z" fill="#D97757"/>
+  <rect x="556" y="178" width="270" height="300" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="586" y="222" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Selector</text>
+  <text x="586" y="278" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">cheap features</text>
+  <text x="586" y="326" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">trained model</text>
+  <text x="586" y="374" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">one class output</text>
+
+  <path d="M864 326 H960" stroke="#D97757" stroke-width="4"/><path d="M960 326 L940 314 V338 Z" fill="#D97757"/>
+  <rect x="990" y="178" width="210" height="300" rx="8" fill="#191919"/>
+  <text x="1095" y="260" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="36" font-weight="700" fill="#FFFFFF">Intro</text>
+  <text x="1095" y="314" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="36" font-weight="700" fill="#FFFFFF">Heap</text>
+  <text x="1095" y="368" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="36" font-weight="700" fill="#D97757">Tim</text>
+
+  <text x="80" y="560" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">This is not replacing sorting.</text>
+  <text x="80" y="600" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">It is choosing the better implementation for this input.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/>
+  <text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">Task framing</text><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">03 / 22</text>
+</svg>

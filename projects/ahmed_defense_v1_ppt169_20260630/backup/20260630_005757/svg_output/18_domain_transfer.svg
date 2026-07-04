@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="72" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">The selector transfers when structure transfers</text><rect x="56" y="98" width="180" height="5" fill="#0F766E"/></g>
+  <g id="figure"><rect x="56" y="135" width="770" height="475" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><image href="../images/F10_domain_holdout_gap_closed.png" x="86" y="160" width="710" height="425" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="summary"><text x="875" y="205" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" font-weight="700" fill="#173B6D">Holdout test</text><text x="875" y="285" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033"><tspan x="875" dy="0">not uniform</tspan><tspan x="875" dy="50">but runtime value</tspan><tspan x="875" dy="50">survives in several</tspan><tspan x="875" dy="50">domain removals</tspan></text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">18</text></g>
+</svg>

@@ -1,0 +1,1 @@
+This is why I do not stop at accuracy. Regret measures how much slower the selected algorithm is compared with the best available algorithm for that array. Gap closed measures how much of the practical improvement over a fixed baseline is recovered. These metrics explain the real value of the selector.

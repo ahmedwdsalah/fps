@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <g id="header"><text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="46" x="56" y="64">The model is imperfect,</text><text fill="#172033" font-weight="700" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="46" x="56" y="116">but most mistakes are cheap</text><rect x="56" y="128" width="180" height="5" fill="#0F766E" /></g>
+  <g id="hero"><text x="115" y="300" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="700" fill="#0F766E">93.1%</text><text x="115" y="356" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="38" fill="#172033">of the SBS-to-VBS runtime gap closed</text><text fill="#586174" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" x="115" y="452">Supported by 76.1% test accuracy</text><text fill="#586174" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" x="115" y="496">and 89.6% zero-regret selections.</text></g>
+  <g id="source"><path fill="#F6F8FB" stroke="#D8DEE8" d="M908,245 H1142 A8,8 0 0 1 1150,253 V425 A8,8 0 0 1 1142,433 H908 A8,8 0 0 1 900,425 V253 A8,8 0 0 1 908,245 Z" />
+  <g transform="translate(996, 278) scale(2.25)" fill="none" stroke="#0F766E" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M13.41 10.59l2.59 -2.59" />
+    <path d="M7 12a5 5 0 0 1 5 -5" />
+  </g><text x="938" y="382" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#172033">runtime value first</text></g>
+  <g id="footer"><text x="56" y="650" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#7A8495">Source: metrics_summary.json M1_v5_evaluation and M2_v5_regret</text><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">14</text></g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+  <text x="64" y="72" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">What previous work gives us</text>
+  
+  <text x="64" y="108" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">The idea is connected to algorithm selection, adaptive sorting, and learned performance prediction.</text>
+  <rect x="72" y="160" width="344" height="380" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="102" y="214" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Algorithm selection</text>
+  <text x="102" y="276" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">Rice formalized choosing</text>
+  <text x="102" y="310" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">a solver from problem</text>
+  <text x="102" y="344" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">features.</text>
+  <text x="102" y="442" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">My use: sorting algorithm</text>
+  <text x="102" y="474" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">choice as a supervised task.</text>
+  <rect x="468" y="160" width="344" height="380" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="498" y="214" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Adaptive sorting</text>
+  <text x="498" y="276" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">Timsort and related work</text>
+  <text x="498" y="310" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">exploit runs and existing</text>
+  <text x="498" y="344" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">order in data.</text>
+  <text x="498" y="442" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">My use: expose these signals</text>
+  <text x="498" y="474" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">as measurable features.</text>
+  <rect x="864" y="160" width="344" height="380" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="894" y="214" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#191919">Performance models</text>
+  <text x="894" y="276" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">ML can predict runtime</text>
+  <text x="894" y="310" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">behavior when features are</text>
+  <text x="894" y="344" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">cheap enough.</text>
+  <text x="894" y="442" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">My use: evaluate by regret,</text>
+  <text x="894" y="474" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">not only label accuracy.</text>
+  <text x="72" y="575" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">So the contribution is not a new sorter.</text>
+  <text x="72" y="615" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">It is a measured selector around existing sorters.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">05 / 22</text>
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="72" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">Timsort is structurally visible; introsort vs heapsort is not</text><rect x="56" y="98" width="180" height="5" fill="#D99A20"/></g>
+  <g id="figure"><rect x="70" y="135" width="560" height="460" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><image href="../images/F5_confusion_matrix.png" x="100" y="160" width="500" height="410" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="interpretation"><text x="700" y="205" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="700" fill="#0F766E">94.5%</text><text x="700" y="252" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">timsort recall</text><text x="700" y="350" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" fill="#172033"><tspan x="700" dy="0">The weak boundary is</tspan><tspan x="700" dy="50">between introsort and heapsort,</tspan><tspan x="700" dy="50">where structural features are close.</tspan></text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">16</text></g>
+</svg>

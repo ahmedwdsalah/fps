@@ -1,0 +1,1 @@
+The features are the bridge between the raw array and the model. They describe scale, order, duplicates, runs, inversions, and distribution. The important point is that these are structural features, not timing features.

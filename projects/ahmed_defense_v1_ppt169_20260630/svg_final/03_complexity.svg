@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <g id="header"><text x="56" y="78" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">Same complexity does not mean same runtime</text><rect x="56" y="104" width="180" height="5" fill="#D99A20" /></g>
+  <g id="contrast">
+    <text x="120" y="250" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="700" fill="#173B6D">O(n log n)</text>
+    <text x="120" y="306" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#586174">same high-level complexity class</text>
+    <line x1="120" y1="374" x2="1120" y2="374" stroke="#D8DEE8" stroke-width="2" />
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M168,440 H402 A8,8 0 0 1 410,448 V518 A8,8 0 0 1 402,526 H168 A8,8 0 0 1 160,518 V448 A8,8 0 0 1 168,440 Z" /><text x="190" y="493" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">introsort</text>
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M523,430 H757 A8,8 0 0 1 765,438 V528 A8,8 0 0 1 757,536 H523 A8,8 0 0 1 515,528 V438 A8,8 0 0 1 523,430 Z" /><text x="545" y="493" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">heapsort</text>
+    <path fill="#F6F8FB" stroke="#0F766E" stroke-width="2" d="M878,410 H1112 A8,8 0 0 1 1120,418 V548 A8,8 0 0 1 1112,556 H878 A8,8 0 0 1 870,548 V418 A8,8 0 0 1 878,410 Z" /><text x="900" y="493" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">timsort</text>
+  </g>
+  <g id="takeaway"><text x="120" y="630" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" fill="#172033">The practical winner depends on input structure, constants, memory behavior, and existing order.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">03</text></g>
+</svg>

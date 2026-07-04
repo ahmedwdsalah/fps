@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <text x="64" y="70" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#191919">SBS, VBS, Regret, and Gap Closed</text>
+  <text x="66" y="108" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#64748B">Evaluation measures how close the selector gets to the Virtual Best Solver without oracle information.</text>
+
+  <g id="runtime_landscape">
+    <rect x="82" y="160" width="820" height="420" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <line x1="140" y1="520" x2="840" y2="520" stroke="#191919" stroke-width="2"/>
+    <line x1="140" y1="520" x2="140" y2="205" stroke="#191919" stroke-width="2"/>
+    <text x="132" y="198" text-anchor="end" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#64748B">runtime</text>
+    <text x="840" y="550" text-anchor="end" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" fill="#64748B">input arrays</text>
+    <path d="M160 440 C220 420 250 475 310 455 C370 435 405 350 465 370 C530 392 570 285 635 300 C700 320 740 240 820 255" fill="none" stroke="#E2E8F0" stroke-width="12"/>
+  </g>
+
+  <g id="sbs_line">
+    <line x1="150" y1="375" x2="830" y2="375" stroke="#BA1D2C" stroke-width="4"/>
+    <rect x="705" y="330" width="120" height="34" rx="17" fill="#BA1D2C"/>
+    <text x="765" y="353" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">SBS</text>
+    <text x="160" y="352" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#BA1D2C">one fixed algorithm</text>
+  </g>
+
+  <g id="vbs_path">
+    <path d="M160 455 C220 430 250 470 310 438 C370 410 405 320 465 348 C530 370 570 250 635 272 C700 290 740 215 820 230" fill="none" stroke="#10B981" stroke-width="5"/>
+    <rect x="705" y="190" width="120" height="34" rx="17" fill="#10B981"/>
+    <text x="765" y="213" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">VBS</text>
+    <text x="160" y="485" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#10B981">oracle best per input</text>
+  </g>
+
+  <g id="model_path">
+    <path d="M160 462 C220 438 250 462 310 444 C370 420 405 335 465 355 C530 378 570 268 635 280 C700 302 740 230 820 238" fill="none" stroke="#F4511E" stroke-width="5"/>
+    <circle cx="310" cy="444" r="6" fill="#F4511E"/><circle cx="465" cy="355" r="6" fill="#F4511E"/><circle cx="635" cy="280" r="6" fill="#F4511E"/>
+    <rect x="705" y="260" width="120" height="34" rx="17" fill="#F4511E"/>
+    <text x="765" y="283" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Model</text>
+  </g>
+
+  <g id="regret_gap">
+    <line x1="465" y1="348" x2="465" y2="355" stroke="#191919" stroke-width="3"/>
+    <line x1="635" y1="272" x2="635" y2="280" stroke="#191919" stroke-width="3"/>
+    <text x="492" y="350" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#191919">regret</text>
+    <path d="M868 375 C920 365 930 285 972 270" fill="none" stroke="#D97757" stroke-width="4"/>
+    <path d="M972 270 L952 262 V286 Z" fill="#D97757"/>
+  </g>
+
+  <g id="gap_closed_callout">
+    <rect x="950" y="170" width="250" height="142" rx="12" fill="#191919"/>
+    <text x="1075" y="230" text-anchor="middle" font-family="'Styrene A', Arial, sans-serif" font-size="46" font-weight="700" fill="#F4511E">93.1%</text>
+    <text x="1075" y="270" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="21" fill="#FFFFFF">gap closed</text>
+    <rect x="950" y="352" width="250" height="170" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="980" y="400" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Interpretation</text>
+    <text x="980" y="438" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">Accuracy checks labels.</text>
+    <text x="980" y="470" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">Regret checks cost.</text>
+    <text x="980" y="502" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">Gap closed checks value.</text>
+  </g>
+</svg>

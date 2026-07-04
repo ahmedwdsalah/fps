@@ -1,0 +1,1 @@
+The dataset was built from five domains: F1 telemetry, stock, crypto, earthquake, and weather. The reason for using multiple domains was to avoid building a selector that only understands one family of arrays.

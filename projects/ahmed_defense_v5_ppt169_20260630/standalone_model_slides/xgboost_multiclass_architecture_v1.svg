@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="maroonFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.45" stop-color="#F2D7DF"/>
+      <stop offset="1" stop-color="#8F1D3A"/>
+    </linearGradient>
+    <linearGradient id="orangeFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.45" stop-color="#F7E4D9"/>
+      <stop offset="1" stop-color="#D97757"/>
+    </linearGradient>
+    <linearGradient id="redFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.45" stop-color="#FEE2D6"/>
+      <stop offset="1" stop-color="#F4511E"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.14"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+  <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+  <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+
+  <text x="64" y="76" font-family="'Styrene A','Helvetica Neue',Arial,sans-serif" font-size="31" font-weight="700" fill="#191919">XGBoost v5 is a multiclass boosted-tree ensemble</text>
+  <line x1="64" y1="104" x2="1216" y2="104" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <text x="138" y="150" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#64748B">boosting rounds</text>
+  <text x="990" y="150" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#64748B">accumulated class scores</text>
+
+  <path d="M124 208 C315 162, 540 162, 754 208 C896 238, 1014 238, 1158 208 L1158 266 C996 304, 836 304, 678 266 C500 224, 310 224, 124 266 Z" fill="url(#maroonFlow)" opacity="0.95"/>
+  <path d="M124 332 C315 286, 540 286, 754 332 C896 362, 1014 362, 1158 332 L1158 390 C996 428, 836 428, 678 390 C500 348, 310 348, 124 390 Z" fill="url(#orangeFlow)" opacity="0.95"/>
+  <path d="M124 456 C315 410, 540 410, 754 456 C896 486, 1014 486, 1158 456 L1158 514 C996 552, 836 552, 678 514 C500 472, 310 472, 124 514 Z" fill="url(#redFlow)" opacity="0.95"/>
+
+  <text x="78" y="242" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#8F1D3A">introsort</text>
+  <text x="78" y="366" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#D97757">heapsort</text>
+  <text x="78" y="490" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#F4511E">timsort</text>
+
+  <g filter="url(#shadow)">
+    <rect x="188" y="184" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="188" y="308" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="188" y="432" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="221" y="572" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#64748B">round 1</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="330" y="184" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="330" y="308" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="330" y="432" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="363" y="572" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#64748B">round 2</text>
+  </g>
+
+  <g>
+    <circle cx="484" cy="236" r="5" fill="#8F1D3A"/>
+    <circle cx="510" cy="236" r="5" fill="#8F1D3A"/>
+    <circle cx="536" cy="236" r="5" fill="#8F1D3A"/>
+    <circle cx="484" cy="360" r="5" fill="#D97757"/>
+    <circle cx="510" cy="360" r="5" fill="#D97757"/>
+    <circle cx="536" cy="360" r="5" fill="#D97757"/>
+    <circle cx="484" cy="484" r="5" fill="#F4511E"/>
+    <circle cx="510" cy="484" r="5" fill="#F4511E"/>
+    <circle cx="536" cy="484" r="5" fill="#F4511E"/>
+    <text x="510" y="572" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#64748B">...</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="622" y="184" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="622" y="308" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="622" y="432" width="66" height="104" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="655" y="572" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#64748B">round 500</text>
+  </g>
+
+  <g>
+    <path d="M221 216 V254" stroke="#191919" stroke-width="2.2"/>
+    <path d="M221 236 L204 254" stroke="#191919" stroke-width="2.2"/>
+    <path d="M221 236 L238 254" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="221" cy="216" r="7" fill="#8F1D3A"/>
+    <path d="M221 340 V378" stroke="#191919" stroke-width="2.2"/>
+    <path d="M221 360 L204 378" stroke="#191919" stroke-width="2.2"/>
+    <path d="M221 360 L238 378" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="221" cy="340" r="7" fill="#D97757"/>
+    <path d="M221 464 V502" stroke="#191919" stroke-width="2.2"/>
+    <path d="M221 484 L204 502" stroke="#191919" stroke-width="2.2"/>
+    <path d="M221 484 L238 502" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="221" cy="464" r="7" fill="#F4511E"/>
+  </g>
+
+  <g>
+    <path d="M363 216 V254" stroke="#191919" stroke-width="2.2"/>
+    <path d="M363 236 L346 254" stroke="#191919" stroke-width="2.2"/>
+    <path d="M363 236 L380 254" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="363" cy="216" r="7" fill="#8F1D3A"/>
+    <path d="M363 340 V378" stroke="#191919" stroke-width="2.2"/>
+    <path d="M363 360 L346 378" stroke="#191919" stroke-width="2.2"/>
+    <path d="M363 360 L380 378" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="363" cy="340" r="7" fill="#D97757"/>
+    <path d="M363 464 V502" stroke="#191919" stroke-width="2.2"/>
+    <path d="M363 484 L346 502" stroke="#191919" stroke-width="2.2"/>
+    <path d="M363 484 L380 502" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="363" cy="464" r="7" fill="#F4511E"/>
+  </g>
+
+  <g>
+    <path d="M655 216 V254" stroke="#191919" stroke-width="2.2"/>
+    <path d="M655 236 L638 254" stroke="#191919" stroke-width="2.2"/>
+    <path d="M655 236 L672 254" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="655" cy="216" r="7" fill="#8F1D3A"/>
+    <path d="M655 340 V378" stroke="#191919" stroke-width="2.2"/>
+    <path d="M655 360 L638 378" stroke="#191919" stroke-width="2.2"/>
+    <path d="M655 360 L672 378" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="655" cy="340" r="7" fill="#D97757"/>
+    <path d="M655 464 V502" stroke="#191919" stroke-width="2.2"/>
+    <path d="M655 484 L638 502" stroke="#191919" stroke-width="2.2"/>
+    <path d="M655 484 L672 502" stroke="#191919" stroke-width="2.2"/>
+    <circle cx="655" cy="464" r="7" fill="#F4511E"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M790 166 H1132 A12 12 0 0 1 1144 178 V538 A12 12 0 0 1 1132 550 H790 A12 12 0 0 1 778 538 V178 A12 12 0 0 1 790 166 Z" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="961" y="210" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="700" fill="#191919">score accumulation</text>
+    <line x1="824" y1="244" x2="1098" y2="244" stroke="#E2E8F0"/>
+    <path d="M846 300 C895 254, 940 262, 1000 300 C1038 324, 1070 322, 1092 300" fill="none" stroke="#8F1D3A" stroke-width="5" stroke-linecap="round"/>
+    <path d="M846 374 C900 362, 946 334, 1000 374 C1036 400, 1068 392, 1092 374" fill="none" stroke="#D97757" stroke-width="5" stroke-linecap="round"/>
+    <path d="M846 448 C894 470, 940 436, 1000 448 C1040 456, 1070 430, 1092 448" fill="none" stroke="#F4511E" stroke-width="5" stroke-linecap="round"/>
+    <text x="846" y="282" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#8F1D3A">introsort score</text>
+    <text x="846" y="356" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#D97757">heapsort score</text>
+    <text x="846" y="430" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#F4511E">timsort score</text>
+    <rect x="870" y="490" width="182" height="34" rx="17" fill="#191919"/>
+    <text x="961" y="512" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">softmax selection</text>
+  </g>
+
+  <rect x="274" y="610" width="732" height="42" rx="21" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="640" y="637" text-anchor="middle" font-family="'Anthropic Sans','Helvetica Neue',Arial,sans-serif" font-size="17" fill="#64748B">one boosting round contributes one correction tree to each class score stream</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <g id="header"><text x="56" y="78" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">The features describe structure, not raw values</text><rect x="56" y="104" width="180" height="5" fill="#0F766E" /></g>
+  <g id="groups">
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M98,170 H592 A8,8 0 0 1 600,178 V322 A8,8 0 0 1 592,330 H98 A8,8 0 0 1 90,322 V178 A8,8 0 0 1 98,170 Z" /><text x="126" y="225" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Size</text><text x="126" y="278" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033">length_norm</text>
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M688,170 H1182 A8,8 0 0 1 1190,178 V322 A8,8 0 0 1 1182,330 H688 A8,8 0 0 1 680,322 V178 A8,8 0 0 1 688,170 Z" /><text x="716" y="225" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Repetition</text><text x="716" y="278" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033">duplicate_ratio, top frequency ratios</text>
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M98,378 H592 A8,8 0 0 1 600,386 V530 A8,8 0 0 1 592,538 H98 A8,8 0 0 1 90,530 V386 A8,8 0 0 1 98,378 Z" /><text x="126" y="433" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Ordering</text><text x="126" y="486" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033">runs, inversions, adjacent sortedness</text>
+    <path fill="#F6F8FB" stroke="#D8DEE8" d="M688,378 H1182 A8,8 0 0 1 1190,386 V530 A8,8 0 0 1 1182,538 H688 A8,8 0 0 1 680,530 V386 A8,8 0 0 1 688,378 Z" /><text x="716" y="433" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#173B6D">Distribution</text><text x="716" y="486" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" fill="#172033">entropy, skewness, dispersion, outliers</text>
+  </g>
+  <g id="takeaway"><text x="90" y="620" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#0F766E">16 features summarize what the sorting algorithms can exploit.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">11</text></g>
+</svg>

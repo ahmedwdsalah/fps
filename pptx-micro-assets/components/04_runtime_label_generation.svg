@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <text x="64" y="70" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#191919">Runtime-Based Label Generation</text>
+  <text x="66" y="108" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#64748B">The class label is assigned from measured execution time, not from a theoretical rule.</text>
+
+  <g id="transform_strip">
+    <text x="70" y="165" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Structural transforms</text>
+    <rect x="70" y="195" width="180" height="70" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/><text x="160" y="238" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" fill="#191919">RAW</text>
+    <rect x="275" y="195" width="180" height="70" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/><text x="365" y="238" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" fill="#191919">REV</text>
+    <rect x="480" y="195" width="180" height="70" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/><text x="570" y="238" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" fill="#191919">SHUF</text>
+    <rect x="685" y="195" width="180" height="70" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/><text x="775" y="238" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" fill="#191919">QBIN50</text>
+    <rect x="890" y="195" width="180" height="70" rx="10" fill="#191919"/><text x="980" y="238" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" fill="#FFFFFF">PSORT10</text>
+  </g>
+
+  <g id="runtime_race">
+    <text x="70" y="340" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">Measure each candidate algorithm</text>
+    <rect x="70" y="375" width="940" height="185" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="105" y="424" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Introsort</text>
+    <rect x="250" y="402" width="470" height="28" rx="14" fill="#8F1D3A"/><text x="744" y="424" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">18.7 μs</text>
+    <text x="105" y="478" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Heapsort</text>
+    <rect x="250" y="456" width="610" height="28" rx="14" fill="#BA1D2C"/><text x="884" y="478" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">24.5 μs</text>
+    <text x="105" y="532" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Timsort</text>
+    <rect x="250" y="510" width="330" height="28" rx="14" fill="#F4511E"/><text x="604" y="532" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">13.2 μs</text>
+  </g>
+
+  <g id="measurement_table">
+    <rect x="1045" y="350" width="170" height="210" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="1130" y="394" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">Winner</text>
+    <line x1="1065" y1="415" x2="1195" y2="415" stroke="#E2E8F0"/>
+    <text x="1130" y="470" text-anchor="middle" font-family="'Styrene A', Arial, sans-serif" font-size="36" font-weight="700" fill="#F4511E">Timsort</text>
+    <text x="1130" y="510" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">fastest measured</text>
+  </g>
+
+  <g id="label_assignment">
+    <path d="M1118 560 V620 H745" fill="none" stroke="#F4511E" stroke-width="4"/>
+    <path d="M745 620 L765 608 V632 Z" fill="#F4511E"/>
+    <rect x="480" y="590" width="250" height="60" rx="30" fill="#191919"/>
+    <text x="605" y="628" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">label = Timsort</text>
+  </g>
+
+  <g id="quality_note">
+    <text x="70" y="640" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" fill="#64748B">Near-tie/noisy rows can be filtered or handled carefully; the label is still grounded in empirical measurement.</text>
+  </g>
+</svg>

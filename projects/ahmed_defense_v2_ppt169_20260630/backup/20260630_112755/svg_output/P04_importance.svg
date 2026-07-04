@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="70" fill="#191919"/><rect x="0" y="0" width="8" height="70" fill="#D97757"/>
+  <text x="40" y="44" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Why this matters in practice</text>
+  <rect x="0" y="70" width="1280" height="50" fill="#F8FAFC"/><rect x="40" y="86" width="4" height="18" fill="#D97757"/>
+  <text x="58" y="103" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#191919">The useful question is not only correctness; it is how much avoidable runtime we leave on the table.</text>
+
+  <rect x="82" y="170" width="506" height="360" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="116" y="230" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="48" font-weight="700" fill="#191919">Same input,</text>
+  <text x="116" y="290" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="48" font-weight="700" fill="#191919">different cost</text>
+  <text x="116" y="360" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">A sorted-like array, a random array,</text>
+  <text x="116" y="400" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">and a duplicated array can reward</text>
+  <text x="116" y="440" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#64748B">different implementation behavior.</text>
+
+  <rect x="670" y="170" width="250" height="360" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="795" y="242" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#64748B">Baseline</text>
+  <text x="795" y="318" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="48" font-weight="700" fill="#191919">SBS</text>
+  <text x="795" y="384" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">one algorithm</text>
+  <text x="795" y="414" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#64748B">for all inputs</text>
+
+  <rect x="958" y="170" width="250" height="360" rx="8" fill="#191919"/>
+  <text x="1083" y="242" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#FFFFFF">Target</text>
+  <text x="1083" y="318" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="48" font-weight="700" fill="#D97757">VBS</text>
+  <text x="1083" y="384" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#FFFFFF">best algorithm</text>
+  <text x="1083" y="414" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="21" fill="#FFFFFF">per input</text>
+
+  <text x="82" y="585" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#191919">The model is useful if it moves close to VBS without paying the cost of trying every algorithm.</text>
+  <line x1="40" y1="666" x2="1240" y2="666" stroke="#E2E8F0"/>
+  <text x="40" y="696" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">Motivation</text><text x="1240" y="696" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#64748B">04 / 22</text>
+</svg>

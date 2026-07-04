@@ -1,0 +1,55 @@
+{
+  "canvas": "ppt169",
+  "audience": "Mixed computer science and engineering MSc thesis defense committee at Cyprus International University.",
+  "content_divergence": "Use the locked Spoken Main Slide Plan in pptx.md as the structure. Build one complete 22-slide defense talk. Keep all facts and numbers sourced from the submitted thesis and final artifacts. Rewrite visible slide wording into concise Ahmed-style defense claims. Do not copy internal planning words into audience-facing slides.",
+  "mode": "narrative",
+  "visual_style": "swiss-minimal",
+  "delivery_purpose": "presentation",
+  "page_count": "22 total defense slides. No backup deck, no appendix, no extra slides after Q&A.",
+  "color": {
+    "name": "CIU clean academic",
+    "palette": {
+      "background": "#FFFFFF",
+      "secondary_bg": "#F6F8FB",
+      "primary": "#173B6D",
+      "accent": "#0F766E",
+      "secondary_accent": "#D99A20",
+      "body_text": "#172033"
+    }
+  },
+  "icons": "tabler-outline",
+  "typography": {
+    "name": "Strict sans academic",
+    "heading": {
+      "cjk": "Microsoft YaHei",
+      "css": "Arial, 'Microsoft YaHei', sans-serif",
+      "latin": "Arial",
+      "sample_cjk": "Most wrong choices are low-cost",
+      "sample_latin": "Most wrong choices are low-cost"
+    },
+    "body": {
+      "cjk": "Microsoft YaHei",
+      "css": "Arial, 'Microsoft YaHei', sans-serif",
+      "latin": "Arial",
+      "sample_cjk": "The selector closes most of the runtime gap while keeping the main limitation visible.",
+      "sample_latin": "The selector closes most of the runtime gap while keeping the main limitation visible."
+    },
+    "body_size": 32,
+    "sizes": {
+      "annotation": 22,
+      "subtitle": 38,
+      "title": 52
+    },
+    "body_size_unit": "px"
+  },
+  "formula_policy": "mixed",
+  "image_usage": [
+    "provided"
+  ],
+  "image_notes": "Use provided thesis figures and methodology assets as the evidence base. No decorative AI images for this deck. Integrate v6/v7/v8/F1/source-aware caveats only where they fit the 22-slide story; do not create any backup appendix.",
+  "generation_mode": "continuous",
+  "refine_spec": false,
+  "stage": "final",
+  "status": "confirmed",
+  "confirmed_at": "2026-06-30T00:41:36"
+}

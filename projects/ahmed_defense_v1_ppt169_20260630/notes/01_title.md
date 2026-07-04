@@ -1,0 +1,1 @@
+Good morning. My thesis is about machine learning based algorithm selection for sorting numeric arrays. The main idea is simple: before we sort an array, can we look at its structure and choose the algorithm that is most likely to run fastest? I will focus on the general v5 selector and on runtime value, not only classification accuracy.

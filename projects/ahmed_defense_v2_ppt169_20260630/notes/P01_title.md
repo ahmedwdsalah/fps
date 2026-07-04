@@ -1,0 +1,1 @@
+This thesis is about a small decision that happens before sorting: which implementation should we use for this input array. I will keep coming back to three numbers: the model closes 93.1 percent of the runtime gap, reaches 76.1 percent test accuracy, and makes zero-regret decisions for 89.6 percent of the test cases.

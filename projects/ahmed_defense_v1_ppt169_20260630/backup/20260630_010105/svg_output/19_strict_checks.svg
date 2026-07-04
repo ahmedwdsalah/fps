@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="58" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="44" font-weight="700" fill="#172033"><tspan x="56" dy="0">Strict checks changed the interpretation,</tspan><tspan x="56" dy="50">not the contribution</tspan></text><rect x="56" y="122" width="180" height="5" fill="#D99A20"/></g>
+  <g id="figure"><rect x="56" y="132" width="725" height="430" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><image href="../images/10_v5_vs_v6_comparison.png" x="82" y="156" width="675" height="382" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="checks"><use data-icon="tabler-outline/shield-check" x="850" y="150" width="54" height="54" fill="#D99A20" stroke-width="2"/><text x="850" y="245" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033"><tspan x="850" dy="0">source-aware split lowered</tspan><tspan x="850" dy="46">the numbers</tspan><tspan x="850" dy="62">v7 regret-aware training</tspan><tspan x="850" dy="46">was rejected</tspan><tspan x="850" dy="62">v8 exposed the intro-heap</tspan><tspan x="850" dy="46">boundary</tspan></text></g>
+  <g id="takeaway"><text x="56" y="625" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#172033">The stricter checks make the final claim narrower, but more defensible.</text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">19</text></g>
+</svg>

@@ -1,0 +1,1 @@
+The selector works before sorting begins. I do not run all algorithms and then choose the fastest, because that would already spend the runtime. Instead, I extract cheap structural features, pass them to the model, and then execute one selected algorithm.

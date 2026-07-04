@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="closing">
+    <text x="86" y="115" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033"><tspan x="86" dy="0">The next step is hardware-aware</tspan><tspan x="86" dy="60">and adaptive selection</tspan></text>
+    <rect x="86" y="200" width="210" height="5" fill="#0F766E"/>
+  </g>
+  <g id="future-path">
+    <rect x="100" y="285" width="305" height="150" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="134" y="350" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" font-weight="700" fill="#173B6D">hardware context</text><text x="134" y="392" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">cache, CPU, memory behavior</text>
+    <rect x="488" y="285" width="305" height="150" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="522" y="350" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" font-weight="700" fill="#173B6D">adaptive selection</text><text x="522" y="392" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">future online learning</text>
+    <rect x="876" y="285" width="305" height="150" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="910" y="350" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" font-weight="700" fill="#173B6D">broader portfolio</text><text x="910" y="392" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">more algorithms, stricter splits</text>
+  </g>
+  <g id="questions"><use data-icon="tabler-outline/question-mark" x="590" y="515" width="50" height="50" fill="#0F766E" stroke-width="2"/><text x="465" y="610" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="52" font-weight="700" fill="#172033">Thank you</text><text x="465" y="650" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#586174">I am ready for your questions.</text></g>
+</svg>

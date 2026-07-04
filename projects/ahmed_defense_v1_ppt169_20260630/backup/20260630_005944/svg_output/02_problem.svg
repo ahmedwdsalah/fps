@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="64" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="46" font-weight="700" fill="#172033"><tspan x="56" dy="0">The problem is choosing the right algorithm</tspan><tspan x="56" dy="52">for each input</tspan></text><rect x="56" y="128" width="180" height="5" fill="#0F766E"/></g>
+  <g id="flow">
+    <rect x="96" y="240" width="250" height="150" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><use data-icon="tabler-outline/database" x="124" y="275" width="42" height="42" fill="#173B6D" stroke-width="2"/><text x="186" y="305" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" fill="#172033">Numeric array</text><text x="124" y="352" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">same task, different structure</text>
+    <line x1="370" y1="315" x2="520" y2="315" stroke="#173B6D" stroke-width="4"/><polygon points="520,315 500,303 500,327" fill="#173B6D"/>
+    <rect x="548" y="220" width="250" height="190" rx="8" fill="#FFFFFF" stroke="#173B6D" stroke-width="2"/><use data-icon="tabler-outline/target" x="576" y="258" width="42" height="42" fill="#0F766E" stroke-width="2"/><text x="638" y="288" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" fill="#172033">Selector</text><text x="576" y="342" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#586174">decide before sorting starts</text>
+    <line x1="824" y1="315" x2="974" y2="315" stroke="#173B6D" stroke-width="4"/><polygon points="974,315 954,303 954,327" fill="#173B6D"/>
+    <rect x="1000" y="238" width="190" height="154" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="1030" y="285" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">introsort</text><text x="1030" y="325" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">heapsort</text><text x="1030" y="365" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" fill="#172033">timsort</text>
+  </g>
+  <g id="takeaway"><text x="96" y="540" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#173B6D"><tspan x="96" dy="0">The thesis question is not how to sort,</tspan><tspan x="96" dy="42">but which sorter to trust for this array.</tspan></text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">02</text></g>
+</svg>

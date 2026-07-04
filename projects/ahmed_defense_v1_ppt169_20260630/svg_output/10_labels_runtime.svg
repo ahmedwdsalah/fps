@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header"><text x="56" y="64" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="46" font-weight="700" fill="#172033"><tspan x="56" dy="0">The labels come from measured runtime,</tspan><tspan x="56" dy="52">not opinion</tspan></text><rect x="56" y="128" width="180" height="5" fill="#0F766E"/></g>
+  <g id="protocol">
+    <rect x="80" y="182" width="250" height="132" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="112" y="240" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">Generate array</text><text x="112" y="276" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#586174">real domain plus transforms</text>
+    <line x1="356" y1="248" x2="472" y2="248" stroke="#173B6D" stroke-width="4"/><polygon points="472,248 452,236 452,260" fill="#173B6D"/>
+    <rect x="500" y="182" width="280" height="132" rx="8" fill="#F6F8FB" stroke="#D8DEE8"/><text x="532" y="240" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">Benchmark all three</text><text x="532" y="276" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#586174">same array, measured time</text>
+    <line x1="806" y1="248" x2="922" y2="248" stroke="#173B6D" stroke-width="4"/><polygon points="922,248 902,236 902,260" fill="#173B6D"/>
+    <rect x="950" y="182" width="250" height="132" rx="8" fill="#F6F8FB" stroke="#0F766E" stroke-width="2"/><text x="982" y="240" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#172033">Label fastest</text><text x="982" y="276" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#586174">with noise filtering</text>
+  </g>
+  <g id="transform-row"><text x="90" y="440" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" fill="#172033">Transforms used: <tspan font-weight="700" fill="#173B6D">RAW / REV / SHUF / QBIN50 / PSORT10</tspan></text></g>
+  <g id="takeaway"><text x="90" y="540" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#172033"><tspan x="90" dy="0">The model learns from observed winners,</tspan><tspan x="90" dy="42">not from a manual rule about algorithms.</tspan></text></g>
+  <g id="footer"><text x="1180" y="680" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#7A8495">10</text></g>
+</svg>
