@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540">
+  <rect width="1100" height="540" fill="#FFFFFF"/>
+  <line x1="80.0" y1="435.0" x2="350.0" y2="435.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="70.0" y="440.0" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#64748B">0</text>
+  <line x1="80.0" y1="373.0" x2="350.0" y2="373.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="70.0" y="378.0" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#64748B">20</text>
+  <line x1="80.0" y1="311.0" x2="350.0" y2="311.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="70.0" y="316.0" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#64748B">40</text>
+  <line x1="80.0" y1="249.0" x2="350.0" y2="249.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="70.0" y="254.0" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#64748B">60</text>
+  <line x1="80.0" y1="187.0" x2="350.0" y2="187.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="70.0" y="192.0" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#64748B">80</text>
+  <line x1="80.0" y1="125.0" x2="350.0" y2="125.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="70.0" y="130.0" text-anchor="end" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#64748B">100</text>
+  <line x1="80.0" y1="125.0" x2="80.0" y2="435.0" stroke="#191919" stroke-width="1.4"/>
+  <line x1="80.0" y1="435.0" x2="350.0" y2="435.0" stroke="#191919" stroke-width="1.4"/>
+  <rect x="135.0" y="157.2" width="70.0" height="277.8" rx="2" fill="#4A90D9" stroke="#191919" stroke-width="1.2" opacity="0.92"/>
+  <text x="170.0" y="143.2" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">89.6%</text>
+  <text x="170.0" y="463.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#191919">Zero Regret</text>
+  <text x="170.0" y="483.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#191919">(Correct Pick)</text>
+  <rect x="250.0" y="402.8" width="70.0" height="32.2" rx="2" fill="#EF4444" stroke="#191919" stroke-width="1.2" opacity="0.92"/>
+  <text x="285.0" y="388.8" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">10.4%</text>
+  <text x="285.0" y="463.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#191919">Non-Zero Regret</text>
+  <text x="285.0" y="483.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#191919">(Suboptimal Pick)</text>
+  <text x="80.0" y="112.0" text-anchor="start" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#64748B">Percentage of Predictions (%)</text>
+  <text x="615.0" y="103.0" text-anchor="middle" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="#191919">Distribution of Non-Zero Regrets (10.4% of predictions)</text>
+  <line x1="420.0" y1="125.0" x2="420.0" y2="435.0" stroke="#191919" stroke-width="1.4"/>
+  <line x1="420.0" y1="435.0" x2="810.0" y2="435.0" stroke="#191919" stroke-width="1.4"/>
+  <line x1="420.0" y1="125.0" x2="420.0" y2="435.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="420.0" y="462.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#191919">10⁻³</text>
+  <line x1="498.0" y1="125.0" x2="498.0" y2="435.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="498.0" y="462.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#191919">10⁻²</text>
+  <line x1="576.0" y1="125.0" x2="576.0" y2="435.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="576.0" y="462.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#191919">10⁻¹</text>
+  <line x1="654.0" y1="125.0" x2="654.0" y2="435.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="654.0" y="462.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#191919">10⁰</text>
+  <line x1="732.0" y1="125.0" x2="732.0" y2="435.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="732.0" y="462.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#191919">10¹</text>
+  <line x1="810.0" y1="125.0" x2="810.0" y2="435.0" stroke="#E8EEF5" stroke-width="1"/>
+  <text x="810.0" y="462.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#191919">10²</text>
+  <rect x="420.0" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="443.5" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="467.0" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="490.4" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="513.9" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="537.4" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="560.9" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="584.4" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="607.8" y="131.2" width="22.5" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="631.3" y="131.2" width="21.7" height="303.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="654.0" y="399.4" width="22.5" height="35.6" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="677.5" y="424.1" width="22.5" height="10.9" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="701.0" y="432.2" width="22.5" height="2.8" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <rect x="724.4" y="434.1" width="22.5" height="0.9" rx="0" fill="#EF4444" stroke="#191919" stroke-width="0.6" opacity="0.85"/>
+  <line x1="604.2" y1="125.0" x2="604.2" y2="435.0" stroke="#4A90D9" stroke-width="3" stroke-dasharray="8 5"/>
+  <line x1="607.0" y1="125.0" x2="607.0" y2="435.0" stroke="#D97757" stroke-width="3" stroke-dasharray="10 5 2 5"/>
+  <line x1="715.4" y1="125.0" x2="715.4" y2="435.0" stroke="#EF4444" stroke-width="3" stroke-dasharray="3 5"/>
+  <rect x="633.0" y="125.0" width="185.0" height="82.0" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" opacity="0.92"/>
+  <line x1="645.0" y1="145.0" x2="681.0" y2="145.0" stroke="#4A90D9" stroke-width="3" stroke-dasharray="8 5"/>
+  <text x="693.0" y="150.0" text-anchor="start" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#191919">Mean = 0.23 μs</text>
+  <line x1="645.0" y1="170.0" x2="681.0" y2="170.0" stroke="#D97757" stroke-width="3" stroke-dasharray="10 5 2 5"/>
+  <text x="693.0" y="175.0" text-anchor="start" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#191919">P95 = 0.25 μs</text>
+  <line x1="645.0" y1="195.0" x2="681.0" y2="195.0" stroke="#EF4444" stroke-width="3" stroke-dasharray="3 5"/>
+  <text x="693.0" y="200.0" text-anchor="start" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#191919">P99 = 6.12 μs</text>
+  <text x="615.0" y="495.0" text-anchor="middle" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#191919">Per-Instance Regret (microseconds)</text>
+  <text x="420.0" y="117.0" text-anchor="start" font-family="'Anthropic Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#64748B">Count</text>
+
+</svg>

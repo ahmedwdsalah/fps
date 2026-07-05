@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "id": "eq1",
+      "filename": "eq1.png",
+      "latex": "\\mathcal{L}^{(t)} \\simeq \\sum_i \\left[l(y_i,\\hat{y}^{(t-1)}) + g_i f_t(x_i) + \\frac{1}{2} h_i f_t^2(x_i)\\right] + \\Omega(f_t)",
+      "display": "block",
+      "dpi": 300,
+      "color": "#191919",
+      "file": "images/eq1.png",
+      "providers": [
+        "codecogs",
+        "wikimedia",
+        "quicklatex"
+      ],
+      "transparent": true,
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 1150,
+      "pixel_height": 130,
+      "ratio": 8.8462,
+      "status": "Rendered"
+    },
+    {
+      "id": "eq2",
+      "filename": "eq2.png",
+      "latex": "g_i = \\partial_{\\hat{y}^{(t-1)}} l(y_i,\\hat{y}^{(t-1)})",
+      "display": "block",
+      "dpi": 300,
+      "color": "#A31D41",
+      "file": "images/eq2.png",
+      "providers": [
+        "codecogs",
+        "wikimedia",
+        "quicklatex"
+      ],
+      "transparent": true,
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 449,
+      "pixel_height": 63,
+      "ratio": 7.127,
+      "status": "Rendered"
+    },
+    {
+      "id": "eq3",
+      "filename": "eq3.png",
+      "latex": "h_i = \\partial^2_{\\hat{y}^{(t-1)}} l(y_i,\\hat{y}^{(t-1)})",
+      "display": "block",
+      "dpi": 300,
+      "color": "#A31D41",
+      "file": "images/eq3.png",
+      "providers": [
+        "codecogs",
+        "wikimedia",
+        "quicklatex"
+      ],
+      "transparent": true,
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 451,
+      "pixel_height": 68,
+      "ratio": 6.6324,
+      "status": "Rendered"
+    },
+    {
+      "id": "eq4",
+      "filename": "eq4.png",
+      "latex": "\\tilde{\\mathcal{L}}^{(t)} = \\sum_i \\left[g_i f_t(x_i) + \\frac{1}{2} h_i f_t^2(x_i)\\right] + \\Omega(f_t)",
+      "display": "block",
+      "dpi": 300,
+      "color": "#191919",
+      "file": "images/eq4.png",
+      "providers": [
+        "codecogs",
+        "wikimedia",
+        "quicklatex"
+      ],
+      "transparent": true,
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 864,
+      "pixel_height": 130,
+      "ratio": 6.6462,
+      "status": "Rendered"
+    },
+    {
+      "id": "eq5",
+      "filename": "eq5.png",
+      "latex": "\\mathcal{L}_{split}=\\frac{1}{2}\\left[\\frac{G_L^2}{H_L+\\lambda}+\\frac{G_R^2}{H_R+\\lambda}-\\frac{G^2}{H+\\lambda}\\right]-\\gamma",
+      "display": "block",
+      "dpi": 300,
+      "color": "#191919",
+      "file": "images/eq5.png",
+      "providers": [
+        "codecogs",
+        "wikimedia",
+        "quicklatex"
+      ],
+      "transparent": true,
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 950,
+      "pixel_height": 121,
+      "ratio": 7.8512,
+      "status": "Rendered"
+    }
+  ],
+  "renderer": {
+    "providers": [
+      "codecogs",
+      "wikimedia",
+      "quicklatex"
+    ],
+    "default_dpi": 300,
+    "output_dir": "images"
+  }
+}
