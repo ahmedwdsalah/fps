@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#F4511E"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+    <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+    <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+  </g>
+
+  <g id="header">
+    <text x="64" y="82" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#191919">The model learns class probabilities, not exact runtime</text>
+    <line x1="64" y1="110" x2="1216" y2="110" stroke="#E2E8F0" stroke-width="2"/>
+  </g>
+
+  <g id="leftFeatureSignal">
+    <rect x="74" y="170" width="210" height="330" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="179" y="210" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">array structure</text>
+    <line x1="104" y1="238" x2="254" y2="238" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="104" y="276" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">length</text>
+    <text x="104" y="314" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">runs</text>
+    <text x="104" y="352" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">sortedness</text>
+    <text x="104" y="390" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">duplicates</text>
+    <text x="104" y="428" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">entropy</text>
+    <text x="179" y="472" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="20" font-weight="700" fill="#8F1D3A">f(x) in R^16</text>
+  </g>
+
+  <g id="modelCore">
+    <line x1="304" y1="335" x2="382" y2="335" stroke="#F4511E" stroke-width="4" marker-end="url(#arrowOrange)"/>
+    <rect x="392" y="156" width="352" height="358" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <rect x="392" y="156" width="352" height="74" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="568" y="203" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">XGBoost v5 selector</text>
+
+    <g id="ensembleStack">
+      <rect x="430" y="274" width="68" height="120" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="2" rx="3"/>
+      <path d="M464 294 V358 M434 322 H494 M464 322 L442 358 M464 322 L488 358" stroke="#8F1D3A" stroke-width="2" fill="none"/>
+      <rect x="520" y="254" width="68" height="140" fill="#FFFFFF" stroke="#D97757" stroke-width="2" rx="3"/>
+      <path d="M554 274 V365 M524 305 H584 M554 305 L532 365 M554 305 L578 365" stroke="#D97757" stroke-width="2" fill="none"/>
+      <rect x="610" y="234" width="68" height="160" fill="#FFFFFF" stroke="#F4511E" stroke-width="2" rx="3"/>
+      <path d="M644 254 V372 M614 292 H674 M644 292 L622 372 M644 292 L668 372" stroke="#F4511E" stroke-width="2" fill="none"/>
+    </g>
+
+    <text x="568" y="440" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">many small tree corrections</text>
+    <text x="568" y="470" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">objective: multi:softprob</text>
+  </g>
+
+  <g id="probabilityOutput">
+    <line x1="764" y1="335" x2="842" y2="335" stroke="#F4511E" stroke-width="4" marker-end="url(#arrowOrange)"/>
+    <rect x="858" y="170" width="348" height="330" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="1032" y="210" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">probability distribution</text>
+
+    <g id="probBars">
+      <text x="902" y="270" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Introsort</text>
+      <rect x="994" y="251" width="144" height="26" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="994" y="251" width="39" height="26" fill="#8F1D3A"/>
+      <text x="1156" y="271" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#64748B">0.12</text>
+
+      <text x="902" y="334" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Heapsort</text>
+      <rect x="994" y="315" width="144" height="26" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="994" y="315" width="54" height="26" fill="#D97757"/>
+      <text x="1156" y="335" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#64748B">0.18</text>
+
+      <text x="902" y="398" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Timsort</text>
+      <rect x="994" y="379" width="144" height="26" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="994" y="379" width="108" height="26" fill="#F4511E"/>
+      <text x="1156" y="399" font-family="Consolas, 'Courier New', monospace" font-size="17" font-weight="700" fill="#F4511E">0.70</text>
+    </g>
+    <line x1="898" y1="436" x2="1166" y2="436" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="1032" y="470" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">choose the highest probability</text>
+  </g>
+
+  <g id="evaluationBand">
+    <rect x="210" y="566" width="860" height="64" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="236" y="606" font-family="'Anthropic Sans', Arial, sans-serif" font-size="21" font-weight="700" fill="#191919">training:</text>
+    <text x="336" y="606" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#8F1D3A">mlogloss</text>
+    <line x1="458" y1="598" x2="542" y2="598" stroke="#64748B" stroke-width="3" marker-end="url(#arrowGray)"/>
+    <text x="570" y="606" font-family="'Anthropic Sans', Arial, sans-serif" font-size="21" font-weight="700" fill="#191919">defense result:</text>
+    <text x="742" y="606" font-family="'Anthropic Sans', Arial, sans-serif" font-size="21" fill="#64748B">accuracy plus runtime regret</text>
+  </g>
+
+  <g id="pagenumber">
+    <text x="1240" y="710" text-anchor="end" font-family="'Anthropic Sans', Arial, sans-serif" font-size="10" fill="#FFFFFF">M01</text>
+  </g>
+</svg>

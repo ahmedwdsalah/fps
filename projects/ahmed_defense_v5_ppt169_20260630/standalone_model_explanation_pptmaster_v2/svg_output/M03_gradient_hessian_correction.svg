@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#F4511E"/>
+    </marker>
+    <marker id="arrowMaroon" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8F1D3A"/>
+    </marker>
+  </defs>
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+    <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+    <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+  </g>
+  <g id="header">
+    <text x="64" y="82" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#191919">Each tree corrects the class scores</text>
+    <line x1="64" y1="110" x2="1216" y2="110" stroke="#E2E8F0" stroke-width="2"/>
+  </g>
+
+  <g id="currentScores">
+    <rect x="74" y="166" width="272" height="380" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="210" y="210" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">current raw scores</text>
+    <line x1="126" y1="446" x2="294" y2="446" stroke="#64748B" stroke-width="2"/>
+    <rect x="132" y="360" width="36" height="86" fill="#8F1D3A"/>
+    <rect x="192" y="314" width="36" height="132" fill="#D97757"/>
+    <rect x="252" y="386" width="36" height="60" fill="#F4511E"/>
+    <text x="150" y="478" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#64748B">intro</text>
+    <text x="210" y="478" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#64748B">heap</text>
+    <text x="270" y="478" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="15" fill="#64748B">tim</text>
+    <text x="210" y="520" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#64748B">softmax(scores)</text>
+  </g>
+
+  <g id="lossSignals">
+    <line x1="368" y1="356" x2="440" y2="356" stroke="#F4511E" stroke-width="4" marker-end="url(#arrowOrange)"/>
+    <rect x="460" y="166" width="300" height="380" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="610" y="210" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">loss signals</text>
+
+    <g id="gradientSignal">
+      <circle cx="548" cy="320" r="58" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="3"/>
+      <line x1="548" y1="350" x2="548" y2="282" stroke="#8F1D3A" stroke-width="5" marker-end="url(#arrowMaroon)"/>
+      <text x="548" y="405" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">gradient</text>
+      <text x="548" y="434" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">direction</text>
+    </g>
+
+    <g id="hessianSignal">
+      <circle cx="672" cy="320" r="58" fill="#FFFFFF" stroke="#D97757" stroke-width="3"/>
+      <path d="M632 340 C648 292 696 292 712 340" fill="none" stroke="#D97757" stroke-width="5"/>
+      <circle cx="672" cy="315" r="8" fill="#F4511E"/>
+      <text x="672" y="405" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Hessian</text>
+      <text x="672" y="434" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">curvature</text>
+    </g>
+    <text x="610" y="500" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8F1D3A">multi-class log loss</text>
+  </g>
+
+  <g id="treeCorrection">
+    <line x1="782" y1="356" x2="854" y2="356" stroke="#F4511E" stroke-width="4" marker-end="url(#arrowOrange)"/>
+    <rect x="874" y="166" width="332" height="380" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="1040" y="198" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">
+      <tspan x="1040" dy="0">next tree groups</tspan>
+      <tspan x="1040" dy="26">similar corrections</tspan>
+    </text>
+
+    <g id="treeShape">
+      <circle cx="1040" cy="282" r="30" fill="#191919"/>
+      <circle cx="970" cy="380" r="30" fill="#F8FAFC" stroke="#8F1D3A" stroke-width="3"/>
+      <circle cx="1110" cy="380" r="30" fill="#F8FAFC" stroke="#F4511E" stroke-width="3"/>
+      <circle cx="930" cy="478" r="26" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <circle cx="1010" cy="478" r="26" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <circle cx="1070" cy="478" r="26" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <circle cx="1150" cy="478" r="26" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <line x1="1040" y1="312" x2="970" y2="350" stroke="#64748B" stroke-width="3"/>
+      <line x1="1040" y1="312" x2="1110" y2="350" stroke="#64748B" stroke-width="3"/>
+      <line x1="970" y1="410" x2="930" y2="452" stroke="#64748B" stroke-width="2"/>
+      <line x1="970" y1="410" x2="1010" y2="452" stroke="#64748B" stroke-width="2"/>
+      <line x1="1110" y1="410" x2="1070" y2="452" stroke="#64748B" stroke-width="2"/>
+      <line x1="1110" y1="410" x2="1150" y2="452" stroke="#64748B" stroke-width="2"/>
+      <text x="1040" y="289" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">split</text>
+      <text x="930" y="484" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8F1D3A">+/-</text>
+      <text x="1010" y="484" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8F1D3A">+/-</text>
+      <text x="1070" y="484" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#F4511E">+/-</text>
+      <text x="1150" y="484" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#F4511E">+/-</text>
+    </g>
+  </g>
+
+  <g id="bottomStatement">
+    <text x="640" y="608" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">
+      <tspan x="640" dy="0">The model is not only fitting errors; it uses direction and curvature</tspan>
+      <tspan x="640" dy="32">to decide splits and leaf values.</tspan>
+    </text>
+  </g>
+  <g id="pagenumber">
+    <text x="1240" y="710" text-anchor="end" font-family="'Anthropic Sans', Arial, sans-serif" font-size="10" fill="#FFFFFF">M03</text>
+  </g>
+</svg>

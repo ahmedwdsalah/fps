@@ -1056,3 +1056,13 @@ These are not optional style suggestions. They are extracted from repeated feedb
   - minor version for slide-level additions/reordering, for example `1.1.0`;
   - major version only for a major redesign, for example `2.0.0`.
 - Update from July 1, 2026: future deck updates should produce PPTX only. Do not export PDF unless Ahmed explicitly asks for a PDF.
+
+## Highest-Probability 2026 Use Cases From XGBoost Paper Context
+
+For defense framing, the five strongest use-case connections from the XGBoost paper list are:
+
+- Any pipeline where the fastest algorithm depends on input structure: very high probability.
+- Any system choosing among multiple algorithm implementations before execution: very high probability.
+- Domain-specific feature-engineered pipelines: high probability.
+- General classification benchmarks: high probability.
+- User-defined objective / custom machine-learning pipeline: high probability.

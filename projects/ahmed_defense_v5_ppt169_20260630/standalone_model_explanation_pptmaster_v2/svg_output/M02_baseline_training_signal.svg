@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#F4511E"/>
+    </marker>
+  </defs>
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <path d="M0 0 H1280 V18 H0 Z" fill="#8F1D3A"/>
+    <path d="M0 18 H1280 V28 H0 Z" fill="#F4511E"/>
+    <path d="M0 692 H1280 V720 H0 Z" fill="#8F1D3A"/>
+  </g>
+  <g id="header">
+    <text x="64" y="82" font-family="'Styrene A', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#191919">The training signal was corrected before trees learned structure</text>
+    <line x1="64" y1="110" x2="1216" y2="110" stroke="#E2E8F0" stroke-width="2"/>
+  </g>
+
+  <g id="rawSignal">
+    <rect x="74" y="164" width="318" height="386" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="104" y="210" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">raw fastest-label signal</text>
+    <line x1="104" y1="442" x2="350" y2="442" stroke="#64748B" stroke-width="2"/>
+    <rect x="116" y="379" width="44" height="63" fill="#8F1D3A"/>
+    <rect x="210" y="316" width="44" height="126" fill="#D97757"/>
+    <rect x="304" y="222" width="44" height="220" fill="#F4511E"/>
+    <text x="138" y="474" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">intro</text>
+    <text x="232" y="474" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">heap</text>
+    <text x="326" y="474" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="17" fill="#64748B">tim</text>
+    <text x="104" y="520" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#BA1D2C">risk: one majority answer</text>
+  </g>
+
+  <g id="controls">
+    <line x1="414" y1="357" x2="500" y2="357" stroke="#F4511E" stroke-width="4" marker-end="url(#arrowOrange)"/>
+    <rect x="520" y="164" width="240" height="386" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="640" y="210" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#191919">training controls</text>
+
+    <g id="filterControl">
+      <line x1="568" y1="262" x2="712" y2="262" stroke="#8F1D3A" stroke-width="5"/>
+      <circle cx="568" cy="262" r="10" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="3"/>
+      <circle cx="712" cy="262" r="10" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="3"/>
+      <text x="640" y="242" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">near-tie filter</text>
+    </g>
+
+    <g id="capControl">
+      <rect x="568" y="354" width="34" height="80" fill="#D97757"/>
+      <rect x="623" y="324" width="34" height="110" fill="#D97757"/>
+      <rect x="678" y="286" width="34" height="148" fill="#F4511E"/>
+      <line x1="554" y1="434" x2="728" y2="434" stroke="#64748B" stroke-width="2"/>
+      <line x1="554" y1="286" x2="728" y2="286" stroke="#BA1D2C" stroke-width="2" stroke-dasharray="8 6"/>
+      <text x="640" y="476" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">majority cap</text>
+    </g>
+  </g>
+
+  <g id="lossSignal">
+    <line x1="782" y1="357" x2="868" y2="357" stroke="#F4511E" stroke-width="4" marker-end="url(#arrowOrange)"/>
+    <rect x="888" y="164" width="318" height="386" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" rx="4"/>
+    <text x="1047" y="210" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">loss sees smaller classes</text>
+
+    <g id="weightedRings">
+      <circle cx="970" cy="344" r="40" fill="#FFFFFF" stroke="#8F1D3A" stroke-width="7"/>
+      <circle cx="1047" cy="344" r="40" fill="#FFFFFF" stroke="#D97757" stroke-width="7"/>
+      <circle cx="1124" cy="344" r="40" fill="#FFFFFF" stroke="#F4511E" stroke-width="7"/>
+      <text x="970" y="351" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">intro</text>
+      <text x="1047" y="351" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">heap</text>
+      <text x="1124" y="351" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">tim</text>
+    </g>
+    <text x="1047" y="464" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">sample weights change the force</text>
+    <text x="1047" y="500" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#64748B">total / (classes * class_count)</text>
+  </g>
+
+  <g id="bottomStatement">
+    <text x="640" y="608" text-anchor="middle" font-family="'Anthropic Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#191919">
+      <tspan x="640" dy="0">XGBoost starts from a baseline, but the data setup stops that baseline</tspan>
+      <tspan x="640" dy="32">from becoming the whole answer.</tspan>
+    </text>
+  </g>
+  <g id="pagenumber">
+    <text x="1240" y="710" text-anchor="end" font-family="'Anthropic Sans', Arial, sans-serif" font-size="10" fill="#FFFFFF">M02</text>
+  </g>
+</svg>
