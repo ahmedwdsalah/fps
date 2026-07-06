@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .title{font-family:"Times New Roman",Times,serif;font-size:48px;font-weight:700;fill:#1d1d1f}
+      .centerBig{font-family:"Times New Roman",Times,serif;font-size:60px;font-weight:700;fill:#1d1d1f;text-anchor:middle}
+      .centerSmall{font-family:"Times New Roman",Times,serif;font-size:30px;fill:#5c6b80;text-anchor:middle}
+  .sliceText{font-family:"Times New Roman",Times,serif;font-size:27px;font-weight:700;fill:#fff;text-anchor:middle}
+  .slicePct{font-family:"Times New Roman",Times,serif;font-size:30px;font-weight:700;fill:#fff;text-anchor:middle}
+      .sideTitle{font-family:"Times New Roman",Times,serif;font-size:32px;font-weight:700;fill:#1d1d1f}
+      .side{font-family:"Times New Roman",Times,serif;font-size:25px;fill:#1d1d1f}
+      .sideMuted{font-family:"Times New Roman",Times,serif;font-size:23px;fill:#5c6b80}
+      .line{stroke:#d8e0ea;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <text class="title" x="90" y="92">Five real-world domains form the training corpus</text>
+  <line x1="90" y1="122" x2="1510" y2="122" class="line"/>
+
+  <!-- Segmented ring. Values use holdout/domain scale proportions. -->
+  <g transform="translate(500 500)" filter="url(#shadow)">
+    <circle r="315" fill="none" stroke="#eef2f7" stroke-width="120"/>
+    <!-- circumference ~1979.2; visible values: F1 1474.5, Stock 166.3, Crypto 166.3, Earthquake 166.3, Weather 5.8 -->
+    <circle r="315" fill="none" stroke="#9C1638" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="1474.5 504.7" stroke-dashoffset="0" transform="rotate(-90)"/>
+    <circle r="315" fill="none" stroke="#F4511E" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="166.3 1812.9" stroke-dashoffset="-1490.5" transform="rotate(-90)"/>
+    <circle r="315" fill="none" stroke="#DF982D" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="166.3 1812.9" stroke-dashoffset="-1672.8" transform="rotate(-90)"/>
+    <circle r="315" fill="none" stroke="#2F6F9F" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="166.3 1812.9" stroke-dashoffset="-1855.1" transform="rotate(-90)"/>
+    <circle r="315" fill="none" stroke="#6B7280" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="5.8 1973.4" stroke-dashoffset="-2037.4" transform="rotate(-90)"/>
+    <circle r="215" fill="#ffffff" stroke="#d8e0ea" stroke-width="3"/>
+  </g>
+
+  <!-- Large readable labels only where there is room -->
+  <!-- Center -->
+  <text class="centerBig" x="500" y="480">1.18M</text>
+  <text class="centerSmall" x="500" y="530">labeled array instances</text>
+  <text class="centerSmall" x="500" y="570">five source domains</text>
+
+  <!-- Side card: precise domain list, avoids cramped slice labels -->
+  <rect x="980" y="238" width="470" height="485" rx="18" fill="#f7f9fc" stroke="#d8e0ea" stroke-width="2"/>
+  <text class="sideTitle" x="1025" y="300">Corpus composition</text>
+
+  <rect x="1025" y="342" width="24" height="24" fill="#9C1638"/><text class="side" x="1065" y="363">Formula 1 telemetry</text><text class="sideMuted" x="1350" y="363">885,042</text>
+  <line x1="1025" y1="386" x2="1405" y2="386" class="line"/>
+
+  <rect x="1025" y="412" width="24" height="24" fill="#F4511E"/><text class="side" x="1065" y="433">Equity prices</text><text class="sideMuted" x="1350" y="433">100,000</text>
+  <line x1="1025" y1="456" x2="1405" y2="456" class="line"/>
+
+  <rect x="1025" y="482" width="24" height="24" fill="#DF982D"/><text class="side" x="1065" y="503">Cryptocurrency OHLCV</text><text class="sideMuted" x="1350" y="503">100,000</text>
+  <line x1="1025" y1="526" x2="1405" y2="526" class="line"/>
+
+  <rect x="1025" y="552" width="24" height="24" fill="#2F6F9F"/><text class="side" x="1065" y="573">Seismic measurements</text><text class="sideMuted" x="1350" y="573">100,003</text>
+  <line x1="1025" y1="596" x2="1405" y2="596" class="line"/>
+
+  <rect x="1025" y="622" width="24" height="24" fill="#6B7280"/><text class="side" x="1065" y="643">Weather</text><text class="sideMuted" x="1350" y="643">3,220</text>
+
+  <text class="sideMuted" x="1025" y="700">Real domains create structural variation.</text>
+</svg>

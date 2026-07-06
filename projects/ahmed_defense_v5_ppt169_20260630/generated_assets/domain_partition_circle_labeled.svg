@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .label{font-family:"Times New Roman",Times,serif;font-size:26px;font-weight:700;fill:#ffffff;text-anchor:middle}
+      .pct{font-family:"Times New Roman",Times,serif;font-size:22px;font-weight:700;fill:#ffffff;text-anchor:middle}
+      .tiny{font-family:"Times New Roman",Times,serif;font-size:15px;font-weight:700;fill:#ffffff;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1000" height="1000" fill="none"/>
+  <g transform="translate(500 500)" filter="url(#shadow)">
+    <circle r="315" fill="none" stroke="#eef2f7" stroke-width="120"/>
+    <circle r="315" fill="none" stroke="#9C1638" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="1474.5 504.7" stroke-dashoffset="0" transform="rotate(-90)"/>
+    <circle r="315" fill="none" stroke="#F4511E" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="166.3 1812.9" stroke-dashoffset="-1490.5" transform="rotate(-90)"/>
+    <circle r="315" fill="none" stroke="#DF982D" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="166.3 1812.9" stroke-dashoffset="-1672.8" transform="rotate(-90)"/>
+    <circle r="315" fill="none" stroke="#2F6F9F" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="166.3 1812.9" stroke-dashoffset="-1855.1" transform="rotate(-90)"/>
+    <circle r="315" fill="none" stroke="#6B7280" stroke-width="120" stroke-linecap="butt"
+            stroke-dasharray="5.8 1973.4" stroke-dashoffset="-2037.4" transform="rotate(-90)"/>
+    <circle r="214" fill="none" stroke="#d8e0ea" stroke-width="3"/>
+  </g>
+
+  <text class="label" x="610" y="795">F1</text>
+  <text class="pct" x="610" y="827">74.5%</text>
+
+  <text class="label" x="235" y="465">Stock</text>
+  <text class="pct" x="235" y="494">8.4%</text>
+
+  <text class="label" x="420" y="212">Crypto</text>
+  <text class="pct" x="420" y="241">8.4%</text>
+
+  <text class="label" x="718" y="302">Seismic</text>
+  <text class="pct" x="718" y="331">8.4%</text>
+
+  <text class="tiny" x="820" y="512">Weather</text>
+  <text class="tiny" x="820" y="532">0.3%</text>
+</svg>

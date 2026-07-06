@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#c89116"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#c89116"/>
+    </marker>
+    <style>
+      .box{fill:#df982d;stroke:#111;stroke-width:2.4;rx:10;ry:10}
+      .hex{fill:#df982d;stroke:#111;stroke-width:2.4}
+      .txt{font-family:"Times New Roman",Times,serif;fill:#fff;font-weight:700;text-anchor:middle}
+      .t1{font-size:34px}
+      .t2{font-size:31px}
+      .t3{font-size:28px}
+      .line{fill:none;stroke:url(#g);stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+      .lineNoArrow{fill:none;stroke:url(#g);stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1800" height="1120" fill="#ffffff"/>
+
+  <!-- top boxes -->
+  <rect class="box" x="150" y="70" width="245" height="180"/>
+  <text class="txt t1" x="272.5" y="126">Input</text>
+  <text class="txt t2" x="272.5" y="172">numeric</text>
+  <text class="txt t2" x="272.5" y="214">array</text>
+
+  <rect class="box" x="465" y="70" width="245" height="180"/>
+  <text class="txt t1" x="587.5" y="119">Extract</text>
+  <text class="txt t2" x="587.5" y="164">structural</text>
+  <text class="txt t2" x="587.5" y="206">features</text>
+
+  <rect class="box" x="780" y="70" width="245" height="180"/>
+  <text class="txt t1" x="902.5" y="119">Build</text>
+  <text class="txt t2" x="902.5" y="164">feature</text>
+  <text class="txt t2" x="902.5" y="206">vector</text>
+
+  <rect class="box" x="1095" y="70" width="245" height="180"/>
+  <text class="txt t1" x="1217.5" y="119">Train</text>
+  <text class="txt t2" x="1217.5" y="164">XGBoost</text>
+  <text class="txt t2" x="1217.5" y="206">classifier</text>
+
+  <rect class="box" x="1410" y="70" width="245" height="180"/>
+  <text class="txt t1" x="1532.5" y="119">Predict</text>
+  <text class="txt t2" x="1532.5" y="164">fastest</text>
+  <text class="txt t2" x="1532.5" y="206">algorithm</text>
+
+  <!-- center hexagon -->
+  <polygon class="hex" points="760,420 1040,420 1115,500 1040,580 760,580 685,500"/>
+  <text class="txt t1" x="900" y="477">Machine learning</text>
+  <text class="txt t2" x="900" y="522">selection pipeline</text>
+
+  <!-- bottom boxes -->
+  <rect class="box" x="360" y="780" width="250" height="180"/>
+  <text class="txt t1" x="485" y="835">x ∈ R^16</text>
+  <text class="txt t2" x="485" y="884">cheap</text>
+  <text class="txt t2" x="485" y="926">features</text>
+
+  <rect class="box" x="775" y="780" width="250" height="180"/>
+  <text class="txt t1" x="900" y="833">label(x)</text>
+  <text class="txt t2" x="900" y="881">measured</text>
+  <text class="txt t2" x="900" y="924">runtime</text>
+
+  <rect class="box" x="1190" y="780" width="250" height="180"/>
+  <text class="txt t1" x="1315" y="833">softprob</text>
+  <text class="txt t2" x="1315" y="881">class</text>
+  <text class="txt t2" x="1315" y="924">scores</text>
+
+  <!-- top-to-hex connectors, like reference -->
+  <path class="line" d="M272.5,250 V430 Q272.5,500 340,500 H682"/>
+  <path class="line" d="M587.5,250 V430 Q587.5,500 655,500 H682"/>
+  <path class="line" d="M902.5,250 V416"/>
+  <path class="line" d="M1217.5,250 V430 Q1217.5,500 1150,500 H1118"/>
+  <path class="line" d="M1532.5,250 V430 Q1532.5,500 1465,500 H1118"/>
+
+  <!-- hex-to-bottom connectors -->
+  <path class="line" d="M900,580 V660 Q900,710 830,710 H485 V778"/>
+  <path class="line" d="M900,580 V778"/>
+  <path class="line" d="M900,580 V660 Q900,710 970,710 H1315 V778"/>
+</svg>

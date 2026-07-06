@@ -1066,3 +1066,11 @@ For defense framing, the five strongest use-case connections from the XGBoost pa
 - Domain-specific feature-engineered pipelines: high probability.
 - General classification benchmarks: high probability.
 - User-defined objective / custom machine-learning pipeline: high probability.
+
+
+
+Financial rolling windows at scale involve continuously sliding a fixed time frame over massive datasets to compute moving statistics (e.g., 30-day volatility, 200-day moving averages, multi-asset correlations). Processing this efficiently at scale prevents rebuilding metrics from scratch every time new data arrives
+
+In information retrieval and machine learning, top-K scoring identifies the K items (documents, products, or vectors) with the highest predicted relevance, classification, or similarity scores. It acts as a cutoff filter, retrieving only the top fraction of a dataset for final ranking, evaluation, or user display
+
+Timestamp sorting in databases (DBs) provides several key performance and architectural benefits, primarily revolving around efficient data retrieval, concurrency control, and chronological analytics
