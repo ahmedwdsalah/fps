@@ -1,0 +1,240 @@
+{"kind":"deck","id":"pr/3gbqdg","name":"Deck"}
+{"kind":"layout","layoutId":"d0304758-0569-49d4-adc2-c9d954300785","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"4abf8ea7-0860-4631-8b9c-577950c4db42","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/njkp9j","slide":1,"title":"Research Objective","textShapes":11}
+{"kind":"shape","id":"sh/al87ed8b","slide":1,"name":"top-maroon","bbox":[0,0,1536,16]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":1,"name":"top-orange","bbox":[0,16,1536,10]}
+{"kind":"shape","id":"sh/orytsvu9","slide":1,"name":"bottom-maroon","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":1,"name":"title","text":"Research Objective","textPreview":"Research Objective","textChars":18,"textLines":1,"bbox":[70,56,1320,56]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":1,"name":"title-rule","bbox":[70,124,1320,0]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":1,"name":"page","text":"2/28","textPreview":"2/28","textChars":4,"textLines":1,"bbox":[1426,841,86,22]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":1,"name":"formula-band","bbox":[140,154,1256,68]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":1,"name":"formula","text":"S : f(x) → A    reduce expected regret with respect to the oracle","textPreview":"S : f(x) → A    reduce expected regret with respect to the oracle","textChars":65,"textLines":1,"bbox":[175,171,1188,36]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":1,"name":"n-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[142,285,54,34]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":1,"name":"row-0","text":"Compact structural features: informative for algorithm selection and inexpensive to extract","textPreview":"Compact structural features: informative for algorithm selection and inexpensive to extract","textChars":91,"textLines":1,"bbox":[220,283,1198,74]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":1,"name":"row-line-0","bbox":[220,367,1190,0]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":1,"name":"n-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[142,381,54,34]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":1,"name":"row-1","text":"Offline XGBoost model: train and evaluate per-instance algorithm selection","textPreview":"Offline XGBoost model: train and evaluate per-instance algorithm selection","textChars":74,"textLines":1,"bbox":[220,379,1198,74]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":1,"name":"row-line-1","bbox":[220,463,1190,0]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":1,"name":"n-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[142,477,54,34]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":1,"name":"row-2","text":"Leakage-resistant evaluation: valid selection-under-ignorance protocol","textPreview":"Leakage-resistant evaluation: valid selection-under-ignorance protocol","textChars":70,"textLines":1,"bbox":[220,475,1198,74]}
+{"kind":"shape","id":"sh/r65wjudg","slide":1,"name":"row-line-2","bbox":[220,559,1190,0]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":1,"name":"n-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[142,573,54,34]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":1,"name":"row-3","text":"Reproducible Python library: package the complete method for deployment and further research","textPreview":"Reproducible Python library: package the complete method for deployment and further research","textChars":92,"textLines":1,"bbox":[220,571,1198,74]}
+{"kind":"shape","id":"sh/t83itgfm","slide":1,"name":"row-line-3","bbox":[220,655,1190,0]}
+{"kind":"notes","id":"nt/njkp9j","slide":1,"text":""}
+{"kind":"slide","id":"sl/lasx0w","slide":2,"title":"Algorithm Selection Problem","textShapes":12}
+{"kind":"shape","id":"sh/9w3m94fu","slide":2,"name":"top-maroon","bbox":[0,0,1536,16]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":2,"name":"top-orange","bbox":[0,16,1536,10]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":2,"name":"bottom-maroon","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":2,"name":"title","text":"Algorithm Selection Problem","textPreview":"Algorithm Selection Problem","textChars":27,"textLines":1,"bbox":[70,56,1320,56]}
+{"kind":"shape","id":"sh/9knih4by","slide":2,"name":"title-rule","bbox":[70,124,1320,0]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":2,"name":"page","text":"4/28","textPreview":"4/28","textChars":4,"textLines":1,"bbox":[1426,841,86,22]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":2,"name":"p","bbox":[90,158,270,310]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":2,"name":"p-title","text":"Problem space P","textPreview":"Problem space P","textChars":15,"textLines":1,"bbox":[114,180,222,34]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":2,"name":"p-body","text":"one numeric array\n\n[4, 5, 5, 6, 17, 18,\n19, 2, 2, 3, 31, 45]","textPreview":"one numeric array |  | [4, 5, 5, 6, 17, 18, | 19, 2, 2, 3, 31, 45]","textChars":60,"textLines":4,"bbox":[114,226,222,228]}
+{"kind":"shape","id":"sh/dg7adsji","slide":2,"name":"f","bbox":[430,158,270,310]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":2,"name":"f-title","text":"Feature space F","textPreview":"Feature space F","textChars":15,"textLines":1,"bbox":[454,180,222,34]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":2,"name":"f-body","text":"structural array features\n\nsize\nsortedness / disorder\nruns\nduplicates / entropy","textPreview":"structural array features |  | size | sortedness / disorder | runs | duplicates / entropy","textChars":79,"textLines":6,"bbox":[454,226,222,228]}
+{"kind":"shape","id":"sh/6tovahoz","slide":2,"name":"selector","bbox":[770,178,240,280]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":2,"name":"selector-title","text":"Selector","textPreview":"Selector","textChars":8,"textLines":1,"bbox":[805,206,170,40]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":2,"name":"selector-map","text":"S : F → A","textPreview":"S : F → A","textChars":9,"textLines":1,"bbox":[810,266,160,34]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":2,"name":"selector-rule","bbox":[810,312,160,0]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":2,"name":"selector-model","text":"XGBoost classifier\npredicts fastest\nclass","textPreview":"XGBoost classifier | predicts fastest | class","textChars":41,"textLines":3,"bbox":[796,328,188,78]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":2,"name":"a","bbox":[1080,158,270,310]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":2,"name":"a-title","text":"Algorithm space A","textPreview":"Algorithm space A","textChars":17,"textLines":1,"bbox":[1104,180,222,34]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":2,"name":"a-body","text":"Introsort\nHeapsort\nTimsort","textPreview":"Introsort | Heapsort | Timsort","textChars":26,"textLines":3,"bbox":[1104,226,222,228]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":2,"name":"pf-from","bbox":[420,300,2,2]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":2,"name":"pf-to","bbox":[370,300,2,2]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":2,"name":"pf","bbox":[372,301,48,0]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":2,"name":"fs-from","bbox":[760,300,2,2]}
+{"kind":"shape","id":"sh/94fu18jq","slide":2,"name":"fs-to","bbox":[710,300,2,2]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":2,"name":"fs","bbox":[712,301,48,0]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":2,"name":"sa-from","bbox":[1070,300,2,2]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":2,"name":"sa-to","bbox":[1020,300,2,2]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":2,"name":"sa","bbox":[1022,301,48,0]}
+{"kind":"shape","id":"sh/3m94fu18","slide":2,"name":"perf","bbox":[145,550,1246,106]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":2,"name":"perf-text","text":"Performance space Y: label(x) = argmin_a T(a, x), measured from empirical runtime","textPreview":"Performance space Y: label(x) = argmin_a T(a, x), measured from empirical runtime","textChars":81,"textLines":1,"bbox":[180,580,1168,42]}
+{"kind":"notes","id":"nt/lasx0w","slide":2,"text":""}
+{"kind":"slide","id":"sl/g9g638","slide":3,"title":"Leave-one-domain-out testing supports cross-domain robustness","textShapes":19}
+{"kind":"shape","id":"sh/g7adsji5","slide":3,"name":"top-maroon","bbox":[0,0,1536,16]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":3,"name":"top-orange","bbox":[0,16,1536,10]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":3,"name":"bottom-maroon","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":3,"name":"title","text":"Leave-one-domain-out testing supports cross-domain robustness","textPreview":"Leave-one-domain-out testing supports cross-domain robustness","textChars":61,"textLines":1,"bbox":[70,56,1320,56]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":3,"name":"title-rule","bbox":[70,124,1320,0]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":3,"name":"page","text":"7/28","textPreview":"7/28","textChars":4,"textLines":1,"bbox":[1426,841,86,22]}
+{"kind":"shape","id":"sh/yd0z6103","slide":3,"name":"chart-frame","bbox":[120,170,1295,520]}
+{"kind":"shape","id":"sh/9cvixcze","slide":3,"name":"holdout-x","bbox":[280,540,970,0]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":3,"name":"holdout-y","bbox":[280,255,0,285]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":3,"name":"holdout-bar-0-0","bbox":[298,325.62,58,214.38]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":3,"name":"holdout-v-0-0","text":"87.5%","textPreview":"87.5%","textChars":5,"textLines":1,"bbox":[278,293.62,98,26]}
+{"kind":"shape","id":"sh/sneloj2t","slide":3,"name":"holdout-bar-0-1","bbox":[364,319.26,58,220.74]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":3,"name":"holdout-v-0-1","text":"90.1%","textPreview":"90.1%","textChars":5,"textLines":1,"bbox":[344,287.26,98,26]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":3,"name":"holdout-cat-0","text":"Crypto","textPreview":"Crypto","textChars":6,"textLines":1,"bbox":[280,560,186,34]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":3,"name":"holdout-bar-1-0","bbox":[484,338.86,58,201.14]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":3,"name":"holdout-v-1-0","text":"82.1%","textPreview":"82.1%","textChars":5,"textLines":1,"bbox":[464,306.86,98,26]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":3,"name":"holdout-bar-1-1","bbox":[550,307.25,58,232.75]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":3,"name":"holdout-v-1-1","text":"95.0%","textPreview":"95.0%","textChars":5,"textLines":1,"bbox":[530,275.25,98,26]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":3,"name":"holdout-cat-1","text":"Earthquake","textPreview":"Earthquake","textChars":10,"textLines":1,"bbox":[466,560,186,34]}
+{"kind":"shape","id":"sh/vahoza1g","slide":3,"name":"holdout-bar-2-0","bbox":[670,322.44,58,217.56]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":3,"name":"holdout-v-2-0","text":"88.8%","textPreview":"88.8%","textChars":5,"textLines":1,"bbox":[650,290.44,98,26]}
+{"kind":"shape","id":"sh/dg7adsji","slide":3,"name":"holdout-bar-2-1","bbox":[736,355.02,58,184.98]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":3,"name":"holdout-v-2-1","text":"75.5%","textPreview":"75.5%","textChars":5,"textLines":1,"bbox":[716,323.02,98,26]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":3,"name":"holdout-cat-2","text":"F1","textPreview":"F1","textChars":2,"textLines":1,"bbox":[652,560,186,34]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":3,"name":"holdout-bar-3-0","bbox":[856,324.4,58,215.6]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":3,"name":"holdout-v-3-0","text":"88.0%","textPreview":"88.0%","textChars":5,"textLines":1,"bbox":[836,292.4,98,26]}
+{"kind":"shape","id":"sh/onyd0z61","slide":3,"name":"holdout-bar-3-1","bbox":[922,317.78,58,222.22]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":3,"name":"holdout-v-3-1","text":"90.7%","textPreview":"90.7%","textChars":5,"textLines":1,"bbox":[902,285.78,98,26]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":3,"name":"holdout-cat-3","text":"Stock","textPreview":"Stock","textChars":5,"textLines":1,"bbox":[838,560,186,34]}
+{"kind":"shape","id":"sh/g7adsji5","slide":3,"name":"holdout-bar-4-0","bbox":[1042,391.53,58,148.47]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":3,"name":"holdout-v-4-0","text":"60.6%","textPreview":"60.6%","textChars":5,"textLines":1,"bbox":[1022,359.53,98,26]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":3,"name":"holdout-bar-4-1","bbox":[1108,320.23,58,219.77]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":3,"name":"holdout-v-4-1","text":"89.7%","textPreview":"89.7%","textChars":5,"textLines":1,"bbox":[1088,288.23,98,26]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":3,"name":"holdout-cat-4","text":"Weather","textPreview":"Weather","textChars":7,"textLines":1,"bbox":[1024,560,186,34]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":3,"name":"acc-label","text":"blue = accuracy","textPreview":"blue = accuracy","textChars":15,"textLines":1,"bbox":[1220,240,150,28]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":3,"name":"gap-label","text":"orange = gap closed","textPreview":"orange = gap closed","textChars":19,"textLines":1,"bbox":[1220,274,170,28]}
+{"kind":"notes","id":"nt/g9g638","slide":3,"text":""}
+{"kind":"slide","id":"sl/4hil49","slide":4,"title":"Feature importance follows structural sorting signals","textShapes":22}
+{"kind":"shape","id":"sh/g3ex0nux","slide":4,"name":"top-maroon","bbox":[0,0,1536,16]}
+{"kind":"shape","id":"sh/nih4byhg","slide":4,"name":"top-orange","bbox":[0,16,1536,10]}
+{"kind":"shape","id":"sh/yxobm58z","slide":4,"name":"bottom-maroon","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":4,"name":"title","text":"Feature importance follows structural sorting signals","textPreview":"Feature importance follows structural sorting signals","textChars":53,"textLines":1,"bbox":[70,56,1320,56]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":4,"name":"title-rule","bbox":[70,124,1320,0]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":4,"name":"page","text":"10/28","textPreview":"10/28","textChars":5,"textLines":1,"bbox":[1426,841,86,22]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":4,"name":"chart-frame","bbox":[125,160,1288,560]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":4,"name":"fi-label-0","text":"length_norm","textPreview":"length_norm","textChars":11,"textLines":1,"bbox":[210,210,265,32]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":4,"name":"fi-bar-0","bbox":[505,215,630.74,24]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":4,"name":"fi-value-0","text":"0.262","textPreview":"0.262","textChars":5,"textLines":1,"bbox":[1190,210,95,32]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":4,"name":"fi-label-1","text":"top5_freq_ratio","textPreview":"top5_freq_ratio","textChars":15,"textLines":1,"bbox":[210,255,265,32]}
+{"kind":"shape","id":"sh/obm58z25","slide":4,"name":"fi-bar-1","bbox":[505,260,442.96,24]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":4,"name":"fi-value-1","text":"0.184","textPreview":"0.184","textChars":5,"textLines":1,"bbox":[1190,255,95,32]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":4,"name":"fi-label-2","text":"longest_run_ratio","textPreview":"longest_run_ratio","textChars":17,"textLines":1,"bbox":[210,300,265,32]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":4,"name":"fi-bar-2","bbox":[505,305,192.59,24]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":4,"name":"fi-value-2","text":"0.080","textPreview":"0.080","textChars":5,"textLines":1,"bbox":[1190,300,95,32]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":4,"name":"fi-label-3","text":"duplicate_ratio","textPreview":"duplicate_ratio","textChars":15,"textLines":1,"bbox":[210,345,265,32]}
+{"kind":"shape","id":"sh/al87ed8b","slide":4,"name":"fi-bar-3","bbox":[505,350,190.19,24]}
+{"kind":"textbox","id":"sh/z61032ls","slide":4,"name":"fi-value-3","text":"0.079","textPreview":"0.079","textChars":5,"textLines":1,"bbox":[1190,345,95,32]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":4,"name":"fi-label-4","text":"entropy_ratio","textPreview":"entropy_ratio","textChars":13,"textLines":1,"bbox":[210,390,265,32]}
+{"kind":"shape","id":"sh/ixczed8v","slide":4,"name":"fi-bar-4","bbox":[505,395,180.56,24]}
+{"kind":"textbox","id":"sh/tovahoza","slide":4,"name":"fi-value-4","text":"0.075","textPreview":"0.075","textChars":5,"textLines":1,"bbox":[1190,390,95,32]}
+{"kind":"textbox","id":"sh/032lszqt","slide":4,"name":"fi-label-5","text":"top1_freq_ratio","textPreview":"top1_freq_ratio","textChars":15,"textLines":1,"bbox":[210,435,265,32]}
+{"kind":"shape","id":"sh/bulwval8","slide":4,"name":"fi-bar-5","bbox":[505,440,122.78,24]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":4,"name":"fi-value-5","text":"0.051","textPreview":"0.051","textChars":5,"textLines":1,"bbox":[1190,435,95,32]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":4,"name":"fi-label-6","text":"runs_ratio","textPreview":"runs_ratio","textChars":10,"textLines":1,"bbox":[210,480,265,32]}
+{"kind":"shape","id":"sh/0fepkzup","slide":4,"name":"fi-bar-6","bbox":[505,485,98.7,24]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":4,"name":"fi-value-6","text":"0.041","textPreview":"0.041","textChars":5,"textLines":1,"bbox":[1190,480,95,32]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":4,"name":"fi-label-7","text":"adj_sorted_ratio","textPreview":"adj_sorted_ratio","textChars":16,"textLines":1,"bbox":[210,525,265,32]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":4,"name":"fi-bar-7","bbox":[505,530,98.7,24]}
+{"kind":"textbox","id":"sh/lwval87e","slide":4,"name":"fi-value-7","text":"0.041","textPreview":"0.041","textChars":5,"textLines":1,"bbox":[1190,525,95,32]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":4,"name":"fi-label-8","text":"mean_abs_diff_norm","textPreview":"mean_abs_diff_norm","textChars":18,"textLines":1,"bbox":[210,570,265,32]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":4,"name":"fi-bar-8","bbox":[505,575,93.89,24]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":4,"name":"fi-value-8","text":"0.039","textPreview":"0.039","textChars":5,"textLines":1,"bbox":[1190,570,95,32]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":4,"name":"fi-label-9","text":"inversion_ratio","textPreview":"inversion_ratio","textChars":15,"textLines":1,"bbox":[210,615,265,32]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":4,"name":"fi-bar-9","bbox":[505,620,84.26,24]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":4,"name":"fi-value-9","text":"0.035","textPreview":"0.035","textChars":5,"textLines":1,"bbox":[1190,615,95,32]}
+{"kind":"notes","id":"nt/4hil49","slide":4,"text":""}
+{"kind":"slide","id":"sl/cefyhx","slide":5,"title":"The ensemble is constrained so it does not overfit timing noise","textShapes":9}
+{"kind":"shape","id":"sh/dcbulwva","slide":5,"name":"top-maroon","bbox":[0,0,1536,16]}
+{"kind":"shape","id":"sh/6psfil0r","slide":5,"name":"top-orange","bbox":[0,16,1536,10]}
+{"kind":"shape","id":"sh/val87ed8","slide":5,"name":"bottom-maroon","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":5,"name":"title","text":"The ensemble is constrained so it does not overfit timing noise","textPreview":"The ensemble is constrained so it does not overfit timing noise","textChars":63,"textLines":1,"bbox":[70,56,1320,56]}
+{"kind":"shape","id":"sh/donyd0z6","slide":5,"name":"title-rule","bbox":[70,124,1320,0]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":5,"name":"page","text":"16/28","textPreview":"16/28","textChars":5,"textLines":1,"bbox":[1426,841,86,22]}
+{"kind":"shape","id":"sh/vixczed8","slide":5,"name":"t1-box","bbox":[615,250,115,150]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":5,"name":"t1-root","bbox":[664,278,18,18]}
+{"kind":"shape","id":"sh/d0z61032","slide":5,"name":"t1-l","bbox":[639,342,17,17]}
+{"kind":"shape","id":"sh/dsji5sne","slide":5,"name":"t1-r","bbox":[690,342,17,17]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":5,"name":"t1-line-l","bbox":[673,295,-25,47]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":5,"name":"t1-line-r","bbox":[673,295,26,47]}
+{"kind":"shape","id":"sh/61032lsz","slide":5,"name":"t2-box","bbox":[755,250,115,150]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":5,"name":"t2-root","bbox":[804,278,18,18]}
+{"kind":"shape","id":"sh/oj2t83it","slide":5,"name":"t2-l","bbox":[779,342,17,17]}
+{"kind":"shape","id":"sh/vy90je9c","slide":5,"name":"t2-r","bbox":[830,342,17,17]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":5,"name":"t2-line-l","bbox":[813,295,-25,47]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":5,"name":"t2-line-r","bbox":[813,295,26,47]}
+{"kind":"shape","id":"sh/onyd0z61","slide":5,"name":"t3-box","bbox":[895,250,115,150]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":5,"name":"t3-root","bbox":[944,278,18,18]}
+{"kind":"shape","id":"sh/dcbulwva","slide":5,"name":"t3-l","bbox":[919,342,17,17]}
+{"kind":"shape","id":"sh/6psfil0r","slide":5,"name":"t3-r","bbox":[970,342,17,17]}
+{"kind":"shape","id":"sh/val87ed8","slide":5,"name":"t3-line-l","bbox":[953,295,-25,47]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":5,"name":"t3-line-r","bbox":[953,295,26,47]}
+{"kind":"shape","id":"sh/donyd0z6","slide":5,"name":"param-0","bbox":[160,190,310,82]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":5,"name":"param-text-0","text":"Learning rate: 0.05","textPreview":"Learning rate: 0.05","textChars":19,"textLines":1,"bbox":[184,214,262,36]}
+{"kind":"shape","id":"sh/vixczed8","slide":5,"name":"param-1","bbox":[160,305,310,82]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":5,"name":"param-text-1","text":"Tree depth: 7","textPreview":"Tree depth: 7","textChars":13,"textLines":1,"bbox":[184,329,262,36]}
+{"kind":"shape","id":"sh/d0z61032","slide":5,"name":"param-2","bbox":[160,420,310,82]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":5,"name":"param-text-2","text":"Number of trees: 500","textPreview":"Number of trees: 500","textChars":20,"textLines":1,"bbox":[184,444,262,36]}
+{"kind":"shape","id":"sh/adsji5sn","slide":5,"name":"param-3","bbox":[1110,190,310,82]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":5,"name":"param-text-3","text":"Row sample: 80%","textPreview":"Row sample: 80%","textChars":15,"textLines":1,"bbox":[1134,214,262,36]}
+{"kind":"shape","id":"sh/sji5snel","slide":5,"name":"param-4","bbox":[1110,305,310,82]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":5,"name":"param-text-4","text":"Feature sample: 80%","textPreview":"Feature sample: 80%","textChars":19,"textLines":1,"bbox":[1134,329,262,36]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":5,"name":"param-5","bbox":[1110,420,310,82]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":5,"name":"param-text-5","text":"Regularisation: L1 / L2","textPreview":"Regularisation: L1 / L2","textChars":23,"textLines":1,"bbox":[1134,444,262,36]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":5,"name":"trees-label","text":"boosted tree ensemble","textPreview":"boosted tree ensemble","textChars":21,"textLines":1,"bbox":[610,455,410,34]}
+{"kind":"notes","id":"nt/cefyhx","slide":5,"text":""}
+{"kind":"slide","id":"sl/id8e3j","slide":6,"title":"Optuna tuning strengthened the F1 channel models","textShapes":27}
+{"kind":"shape","id":"sh/r65wjudg","slide":6,"name":"top-maroon","bbox":[0,0,1536,16]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":6,"name":"top-orange","bbox":[0,16,1536,10]}
+{"kind":"shape","id":"sh/9cvixcze","slide":6,"name":"bottom-maroon","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":6,"name":"title","text":"Optuna tuning strengthened the F1 channel models","textPreview":"Optuna tuning strengthened the F1 channel models","textChars":48,"textLines":1,"bbox":[70,56,1320,56]}
+{"kind":"shape","id":"sh/nih4byhg","slide":6,"name":"title-rule","bbox":[70,124,1320,0]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":6,"name":"page","text":"24/28","textPreview":"24/28","textChars":5,"textLines":1,"bbox":[1426,841,86,22]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":6,"name":"search","text":"Optuna searched: tree count, tree depth, learning rate, row/feature sampling, and regularisation","textPreview":"Optuna searched: tree count, tree depth, learning rate, row/feature sampling, and regularisation","textChars":96,"textLines":1,"bbox":[130,154,1260,42]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":6,"name":"search-rule","bbox":[130,210,1260,0]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":6,"name":"h-0","text":"Metric","textPreview":"Metric","textChars":6,"textLines":1,"bbox":[135,252,500,34]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":6,"name":"h-1","text":"Before","textPreview":"Before","textChars":6,"textLines":1,"bbox":[745,252,140,34]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":6,"name":"h-2","text":"After Optuna","textPreview":"After Optuna","textChars":12,"textLines":1,"bbox":[955,252,190,34]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":6,"name":"h-3","text":"Change","textPreview":"Change","textChars":6,"textLines":1,"bbox":[1215,252,130,34]}
+{"kind":"shape","id":"sh/8v6psfil","slide":6,"name":"head-line","bbox":[135,297,1195,0]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":6,"name":"m-0","text":"F1 avg test accuracy","textPreview":"F1 avg test accuracy","textChars":20,"textLines":1,"bbox":[135,327,530,34]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":6,"name":"b-0","text":"46.0%","textPreview":"46.0%","textChars":5,"textLines":1,"bbox":[745,327,140,34]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":6,"name":"a-0","text":"53.6%","textPreview":"53.6%","textChars":5,"textLines":1,"bbox":[955,327,160,34]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":6,"name":"c-0","text":"+7.6","textPreview":"+7.6","textChars":4,"textLines":1,"bbox":[1215,327,130,34]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":6,"name":"row-line-0","bbox":[135,375,1195,0]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":6,"name":"m-1","text":"F1 avg balanced accuracy","textPreview":"F1 avg balanced accuracy","textChars":24,"textLines":1,"bbox":[135,397,530,34]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":6,"name":"b-1","text":"48.2%","textPreview":"48.2%","textChars":5,"textLines":1,"bbox":[745,397,140,34]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":6,"name":"a-1","text":"49.8%","textPreview":"49.8%","textChars":5,"textLines":1,"bbox":[955,397,160,34]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":6,"name":"c-1","text":"+1.6","textPreview":"+1.6","textChars":4,"textLines":1,"bbox":[1215,397,130,34]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":6,"name":"row-line-1","bbox":[135,445,1195,0]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":6,"name":"m-2","text":"DRS test accuracy","textPreview":"DRS test accuracy","textChars":17,"textLines":1,"bbox":[135,467,530,34]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":6,"name":"b-2","text":"55.0%","textPreview":"55.0%","textChars":5,"textLines":1,"bbox":[745,467,140,34]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":6,"name":"a-2","text":"76.4%","textPreview":"76.4%","textChars":5,"textLines":1,"bbox":[955,467,160,34]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":6,"name":"c-2","text":"+21.4","textPreview":"+21.4","textChars":5,"textLines":1,"bbox":[1215,467,130,34]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":6,"name":"row-line-2","bbox":[135,515,1195,0]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":6,"name":"m-3","text":"Throttle balanced accuracy","textPreview":"Throttle balanced accuracy","textChars":26,"textLines":1,"bbox":[135,537,530,34]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":6,"name":"b-3","text":"24.0%","textPreview":"24.0%","textChars":5,"textLines":1,"bbox":[745,537,140,34]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":6,"name":"a-3","text":"47.1%","textPreview":"47.1%","textChars":5,"textLines":1,"bbox":[955,537,160,34]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":6,"name":"c-3","text":"+23.1","textPreview":"+23.1","textChars":5,"textLines":1,"bbox":[1215,537,130,34]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":6,"name":"row-line-3","bbox":[135,585,1195,0]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":6,"name":"m-4","text":"RPM test accuracy","textPreview":"RPM test accuracy","textChars":17,"textLines":1,"bbox":[135,607,530,34]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":6,"name":"b-4","text":"32.9%","textPreview":"32.9%","textChars":5,"textLines":1,"bbox":[745,607,140,34]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":6,"name":"a-4","text":"44.0%","textPreview":"44.0%","textChars":5,"textLines":1,"bbox":[955,607,160,34]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":6,"name":"c-4","text":"+11.1","textPreview":"+11.1","textChars":5,"textLines":1,"bbox":[1215,607,130,34]}
+{"kind":"shape","id":"sh/dsji5sne","slide":6,"name":"row-line-4","bbox":[135,655,1195,0]}
+{"kind":"notes","id":"nt/id8e3j","slide":6,"text":""}
+{"kind":"slide","id":"sl/ac0uu2","slide":7,"title":"Where this selector can be used","textShapes":14}
+{"kind":"shape","id":"sh/25kb6xkf","slide":7,"name":"top-maroon","bbox":[0,0,1536,16]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":7,"name":"top-orange","bbox":[0,16,1536,10]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":7,"name":"bottom-maroon","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":7,"name":"title","text":"Where this selector can be used","textPreview":"Where this selector can be used","textChars":31,"textLines":1,"bbox":[70,56,1320,56]}
+{"kind":"shape","id":"sh/2t83itgf","slide":7,"name":"title-rule","bbox":[70,124,1320,0]}
+{"kind":"textbox","id":"sh/9knih4by","slide":7,"name":"page","text":"25/28","textPreview":"25/28","textChars":5,"textLines":1,"bbox":[1426,841,86,22]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":7,"name":"n-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[142,150,54,34]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":7,"name":"row-0","text":"Database query engines: choose sorting method for ORDER BY, joins, grouping, and index builds","textPreview":"Database query engines: choose sorting method for ORDER BY, joins, grouping, and index builds","textChars":93,"textLines":1,"bbox":[220,148,1198,74]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":7,"name":"row-line-0","bbox":[220,232,1190,0]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":7,"name":"n-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[142,244,54,34]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":7,"name":"row-1","text":"ETL and analytics pipelines: choose sorting method for IDs, timestamps, prices, partitions, and batches","textPreview":"ETL and analytics pipelines: choose sorting method for IDs, timestamps, prices, partitions, and batches","textChars":103,"textLines":1,"bbox":[220,242,1198,74]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":7,"name":"row-line-1","bbox":[220,326,1190,0]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":7,"name":"n-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[142,338,54,34]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":7,"name":"row-2","text":"Search and ranking systems: choose sorting method for candidate scores before top-k output","textPreview":"Search and ranking systems: choose sorting method for candidate scores before top-k output","textChars":90,"textLines":1,"bbox":[220,336,1198,74]}
+{"kind":"shape","id":"sh/94fu18jq","slide":7,"name":"row-line-2","bbox":[220,420,1190,0]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":7,"name":"n-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[142,432,54,34]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":7,"name":"row-3","text":"Financial time-series processing: choose sorting method for rolling windows, events, prices, and order-book values","textPreview":"Financial time-series processing: choose sorting method for rolling windows, events, prices, and order-book values","textChars":114,"textLines":1,"bbox":[220,430,1198,74]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":7,"name":"row-line-3","bbox":[220,514,1190,0]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":7,"name":"n-4","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[142,526,54,34]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":7,"name":"row-4","text":"Scientific and telemetry processing: choose sorting method for sensor traces, physics logs, weather data, and F1 telemetry","textPreview":"Scientific and telemetry processing: choose sorting method for sensor traces, physics logs, weather data, and F1 telemetry","textChars":122,"textLines":1,"bbox":[220,524,1198,74]}
+{"kind":"shape","id":"sh/ovahoza1","slide":7,"name":"row-line-4","bbox":[220,608,1190,0]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":7,"name":"n-5","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[142,620,54,34]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":7,"name":"row-5","text":"Selector action: extract features first, predict fastest algorithm, choose Introsort / Heapsort / Timsort","textPreview":"Selector action: extract features first, predict fastest algorithm, choose Introsort / Heapsort / Timsort","textChars":105,"textLines":1,"bbox":[220,618,1198,74]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":7,"name":"row-line-5","bbox":[220,702,1190,0]}
+{"kind":"notes","id":"nt/ac0uu2","slide":7,"text":""}

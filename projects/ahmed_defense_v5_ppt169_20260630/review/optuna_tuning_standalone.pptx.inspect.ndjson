@@ -1,0 +1,29 @@
+{"kind":"deck","id":"pr/ax0q73","name":"Deck"}
+{"kind":"layout","layoutId":"9ece3455-bb4d-4930-a3ea-66a517ddc68b","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"24d5ae63-d319-47ca-8df5-068fa1999be2","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/3ypd0w","slide":1,"title":"Optuna tuning strengthened the F1 channel models","textShapes":14}
+{"kind":"shape","id":"sh/p0bi9s36","slide":1,"name":"top-maroon-strip","bbox":[0,0,1280,13]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":1,"name":"top-orange-strip","bbox":[0,13,1280,9]}
+{"kind":"shape","id":"sh/bulwval8","slide":1,"name":"bottom-maroon-strip","bbox":[0,700,1280,20]}
+{"kind":"textbox","id":"sh/032lszqt","slide":1,"name":"title","text":"Optuna tuning strengthened the F1 channel models","textPreview":"Optuna tuning strengthened the F1 channel models","textChars":48,"textLines":1,"bbox":[86,58,980,54]}
+{"kind":"shape","id":"sh/tovahoza","slide":1,"name":"title-rule","bbox":[86,118,1074,0]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":1,"name":"row-1-number","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[126,147,46,68]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":1,"name":"row-1-text","text":"Tuning target: F1 channel models trained separately for each feature/flag signal","textPreview":"Tuning target: F1 channel models trained separately for each feature/flag signal","textChars":80,"textLines":1,"bbox":[172,146,984,58]}
+{"kind":"shape","id":"sh/0rqd4vmt","slide":1,"name":"row-1-rule","bbox":[172,212,984,0]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":1,"name":"row-2-number","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[126,229,46,68]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":1,"name":"row-2-text","text":"Search framework: Optuna ran repeated trials and scored each trial on validation balanced accuracy","textPreview":"Search framework: Optuna ran repeated trials and scored each trial on validation balanced accuracy","textChars":98,"textLines":1,"bbox":[172,228,984,58]}
+{"kind":"shape","id":"sh/obm58z25","slide":1,"name":"row-2-rule","bbox":[172,294,984,0]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":1,"name":"row-3-number","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[126,311,46,68]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":1,"name":"row-3-text","text":"XGBoost settings: tree count, tree depth, learning rate, row/feature sampling, and regularisation","textPreview":"XGBoost settings: tree count, tree depth, learning rate, row/feature sampling, and regularisation","textChars":97,"textLines":1,"bbox":[172,310,984,58]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":1,"name":"row-3-rule","bbox":[172,376,984,0]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":1,"name":"row-4-number","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[126,393,46,68]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":1,"name":"row-4-text","text":"Average accuracy: 46.0% before tuning -> 53.6% after tuning","textPreview":"Average accuracy: 46.0% before tuning -> 53.6% after tuning","textChars":59,"textLines":1,"bbox":[172,392,984,58]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":1,"name":"row-4-rule","bbox":[172,458,984,0]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":1,"name":"row-5-number","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[126,475,46,68]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":1,"name":"row-5-text","text":"Strongest channel gains: DRS accuracy 55.0% -> 76.4%; throttle balanced accuracy 24.0% -> 47.1%","textPreview":"Strongest channel gains: DRS accuracy 55.0% -> 76.4%; throttle balanced accuracy 24.0% -> 47.1%","textChars":95,"textLines":1,"bbox":[172,474,984,58]}
+{"kind":"shape","id":"sh/ovahoza1","slide":1,"name":"row-5-rule","bbox":[172,540,984,0]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":1,"name":"row-6-number","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[126,557,46,68]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":1,"name":"row-6-text","text":"How to present it: hyperparameter search helped the F1 specialization track","textPreview":"How to present it: hyperparameter search helped the F1 specialization track","textChars":75,"textLines":1,"bbox":[172,556,984,58]}
+{"kind":"shape","id":"sh/vahoza1g","slide":1,"name":"row-6-rule","bbox":[172,622,984,0]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":1,"name":"page-marker","text":"NEW","textPreview":"NEW","textChars":3,"textLines":1,"bbox":[1200,702,48,16]}
+{"kind":"notes","id":"nt/3ypd0w","slide":1,"text":""}

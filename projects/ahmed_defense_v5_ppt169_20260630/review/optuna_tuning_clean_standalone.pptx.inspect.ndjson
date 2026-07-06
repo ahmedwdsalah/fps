@@ -1,0 +1,53 @@
+{"kind":"deck","id":"pr/bfu16m","name":"Deck"}
+{"kind":"layout","layoutId":"3e318953-b17c-48d1-9c2d-7b263a008f48","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"79301cb2-493c-4bfc-8c32-04c3956636b3","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/425h6d","slide":1,"title":"Optuna tuning strengthened the F1 channel models","textShapes":33}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":1,"name":"top-maroon-strip","bbox":[0,0,1536,15.6]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":1,"name":"top-orange-strip","bbox":[0,15.6,1536,10.8]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":1,"name":"bottom-maroon-strip","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":1,"name":"title","text":"Optuna tuning strengthened the F1 channel models","textPreview":"Optuna tuning strengthened the F1 channel models","textChars":48,"textLines":1,"bbox":[103.2,69.6,1248,64.8]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":1,"name":"title-rule","bbox":[103.2,141.6,1288.8,0]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":1,"name":"searched-settings","text":"Optuna searched: tree count, tree depth, learning rate, row/feature sampling, and regularisation","textPreview":"Optuna searched: tree count, tree depth, learning rate, row/feature sampling, and regularisation","textChars":96,"textLines":1,"bbox":[151.2,184.8,1236,38.4]}
+{"kind":"shape","id":"sh/j2t83itg","slide":1,"name":"settings-rule","bbox":[151.2,240,1240.8,0]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":1,"name":"h-metric","text":"Metric","textPreview":"Metric","textChars":6,"textLines":1,"bbox":[151.2,285.6,360,33.6]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":1,"name":"h-before","text":"Before","textPreview":"Before","textChars":6,"textLines":1,"bbox":[643.2,285.6,144,33.6]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":1,"name":"h-after","text":"After Optuna","textPreview":"After Optuna","textChars":12,"textLines":1,"bbox":[823.2,285.6,158.4,33.6]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":1,"name":"h-change","text":"Change","textPreview":"Change","textChars":6,"textLines":1,"bbox":[997.2,285.6,108,33.6]}
+{"kind":"shape","id":"sh/je9cvixc","slide":1,"name":"table-head-rule","bbox":[151.2,330,948,0]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":1,"name":"metric-0","text":"F1 avg test accuracy","textPreview":"F1 avg test accuracy","textChars":20,"textLines":1,"bbox":[151.2,355.2,444,36]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":1,"name":"before-0","text":"46.0%","textPreview":"46.0%","textChars":5,"textLines":1,"bbox":[643.2,355.2,114,36]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":1,"name":"after-0","text":"53.6%","textPreview":"53.6%","textChars":5,"textLines":1,"bbox":[823.2,355.2,132,36]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":1,"name":"change-0","text":"+7.6","textPreview":"+7.6","textChars":4,"textLines":1,"bbox":[997.2,355.2,98.4,36]}
+{"kind":"shape","id":"sh/q1orytsv","slide":1,"name":"table-row-rule-0","bbox":[151.2,403.2,948,0]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":1,"name":"metric-1","text":"F1 avg balanced accuracy","textPreview":"F1 avg balanced accuracy","textChars":24,"textLines":1,"bbox":[151.2,420,444,36]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":1,"name":"before-1","text":"48.2%","textPreview":"48.2%","textChars":5,"textLines":1,"bbox":[643.2,420,114,36]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":1,"name":"after-1","text":"49.8%","textPreview":"49.8%","textChars":5,"textLines":1,"bbox":[823.2,420,132,36]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":1,"name":"change-1","text":"+1.6","textPreview":"+1.6","textChars":4,"textLines":1,"bbox":[997.2,420,98.4,36]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":1,"name":"table-row-rule-1","bbox":[151.2,468,948,0]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":1,"name":"metric-2","text":"DRS test accuracy","textPreview":"DRS test accuracy","textChars":17,"textLines":1,"bbox":[151.2,484.8,444,36]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":1,"name":"before-2","text":"55.0%","textPreview":"55.0%","textChars":5,"textLines":1,"bbox":[643.2,484.8,114,36]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":1,"name":"after-2","text":"76.4%","textPreview":"76.4%","textChars":5,"textLines":1,"bbox":[823.2,484.8,132,36]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":1,"name":"change-2","text":"+21.4","textPreview":"+21.4","textChars":5,"textLines":1,"bbox":[997.2,484.8,98.4,36]}
+{"kind":"shape","id":"sh/bm58z25k","slide":1,"name":"table-row-rule-2","bbox":[151.2,532.8,948,0]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":1,"name":"metric-3","text":"Throttle balanced accuracy","textPreview":"Throttle balanced accuracy","textChars":26,"textLines":1,"bbox":[151.2,549.6,444,36]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":1,"name":"before-3","text":"24.0%","textPreview":"24.0%","textChars":5,"textLines":1,"bbox":[643.2,549.6,114,36]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":1,"name":"after-3","text":"47.1%","textPreview":"47.1%","textChars":5,"textLines":1,"bbox":[823.2,549.6,132,36]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":1,"name":"change-3","text":"+23.1","textPreview":"+23.1","textChars":5,"textLines":1,"bbox":[997.2,549.6,98.4,36]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":1,"name":"table-row-rule-3","bbox":[151.2,597.6,948,0]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":1,"name":"metric-4","text":"RPM test accuracy","textPreview":"RPM test accuracy","textChars":17,"textLines":1,"bbox":[151.2,614.4,444,36]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":1,"name":"before-4","text":"32.9%","textPreview":"32.9%","textChars":5,"textLines":1,"bbox":[643.2,614.4,114,36]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":1,"name":"after-4","text":"44.0%","textPreview":"44.0%","textChars":5,"textLines":1,"bbox":[823.2,614.4,132,36]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":1,"name":"change-4","text":"+11.1","textPreview":"+11.1","textChars":5,"textLines":1,"bbox":[997.2,614.4,98.4,36]}
+{"kind":"shape","id":"sh/8bat47y1","slide":1,"name":"table-row-rule-4","bbox":[151.2,662.4,948,0]}
+{"kind":"shape","id":"sh/ji5snelo","slide":1,"name":"chart-divider","bbox":[1152,290.4,0,417.6]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":1,"name":"chart-title","text":"F1 channel average","textPreview":"F1 channel average","textChars":18,"textLines":1,"bbox":[1200,307.2,216,40.8]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":1,"name":"chart-sub","text":"test accuracy","textPreview":"test accuracy","textChars":13,"textLines":1,"bbox":[1200,345.6,216,33.6]}
+{"kind":"shape","id":"sh/zidonyd0","slide":1,"name":"chart-base","bbox":[1188,633.6,240,0]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":1,"name":"before-bar","bbox":[1226.4,463.67,62.4,169.93]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":1,"name":"after-bar","bbox":[1332,435.6,62.4,198]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":1,"name":"before-value","text":"46.0%","textPreview":"46.0%","textChars":5,"textLines":1,"bbox":[1202.4,430.07,110.4,28.8]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":1,"name":"after-value","text":"53.6%","textPreview":"53.6%","textChars":5,"textLines":1,"bbox":[1308,402,110.4,28.8]}
+{"kind":"textbox","id":"sh/svu9knih","slide":1,"name":"before-label","text":"Before avg","textPreview":"Before avg","textChars":10,"textLines":1,"bbox":[1197.6,655.2,120,28.8]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":1,"name":"after-label","text":"After avg","textPreview":"After avg","textChars":9,"textLines":1,"bbox":[1305.6,655.2,120,28.8]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":1,"name":"page-marker","text":"24/28","textPreview":"24/28","textChars":5,"textLines":1,"bbox":[1440,842.4,57.6,19.2]}
+{"kind":"notes","id":"nt/425h6d","slide":1,"text":""}

@@ -1,0 +1,5450 @@
+{
+  "id": "aucr7r",
+  "slides": [
+    {
+      "id": "2x4nap4r",
+      "index": 0,
+      "useLayoutId": "/ppt/slideLayouts/slideLayout1.xml",
+      "widthEmu": 12192000,
+      "heightEmu": 6858000,
+      "creationId": "1319054755",
+      "elements": [
+        {
+          "id": "1",
+          "name": "top-maroon-strip",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 1,
+                "value": "8F1D3A"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "8F1D3A"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{E0C27864-A766-4F09-8D2D-D569F682E2AF}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 0,
+            "yEmu": 0,
+            "widthEmu": 12192000,
+            "heightEmu": 123825
+          }
+        },
+        {
+          "id": "2",
+          "name": "top-orange-strip",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 1,
+                "value": "F4511E"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "F4511E"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{1F615224-E904-451D-972A-BF8A6D0EDAFE}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 0,
+            "yEmu": 123825,
+            "widthEmu": 12192000,
+            "heightEmu": 85725
+          }
+        },
+        {
+          "id": "3",
+          "name": "bottom-maroon-strip",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 1,
+                "value": "8F1D3A"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "8F1D3A"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{3450C02F-49DB-4CBC-BB75-4447C452A6C8}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 0,
+            "yEmu": 6667500,
+            "widthEmu": 12192000,
+            "heightEmu": 190500
+          }
+        },
+        {
+          "id": "4",
+          "name": "title",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{594F3C02-30A4-4417-8390-6A56D3DDEC94}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Optuna tuning strengthened the F1 channel models",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 2475,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 2475,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 1
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Optuna tuning strengthened the F1 channel models",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 2475,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 819150,
+            "yEmu": 552450,
+            "widthEmu": 9906000,
+            "heightEmu": 514350
+          }
+        },
+        {
+          "id": "5",
+          "name": "title-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 15240,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{1F7C97C4-8F41-4D78-99CA-2D3FDF4E677C}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 819150,
+            "yEmu": 1123950,
+            "widthEmu": 10229850,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "6",
+          "name": "searched-settings",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{4E422D2D-8712-4DB0-8073-8620F95453AB}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Optuna searched: ",
+                  "textStyle": {
+                    "bold": true,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                },
+                {
+                  "id": "",
+                  "text": "tree count, tree depth, learning rate, row/feature sampling, and regularisation",
+                  "textStyle": {
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1425,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Optuna searched: ",
+                    "textStyle": {
+                      "bold": true,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                },
+                {
+                  "textRun": {
+                    "text": "tree count, tree depth, learning rate, row/feature sampling, and regularisation",
+                    "textStyle": {
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 1466850,
+            "widthEmu": 9810750,
+            "heightEmu": 304800
+          }
+        },
+        {
+          "id": "7",
+          "name": "settings-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "E8EDF4"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{FF2F1770-C2D4-4D73-A199-F036785E0C7D}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 1905000,
+            "widthEmu": 9848850,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "8",
+          "name": "h-metric",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{184D69F5-008F-47B8-8D2A-AC52F5FF4CDB}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Metric",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "5C6A7F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "5C6A7F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Metric",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "5C6A7F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 2266950,
+            "widthEmu": 2857500,
+            "heightEmu": 266700
+          }
+        },
+        {
+          "id": "9",
+          "name": "h-before",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{B3604B71-9F97-4104-8C81-B4BB6C1F6587}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Before",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "5C6A7F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "5C6A7F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Before",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "5C6A7F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 5105400,
+            "yEmu": 2266950,
+            "widthEmu": 1143000,
+            "heightEmu": 266700
+          }
+        },
+        {
+          "id": "10",
+          "name": "h-after",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{38B90FAB-2D2F-43D2-B8B0-205976F964B6}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "After Optuna",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "5C6A7F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "5C6A7F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "After Optuna",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "5C6A7F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 6534150,
+            "yEmu": 2266950,
+            "widthEmu": 1257300,
+            "heightEmu": 266700
+          }
+        },
+        {
+          "id": "11",
+          "name": "h-change",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{2DFA0659-839A-407B-8125-E8D5995F7DA0}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Change",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "5C6A7F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "5C6A7F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Change",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "5C6A7F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 7915275,
+            "yEmu": 2266950,
+            "widthEmu": 857250,
+            "heightEmu": 266700
+          }
+        },
+        {
+          "id": "12",
+          "name": "table-head-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 11430,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{AE1318B6-33F6-4907-859A-E8AE41015E84}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 2619375,
+            "widthEmu": 7524750,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "13",
+          "name": "metric-0",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{A53755FB-FD6E-4155-AEA2-EF90BE06226D}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "F1 avg test accuracy",
+                  "textStyle": {
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "F1 avg test accuracy",
+                    "textStyle": {
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 2819400,
+            "widthEmu": 3524250,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "14",
+          "name": "before-0",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{E9E70D98-B0A0-44C8-9EA7-F314A90C4925}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "46.0%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "46.0%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 5105400,
+            "yEmu": 2819400,
+            "widthEmu": 904875,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "15",
+          "name": "after-0",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{9DE2315C-3908-4EAE-AF56-BA948FD91017}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "53.6%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "53.6%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 6534150,
+            "yEmu": 2819400,
+            "widthEmu": 1047750,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "16",
+          "name": "change-0",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{E91F6C63-4F71-495D-9842-905036258516}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "+7.6",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "+7.6",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 7915275,
+            "yEmu": 2819400,
+            "widthEmu": 781050,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "17",
+          "name": "table-row-rule-0",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "E8EDF4"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{4B2F6261-7452-4E0B-906C-83509F7FEF6F}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 3200400,
+            "widthEmu": 7524750,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "18",
+          "name": "metric-1",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{B8757359-8E3A-4CD8-85B2-EC1EFE7A0935}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "F1 avg balanced accuracy",
+                  "textStyle": {
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "F1 avg balanced accuracy",
+                    "textStyle": {
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 3333750,
+            "widthEmu": 3524250,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "19",
+          "name": "before-1",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{F1468511-B2F5-4874-9B75-691B80518D82}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "48.2%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "48.2%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 5105400,
+            "yEmu": 3333750,
+            "widthEmu": 904875,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "20",
+          "name": "after-1",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{6351F699-79E0-4FCE-A4E8-05B3D7C8BC38}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "49.8%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "49.8%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 6534150,
+            "yEmu": 3333750,
+            "widthEmu": 1047750,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "21",
+          "name": "change-1",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{183940DB-0A51-4B6D-BB5B-FED7CE644A23}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "+1.6",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "+1.6",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 7915275,
+            "yEmu": 3333750,
+            "widthEmu": 781050,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "22",
+          "name": "table-row-rule-1",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "E8EDF4"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{E21B3DAF-C77C-451C-87B4-4A3BE832D32C}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 3714750,
+            "widthEmu": 7524750,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "23",
+          "name": "metric-2",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{07E3A03E-6D6A-4591-8C4B-D4F6417AD07B}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "DRS test accuracy",
+                  "textStyle": {
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "DRS test accuracy",
+                    "textStyle": {
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 3848100,
+            "widthEmu": 3524250,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "24",
+          "name": "before-2",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{49B45D88-C041-404F-BFDF-D2295DAD94EE}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "55.0%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "55.0%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 5105400,
+            "yEmu": 3848100,
+            "widthEmu": 904875,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "25",
+          "name": "after-2",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{0C14D612-7D7A-44CC-B52B-EBD18B2F73C1}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "76.4%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "76.4%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 6534150,
+            "yEmu": 3848100,
+            "widthEmu": 1047750,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "26",
+          "name": "change-2",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{14C2B363-1CB9-4DC6-BF92-E61D16CF4274}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "+21.4",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "+21.4",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 7915275,
+            "yEmu": 3848100,
+            "widthEmu": 781050,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "27",
+          "name": "table-row-rule-2",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "E8EDF4"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{1E0D1AA7-E651-4AA4-ACA6-09C8578710F2}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 4229100,
+            "widthEmu": 7524750,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "28",
+          "name": "metric-3",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{48D42097-40E9-40D1-84FF-CB122B3D6320}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Throttle balanced accuracy",
+                  "textStyle": {
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Throttle balanced accuracy",
+                    "textStyle": {
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 4362450,
+            "widthEmu": 3524250,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "29",
+          "name": "before-3",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{98E2079F-A143-4D22-9B98-F52B8945D052}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "24.0%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "24.0%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 5105400,
+            "yEmu": 4362450,
+            "widthEmu": 904875,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "30",
+          "name": "after-3",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{05DCF402-7311-4402-B986-515CD3807543}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "47.1%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "47.1%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 6534150,
+            "yEmu": 4362450,
+            "widthEmu": 1047750,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "31",
+          "name": "change-3",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{D92292A6-BDFD-4132-B00C-B005D997EE99}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "+23.1",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "+23.1",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 7915275,
+            "yEmu": 4362450,
+            "widthEmu": 781050,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "32",
+          "name": "table-row-rule-3",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "E8EDF4"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{991678B4-F580-42CE-B573-482470AF50EF}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 4743450,
+            "widthEmu": 7524750,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "33",
+          "name": "metric-4",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{652185D6-BC06-4529-A5EC-CF73AB1F40F4}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "RPM test accuracy",
+                  "textStyle": {
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "RPM test accuracy",
+                    "textStyle": {
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 4876800,
+            "widthEmu": 3524250,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "34",
+          "name": "before-4",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{16ABEF1E-5987-48EE-935F-76554D3C4AA8}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "32.9%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "32.9%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 5105400,
+            "yEmu": 4876800,
+            "widthEmu": 904875,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "35",
+          "name": "after-4",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{13714580-5144-4BC1-A514-FB113650D496}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "44.0%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "44.0%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 6534150,
+            "yEmu": 4876800,
+            "widthEmu": 1047750,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "36",
+          "name": "change-4",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{BF12F34E-E508-4D47-AC83-4D472B62E09B}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "+11.1",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "+11.1",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 7915275,
+            "yEmu": 4876800,
+            "widthEmu": 781050,
+            "heightEmu": 285750
+          }
+        },
+        {
+          "id": "37",
+          "name": "table-row-rule-4",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "E8EDF4"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{382C7ADA-9730-4324-930D-D94943899AAF}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 5257800,
+            "widthEmu": 7524750,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "38",
+          "name": "chart-divider",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "E8EDF4"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{F909EDDB-C0DC-40A1-A394-33D247A312BF}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 9144000,
+            "yEmu": 2305050,
+            "widthEmu": 0,
+            "heightEmu": 3314700
+          }
+        },
+        {
+          "id": "39",
+          "name": "chart-title",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{AFA1B1A9-C428-492D-A97A-4CBA651D1298}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "F1 channel average",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1350,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1350,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 2
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "F1 channel average",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1350,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 9525000,
+            "yEmu": 2438400,
+            "widthEmu": 1714500,
+            "heightEmu": 323850
+          }
+        },
+        {
+          "id": "40",
+          "name": "chart-sub",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{A94C67E1-FBF2-4E2D-B106-F4174281ABAD}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "test accuracy",
+                  "textStyle": {
+                    "fontSize": 1125,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "5C6A7F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1125,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "5C6A7F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 2
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "test accuracy",
+                    "textStyle": {
+                      "fontSize": 1125,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "5C6A7F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 9525000,
+            "yEmu": 2743200,
+            "widthEmu": 1714500,
+            "heightEmu": 266700
+          }
+        },
+        {
+          "id": "41",
+          "name": "chart-base",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 11430,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{F16DB9F3-7A67-4324-8AC2-30A29EBC509B}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 9429750,
+            "yEmu": 5029200,
+            "widthEmu": 1905000,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "42",
+          "name": "before-bar",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 1,
+                "value": "7186A6"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "7186A6"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{CD91AC8C-11EB-411E-AB72-9F32634CEDDD}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 9734550,
+            "yEmu": 3680417,
+            "widthEmu": 495300,
+            "heightEmu": 1348783
+          }
+        },
+        {
+          "id": "43",
+          "name": "after-bar",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 1,
+                "value": "2FA06F"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "2FA06F"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{F0C8AC78-A9F3-4A21-9569-856A663B0E59}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 10572750,
+            "yEmu": 3457575,
+            "widthEmu": 495300,
+            "heightEmu": 1571625
+          }
+        },
+        {
+          "id": "44",
+          "name": "before-value",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{1341C15D-F9C7-45B7-AB8E-00A04B0C8421}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "46.0%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1200,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "7186A6"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1200,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "7186A6"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 2
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "46.0%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1200,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "7186A6"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 9544050,
+            "yEmu": 3413717,
+            "widthEmu": 876300,
+            "heightEmu": 228600
+          }
+        },
+        {
+          "id": "45",
+          "name": "after-value",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{502C21E1-3C56-4512-AE83-2A6C32CD4CF4}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "53.6%",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1200,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "2FA06F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1200,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "2FA06F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 2
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "53.6%",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1200,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "2FA06F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 10382250,
+            "yEmu": 3190875,
+            "widthEmu": 876300,
+            "heightEmu": 228600
+          }
+        },
+        {
+          "id": "46",
+          "name": "before-label",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{FD69D05A-E1D8-49CD-A2EF-3E5593526091}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Before avg",
+                  "textStyle": {
+                    "fontSize": 1050,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "5C6A7F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1050,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "5C6A7F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 2
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Before avg",
+                    "textStyle": {
+                      "fontSize": 1050,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "5C6A7F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 9505950,
+            "yEmu": 5200650,
+            "widthEmu": 952500,
+            "heightEmu": 228600
+          }
+        },
+        {
+          "id": "47",
+          "name": "after-label",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{5A667749-B67F-40C5-A086-ECBB2FE34070}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "After avg",
+                  "textStyle": {
+                    "fontSize": 1050,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "5C6A7F"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1050,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "5C6A7F"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 2
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "After avg",
+                    "textStyle": {
+                      "fontSize": 1050,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "5C6A7F"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 10363200,
+            "yEmu": 5200650,
+            "widthEmu": 952500,
+            "heightEmu": 228600
+          }
+        },
+        {
+          "id": "48",
+          "name": "page-marker",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{6EDE9D79-8204-4D39-8A99-EE1B1AEFB913}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "NEW",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 750,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "FFFFFF"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 750,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "FFFFFF"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 3
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "NEW",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 750,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "FFFFFF"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 11430000,
+            "yEmu": 6686550,
+            "widthEmu": 457200,
+            "heightEmu": 152400
+          }
+        }
+      ],
+      "background": {
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 1,
+            "value": "FFFFFF"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        }
+      },
+      "notesSlide": {
+        "id": "",
+        "elements": [
+          {
+            "id": "",
+            "name": "Slide Image Placeholder 1",
+            "type": 0,
+            "placeholderIndex": 0,
+            "placeholderType": "sldImg",
+            "zIndex": 0,
+            "paragraphs": [],
+            "effects": [],
+            "children": [],
+            "levelsStyles": [],
+            "citations": []
+          },
+          {
+            "id": "",
+            "name": "Notes Placeholder 2",
+            "type": 1,
+            "placeholderIndex": 1,
+            "placeholderType": "body",
+            "zIndex": 0,
+            "textStyle": {},
+            "paragraphs": [
+              {
+                "id": "",
+                "runs": [],
+                "textStyle": {},
+                "inlineNodes": []
+              }
+            ],
+            "effects": [],
+            "children": [],
+            "levelsStyles": [],
+            "citations": []
+          },
+          {
+            "id": "",
+            "name": "Slide Number Placeholder 3",
+            "type": 1,
+            "placeholderIndex": 5,
+            "placeholderType": "sldNum",
+            "zIndex": 0,
+            "textStyle": {},
+            "paragraphs": [
+              {
+                "id": "",
+                "runs": [],
+                "inlineNodes": [],
+                "textStyle": {}
+              }
+            ],
+            "effects": [],
+            "children": [],
+            "levelsStyles": [],
+            "citations": []
+          }
+        ],
+        "index": 0,
+        "useLayoutId": "/ppt/slideLayouts/slideLayout1.xml",
+        "widthEmu": 0,
+        "heightEmu": 0
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "elements": [],
+      "background": {
+        "ref": {
+          "index": 1001,
+          "schemeColor": "bg1"
+        }
+      },
+      "type": "master",
+      "bodyLevelStyles": [
+        {
+          "level": 1,
+          "textStyle": {
+            "fontSize": 2800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 228600,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 1000
+        },
+        {
+          "level": 2,
+          "textStyle": {
+            "fontSize": 2400,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 685800,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 3,
+          "textStyle": {
+            "fontSize": 2000,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 1143000,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 4,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 1600200,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 5,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 2057400,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 6,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 2514600,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 7,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 2971800,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 8,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 3429000,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 9,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 3886200,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        }
+      ],
+      "titleLevelStyles": [
+        {
+          "level": 1,
+          "textStyle": {
+            "fontSize": 4400,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mj-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 0
+        }
+      ],
+      "otherLevelStyles": [
+        {
+          "level": 1,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 0,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 2,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 457200,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 3,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 914400,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 4,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 1371600,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 5,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 1828800,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 6,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 2286000,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 7,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 2743200,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 8,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 3200400,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 9,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 3657600,
+            "tabStops": []
+          }
+        }
+      ],
+      "parentLayoutId": "",
+      "colorMap": {
+        "accent1": "accent1",
+        "accent2": "accent2",
+        "accent3": "accent3",
+        "accent4": "accent4",
+        "accent5": "accent5",
+        "accent6": "accent6",
+        "bg1": "lt1",
+        "bg2": "lt2",
+        "tx1": "dk1",
+        "tx2": "dk2",
+        "hlink": "hlink",
+        "folHlink": "folHlink"
+      },
+      "theme": {
+        "name": "ChatGPT",
+        "colorScheme": {
+          "name": "ChatGPT",
+          "colors": [
+            {
+              "name": "accent1",
+              "color": {
+                "type": 1,
+                "value": "156082"
+              }
+            },
+            {
+              "name": "accent2",
+              "color": {
+                "type": 1,
+                "value": "E97132"
+              }
+            },
+            {
+              "name": "accent3",
+              "color": {
+                "type": 1,
+                "value": "196B24"
+              }
+            },
+            {
+              "name": "accent4",
+              "color": {
+                "type": 1,
+                "value": "0F9ED5"
+              }
+            },
+            {
+              "name": "accent5",
+              "color": {
+                "type": 1,
+                "value": "A02B93"
+              }
+            },
+            {
+              "name": "accent6",
+              "color": {
+                "type": 1,
+                "value": "4EA72E"
+              }
+            },
+            {
+              "name": "dk1",
+              "color": {
+                "type": 1,
+                "value": "000000"
+              }
+            },
+            {
+              "name": "lt1",
+              "color": {
+                "type": 1,
+                "value": "FFFFFF"
+              }
+            },
+            {
+              "name": "dk2",
+              "color": {
+                "type": 1,
+                "value": "0E2841"
+              }
+            },
+            {
+              "name": "lt2",
+              "color": {
+                "type": 1,
+                "value": "E8E8E8"
+              }
+            },
+            {
+              "name": "hlink",
+              "color": {
+                "type": 1,
+                "value": "467886"
+              }
+            },
+            {
+              "name": "folHlink",
+              "color": {
+                "type": 1,
+                "value": "96607D"
+              }
+            }
+          ]
+        },
+        "fillStyleList": [
+          {
+            "type": 1,
+            "color": {
+              "type": 2,
+              "value": "phClr"
+            },
+            "gradientStops": [],
+            "pictureEffects": []
+          },
+          {
+            "type": 2,
+            "gradientStops": [
+              {
+                "position": 0,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 67000,
+                    "lumMod": 110000,
+                    "satMod": 105000
+                  }
+                }
+              },
+              {
+                "position": 50000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 73000,
+                    "lumMod": 105000,
+                    "satMod": 103000
+                  }
+                }
+              },
+              {
+                "position": 100000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 81000,
+                    "lumMod": 105000,
+                    "satMod": 109000
+                  }
+                }
+              }
+            ],
+            "gradientKind": 1,
+            "angleDeg": 90,
+            "isScaled": false,
+            "pictureEffects": []
+          },
+          {
+            "type": 2,
+            "gradientStops": [
+              {
+                "position": 0,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 94000,
+                    "lumMod": 102000,
+                    "satMod": 103000
+                  }
+                }
+              },
+              {
+                "position": 50000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "shade": 100000,
+                    "lumMod": 100000,
+                    "satMod": 110000
+                  }
+                }
+              },
+              {
+                "position": 100000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "shade": 78000,
+                    "lumMod": 99000,
+                    "satMod": 120000
+                  }
+                }
+              }
+            ],
+            "gradientKind": 1,
+            "angleDeg": 90,
+            "isScaled": false,
+            "pictureEffects": []
+          }
+        ],
+        "backgroundFillStyleList": [
+          {
+            "type": 1,
+            "color": {
+              "type": 2,
+              "value": "phClr"
+            },
+            "gradientStops": [],
+            "pictureEffects": []
+          },
+          {
+            "type": 1,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 95000,
+                "satMod": 170000
+              }
+            },
+            "gradientStops": [],
+            "pictureEffects": []
+          },
+          {
+            "type": 2,
+            "gradientStops": [
+              {
+                "position": 0,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 93000,
+                    "shade": 98000,
+                    "lumMod": 102000,
+                    "satMod": 150000
+                  }
+                }
+              },
+              {
+                "position": 50000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 98000,
+                    "shade": 90000,
+                    "lumMod": 103000,
+                    "satMod": 130000
+                  }
+                }
+              },
+              {
+                "position": 100000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "shade": 63000,
+                    "satMod": 120000
+                  }
+                }
+              }
+            ],
+            "gradientKind": 1,
+            "angleDeg": 90,
+            "isScaled": false,
+            "pictureEffects": []
+          }
+        ],
+        "lineStyleList": [
+          {
+            "style": 1,
+            "widthEmu": 12700,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "phClr"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            }
+          },
+          {
+            "style": 1,
+            "widthEmu": 19050,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "phClr"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            }
+          },
+          {
+            "style": 1,
+            "widthEmu": 25400,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "phClr"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            }
+          }
+        ],
+        "effectStyleList": [
+          {
+            "effects": []
+          },
+          {
+            "effects": []
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 16000
+                    }
+                  },
+                  "blurRadius": 57150,
+                  "distance": 19050,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 6000
+                    }
+                  },
+                  "blurRadius": 19050,
+                  "distance": 9525,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 8000
+                    }
+                  },
+                  "blurRadius": 28575,
+                  "distance": 9525,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 10000
+                    }
+                  },
+                  "blurRadius": 57150,
+                  "distance": 19050,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 12000
+                    }
+                  },
+                  "blurRadius": 114300,
+                  "distance": 38100,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 16000
+                    }
+                  },
+                  "blurRadius": 171450,
+                  "distance": 57150,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 24000
+                    }
+                  },
+                  "blurRadius": 266700,
+                  "distance": 95250,
+                  "direction": 5400000
+                }
+              }
+            ]
+          }
+        ],
+        "fontScheme": {
+          "name": "Office",
+          "majorFont": {
+            "latinTypeface": "Calibri Light",
+            "eastAsianTypeface": "Calibri Light",
+            "complexScriptTypeface": "Calibri Light",
+            "supplementalFonts": []
+          },
+          "minorFont": {
+            "latinTypeface": "Calibri",
+            "eastAsianTypeface": "Calibri",
+            "complexScriptTypeface": "Calibri",
+            "supplementalFonts": []
+          }
+        }
+      },
+      "slideGuides": []
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "elements": [],
+      "type": "title",
+      "bodyLevelStyles": [],
+      "titleLevelStyles": [],
+      "otherLevelStyles": [],
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "slideGuides": []
+    }
+  ],
+  "theme": {
+    "name": "ChatGPT",
+    "colorScheme": {
+      "name": "ChatGPT",
+      "colors": [
+        {
+          "name": "accent1",
+          "color": {
+            "type": 1,
+            "value": "156082"
+          }
+        },
+        {
+          "name": "accent2",
+          "color": {
+            "type": 1,
+            "value": "E97132"
+          }
+        },
+        {
+          "name": "accent3",
+          "color": {
+            "type": 1,
+            "value": "196B24"
+          }
+        },
+        {
+          "name": "accent4",
+          "color": {
+            "type": 1,
+            "value": "0F9ED5"
+          }
+        },
+        {
+          "name": "accent5",
+          "color": {
+            "type": 1,
+            "value": "A02B93"
+          }
+        },
+        {
+          "name": "accent6",
+          "color": {
+            "type": 1,
+            "value": "4EA72E"
+          }
+        },
+        {
+          "name": "dk1",
+          "color": {
+            "type": 1,
+            "value": "000000"
+          }
+        },
+        {
+          "name": "lt1",
+          "color": {
+            "type": 1,
+            "value": "FFFFFF"
+          }
+        },
+        {
+          "name": "dk2",
+          "color": {
+            "type": 1,
+            "value": "0E2841"
+          }
+        },
+        {
+          "name": "lt2",
+          "color": {
+            "type": 1,
+            "value": "E8E8E8"
+          }
+        },
+        {
+          "name": "hlink",
+          "color": {
+            "type": 1,
+            "value": "467886"
+          }
+        },
+        {
+          "name": "folHlink",
+          "color": {
+            "type": 1,
+            "value": "96607D"
+          }
+        }
+      ]
+    },
+    "fillStyleList": [
+      {
+        "type": 1,
+        "color": {
+          "type": 2,
+          "value": "phClr"
+        },
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      {
+        "type": 2,
+        "gradientStops": [
+          {
+            "position": 0,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 67000,
+                "lumMod": 110000,
+                "satMod": 105000
+              }
+            }
+          },
+          {
+            "position": 50000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 73000,
+                "lumMod": 105000,
+                "satMod": 103000
+              }
+            }
+          },
+          {
+            "position": 100000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 81000,
+                "lumMod": 105000,
+                "satMod": 109000
+              }
+            }
+          }
+        ],
+        "gradientKind": 1,
+        "angleDeg": 90,
+        "isScaled": false,
+        "pictureEffects": []
+      },
+      {
+        "type": 2,
+        "gradientStops": [
+          {
+            "position": 0,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 94000,
+                "lumMod": 102000,
+                "satMod": 103000
+              }
+            }
+          },
+          {
+            "position": 50000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "shade": 100000,
+                "lumMod": 100000,
+                "satMod": 110000
+              }
+            }
+          },
+          {
+            "position": 100000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "shade": 78000,
+                "lumMod": 99000,
+                "satMod": 120000
+              }
+            }
+          }
+        ],
+        "gradientKind": 1,
+        "angleDeg": 90,
+        "isScaled": false,
+        "pictureEffects": []
+      }
+    ],
+    "backgroundFillStyleList": [
+      {
+        "type": 1,
+        "color": {
+          "type": 2,
+          "value": "phClr"
+        },
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      {
+        "type": 1,
+        "color": {
+          "type": 2,
+          "value": "phClr",
+          "transform": {
+            "tint": 95000,
+            "satMod": 170000
+          }
+        },
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      {
+        "type": 2,
+        "gradientStops": [
+          {
+            "position": 0,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 93000,
+                "shade": 98000,
+                "lumMod": 102000,
+                "satMod": 150000
+              }
+            }
+          },
+          {
+            "position": 50000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 98000,
+                "shade": 90000,
+                "lumMod": 103000,
+                "satMod": 130000
+              }
+            }
+          },
+          {
+            "position": 100000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "shade": 63000,
+                "satMod": 120000
+              }
+            }
+          }
+        ],
+        "gradientKind": 1,
+        "angleDeg": 90,
+        "isScaled": false,
+        "pictureEffects": []
+      }
+    ],
+    "lineStyleList": [
+      {
+        "style": 1,
+        "widthEmu": 12700,
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 2,
+            "value": "phClr"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        }
+      },
+      {
+        "style": 1,
+        "widthEmu": 19050,
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 2,
+            "value": "phClr"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        }
+      },
+      {
+        "style": 1,
+        "widthEmu": 25400,
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 2,
+            "value": "phClr"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        }
+      }
+    ],
+    "effectStyleList": [
+      {
+        "effects": []
+      },
+      {
+        "effects": []
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 16000
+                }
+              },
+              "blurRadius": 57150,
+              "distance": 19050,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 6000
+                }
+              },
+              "blurRadius": 19050,
+              "distance": 9525,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 8000
+                }
+              },
+              "blurRadius": 28575,
+              "distance": 9525,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 10000
+                }
+              },
+              "blurRadius": 57150,
+              "distance": 19050,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 12000
+                }
+              },
+              "blurRadius": 114300,
+              "distance": 38100,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 16000
+                }
+              },
+              "blurRadius": 171450,
+              "distance": 57150,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 24000
+                }
+              },
+              "blurRadius": 266700,
+              "distance": 95250,
+              "direction": 5400000
+            }
+          }
+        ]
+      }
+    ],
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light",
+        "supplementalFonts": []
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri",
+        "supplementalFonts": []
+      }
+    }
+  },
+  "charts": [],
+  "images": [],
+  "contentReferences": [],
+  "fonts": [],
+  "tableStyles": {
+    "defaultStyleId": "{5C22544A-7EE6-4342-B048-85BDC9FD1C3A}",
+    "outerXml": "<a:tblStyleLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" def=\"{5C22544A-7EE6-4342-B048-85BDC9FD1C3A}\" />"
+  },
+  "textStyles": [],
+  "people": [],
+  "threads": []
+}

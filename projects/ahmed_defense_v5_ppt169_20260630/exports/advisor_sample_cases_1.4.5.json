@@ -1,0 +1,162 @@
+{
+  "correct": [
+    {
+      "domain": "Earthquake",
+      "file": "quake_global_global_M1plus_20100101_20141231_cumulative_energy_c1000_0.csv",
+      "n_elements": 1000,
+      "true": "timsort",
+      "pred": "timsort",
+      "correct": true,
+      "runtimes_us": {
+        "introsort": 12.12,
+        "heapsort": 11.71,
+        "timsort": 0.79
+      },
+      "regret_us": 0.0,
+      "margin_us": 10.92,
+      "pmax": 1.0,
+      "features": {
+        "length_norm": 0.0054,
+        "adj_sorted_ratio": 1.0,
+        "duplicate_ratio": 0.0,
+        "runs_ratio": 0.001,
+        "inversion_ratio": 0.0,
+        "entropy_ratio": 0.6794,
+        "top5_freq_ratio": 0.005,
+        "longest_run_ratio": 1.0
+      }
+    },
+    {
+      "domain": "Earthquake",
+      "file": "quake_turkey_global_M4plus_20100101_20141231_events_per_day_c200_2_SHUF.csv",
+      "n_elements": 163,
+      "true": "heapsort",
+      "pred": "heapsort",
+      "correct": true,
+      "runtimes_us": {
+        "introsort": 0.75,
+        "heapsort": 0.71,
+        "timsort": 0.88
+      },
+      "regret_us": 0.0,
+      "margin_us": 0.04,
+      "pmax": 0.962,
+      "features": {
+        "length_norm": 0.0009,
+        "adj_sorted_ratio": 0.8519,
+        "duplicate_ratio": 0.9755,
+        "runs_ratio": 0.2822,
+        "inversion_ratio": 0.1716,
+        "entropy_ratio": 0.1597,
+        "top5_freq_ratio": 1.0,
+        "longest_run_ratio": 0.1534
+      }
+    },
+    {
+      "domain": "Weather",
+      "file": "weather_Nairobi_2015_2020_temp_rolling_168h_mean.csv",
+      "n_elements": 52441,
+      "true": "introsort",
+      "pred": "introsort",
+      "correct": true,
+      "runtimes_us": {
+        "introsort": 1338.13,
+        "heapsort": 1338.46,
+        "timsort": 1481.87
+      },
+      "regret_us": 0.0,
+      "margin_us": 0.33,
+      "pmax": 0.847,
+      "features": {
+        "length_norm": 0.2848,
+        "adj_sorted_ratio": 0.5196,
+        "duplicate_ratio": 0.8034,
+        "runs_ratio": 0.1275,
+        "inversion_ratio": 0.5956,
+        "entropy_ratio": 0.8989,
+        "top5_freq_ratio": 0.0026,
+        "longest_run_ratio": 0.0032
+      }
+    }
+  ],
+  "failed": [
+    {
+      "domain": "Stock",
+      "file": "stock_HUT_10y_1d_Volume_QBIN50.csv",
+      "n_elements": 2007,
+      "true": "introsort",
+      "pred": "heapsort",
+      "correct": false,
+      "runtimes_us": {
+        "introsort": 11.54,
+        "heapsort": 11.54,
+        "timsort": 12.67
+      },
+      "regret_us": 0.0,
+      "margin_us": 0.0,
+      "pmax": 0.382,
+      "features": {
+        "length_norm": 0.0109,
+        "adj_sorted_ratio": 0.7443,
+        "duplicate_ratio": 0.9801,
+        "runs_ratio": 0.3179,
+        "inversion_ratio": 0.0757,
+        "entropy_ratio": 0.5857,
+        "top5_freq_ratio": 0.6557,
+        "longest_run_ratio": 0.3572
+      }
+    },
+    {
+      "domain": "Stock",
+      "file": "stock_NFLX_max_1d_pct_change_QBIN50.csv",
+      "n_elements": 5981,
+      "true": "introsort",
+      "pred": "heapsort",
+      "correct": false,
+      "runtimes_us": {
+        "introsort": 28.75,
+        "heapsort": 28.75,
+        "timsort": 65.71
+      },
+      "regret_us": 0.0,
+      "margin_us": 0.0,
+      "pmax": 0.58,
+      "features": {
+        "length_norm": 0.0325,
+        "adj_sorted_ratio": 0.5973,
+        "duplicate_ratio": 0.994,
+        "runs_ratio": 0.5763,
+        "inversion_ratio": 0.4036,
+        "entropy_ratio": 0.4061,
+        "top5_freq_ratio": 0.8677,
+        "longest_run_ratio": 0.0017
+      }
+    },
+    {
+      "domain": "Stock",
+      "file": "stock_COP_10y_1d_Volume_REV.csv",
+      "n_elements": 2513,
+      "true": "introsort",
+      "pred": "heapsort",
+      "correct": false,
+      "runtimes_us": {
+        "introsort": 43.83,
+        "heapsort": 199.04,
+        "timsort": 131.29
+      },
+      "regret_us": 155.21,
+      "margin_us": 87.46,
+      "pmax": 0.452,
+      "features": {
+        "length_norm": 0.0136,
+        "adj_sorted_ratio": 0.5151,
+        "duplicate_ratio": 0.0159,
+        "runs_ratio": 0.6068,
+        "inversion_ratio": 0.4562,
+        "entropy_ratio": 0.5367,
+        "top5_freq_ratio": 0.0044,
+        "longest_run_ratio": 0.0028
+      }
+    }
+  ]
+}

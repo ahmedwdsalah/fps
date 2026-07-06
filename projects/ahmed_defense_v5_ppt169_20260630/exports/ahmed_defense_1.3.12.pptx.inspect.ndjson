@@ -1,0 +1,167 @@
+{"kind":"deck","id":"pr/uve0bq","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Section Header","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Two Content","type":"twoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Comparison","type":"twoTxTwoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 5","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","type":"titleOnly","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Blank","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Content with Caption","type":"objTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"Picture with Caption","type":"picTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"picture","type":"picture"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"Title and Vertical Text","type":"vertTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"Vertical Title and Text","type":"vertTitleAndTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"1/27/13"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"slide","id":"sl/2x4nap4r","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/mhk3q5o7","slide":1,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/2x4nap4r","slide":1,"text":""}
+{"kind":"slide","id":"sl/pg3ex0nu","slide":2,"title":"Slide 2","textShapes":0}
+{"kind":"image","id":"im/bi9s36hc","slide":2,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/pg3ex0nu","slide":2,"text":""}
+{"kind":"slide","id":"sl/s72x4nap","slide":3,"title":"Slide 3","textShapes":0}
+{"kind":"image","id":"im/epkzupwb","slide":3,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/s72x4nap","slide":3,"text":""}
+{"kind":"slide","id":"sl/val87ed8","slide":4,"title":"Slide 4","textShapes":0}
+{"kind":"image","id":"im/87ed8bat","slide":4,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/val87ed8","slide":4,"text":""}
+{"kind":"slide","id":"sl/mlkjm1cf","slide":5,"title":"Slide 5","textShapes":0}
+{"kind":"image","id":"im/al87ed8b","slide":5,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/mlkjm1cf","slide":5,"text":""}
+{"kind":"slide","id":"sl/58z25kb6","slide":6,"title":"Slide 6","textShapes":0}
+{"kind":"image","id":"im/czed8v6p","slide":6,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/58z25kb6","slide":6,"text":""}
+{"kind":"slide","id":"sl/0z61032l","slide":7,"title":"Slide 7","textShapes":0}
+{"kind":"image","id":"im/32lszqtc","slide":7,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/0z61032l","slide":7,"text":""}
+{"kind":"slide","id":"sl/fu18jqh0","slide":8,"title":"Slide 8","textShapes":0}
+{"kind":"image","id":"im/czed8v6p","slide":8,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/fu18jqh0","slide":8,"text":""}
+{"kind":"slide","id":"sl/qh0fepkz","slide":9,"title":"Slide 9","textShapes":0}
+{"kind":"image","id":"im/e1w7mp0b","slide":9,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/qh0fepkz","slide":9,"text":""}
+{"kind":"slide","id":"sl/29gr2p8n","slide":10,"title":"Slide 10","textShapes":0}
+{"kind":"image","id":"im/36hcrmhk","slide":10,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/29gr2p8n","slide":10,"text":""}
+{"kind":"slide","id":"sl/re1w7mp0","slide":11,"title":"Slide 11","textShapes":0}
+{"kind":"image","id":"im/szqtcj6t","slide":11,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/re1w7mp0","slide":11,"text":""}
+{"kind":"slide","id":"sl/4fu18jqh","slide":12,"title":"Slide 12","textShapes":0}
+{"kind":"image","id":"im/2t83itgf","slide":12,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/4fu18jqh","slide":12,"text":""}
+{"kind":"slide","id":"sl/lwval87e","slide":13,"title":"Slide 13","textShapes":0}
+{"kind":"image","id":"im/7y1kre1w","slide":13,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/lwval87e","slide":13,"text":""}
+{"kind":"slide","id":"sl/25kb6xkf","slide":14,"title":"Slide 14","textShapes":0}
+{"kind":"image","id":"im/ytsvu9kn","slide":14,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/25kb6xkf","slide":14,"text":""}
+{"kind":"slide","id":"sl/7y1kre1w","slide":15,"title":"Slide 15","textShapes":0}
+{"kind":"image","id":"im/wval87ed","slide":15,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/7y1kre1w","slide":15,"text":""}
+{"kind":"slide","id":"sl/8z25kb6x","slide":16,"title":"Slide 16","textShapes":0}
+{"kind":"image","id":"im/byhgn29g","slide":16,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/8z25kb6x","slide":16,"text":""}
+{"kind":"slide","id":"sl/54zidony","slide":17,"title":"Slide 17","textShapes":0}
+{"kind":"image","id":"im/bq1oryts","slide":17,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/54zidony","slide":17,"text":""}
+{"kind":"slide","id":"sl/m58z25kb","slide":18,"title":"Slide 18","textShapes":0}
+{"kind":"image","id":"im/7y1kre1w","slide":18,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/m58z25kb","slide":18,"text":""}
+{"kind":"slide","id":"sl/bat47y1k","slide":19,"title":"Slide 19","textShapes":0}
+{"kind":"image","id":"im/gr2p8nqx","slide":19,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/bat47y1k","slide":19,"text":""}
+{"kind":"slide","id":"sl/j2t83itg","slide":20,"title":"Slide 20","textShapes":0}
+{"kind":"image","id":"im/kzupwb2h","slide":20,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/j2t83itg","slide":20,"text":""}
+{"kind":"slide","id":"sl/mhk3q5o7","slide":21,"title":"Slide 21","textShapes":0}
+{"kind":"image","id":"im/a5gbq1or","slide":21,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/mhk3q5o7","slide":21,"text":""}
+{"kind":"slide","id":"sl/5wjudg7a","slide":22,"title":"Slide 22","textShapes":0}
+{"kind":"image","id":"im/36hcrmhk","slide":22,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/5wjudg7a","slide":22,"text":""}
+{"kind":"slide","id":"sl/crmhk3q5","slide":23,"title":"Slide 23","textShapes":0}
+{"kind":"image","id":"im/fmlkjm1c","slide":23,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/crmhk3q5","slide":23,"text":""}
+{"kind":"slide","id":"sl/optuna-3jl70gpp","slide":24,"title":"Optuna tuning strengthened the F1 channel models","textShapes":33}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":24,"name":"top-maroon-strip","bbox":[0,0,1536,15.6]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":24,"name":"top-orange-strip","bbox":[0,15.6,1536,10.8]}
+{"kind":"shape","id":"sh/7u54zido","slide":24,"name":"bottom-maroon-strip","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":24,"name":"title","text":"Optuna tuning strengthened the F1 channel models","textPreview":"Optuna tuning strengthened the F1 channel models","textChars":48,"textLines":1,"bbox":[103.2,69.6,1248,64.8]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":24,"name":"title-rule","bbox":[103.2,141.6,1288.8,0]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":24,"name":"searched-settings","text":"Optuna searched: tree count, tree depth, learning rate, row/feature sampling, and regularisation","textPreview":"Optuna searched: tree count, tree depth, learning rate, row/feature sampling, and regularisation","textChars":96,"textLines":1,"bbox":[151.2,184.8,1236,38.4]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":24,"name":"settings-rule","bbox":[151.2,240,1240.8,0]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":24,"name":"h-metric","text":"Metric","textPreview":"Metric","textChars":6,"textLines":1,"bbox":[151.2,285.6,360,33.6]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":24,"name":"h-before","text":"Before","textPreview":"Before","textChars":6,"textLines":1,"bbox":[643.2,285.6,144,33.6]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":24,"name":"h-after","text":"After Optuna","textPreview":"After Optuna","textChars":12,"textLines":1,"bbox":[823.2,285.6,158.4,33.6]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":24,"name":"h-change","text":"Change","textPreview":"Change","textChars":6,"textLines":1,"bbox":[997.2,285.6,108,33.6]}
+{"kind":"shape","id":"sh/byhgn29g","slide":24,"name":"table-head-rule","bbox":[151.2,330,948,0]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":24,"name":"metric-0","text":"F1 avg test accuracy","textPreview":"F1 avg test accuracy","textChars":20,"textLines":1,"bbox":[151.2,355.2,444,36]}
+{"kind":"textbox","id":"sh/bulwval8","slide":24,"name":"before-0","text":"46.0%","textPreview":"46.0%","textChars":5,"textLines":1,"bbox":[643.2,355.2,114,36]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":24,"name":"after-0","text":"53.6%","textPreview":"53.6%","textChars":5,"textLines":1,"bbox":[823.2,355.2,132,36]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":24,"name":"change-0","text":"+7.6","textPreview":"+7.6","textChars":4,"textLines":1,"bbox":[997.2,355.2,98.4,36]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":24,"name":"table-row-rule-0","bbox":[151.2,403.2,948,0]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":24,"name":"metric-1","text":"F1 avg balanced accuracy","textPreview":"F1 avg balanced accuracy","textChars":24,"textLines":1,"bbox":[151.2,420,444,36]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":24,"name":"before-1","text":"48.2%","textPreview":"48.2%","textChars":5,"textLines":1,"bbox":[643.2,420,114,36]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":24,"name":"after-1","text":"49.8%","textPreview":"49.8%","textChars":5,"textLines":1,"bbox":[823.2,420,132,36]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":24,"name":"change-1","text":"+1.6","textPreview":"+1.6","textChars":4,"textLines":1,"bbox":[997.2,420,98.4,36]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":24,"name":"table-row-rule-1","bbox":[151.2,468,948,0]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":24,"name":"metric-2","text":"DRS test accuracy","textPreview":"DRS test accuracy","textChars":17,"textLines":1,"bbox":[151.2,484.8,444,36]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":24,"name":"before-2","text":"55.0%","textPreview":"55.0%","textChars":5,"textLines":1,"bbox":[643.2,484.8,114,36]}
+{"kind":"textbox","id":"sh/9knih4by","slide":24,"name":"after-2","text":"76.4%","textPreview":"76.4%","textChars":5,"textLines":1,"bbox":[823.2,484.8,132,36]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":24,"name":"change-2","text":"+21.4","textPreview":"+21.4","textChars":5,"textLines":1,"bbox":[997.2,484.8,98.4,36]}
+{"kind":"shape","id":"sh/cj6tovah","slide":24,"name":"table-row-rule-2","bbox":[151.2,532.8,948,0]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":24,"name":"metric-3","text":"Throttle balanced accuracy","textPreview":"Throttle balanced accuracy","textChars":26,"textLines":1,"bbox":[151.2,549.6,444,36]}
+{"kind":"textbox","id":"sh/cvixczed","slide":24,"name":"before-3","text":"24.0%","textPreview":"24.0%","textChars":5,"textLines":1,"bbox":[643.2,549.6,114,36]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":24,"name":"after-3","text":"47.1%","textPreview":"47.1%","textChars":5,"textLines":1,"bbox":[823.2,549.6,132,36]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":24,"name":"change-3","text":"+23.1","textPreview":"+23.1","textChars":5,"textLines":1,"bbox":[997.2,549.6,98.4,36]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":24,"name":"table-row-rule-3","bbox":[151.2,597.6,948,0]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":24,"name":"metric-4","text":"RPM test accuracy","textPreview":"RPM test accuracy","textChars":17,"textLines":1,"bbox":[151.2,614.4,444,36]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":24,"name":"before-4","text":"32.9%","textPreview":"32.9%","textChars":5,"textLines":1,"bbox":[643.2,614.4,114,36]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":24,"name":"after-4","text":"44.0%","textPreview":"44.0%","textChars":5,"textLines":1,"bbox":[823.2,614.4,132,36]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":24,"name":"change-4","text":"+11.1","textPreview":"+11.1","textChars":5,"textLines":1,"bbox":[997.2,614.4,98.4,36]}
+{"kind":"shape","id":"sh/032lszqt","slide":24,"name":"table-row-rule-4","bbox":[151.2,662.4,948,0]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":24,"name":"chart-divider","bbox":[1152,290.4,0,417.6]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":24,"name":"chart-title","text":"F1 channel average","textPreview":"F1 channel average","textChars":18,"textLines":1,"bbox":[1200,307.2,216,40.8]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":24,"name":"chart-sub","text":"test accuracy","textPreview":"test accuracy","textChars":13,"textLines":1,"bbox":[1200,345.6,216,33.6]}
+{"kind":"shape","id":"sh/lwval87e","slide":24,"name":"chart-base","bbox":[1188,633.6,240,0]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":24,"name":"before-bar","bbox":[1226.4,463.67,62.4,169.93]}
+{"kind":"shape","id":"sh/32lszqtc","slide":24,"name":"after-bar","bbox":[1332,435.6,62.4,198]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":24,"name":"before-value","text":"46.0%","textPreview":"46.0%","textChars":5,"textLines":1,"bbox":[1202.4,430.07,110.4,28.8]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":24,"name":"after-value","text":"53.6%","textPreview":"53.6%","textChars":5,"textLines":1,"bbox":[1308,402,110.4,28.8]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":24,"name":"before-label","text":"Before avg","textPreview":"Before avg","textChars":10,"textLines":1,"bbox":[1197.6,655.2,120,28.8]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":24,"name":"after-label","text":"After avg","textPreview":"After avg","textChars":9,"textLines":1,"bbox":[1305.6,655.2,120,28.8]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":24,"name":"page-marker","text":"24/28","textPreview":"24/28","textChars":5,"textLines":1,"bbox":[1440,842.4,57.6,19.2]}
+{"kind":"notes","id":"nt/optuna-3jl70gpp","slide":24,"text":""}
+{"kind":"slide","id":"sl/usecases-jf8dm1a1","slide":25,"title":"Where this selector can be used","textShapes":14}
+{"kind":"shape","id":"sh/kzupwb2h","slide":25,"name":"top-maroon-strip","bbox":[0,0,1536,15.6]}
+{"kind":"shape","id":"sh/9knih4by","slide":25,"name":"top-orange-strip","bbox":[0,15.6,1536,10.8]}
+{"kind":"shape","id":"sh/2t83itgf","slide":25,"name":"bottom-maroon-strip","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":25,"name":"title","text":"Where this selector can be used","textPreview":"Where this selector can be used","textChars":31,"textLines":1,"bbox":[103.2,69.6,1044,64.8]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":25,"name":"title-rule","bbox":[103.2,141.6,1288.8,0]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":25,"name":"row-1-number","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[151.2,176.4,55.2,81.6]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":25,"name":"row-1-text","text":"Database query engines: choose sorting method for ORDER BY, joins, grouping, and index builds","textPreview":"Database query engines: choose sorting method for ORDER BY, joins, grouping, and index builds","textChars":93,"textLines":1,"bbox":[206.4,175.2,1180.8,69.6]}
+{"kind":"shape","id":"sh/je9cvixc","slide":25,"name":"row-1-rule","bbox":[206.4,254.4,1180.8,0]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":25,"name":"row-2-number","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[151.2,274.8,55.2,81.6]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":25,"name":"row-2-text","text":"ETL and analytics pipelines: choose sorting method for IDs, timestamps, prices, partitions, and batches","textPreview":"ETL and analytics pipelines: choose sorting method for IDs, timestamps, prices, partitions, and batches","textChars":103,"textLines":1,"bbox":[206.4,273.6,1180.8,69.6]}
+{"kind":"shape","id":"sh/czed8v6p","slide":25,"name":"row-2-rule","bbox":[206.4,352.8,1180.8,0]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":25,"name":"row-3-number","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[151.2,373.2,55.2,81.6]}
+{"kind":"textbox","id":"sh/cbulwval","slide":25,"name":"row-3-text","text":"Search and ranking systems: choose sorting method for candidate scores before top-k output","textPreview":"Search and ranking systems: choose sorting method for candidate scores before top-k output","textChars":90,"textLines":1,"bbox":[206.4,372,1180.8,69.6]}
+{"kind":"shape","id":"sh/d0z61032","slide":25,"name":"row-3-rule","bbox":[206.4,451.2,1180.8,0]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":25,"name":"row-4-number","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[151.2,471.6,55.2,81.6]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":25,"name":"row-4-text","text":"Financial time-series processing: choose sorting method for rolling windows, events, prices, and order-book values","textPreview":"Financial time-series processing: choose sorting method for rolling windows, events, prices, and order-book values","textChars":114,"textLines":1,"bbox":[206.4,470.4,1180.8,69.6]}
+{"kind":"shape","id":"sh/dcbulwva","slide":25,"name":"row-4-rule","bbox":[206.4,549.6,1180.8,0]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":25,"name":"row-5-number","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[151.2,570,55.2,81.6]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":25,"name":"row-5-text","text":"Scientific and telemetry processing: choose sorting method for sensor traces, physics logs, weather data, and F1 telemetry","textPreview":"Scientific and telemetry processing: choose sorting method for sensor traces, physics logs, weather data, and F1 telemetry","textChars":122,"textLines":1,"bbox":[206.4,568.8,1180.8,69.6]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":25,"name":"row-5-rule","bbox":[206.4,648,1180.8,0]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":25,"name":"row-6-number","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[151.2,668.4,55.2,81.6]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":25,"name":"row-6-text","text":"Selector action: extract features first, predict fastest algorithm, choose Introsort / Heapsort / Timsort","textPreview":"Selector action: extract features first, predict fastest algorithm, choose Introsort / Heapsort / Timsort","textChars":105,"textLines":1,"bbox":[206.4,667.2,1180.8,69.6]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":25,"name":"row-6-rule","bbox":[206.4,746.4,1180.8,0]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":25,"name":"page-marker","text":"25/28","textPreview":"25/28","textChars":5,"textLines":1,"bbox":[1440,842.4,57.6,19.2]}
+{"kind":"notes","id":"nt/usecases-jf8dm1a1","slide":25,"text":""}
+{"kind":"slide","id":"sl/bq1oryts","slide":26,"title":"Slide 26","textShapes":0}
+{"kind":"image","id":"im/wra5gbq1","slide":26,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/bq1oryts","slide":26,"text":""}
+{"kind":"slide","id":"sl/61032lsz","slide":27,"title":"Slide 27","textShapes":0}
+{"kind":"image","id":"im/2hwfyxob","slide":27,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/61032lsz","slide":27,"text":""}
+{"kind":"slide","id":"sl/psfil0rq","slide":28,"title":"Slide 28","textShapes":0}
+{"kind":"image","id":"im/4byhgn29","slide":28,"name":"Picture 1","bbox":[0,0,1536,864]}
+{"kind":"notes","id":"nt/psfil0rq","slide":28,"text":""}

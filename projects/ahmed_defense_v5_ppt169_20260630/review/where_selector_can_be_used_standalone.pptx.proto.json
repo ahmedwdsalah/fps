@@ -1,0 +1,3526 @@
+{
+  "id": "7ofp0u",
+  "slides": [
+    {
+      "id": "2x4nap4r",
+      "index": 0,
+      "useLayoutId": "/ppt/slideLayouts/slideLayout1.xml",
+      "widthEmu": 12192000,
+      "heightEmu": 6858000,
+      "creationId": "1641666321",
+      "elements": [
+        {
+          "id": "1",
+          "name": "top-maroon-strip",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 1,
+                "value": "8F1D3A"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "8F1D3A"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{00BDC0C6-FDEB-41C6-9E2B-35240F3A5505}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 0,
+            "yEmu": 0,
+            "widthEmu": 12192000,
+            "heightEmu": 123825
+          }
+        },
+        {
+          "id": "2",
+          "name": "top-orange-strip",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 1,
+                "value": "F4511E"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "F4511E"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{3FAF407E-0A10-419A-9756-20306B00DFEF}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 0,
+            "yEmu": 123825,
+            "widthEmu": 12192000,
+            "heightEmu": 85725
+          }
+        },
+        {
+          "id": "3",
+          "name": "bottom-maroon-strip",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 1,
+                "value": "8F1D3A"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "8F1D3A"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{6CBB8F6E-41FA-46DC-A9D2-26646038CF18}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 0,
+            "yEmu": 6667500,
+            "widthEmu": 12192000,
+            "heightEmu": 190500
+          }
+        },
+        {
+          "id": "4",
+          "name": "title",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{2FFBB546-CDF1-43D9-8654-F2ACF41256A9}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Where this selector can be used",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 2550,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 2550,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 1
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Where this selector can be used",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 2550,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 819150,
+            "yEmu": 552450,
+            "widthEmu": 8286750,
+            "heightEmu": 514350
+          }
+        },
+        {
+          "id": "5",
+          "name": "title-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 15240,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{3D0B3F7A-698E-4F89-A95F-E387EEE0B882}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 819150,
+            "yEmu": 1123950,
+            "widthEmu": 10229850,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "6",
+          "name": "row-1-number",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{AF59C9D5-DD0D-4158-8236-D519EEBC0521}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "01",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "F4511E"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 1
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "01",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 1400175,
+            "widthEmu": 438150,
+            "heightEmu": 647700
+          }
+        },
+        {
+          "id": "7",
+          "name": "row-1-text",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{DA055A48-42E8-4EAD-83E5-C0AA86CF78E2}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Database query engines: ",
+                  "textStyle": {
+                    "bold": true,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                },
+                {
+                  "id": "",
+                  "text": "choose sorting method for ORDER BY, joins, grouping, and index builds",
+                  "textStyle": {
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Database query engines: ",
+                    "textStyle": {
+                      "bold": true,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                },
+                {
+                  "textRun": {
+                    "text": "choose sorting method for ORDER BY, joins, grouping, and index builds",
+                    "textStyle": {
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 1390650,
+            "widthEmu": 9372600,
+            "heightEmu": 552450
+          }
+        },
+        {
+          "id": "8",
+          "name": "row-1-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{2352A49E-D951-46A5-9FE6-59A8823C1781}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 2019300,
+            "widthEmu": 9372600,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "9",
+          "name": "row-2-number",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{CF57194A-0A21-4525-B77F-556A64DBEA23}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "02",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "F4511E"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 1
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "02",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 2181225,
+            "widthEmu": 438150,
+            "heightEmu": 647700
+          }
+        },
+        {
+          "id": "10",
+          "name": "row-2-text",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{4AE237CE-29AF-422C-A9E8-E89C2AC5C8FA}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "ETL and analytics pipelines: ",
+                  "textStyle": {
+                    "bold": true,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                },
+                {
+                  "id": "",
+                  "text": "choose sorting method for IDs, timestamps, prices, partitions, and batches",
+                  "textStyle": {
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "ETL and analytics pipelines: ",
+                    "textStyle": {
+                      "bold": true,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                },
+                {
+                  "textRun": {
+                    "text": "choose sorting method for IDs, timestamps, prices, partitions, and batches",
+                    "textStyle": {
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 2171700,
+            "widthEmu": 9372600,
+            "heightEmu": 552450
+          }
+        },
+        {
+          "id": "11",
+          "name": "row-2-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{75CA92A5-E256-4F03-B0ED-EBAB2516F0AC}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 2800350,
+            "widthEmu": 9372600,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "12",
+          "name": "row-3-number",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{3E312EC0-CFEE-459D-86C4-A7E2C77251E7}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "03",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "F4511E"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 1
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "03",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 2962275,
+            "widthEmu": 438150,
+            "heightEmu": 647700
+          }
+        },
+        {
+          "id": "13",
+          "name": "row-3-text",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{8EE274DD-505E-4559-876A-D640135DE20E}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Search and ranking systems: ",
+                  "textStyle": {
+                    "bold": true,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                },
+                {
+                  "id": "",
+                  "text": "choose sorting method for candidate scores before top-k output",
+                  "textStyle": {
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Search and ranking systems: ",
+                    "textStyle": {
+                      "bold": true,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                },
+                {
+                  "textRun": {
+                    "text": "choose sorting method for candidate scores before top-k output",
+                    "textStyle": {
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 2952750,
+            "widthEmu": 9372600,
+            "heightEmu": 552450
+          }
+        },
+        {
+          "id": "14",
+          "name": "row-3-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{7990CA7C-5E9B-41DC-BEF8-B3344B017572}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 3581400,
+            "widthEmu": 9372600,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "15",
+          "name": "row-4-number",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{FAA6FF52-7010-40AF-BF39-703863940781}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "04",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "F4511E"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 1
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "04",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 3743325,
+            "widthEmu": 438150,
+            "heightEmu": 647700
+          }
+        },
+        {
+          "id": "16",
+          "name": "row-4-text",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{54B69225-5CF5-4AE9-8325-5E39E33DF3BA}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Financial time-series processing: ",
+                  "textStyle": {
+                    "bold": true,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                },
+                {
+                  "id": "",
+                  "text": "choose sorting method for rolling windows, events, prices, and order-book values",
+                  "textStyle": {
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Financial time-series processing: ",
+                    "textStyle": {
+                      "bold": true,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                },
+                {
+                  "textRun": {
+                    "text": "choose sorting method for rolling windows, events, prices, and order-book values",
+                    "textStyle": {
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 3733800,
+            "widthEmu": 9372600,
+            "heightEmu": 552450
+          }
+        },
+        {
+          "id": "17",
+          "name": "row-4-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{A9C8258D-741B-4944-8FF2-131BF21C66DC}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 4362450,
+            "widthEmu": 9372600,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "18",
+          "name": "row-5-number",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{EB066328-0065-47DA-B135-669A69CBF702}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "05",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "F4511E"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 1
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "05",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 4524375,
+            "widthEmu": 438150,
+            "heightEmu": 647700
+          }
+        },
+        {
+          "id": "19",
+          "name": "row-5-text",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{004A5D46-D0E1-478A-A803-5D8604125BF2}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Scientific and telemetry processing: ",
+                  "textStyle": {
+                    "bold": true,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                },
+                {
+                  "id": "",
+                  "text": "choose sorting method for sensor traces, physics logs, weather data, and F1 telemetry",
+                  "textStyle": {
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Scientific and telemetry processing: ",
+                    "textStyle": {
+                      "bold": true,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                },
+                {
+                  "textRun": {
+                    "text": "choose sorting method for sensor traces, physics logs, weather data, and F1 telemetry",
+                    "textStyle": {
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 4514850,
+            "widthEmu": 9372600,
+            "heightEmu": 552450
+          }
+        },
+        {
+          "id": "20",
+          "name": "row-5-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{DD8E7686-3628-43FE-B57F-2D70CFFDB2B4}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 5143500,
+            "widthEmu": 9372600,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "21",
+          "name": "row-6-number",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{C641BD9E-7AA2-46F1-88A8-7A6A78E3124A}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "06",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 1275,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "F4511E"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 1
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "06",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 1275,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1200150,
+            "yEmu": 5305425,
+            "widthEmu": 438150,
+            "heightEmu": 647700
+          }
+        },
+        {
+          "id": "22",
+          "name": "row-6-text",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{A951A1DF-1E59-4DB4-89C3-7284632D7F2C}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "Selector action: ",
+                  "textStyle": {
+                    "bold": true,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "171717"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                },
+                {
+                  "id": "",
+                  "text": "extract features first, predict fastest algorithm, choose Introsort / Heapsort / Timsort",
+                  "textStyle": {
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "F4511E"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "fontSize": 1275,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "171717"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                }
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "Selector action: ",
+                    "textStyle": {
+                      "bold": true,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "171717"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                },
+                {
+                  "textRun": {
+                    "text": "extract features first, predict fastest algorithm, choose Introsort / Heapsort / Timsort",
+                    "textStyle": {
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "F4511E"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 5295900,
+            "widthEmu": 9372600,
+            "heightEmu": 552450
+          }
+        },
+        {
+          "id": "23",
+          "name": "row-6-rule",
+          "type": 5,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 1,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 10478,
+              "fill": {
+                "type": 1,
+                "color": {
+                  "type": 1,
+                  "value": "D7DEE8"
+                },
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{1CF3C722-BD85-422E-812E-2D89004E7AF5}",
+          "paragraphs": [],
+          "bbox": {
+            "xEmu": 1638300,
+            "yEmu": 5924550,
+            "widthEmu": 9372600,
+            "heightEmu": 0
+          }
+        },
+        {
+          "id": "24",
+          "name": "page-marker",
+          "type": 1,
+          "effects": [],
+          "children": [],
+          "levelsStyles": [],
+          "citations": [],
+          "shape": {
+            "geometry": 5,
+            "fill": {
+              "type": 0,
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "line": {
+              "widthEmu": 0,
+              "fill": {
+                "type": 0,
+                "gradientStops": [],
+                "pictureEffects": []
+              },
+              "style": 1
+            },
+            "adjustmentList": [],
+            "customPaths": []
+          },
+          "creationId": "{466EDF7C-AA1E-43B6-9F86-68BFC9C6ECAB}",
+          "textStyle": {},
+          "paragraphs": [
+            {
+              "id": "",
+              "runs": [
+                {
+                  "id": "",
+                  "text": "NEW",
+                  "textStyle": {
+                    "bold": true,
+                    "fontSize": 750,
+                    "fill": {
+                      "type": 1,
+                      "color": {
+                        "type": 1,
+                        "value": "FFFFFF"
+                      },
+                      "gradientStops": [],
+                      "pictureEffects": []
+                    }
+                  },
+                  "citations": [],
+                  "reviewMarkIds": []
+                }
+              ],
+              "textStyle": {
+                "bold": true,
+                "fontSize": 750,
+                "fill": {
+                  "type": 1,
+                  "color": {
+                    "type": 1,
+                    "value": "FFFFFF"
+                  },
+                  "gradientStops": [],
+                  "pictureEffects": []
+                },
+                "alignment": 3
+              },
+              "inlineNodes": [
+                {
+                  "textRun": {
+                    "text": "NEW",
+                    "textStyle": {
+                      "bold": true,
+                      "fontSize": 750,
+                      "fill": {
+                        "type": 1,
+                        "color": {
+                          "type": 1,
+                          "value": "FFFFFF"
+                        },
+                        "gradientStops": [],
+                        "pictureEffects": []
+                      }
+                    },
+                    "citations": [],
+                    "reviewMarkIds": []
+                  }
+                }
+              ],
+              "paragraphStyle": {
+                "tabStops": []
+              }
+            }
+          ],
+          "bbox": {
+            "xEmu": 11430000,
+            "yEmu": 6686550,
+            "widthEmu": 457200,
+            "heightEmu": 152400
+          }
+        }
+      ],
+      "background": {
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 1,
+            "value": "FFFFFF"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        }
+      },
+      "notesSlide": {
+        "id": "",
+        "elements": [
+          {
+            "id": "",
+            "name": "Slide Image Placeholder 1",
+            "type": 0,
+            "placeholderIndex": 0,
+            "placeholderType": "sldImg",
+            "zIndex": 0,
+            "paragraphs": [],
+            "effects": [],
+            "children": [],
+            "levelsStyles": [],
+            "citations": []
+          },
+          {
+            "id": "",
+            "name": "Notes Placeholder 2",
+            "type": 1,
+            "placeholderIndex": 1,
+            "placeholderType": "body",
+            "zIndex": 0,
+            "textStyle": {},
+            "paragraphs": [
+              {
+                "id": "",
+                "runs": [],
+                "textStyle": {},
+                "inlineNodes": []
+              }
+            ],
+            "effects": [],
+            "children": [],
+            "levelsStyles": [],
+            "citations": []
+          },
+          {
+            "id": "",
+            "name": "Slide Number Placeholder 3",
+            "type": 1,
+            "placeholderIndex": 5,
+            "placeholderType": "sldNum",
+            "zIndex": 0,
+            "textStyle": {},
+            "paragraphs": [
+              {
+                "id": "",
+                "runs": [],
+                "inlineNodes": [],
+                "textStyle": {}
+              }
+            ],
+            "effects": [],
+            "children": [],
+            "levelsStyles": [],
+            "citations": []
+          }
+        ],
+        "index": 0,
+        "useLayoutId": "/ppt/slideLayouts/slideLayout1.xml",
+        "widthEmu": 0,
+        "heightEmu": 0
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "elements": [],
+      "background": {
+        "ref": {
+          "index": 1001,
+          "schemeColor": "bg1"
+        }
+      },
+      "type": "master",
+      "bodyLevelStyles": [
+        {
+          "level": 1,
+          "textStyle": {
+            "fontSize": 2800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 228600,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 1000
+        },
+        {
+          "level": 2,
+          "textStyle": {
+            "fontSize": 2400,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 685800,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 3,
+          "textStyle": {
+            "fontSize": 2000,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 1143000,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 4,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 1600200,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 5,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 2057400,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 6,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 2514600,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 7,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 2971800,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 8,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 3429000,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        },
+        {
+          "level": 9,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "•",
+            "marginLeft": 3886200,
+            "indent": -228600,
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 500
+        }
+      ],
+      "titleLevelStyles": [
+        {
+          "level": 1,
+          "textStyle": {
+            "fontSize": 4400,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mj-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "lineSpacingPercent": 90000,
+            "tabStops": []
+          },
+          "spaceBefore": 0
+        }
+      ],
+      "otherLevelStyles": [
+        {
+          "level": 1,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 0,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 2,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 457200,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 3,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 914400,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 4,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 1371600,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 5,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 1828800,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 6,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 2286000,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 7,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 2743200,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 8,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 3200400,
+            "tabStops": []
+          }
+        },
+        {
+          "level": 9,
+          "textStyle": {
+            "fontSize": 1800,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "tx1"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            },
+            "alignment": 1,
+            "typeface": "+mn-lt"
+          },
+          "paragraphStyle": {
+            "bulletCharacter": "",
+            "marginLeft": 3657600,
+            "tabStops": []
+          }
+        }
+      ],
+      "parentLayoutId": "",
+      "colorMap": {
+        "accent1": "accent1",
+        "accent2": "accent2",
+        "accent3": "accent3",
+        "accent4": "accent4",
+        "accent5": "accent5",
+        "accent6": "accent6",
+        "bg1": "lt1",
+        "bg2": "lt2",
+        "tx1": "dk1",
+        "tx2": "dk2",
+        "hlink": "hlink",
+        "folHlink": "folHlink"
+      },
+      "theme": {
+        "name": "ChatGPT",
+        "colorScheme": {
+          "name": "ChatGPT",
+          "colors": [
+            {
+              "name": "accent1",
+              "color": {
+                "type": 1,
+                "value": "156082"
+              }
+            },
+            {
+              "name": "accent2",
+              "color": {
+                "type": 1,
+                "value": "E97132"
+              }
+            },
+            {
+              "name": "accent3",
+              "color": {
+                "type": 1,
+                "value": "196B24"
+              }
+            },
+            {
+              "name": "accent4",
+              "color": {
+                "type": 1,
+                "value": "0F9ED5"
+              }
+            },
+            {
+              "name": "accent5",
+              "color": {
+                "type": 1,
+                "value": "A02B93"
+              }
+            },
+            {
+              "name": "accent6",
+              "color": {
+                "type": 1,
+                "value": "4EA72E"
+              }
+            },
+            {
+              "name": "dk1",
+              "color": {
+                "type": 1,
+                "value": "000000"
+              }
+            },
+            {
+              "name": "lt1",
+              "color": {
+                "type": 1,
+                "value": "FFFFFF"
+              }
+            },
+            {
+              "name": "dk2",
+              "color": {
+                "type": 1,
+                "value": "0E2841"
+              }
+            },
+            {
+              "name": "lt2",
+              "color": {
+                "type": 1,
+                "value": "E8E8E8"
+              }
+            },
+            {
+              "name": "hlink",
+              "color": {
+                "type": 1,
+                "value": "467886"
+              }
+            },
+            {
+              "name": "folHlink",
+              "color": {
+                "type": 1,
+                "value": "96607D"
+              }
+            }
+          ]
+        },
+        "fillStyleList": [
+          {
+            "type": 1,
+            "color": {
+              "type": 2,
+              "value": "phClr"
+            },
+            "gradientStops": [],
+            "pictureEffects": []
+          },
+          {
+            "type": 2,
+            "gradientStops": [
+              {
+                "position": 0,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 67000,
+                    "lumMod": 110000,
+                    "satMod": 105000
+                  }
+                }
+              },
+              {
+                "position": 50000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 73000,
+                    "lumMod": 105000,
+                    "satMod": 103000
+                  }
+                }
+              },
+              {
+                "position": 100000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 81000,
+                    "lumMod": 105000,
+                    "satMod": 109000
+                  }
+                }
+              }
+            ],
+            "gradientKind": 1,
+            "angleDeg": 90,
+            "isScaled": false,
+            "pictureEffects": []
+          },
+          {
+            "type": 2,
+            "gradientStops": [
+              {
+                "position": 0,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 94000,
+                    "lumMod": 102000,
+                    "satMod": 103000
+                  }
+                }
+              },
+              {
+                "position": 50000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "shade": 100000,
+                    "lumMod": 100000,
+                    "satMod": 110000
+                  }
+                }
+              },
+              {
+                "position": 100000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "shade": 78000,
+                    "lumMod": 99000,
+                    "satMod": 120000
+                  }
+                }
+              }
+            ],
+            "gradientKind": 1,
+            "angleDeg": 90,
+            "isScaled": false,
+            "pictureEffects": []
+          }
+        ],
+        "backgroundFillStyleList": [
+          {
+            "type": 1,
+            "color": {
+              "type": 2,
+              "value": "phClr"
+            },
+            "gradientStops": [],
+            "pictureEffects": []
+          },
+          {
+            "type": 1,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 95000,
+                "satMod": 170000
+              }
+            },
+            "gradientStops": [],
+            "pictureEffects": []
+          },
+          {
+            "type": 2,
+            "gradientStops": [
+              {
+                "position": 0,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 93000,
+                    "shade": 98000,
+                    "lumMod": 102000,
+                    "satMod": 150000
+                  }
+                }
+              },
+              {
+                "position": 50000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "tint": 98000,
+                    "shade": 90000,
+                    "lumMod": 103000,
+                    "satMod": 130000
+                  }
+                }
+              },
+              {
+                "position": 100000,
+                "color": {
+                  "type": 2,
+                  "value": "phClr",
+                  "transform": {
+                    "shade": 63000,
+                    "satMod": 120000
+                  }
+                }
+              }
+            ],
+            "gradientKind": 1,
+            "angleDeg": 90,
+            "isScaled": false,
+            "pictureEffects": []
+          }
+        ],
+        "lineStyleList": [
+          {
+            "style": 1,
+            "widthEmu": 12700,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "phClr"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            }
+          },
+          {
+            "style": 1,
+            "widthEmu": 19050,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "phClr"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            }
+          },
+          {
+            "style": 1,
+            "widthEmu": 25400,
+            "fill": {
+              "type": 1,
+              "color": {
+                "type": 2,
+                "value": "phClr"
+              },
+              "gradientStops": [],
+              "pictureEffects": []
+            }
+          }
+        ],
+        "effectStyleList": [
+          {
+            "effects": []
+          },
+          {
+            "effects": []
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 16000
+                    }
+                  },
+                  "blurRadius": 57150,
+                  "distance": 19050,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 6000
+                    }
+                  },
+                  "blurRadius": 19050,
+                  "distance": 9525,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 8000
+                    }
+                  },
+                  "blurRadius": 28575,
+                  "distance": 9525,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 10000
+                    }
+                  },
+                  "blurRadius": 57150,
+                  "distance": 19050,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 12000
+                    }
+                  },
+                  "blurRadius": 114300,
+                  "distance": 38100,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 16000
+                    }
+                  },
+                  "blurRadius": 171450,
+                  "distance": 57150,
+                  "direction": 5400000
+                }
+              }
+            ]
+          },
+          {
+            "effects": [
+              {
+                "type": 1,
+                "shadow": {
+                  "color": {
+                    "type": 1,
+                    "value": "000000",
+                    "transform": {
+                      "alpha": 24000
+                    }
+                  },
+                  "blurRadius": 266700,
+                  "distance": 95250,
+                  "direction": 5400000
+                }
+              }
+            ]
+          }
+        ],
+        "fontScheme": {
+          "name": "Office",
+          "majorFont": {
+            "latinTypeface": "Calibri Light",
+            "eastAsianTypeface": "Calibri Light",
+            "complexScriptTypeface": "Calibri Light",
+            "supplementalFonts": []
+          },
+          "minorFont": {
+            "latinTypeface": "Calibri",
+            "eastAsianTypeface": "Calibri",
+            "complexScriptTypeface": "Calibri",
+            "supplementalFonts": []
+          }
+        }
+      },
+      "slideGuides": []
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "elements": [],
+      "type": "title",
+      "bodyLevelStyles": [],
+      "titleLevelStyles": [],
+      "otherLevelStyles": [],
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "slideGuides": []
+    }
+  ],
+  "theme": {
+    "name": "ChatGPT",
+    "colorScheme": {
+      "name": "ChatGPT",
+      "colors": [
+        {
+          "name": "accent1",
+          "color": {
+            "type": 1,
+            "value": "156082"
+          }
+        },
+        {
+          "name": "accent2",
+          "color": {
+            "type": 1,
+            "value": "E97132"
+          }
+        },
+        {
+          "name": "accent3",
+          "color": {
+            "type": 1,
+            "value": "196B24"
+          }
+        },
+        {
+          "name": "accent4",
+          "color": {
+            "type": 1,
+            "value": "0F9ED5"
+          }
+        },
+        {
+          "name": "accent5",
+          "color": {
+            "type": 1,
+            "value": "A02B93"
+          }
+        },
+        {
+          "name": "accent6",
+          "color": {
+            "type": 1,
+            "value": "4EA72E"
+          }
+        },
+        {
+          "name": "dk1",
+          "color": {
+            "type": 1,
+            "value": "000000"
+          }
+        },
+        {
+          "name": "lt1",
+          "color": {
+            "type": 1,
+            "value": "FFFFFF"
+          }
+        },
+        {
+          "name": "dk2",
+          "color": {
+            "type": 1,
+            "value": "0E2841"
+          }
+        },
+        {
+          "name": "lt2",
+          "color": {
+            "type": 1,
+            "value": "E8E8E8"
+          }
+        },
+        {
+          "name": "hlink",
+          "color": {
+            "type": 1,
+            "value": "467886"
+          }
+        },
+        {
+          "name": "folHlink",
+          "color": {
+            "type": 1,
+            "value": "96607D"
+          }
+        }
+      ]
+    },
+    "fillStyleList": [
+      {
+        "type": 1,
+        "color": {
+          "type": 2,
+          "value": "phClr"
+        },
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      {
+        "type": 2,
+        "gradientStops": [
+          {
+            "position": 0,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 67000,
+                "lumMod": 110000,
+                "satMod": 105000
+              }
+            }
+          },
+          {
+            "position": 50000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 73000,
+                "lumMod": 105000,
+                "satMod": 103000
+              }
+            }
+          },
+          {
+            "position": 100000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 81000,
+                "lumMod": 105000,
+                "satMod": 109000
+              }
+            }
+          }
+        ],
+        "gradientKind": 1,
+        "angleDeg": 90,
+        "isScaled": false,
+        "pictureEffects": []
+      },
+      {
+        "type": 2,
+        "gradientStops": [
+          {
+            "position": 0,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 94000,
+                "lumMod": 102000,
+                "satMod": 103000
+              }
+            }
+          },
+          {
+            "position": 50000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "shade": 100000,
+                "lumMod": 100000,
+                "satMod": 110000
+              }
+            }
+          },
+          {
+            "position": 100000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "shade": 78000,
+                "lumMod": 99000,
+                "satMod": 120000
+              }
+            }
+          }
+        ],
+        "gradientKind": 1,
+        "angleDeg": 90,
+        "isScaled": false,
+        "pictureEffects": []
+      }
+    ],
+    "backgroundFillStyleList": [
+      {
+        "type": 1,
+        "color": {
+          "type": 2,
+          "value": "phClr"
+        },
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      {
+        "type": 1,
+        "color": {
+          "type": 2,
+          "value": "phClr",
+          "transform": {
+            "tint": 95000,
+            "satMod": 170000
+          }
+        },
+        "gradientStops": [],
+        "pictureEffects": []
+      },
+      {
+        "type": 2,
+        "gradientStops": [
+          {
+            "position": 0,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 93000,
+                "shade": 98000,
+                "lumMod": 102000,
+                "satMod": 150000
+              }
+            }
+          },
+          {
+            "position": 50000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "tint": 98000,
+                "shade": 90000,
+                "lumMod": 103000,
+                "satMod": 130000
+              }
+            }
+          },
+          {
+            "position": 100000,
+            "color": {
+              "type": 2,
+              "value": "phClr",
+              "transform": {
+                "shade": 63000,
+                "satMod": 120000
+              }
+            }
+          }
+        ],
+        "gradientKind": 1,
+        "angleDeg": 90,
+        "isScaled": false,
+        "pictureEffects": []
+      }
+    ],
+    "lineStyleList": [
+      {
+        "style": 1,
+        "widthEmu": 12700,
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 2,
+            "value": "phClr"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        }
+      },
+      {
+        "style": 1,
+        "widthEmu": 19050,
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 2,
+            "value": "phClr"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        }
+      },
+      {
+        "style": 1,
+        "widthEmu": 25400,
+        "fill": {
+          "type": 1,
+          "color": {
+            "type": 2,
+            "value": "phClr"
+          },
+          "gradientStops": [],
+          "pictureEffects": []
+        }
+      }
+    ],
+    "effectStyleList": [
+      {
+        "effects": []
+      },
+      {
+        "effects": []
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 16000
+                }
+              },
+              "blurRadius": 57150,
+              "distance": 19050,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 6000
+                }
+              },
+              "blurRadius": 19050,
+              "distance": 9525,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 8000
+                }
+              },
+              "blurRadius": 28575,
+              "distance": 9525,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 10000
+                }
+              },
+              "blurRadius": 57150,
+              "distance": 19050,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 12000
+                }
+              },
+              "blurRadius": 114300,
+              "distance": 38100,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 16000
+                }
+              },
+              "blurRadius": 171450,
+              "distance": 57150,
+              "direction": 5400000
+            }
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "type": 1,
+            "shadow": {
+              "color": {
+                "type": 1,
+                "value": "000000",
+                "transform": {
+                  "alpha": 24000
+                }
+              },
+              "blurRadius": 266700,
+              "distance": 95250,
+              "direction": 5400000
+            }
+          }
+        ]
+      }
+    ],
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light",
+        "supplementalFonts": []
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri",
+        "supplementalFonts": []
+      }
+    }
+  },
+  "charts": [],
+  "images": [],
+  "contentReferences": [],
+  "fonts": [],
+  "tableStyles": {
+    "defaultStyleId": "{5C22544A-7EE6-4342-B048-85BDC9FD1C3A}",
+    "outerXml": "<a:tblStyleLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" def=\"{5C22544A-7EE6-4342-B048-85BDC9FD1C3A}\" />"
+  },
+  "textStyles": [],
+  "people": [],
+  "threads": []
+}

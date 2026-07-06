@@ -1,0 +1,29 @@
+{"kind":"deck","id":"pr/knifym","name":"Deck"}
+{"kind":"layout","layoutId":"d8f319d6-169f-4035-b935-1be239a1e806","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"36d13582-7758-448e-8354-ba6be4b4d871","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/mn53hv","slide":1,"title":"Where this selector can be used","textShapes":14}
+{"kind":"shape","id":"sh/hgn29gr2","slide":1,"name":"top-maroon-strip","bbox":[0,0,1536,15.6]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":1,"name":"top-orange-strip","bbox":[0,15.6,1536,10.8]}
+{"kind":"shape","id":"sh/za1gvy90","slide":1,"name":"bottom-maroon-strip","bbox":[0,840,1536,24]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":1,"name":"title","text":"Where this selector can be used","textPreview":"Where this selector can be used","textChars":31,"textLines":1,"bbox":[103.2,69.6,1044,64.8]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":1,"name":"title-rule","bbox":[103.2,141.6,1288.8,0]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":1,"name":"row-1-number","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[151.2,176.4,55.2,81.6]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":1,"name":"row-1-text","text":"Database query engines: choose sorting method for ORDER BY, joins, grouping, and index builds","textPreview":"Database query engines: choose sorting method for ORDER BY, joins, grouping, and index builds","textChars":93,"textLines":1,"bbox":[206.4,175.2,1180.8,69.6]}
+{"kind":"shape","id":"sh/s72x4nap","slide":1,"name":"row-1-rule","bbox":[206.4,254.4,1180.8,0]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":1,"name":"row-2-number","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[151.2,274.8,55.2,81.6]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":1,"name":"row-2-text","text":"ETL and analytics pipelines: choose sorting method for IDs, timestamps, prices, partitions, and batches","textPreview":"ETL and analytics pipelines: choose sorting method for IDs, timestamps, prices, partitions, and batches","textChars":103,"textLines":1,"bbox":[206.4,273.6,1180.8,69.6]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":1,"name":"row-2-rule","bbox":[206.4,352.8,1180.8,0]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":1,"name":"row-3-number","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[151.2,373.2,55.2,81.6]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":1,"name":"row-3-text","text":"Search and ranking systems: choose sorting method for candidate scores before top-k output","textPreview":"Search and ranking systems: choose sorting method for candidate scores before top-k output","textChars":90,"textLines":1,"bbox":[206.4,372,1180.8,69.6]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":1,"name":"row-3-rule","bbox":[206.4,451.2,1180.8,0]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":1,"name":"row-4-number","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[151.2,471.6,55.2,81.6]}
+{"kind":"textbox","id":"sh/z61032ls","slide":1,"name":"row-4-text","text":"Financial time-series processing: choose sorting method for rolling windows, events, prices, and order-book values","textPreview":"Financial time-series processing: choose sorting method for rolling windows, events, prices, and order-book values","textChars":114,"textLines":1,"bbox":[206.4,470.4,1180.8,69.6]}
+{"kind":"shape","id":"sh/al87ed8b","slide":1,"name":"row-4-rule","bbox":[206.4,549.6,1180.8,0]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":1,"name":"row-5-number","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[151.2,570,55.2,81.6]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":1,"name":"row-5-text","text":"Scientific and telemetry processing: choose sorting method for sensor traces, physics logs, weather data, and F1 telemetry","textPreview":"Scientific and telemetry processing: choose sorting method for sensor traces, physics logs, weather data, and F1 telemetry","textChars":122,"textLines":1,"bbox":[206.4,568.8,1180.8,69.6]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":1,"name":"row-5-rule","bbox":[206.4,648,1180.8,0]}
+{"kind":"textbox","id":"sh/d0z61032","slide":1,"name":"row-6-number","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[151.2,668.4,55.2,81.6]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":1,"name":"row-6-text","text":"Selector action: extract features first, predict fastest algorithm, choose Introsort / Heapsort / Timsort","textPreview":"Selector action: extract features first, predict fastest algorithm, choose Introsort / Heapsort / Timsort","textChars":105,"textLines":1,"bbox":[206.4,667.2,1180.8,69.6]}
+{"kind":"shape","id":"sh/vu9knih4","slide":1,"name":"row-6-rule","bbox":[206.4,746.4,1180.8,0]}
+{"kind":"textbox","id":"sh/knih4byh","slide":1,"name":"page-marker","text":"25/28","textPreview":"25/28","textChars":5,"textLines":1,"bbox":[1440,842.4,57.6,19.2]}
+{"kind":"notes","id":"nt/mn53hv","slide":1,"text":""}
