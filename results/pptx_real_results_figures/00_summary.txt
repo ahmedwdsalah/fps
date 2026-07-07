@@ -1,0 +1,15 @@
+Real PPTX result figures generated from repository artifacts
+
+v5 test accuracy: 76.08%
+v5 test balanced accuracy: 70.12%
+v5 test macro F1: 69.06%
+v5 test weighted F1: 76.96%
+v5 gap closed: 93.14%
+v5 zero regret: 89.64%
+
+F1-only KFold:
+accuracy: 61.61 ± 0.61%
+weighted F1: 62.00 ± 0.60%
+gap closed: 59.78 ± 0.64%
+
+Optuna F1 channel trials per channel: 20
