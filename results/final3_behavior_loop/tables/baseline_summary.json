@@ -1,0 +1,7 @@
+{
+  "rows": 303223,
+  "sbs_algorithm": "heapsort",
+  "vbs_total_s": 6.6235711155453885,
+  "sbs_total_s": 8.495169411238068,
+  "vbs_sbs_gap_pct": 22.03132398062344
+}

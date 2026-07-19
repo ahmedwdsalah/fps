@@ -1,0 +1,24 @@
+## Why Failed Predictions Fail
+
+- Failed predictions: 36,332 (11.98%).
+- Low-regret failures <=1 us: 19,806; high-regret failures >1 us: 16,526.
+- Main failed class-pairs:
+- `timsort_to_heapsort`: n=13,482, mean regret=3.16 us, p95=9.04 us.
+- `introsort_to_heapsort`: n=8,227, mean regret=0.94 us, p95=3.42 us.
+- `heapsort_to_introsort`: n=4,745, mean regret=3.84 us, p95=11.00 us.
+- `timsort_to_introsort`: n=4,721, mean regret=8.15 us, p95=27.71 us.
+- `heapsort_to_timsort`: n=3,378, mean regret=1.28 us, p95=4.71 us.
+- `introsort_to_timsort`: n=1,779, mean regret=1.49 us, p95=6.02 us.
+- Strong high-regret feature regions:
+- `longest_run_ratio` 0.002333 to 0.0024: timsort_to_heapsort dominates failures with 80.2%, n=1,653.
+- `n_elements` 2999 to 3000: timsort_to_heapsort dominates failures with 78.8%, n=1,653.
+- `length_norm` 0.01629 to 0.0163: timsort_to_heapsort dominates failures with 78.8%, n=1,653.
+- `dispersion_ratio` 0.05035 to 0.06621: timsort_to_heapsort dominates failures with 73.7%, n=1,653.
+- `mad_norm` 0.02144 to 0.02868: timsort_to_heapsort dominates failures with 71.1%, n=1,652.
+- `longest_run_ratio` 0.002001 to 0.002333: timsort_to_heapsort dominates failures with 70.6%, n=1,652.
+- `n_elements` 3000 to 3483: timsort_to_heapsort dominates failures with 68.0%, n=1,652.
+- `length_norm` 0.0163 to 0.01892: timsort_to_heapsort dominates failures with 68.0%, n=1,652.
+- `mean_abs_diff_norm` 0.04876 to 0.06389: timsort_to_heapsort dominates failures with 67.9%, n=1,652.
+- `longest_run_ratio` 0.002786 to 0.002807: timsort_to_heapsort dominates failures with 67.3%, n=1,653.
+- `iqr_norm` 0.05024 to 0.06591: timsort_to_heapsort dominates failures with 66.8%, n=1,652.
+- `n_elements` 2500 to 2513: timsort_to_heapsort dominates failures with 66.5%, n=1,653.

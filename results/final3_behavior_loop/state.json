@@ -1,0 +1,5 @@
+{
+  "finished_at": "2026-07-13T18:37:01",
+  "rows": 303223,
+  "prediction_status": "predictions generated from models/xgboost_v5/xgb_v5.json"
+}

@@ -1,0 +1,3 @@
+# Success and Failure Patterns in the Final Three-Algorithm Selector
+
+The final three-algorithm analysis uses 303,223 arrays and recomputes the oracle label from measured introsort, heapsort, and timsort runtimes. Timsort is fastest on 79.51% of cases, heapsort on 15.40%, and introsort on 5.09%. The strongest success regions are ordered/run-structured regions for timsort and duplicate/frequency-concentrated regions for heapsort. The dominant failure pair is timsort_to_heapsort with 13,482 cases, but the highest regret errors are concentrated in a smaller worst-failure subset with larger size, weaker longest-run structure, higher inversion, and lower duplicate/frequency concentration.
